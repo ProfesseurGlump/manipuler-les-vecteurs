@@ -1,0 +1,13 @@
+#+LATEX_HEADER: \newglossaryentry{vabs}{
+#+LATEX_HEADER:   name={valeur absolue},
+#+LATEX_HEADER:   description={
+#+LATEX_HEADER:   La valeur absolue d'un nombre \(x\) est le nombre
+#+LATEX_HEADER:   sans.
+#+LATEX_HEADER:   Concrètement \(\lvert x \rvert = x\) si \(x \geq 0\) et
+#+LATEX_HEADER:   \(\lvert x \rvert = -x\) si \(x < 0\).
+#+LATEX_HEADER:   Par exemples :
+#+LATEX_HEADER:   \[\lvert -3 \rvert = 3\]
+#+LATEX_HEADER:   et 
+#+LATEX_HEADER:  \[\lvert 4 \rvert = 4\]
+#+LATEX_HEADER:   }
+#+LATEX_HEADER: }

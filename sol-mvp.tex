@@ -1,0 +1,2094 @@
+% Created 2025-12-12 Fri 13:12
+% Intended LaTeX compiler: lualatex
+\documentclass[a4paper,11pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[paperwidth=6in,paperheight=9in,margin=1in]{geometry}
+\setlength{\headheight}{25pt}
+\setcounter{tocdepth}{2}
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}
+\usepackage{polyglossia}
+\setmainlanguage{french}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{minted}
+\usemintedstyle{monokai}
+\setminted{linenos=true,breaklines=true,fontsize=\small,frame=lines,bgcolor=bg}
+\usepackage[most]{tcolorbox}
+\newtcolorbox{definition}{colback=blue!5,colframe=blue!50!black,title=Définition}
+\newtcolorbox{methode}{colback=green!5,colframe=green!50!black,title=Méthode}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\graphicspath{{./img/}}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{xcolor}
+\definecolor{MyOrange}{HTML}{FF6600}
+\usepackage{csquotes}
+\MakeAutoQuote{«}{»}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+citecolor=green,
+filecolor=magenta,
+urlcolor=cyan,
+pdftitle={Manipuler les vecteurs du plan},
+pdfauthor={Laurent Garnier},
+}
+\usepackage[toc]{glossaries}
+\makeglossaries
+\usepackage{shellesc}  % Important pour minted avec LuaLaTeX
+\author{Laurent Garnier}
+\date{\today}
+\title{Manipuler les vecteurs du plan (solutions)}
+\hypersetup{
+ pdfauthor={Laurent Garnier},
+ pdftitle={Manipuler les vecteurs du plan (solutions)},
+ pdfkeywords={},
+ pdfsubject={Ce livre propose des exercices et explications pour manipuler les vecteurs},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={Fr}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\part{Solutions des exercices du contenu 1}
+\label{sec:org274d405}
+\chapter{Solution de l'exercice 1}
+\label{sec:org8bdbcac}
+
+Soient les points A, B, C tels que :
+\begin{itemize}
+\item \(\vec{u} = \overrightarrow{AB}\)
+\item \(\vec{v} = \overrightarrow{AC}\)
+\end{itemize}
+
+Voir la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/ABCvect.png}
+\end{center}
+
+\begin{enumerate}
+\item L'image du point B par la translation de vecteur
+\[\vec{v} = \overrightarrow{AC}\]
+est le point D tel que
+\[\overrightarrow{BD} = \overrightarrow{AC}\]
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol1q1.png}
+\end{center}
+\item L'image du point C par la translation de vecteur
+\[\vec{u} = \overrightarrow{AB}\]
+est le point E tel que
+\[\overrightarrow{CE} = \overrightarrow{AB}\]
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol1q2.png}
+\end{center}
+\item On peut en déduire que D = E car :
+\begin{align*}
+\overrightarrow{AD} &= \overrightarrow{AB} + \overrightarrow{BD} = \vec{u} + \vec{v}\\
+\overrightarrow{AE} &= \overrightarrow{AC} + \overrightarrow{CE} = \vec{v} + \vec{u}\\
+\overrightarrow{AD} &= \overrightarrow{AB} + \overrightarrow{AC} = \vec{u} + \vec{v}\\
+\overrightarrow{AE} &= \overrightarrow{AC} + \overrightarrow{AB} = \vec{v} + \vec{u}\\
+\overrightarrow{AD} &= \overrightarrow{AE}
+\end{align*}
+\item ABDC est un parallélogramme car (au choix) :
+\begin{align*}
+\overrightarrow{AB} &= \overrightarrow{CD}\\
+\overrightarrow{AC} &= \overrightarrow{BD}
+\end{align*}
+Une seule égalité suffit.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol1q4.png}
+\end{center}
+\end{enumerate}
+
+
+\chapter{Solution de l'exercice 2}
+\label{sec:org14891cf}
+
+\begin{enumerate}
+\item Par construction, le point C est l'image de B par la translation
+de vecteur
+\[\vec{u} = \overrightarrow{AB}\]
+donc
+\[\overrightarrow{BC} = \vec{u}\]
+Le vecteur \(\overrightarrow{BC}\) a pour
+\begin{itemize}
+\item direction : la droite (BC), qui est aussi la droite (AB).
+\item sens : de B vers C, qui est aussi de A vers B.
+\item norme : la longueur BC, qui est aussi la longueur AB
+\end{itemize}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol2q1.png}
+\end{center}
+\item Le point B représente le milieu du segment [AC].
+\item On a :
+\begin{align*}
+\vec{u} &= \overrightarrow{AB} \\
+\overrightarrow{BC} &= \vec{u} \\
+\overrightarrow{AC} &= \overrightarrow{AB} + \overrightarrow{BC} \\
+\overrightarrow{AB} &= \overrightarrow{BC} = \dfrac{1}{2}\overrightarrow{AC}
+\end{align*}
+\end{enumerate}
+
+
+\chapter{Solution programme 1}
+\label{sec:orge088cb4}
+
+\begin{minted}[]{python}
+print("Un vecteur a 3 caractéristiques fondamentales : ")
+entries = ["direction", "norme", "sens"]
+definitions = [
+    "la droite qui le porte.",
+    "la distance entre origine et extrémité.",
+    "de l'origine vers l'extrémité."
+]
+for i in range(len(entries)):
+    e, d = entries[i], definitions[i]
+    print(f"{i + 1}) {e.capitalize()} : {d}")
+\end{minted}
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org800d7b0}
+
+Lorsqu'on parle du vecteur \(\overrightarrow{MM'}\) associé à
+la transalation qui transforme M en M'. 
+
+\begin{enumerate}
+\item Quelle est la direction ?
+\begin{enumerate}[label=\alph*.]
+\item Toute droite parallèle à l'axe des abscisses.
+\item Uniquement la droite (MM').
+\item Toute droite parallèle à l'axe des ordonnées.
+\item Toute droite parallèle à la droite (MM').
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\begin{enumerate}
+\item Quelle est le sens ?
+\begin{enumerate}[label=\alph*.]
+\item De O à M.
+\item De M à M'.
+
+(\textbf{Bonne réponse})
+\item De M' à M.
+\item De M à O.
+\end{enumerate}
+\item Quelle est la norme ?
+\begin{enumerate}[label=\alph*.]
+\item La distance OM.
+\item La distance OM'.
+\item La distance MM'.
+
+(\textbf{Bonne réponse})
+\item La distance M'M.
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+
+
+\part{Solutions des exercices du contenu 2}
+\label{sec:orga9e8caf}
+
+\chapter{Solution de l'exercice 3}
+\label{sec:orge1a3669}
+
+\begin{enumerate}
+\item Puisque D est l'image du point C par la translation de vecteur
+\[\vec{u} = \overrightarrow{AB}\]
+alors :
+\begin{align*}
+\overrightarrow{CD} &= \vec{u}\\
+\overrightarrow{AB} &= \overrightarrow{CD}
+\end{align*}
+Donc ABDC est un parallélogramme.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol3q1.png}
+\end{center}
+\item On sait que
+\[\overrightarrow{DC} = -\overrightarrow{CD}\]
+donc
+\begin{align*}
+\vec{w} &= \overrightarrow{AB} + \overrightarrow{DC} \\
+\vec{w} &= \overrightarrow{AB} - \overrightarrow{CD} \\
+\vec{w} &= \vec{u} - \vec{u}\\
+\vec{w} &= \vec{0}
+\end{align*}
+Ainsi on remarque que \(\vec{w}\) est le vecteur nul.
+\item Puisque E est l'image de D par la translation de vecteur
+\[\vec{v} = \overrightarrow{AC}\]
+alors
+\[\overrightarrow{DE} = \vec{v}\]
+donc
+\begin{align*}
+\overrightarrow{BD} + \overrightarrow{ED} &= \overrightarrow{AC} - \overrightarrow{DE}\\
+\overrightarrow{BD} + \overrightarrow{ED} &= \vec{v} - \vec{v}\\
+\overrightarrow{BD} + \overrightarrow{ED} &= \vec{0}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol3q3.png}
+\end{center}
+\end{enumerate}
+
+
+\chapter{Solution programme 2}
+\label{sec:org630e97c}
+
+\begin{minted}[]{python}
+msg = "Les vecteurs sont-ils égaux ?"
+rep = "\n(O/N) "
+msg += rep
+egal = input(msg)
+if egal.upper() == "O":
+    msg = "Les vecteurs sont-ils alignés ?"
+    align = input(msg)
+    if align.upper() == "N":
+        print("C'est un parallélogramme.")
+    else:
+        print("C'est le même vecteur.")
+else:
+    print("Les vecteurs ne sont pas colinéaires.")
+\end{minted}
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:orga0a4ebc}
+
+\begin{enumerate}
+\item Deux vecteurs \(\vec{u}\) et \(\vec{v}\) sont égaux si :
+\begin{enumerate}[label=\alph*.]
+\item Ils ont la même direction.
+\item Ils ont la même direction et le même sens.
+\item Ils ont la même direction et la même norme.
+\item Ils ont la même direction, le même sens et la même
+norme.
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item On dit qu'un vecteur est nul si :
+\begin{enumerate}[label=\alph*.]
+\item Sa direction est horizontale.
+\item Sa direction est verticale.
+\item Il va dans un sens puis dans l'autre.
+\item Sa norme vaut zéro.
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\end{enumerate}
+
+
+
+\part{Solutions des exercices du contenu 3}
+\label{sec:org5ec5efc}
+
+\chapter{Solution de l'exercice 4}
+\label{sec:orgede8819}
+
+\begin{enumerate}
+\item D'après la relation de Chasles :
+\[\overrightarrow{AB} + \overrightarrow{BC} =
+      \overrightarrow{AC}\]
+\item D'après la relation de Chasles :
+\[\overrightarrow{AB} + \overrightarrow{BD} =
+      \overrightarrow{AD}\]
+Or par construction :
+\[\overrightarrow{AD} = \overrightarrow{AB} +
+      \overrightarrow{AC}\]
+Donc
+\[\overrightarrow{BD} = \overrightarrow{AC}\]
+Ainsi ABDC est un parallélogramme.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol4q2.png}
+\end{center}
+\item Dans un parallélogramme les diagonales se coupent en leur milieu
+donc O est le milieu de [AD] et [BC]. Cette information est
+inutile pour cette question mais elle le sera pour la question
+suivante.
+
+En utilisant Chasles ou la question précédente (avec la remarque
+sur le milieu), on peut trouver plusieurs somme permettant
+d'obtenir le vecteur \(\overrightarrow{AO}\) :
+\begin{align*}
+\overrightarrow{AO} &= \overrightarrow{AB} + \overrightarrow{BO}\\
+\overrightarrow{AO} &= \overrightarrow{AC} + \overrightarrow{CO} \\
+\overrightarrow{AO} &= \dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})
+\end{align*}
+\item Avant de calculer cette somme vectorielle il faut réarranger
+l'ordre des vecteurs et utiliser la remarque concernant les
+milieux. En effet, puisque O est le milieu du segment [AD] alors
+\[\overrightarrow{AO} = \overrightarrow{OD}\]
+de même puisque O est le milieu du segment [BC] alors
+\[\overrightarrow{BO} = \overrightarrow{OC}\]
+Par conséquent :
+\begin{align*}
+\overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} + \overrightarrow{DO} + \overrightarrow{BO} + \overrightarrow{CO}\\
+\overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} - \overrightarrow{OD} + \overrightarrow{BO} - \overrightarrow{OC}\\
+\overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} - \overrightarrow{AO} + \overrightarrow{BO} - \overrightarrow{BO}\\
+\overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \vec{0}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol4q4.png}
+\end{center}
+\end{enumerate}
+
+
+\chapter{Solution programme 3}
+\label{sec:org59f3d97}
+
+\begin{minted}[]{python}
+abc = """
+ C <-- B
+ ^    /
+ |   /
+ |  /
+ | /
+ A
+"""
+somme = "Vecteur(A, B) + Vecteur(B, C)"
+result = "Vecteur(A, C)"
+chasles = somme + " = " + result
+print(chasles)
+print(abc)
+\end{minted}
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org1279a47}
+
+\begin{enumerate}
+\item Ajouter deux vecteurs revient à :
+\begin{enumerate}[label=\alph*.]
+\item enchaîner deux translations successives
+
+(\textbf{Bonne réponse})
+\item faire une rotation
+\item faire une symétrie
+\item faire une homothétie
+\end{enumerate}
+\item La relation de Chasles :
+\begin{enumerate}[label=\alph*.]
+\item augmente la norme d'un vecteur
+\item décompose un vecteur en sommes de vecteurs
+
+(\textbf{Bonne réponse})
+\item consiste à passer un coup de fil à Michel
+\item revient à faire une transformation géométrique sur un
+vecteur
+\end{enumerate}
+\end{enumerate}
+
+\part{Solutions des exercices du contenu 4}
+\label{sec:org2ee5a52}
+
+\chapter{Solution de l'exercice 5}
+\label{sec:orgc854833}
+
+\begin{enumerate}
+\item Puisque ABCD est un carré alors les droites (AB) et (AD) sont
+orthogonales et les longueurs AB et AD sont égales. Par
+conséquent les vecteurs sont associés sont orthogonaux et de
+même norme. Ainsi
+\[(\vec{u} , \vec{v}) = (\overrightarrow{AB} ,
+      \overrightarrow{AD})\]
+est bien une base orthonormée.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol5q1.png}
+\end{center}
+\item Pour déterminer les coordonnées des points dans cette base il
+faut exprimer les vecteurs partant de l'origine du repère comme
+combinaisons linéaires des vecteurs de la base. Tout d'abord il
+faut remarquer que l'origine du repère est le point A car il
+s'agit de l'origine de chacun des vecteurs de la base. On
+obtient ainsi :
+\begin{align*}
+\overrightarrow{AA} &= 0\times\vec{u} + 0\times\vec{v}\Rightarrow A(0 ; 0)\\
+\overrightarrow{AB} &= 1\times\vec{u} + 0\times\vec{v}\Rightarrow B(1 ; 0)\\
+\overrightarrow{AC} &= 1\times\vec{u} + 1\times\vec{v}\Rightarrow C(1 ; 1)\\
+\overrightarrow{AD} &= 0\times\vec{u} + 1\times\vec{v}\Rightarrow D(0 ; 1)
+\end{align*}
+\item Calculons la norme du vecteur \(\overrightarrow{AC}\) :
+\begin{align*}
+\overrightarrow{AC} &= \sqrt{1^2 + 1^2}\\
+\overrightarrow{AC} &= \sqrt{2}
+\end{align*}
+\end{enumerate}
+
+\chapter{Solution de l'exercice 5 bis}
+\label{sec:orgf043592}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+Calculons les normes des vecteurs suivants :
+
+\begin{enumerate}
+\item \begin{align*}
+ n_1 &= \lvert\lvert \vec{i} + \vec{j}\rvert\rvert\\
+ n_1 &= \lvert\lvert \begin{pmatrix}1\\1\end{pmatrix}\rvert\rvert\\
+ n_1 &= \sqrt{1^2 + 1^2}\\
+ &\Rightarrow n_1 = \sqrt{2}
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol5bisq1.png}
+\end{center}
+\item \begin{align*}
+ n_2 &= \lvert\lvert \vec{i} - \vec{j}\rvert\rvert\\
+ n_2 &= \lvert\lvert \begin{pmatrix}1\\ -1 \end{pmatrix}\rvert\rvert\\
+ n_2 &= \sqrt{1^2 + (-1)^2}\\
+ &\Rightarrow n_2 = \sqrt{2}
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol5bisq2.png}
+\end{center}
+\item \begin{align*}
+ n_3 &= \lvert\lvert 3\vec{i}\rvert\rvert\\
+ n_3 &= 3\lvert\lvert \vec{i}\rvert\rvert\\
+ &\Rightarrow n_3 = 3
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol5bisq3.png}
+\end{center}
+\item \begin{align*}
+ n_4 &= \lvert\lvert 3\vec{i} + 4\vec{j}\rvert\rvert\\
+ n_4 &= \lvert\lvert \begin{pmatrix}3\\4\end{pmatrix}\rvert\rvert\\
+ n_4 &= \sqrt{3^2 + 4^2}\\
+ &\Rightarrow n_4 = 5
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol5bisq4.png}
+\end{center}
+\item \begin{align*}
+ n_5 &= \lvert\lvert -5\vec{j}\rvert\rvert\\
+ n_5 &= |-5|\lvert\lvert \vec{j}\rvert\rvert\\
+ &\Rightarrow n_5 = 5
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol5bisq5.png}
+\end{center}
+\end{enumerate}
+
+
+\chapter{Solution de l'exercice 5 ter}
+\label{sec:orgc7c312a}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+Calculons et comparons les normes ajoutées séparément
+\[s = \lvert\lvert\vec{u}\rvert\rvert + \lvert\lvert\vec{v}\rvert\rvert\]
+
+avec celles des vecteurs sommes
+
+\[e = \lvert\lvert\vec{u} + \vec{v}\rvert\rvert\]
+
+\begin{enumerate}
+\item \[(\vec{u}, \vec{v}) = (\vec{i}, \vec{j})\]
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\vec{v}\rvert\rvert = 1\\
+s &= 1 + 1 = 2\\
+e &= \lvert\lvert\vec{u} + \vec{v}\rvert\rvert\\
+e &= \lvert\lvert\begin{pmatrix}1 \\ 1\end{pmatrix}\rvert\rvert\\
+e &= \sqrt{1^2 + 1^2} = \sqrt{2}\\
+&\Rightarrow s = 2 > e = \sqrt{2}
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol5terq1.png}
+\end{center}
+\item \[(\vec{u}, \vec{v}) = (\vec{i} + \vec{j}, \vec{i} - \vec{j})\]
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\vec{v}\rvert\rvert = \sqrt{2}\\
+s &= \sqrt{2} + \sqrt{2} = 2\sqrt{2}\\
+e &= \lvert\lvert\vec{u} + \vec{v}\rvert\rvert\\
+e &= \lvert\lvert 2\vec{i}\rvert\rvert = 2\lvert\lvert\vec{i}\rvert\rvert\\
+e &= 2\\
+&\Rightarrow s = 2\sqrt{2} > e = 2
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol5terq2.png}
+\end{center}
+\item \[ (\vec{u}, \vec{v}) = (a\vec{i} + b\vec{j}, c\vec{i} + d\vec{j}) \]
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \sqrt{a^2 + b^2}\\
+\lvert\lvert\vec{v}\rvert\rvert &= \sqrt{c^2 + d^2}\\
+s &= \lvert\lvert\vec{u}\rvert\rvert + \lvert\lvert\vec{v}\rvert\rvert = \sqrt{a^2 + b^2} + \sqrt{c^2 + d^2}\\
+s^2 &= a^2 + b^2 + c^2 + d^2 + 2\sqrt{(a^2 + b^2)(c^2 + d^2)}\\
+e &= \lvert\lvert\vec{u} + \vec{v}\rvert\rvert = \lvert\lvert (a + c)\vec{i} + (b + d)\vec{j}\rvert\rvert \\
+e &= \sqrt{(a + c)^2 + (b + d)^2} \\
+e &= \sqrt{a^2 + b^2 + c^2 + d^2 + 2(ac + bd)}\\
+e^2 &= a^2 + b^2 + c^2 + d^2 + 2(ac + bd)\\
+s^2 - e^2 &= 2\left(\sqrt{(a^2 + b^2)(c^2 + d^2)} - (ac + bd)\right)\\
+(a^2 + b^2)(c^2 + d^2) &= (ac)^2 + (bd)^2 + (ad)^2 + (bc)^2\\
+(ac + bd)^2 &= (ac)^2 + (bd)^2 + 2abcd\\
+(a^2 + b^2)(c^2 + d^2) &- (ac + bd)^2 = (ad)^2 + (bc)^2 - 2abcd\\
+(a^2 + b^2)(c^2 + d^2) &- (ac + bd)^2 = (ad - bc)^2 \geqslant 0\\
+&\Rightarrow s^2 - e^2 \geqslant 0\\
+&\Rightarrow s^2 \geqslant e^2\\
+&\Rightarrow s \geqslant e
+\end{align*}
+\end{enumerate}
+
+
+\chapter{Solution programme 4}
+\label{sec:org0161370}
+
+\begin{minted}[]{python}
+base = """On dit que les vecteurs u et v forment une base s'ils ne sont
+pas colinéaires.
+Algérbiquement : il n'existe aucun réel k tel que u = kv.
+Géométriquement : leurs directions sont des droites sécantes.
+Rapidement : det(u, v) != 0.\n
+"""
+
+draw_base = """
+    ^
+   / v
+  /
+ /       (u, v) forme une base
+x---------------------------->
+          u
+"""
+
+orthonormal = """Ortho vient du grec pour dire droit donc ici qui forme un
+angle droit (directions orthogonales). Normal pour norme, ici de même
+norme.\n
+"""
+
+draw_orthornormal_base = """
+      ^
+      |    i et j sont orthogonaux
+      |    ||i|| = ||j|| ont même norme
+      |    
+      ^    (i, j) forme une base orthonormée
+      | j
+------0->---------------------------------->
+       i
+"""
+
+relation = """Si (i, j) est une base orthonormale alors tout vecteur
+u = a * i + b * j a pour coordonnées (a, b).\n
+Par exemple le vecteur horizontal v_1 de coordonnées (2, 0) s'écrit :
+v_1 = 2 * i + 0 * j.\n
+Par exemple le vecteur vertical v_2 de coordonnées (0, 3) s'écrit :
+v_2 = 0 * i + 3 * j.\n
+Par exemple le vecteur diagonal v_3 de coordonnées (4, 4) s'écrit :
+v_3 = 4 * i + 4 * j.\n
+Si le vecteurs v_4 = 2 * v_1 + v_2 alors v_4 = 4 * i + 3 * j
+a pour coordonnées : (4, 3).\n
+"""
+
+v1 = """
+^
+|
+| --> v_1 = 2 * i
+| -> i
+|
+0->-------->
+ i
+"""
+
+v2 = """
+  ^       ^
+  |       |
+  |    ^  |
+  |    |  |
+  ^    j  v_2 = 3 * j
+j |   
+  0----------------->
+
+"""
+
+
+
+v3 = """
+^  v_3 = 4 * i + 4 * j    
+|
+8      ^ (7, 8)
+| v_3 /|
+6    / | 4 * j 
+|   /  |
+4--x---> (7, 4)  
+|  |4i |        
+2  |   |        
+|  |   |        
+0--3---7----->
+"""
+
+v4 = """
+  ^      v_4 = 4 * i + 3 * j
+  |     
+  ^    /^    
+  |   / |
+  |  /  | v_2 = 3 * j
+  ^ /   ^
+j |/    |
+  0->--->----------------->
+   i
+    2 * v_1 = 4 * i
+"""
+
+vectors = [v1, v2, v3, v4]
+
+norme = """Un vecteur u = a * i + b * j de coordonnées (a, b) a pour norme
+||u|| = sqrt{a^2 + b^2} = (a^2 + b^2) ** 0.5\n
+ou dit autrement ||u||^2 = a^2 + b^2\n
+Par exemple le vecteur horizontal v_1 de coordonnées (2, 0) a pour norme :
+||v_1|| = sqrt{2^2 + 0^2} = sqrt{2^2} = 2.\n
+Par exemple le vecteur vertical v_2 de coordonnées (0, 3) a pour norme :
+||v_2|| = sqrt{0^2 + 3^2} = sqrt{3^2} = 3.\n 
+Par exemple le vecteur diagonal v_3 de coordonnées (5, 5) a pour norme :
+||v_3|| = sqrt{5^2 + 5^2} = sqrt{2 * 5^2} = 5 * sqrt{2}.\n
+Si le vecteur v_4 = 2 * v_1 + v_2 alors v_4 = 4 * i + 3 * j a pour norme :
+||v_4|| = sqrt{4^2 + 3^2} = sqrt{16 + 9} = sqrt{25} = sqrt{5^2} = 5.\n
+"""
+
+
+menu = """
+MENU
+1) Définition d'une base orthornomée.
+2) Relation vectorielle entre coordonnées et vecteurs de la base.
+3) Formule de calcul de la norme.
+0) Quitter.
+"""
+titles = [
+    "1) Définition d'une base orthonormée",
+    "2) Relation vectorielle coordonnées base",
+    "3) Norme d'un vecteur"
+]
+underlines = ["-" * len(t) for t in titles]
+continuer = True
+while continuer:
+    choix = int(input(menu + "\nVotre choix : "))
+    if choix == 1:
+        print()
+        title1 = titles[choix - 1]
+        underline1 = underlines[choix - 1]
+        print(title1)
+        print(underline1)
+        print()
+        print("Une base orthonormée est une base de vecteurs orthonormaux.")
+        print("base :", base)
+        draw = int(input("Taper 1 afficher le dessin\n"))
+        print(draw_base)
+        print("orthonormal :", orthonormal)
+        draw = int(input("Taper 1 afficher le dessin\n"))
+        print(draw_orthornormal_base)
+
+
+    elif choix == 2:
+        print()
+        title2 = titles[choix - 1]
+        underline2 = underlines[choix - 1]
+        print(title2)
+        print(underline2)
+        print()
+        print(relation)
+
+        for i in range(len(vectors)):
+            msg = f"Taper {i + 1} pour afficher le vecteur v_{i + 1} : "
+            dessin = int(input(msg))
+            if dessin == i + 1:
+                print(vectors[i])
+
+    elif choix == 3:
+        print()
+        title3 = titles[choix - 1]
+        underline3 = underlines[choix - 1]
+        print(title3)
+        print(underline3)
+        print()
+        print(norme)
+
+        def ask_coord(axe, c):
+            msg = " du vecteur dont vous voulez calculer la norme "
+            msg = f"{axe} {msg} {c} = "
+            return msg
+
+        x = float(input(ask_coord("Abscisse", "x")))
+        y = float(input(ask_coord("Ordonnée", "y")))
+        n = (x ** 2 + y ** 2) ** 0.5
+        print(f"Norme à 2 décimales près n = {n:.2f}")
+
+    elif choix == 0:
+        continuer = False
+
+\end{minted}
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org920235a}
+
+\begin{enumerate}
+\item Une base orthonormée du plan est :
+\begin{enumerate}[label=\alph*.]
+\item une station de lancement de fusée
+\item un couple de vecteurs ayant des directions distinctes
+\item un couple de vecteurs ayant des directions orthogonales et
+la même norme
+
+(\textbf{Bonne réponse})
+\item un couple de vecteurs ayant la même direction et la même
+norme
+\end{enumerate}
+\item Quelles sont les coordonnées d'un vecteur \(\vec{u}\) dans une
+base orthonormée \((\vec{i} , \vec{j})\) ?
+\begin{enumerate}[label=\alph*.]
+\item Le couple de nombres \((a ; b)\) tel que \(\vec{u} =
+          a\vec{i} + b\vec{j}\).
+
+(\textbf{Bonne réponse})
+\item Les coordonnées du point M obtenu par la translation de
+vecteur \(\vec{u}\) à partir du point O.
+\item La somme de celles des vecteurs \(\vec{i}\) et \(\vec{j}\).
+\item Les coefficients de toute combinaison linéaire des vecteurs
+de la base.
+\end{enumerate}
+\item Considérons le vecteur \(\vec{u} = a\vec{i} + b\vec{j}\) alors
+l'expression de sa norme est :
+\begin{enumerate}[label=\alph*.]
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a + b\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a^2 - b^2\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a^2 + b^2\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert = \sqrt{a^2 + b^2}\)
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\end{enumerate}
+
+\part{Solutions des exercices du contenu 5}
+\label{sec:org3eaec60}
+
+\chapter{Solution de l'exercice 6}
+\label{sec:org1c6098c}
+
+\begin{enumerate}
+\item Les coordonnées du vecteur \(\overrightarrow{OA}\) sont les
+mêmes que celles du point A d'où la relation :
+\[\overrightarrow{OA} = x_A\vec{i} + y_A\vec{j}\]
+\item Les coordonnées du vecteur \(\overrightarrow{OB}\) sont les
+mêmes que celles du point B d'où la relation :
+\[\overrightarrow{OB} = x_B\vec{i} + y_B\vec{j}\]
+\item Utilisons la relation de Chasles :
+\begin{align*}
+\overrightarrow{AB} &= \overrightarrow{AO} + \overrightarrow{OB}\\
+\overrightarrow{AB} &= \overrightarrow{OB} - \overrightarrow{OA}
+\end{align*}
+\item On rassemble les résultats obtenus aux questions précédentes :
+\begin{align*}
+\overrightarrow{AB} &= \overrightarrow{OB} - \overrightarrow{OA}\\
+\overrightarrow{AB} &= x_B\vec{i} + y_B\vec{j} - (x_A\vec{i} + y_A\vec{j})\\
+\overrightarrow{AB} &= (x_B - x_A)\vec{i} + (y_B - y_A)\vec{j}
+\end{align*}
+\item Ainsi on obtient :
+\[\overrightarrow{AB}\begin{pmatrix}x_B - x_A\\ y_B - y_A\end{pmatrix}\]
+\end{enumerate}
+
+
+\chapter{Solution du programme 5}
+\label{sec:orga6fb188}
+
+\begin{minted}[]{python}
+print("Coordonnées du vecteur AB")
+print("x_{AB} = x_B - x_A")
+print("y_{AB} = y_B - y_A")
+x_A = float(input("x_A = "))
+y_A = float(input("y_A = "))
+x_B = float(input("x_B = "))
+y_B = float(input("y_B = "))
+x_AB = x_B - x_A
+y_AB = y_B - y_A
+print(f"x_AB = {x_AB:.2f}")
+print(f"y_AB = {y_AB:.2f}")
+\end{minted}
+
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org9df7800}
+
+On considère le vecteur \(\overrightarrow{AB}\) dans le plan muni
+du repère orthonormé \((O ; \vec{i}, \vec{j})\).
+
+\begin{enumerate}
+\item En utilisant Chasles on peut écrire :
+\begin{enumerate}[label=\alph*.]
+\item \(\overrightarrow{AB} = \overrightarrow{OA} +
+          \overrightarrow{OB}\)
+\item \(\overrightarrow{AB} = \overrightarrow{OA} - \overrightarrow{OB}\)
+\item \(\overrightarrow{AB} = \overrightarrow{AO} +
+          \overrightarrow{BO}\)
+\item \(\overrightarrow{AB} = \overrightarrow{AO} +
+          \overrightarrow{OB}\)
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item En utilisant les coordonnées des points A et B on a :
+\begin{enumerate}[label=\alph*.]
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A + x_B\\y_A +
+          y_B\end{pmatrix}\)
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A - x_B\\y_A -
+          y_B\end{pmatrix}\)
+\item \(\overrightarrow{AB}\begin{pmatrix}x_B - x_A\\y_B -
+          y_A\end{pmatrix}\)
+
+(\textbf{Bonne réponse})
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A \times x_B\\y_A
+          \times y_B\end{pmatrix}\)
+\end{enumerate}
+\end{enumerate}
+
+
+
+\part{Solutions des exercices du contenu 6}
+\label{sec:orgbe8a93e}
+
+\chapter{Solution de l'exercice 7}
+\label{sec:orgf812e8c}
+
+\begin{enumerate}
+\item Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol7q1.png}
+\end{center}
+\item On peut voir sur la figure que les points A et B sont sur l'axe
+des abscisses donc les vecteurs \(\overrightarrow{OA}\) et
+\(\overrightarrow{OB}\) sont colinéaires. Concrètement :
+\[\overrightarrow{OB} = \dfrac{3}{2}\overrightarrow{OA}\]
+\item De même on peut voir sur la figure que les points C et D sont sur l'axe
+des ordonnées donc les vecteurs \(\overrightarrow{OC}\) et
+\(\overrightarrow{OD}\) sont colinéaires. Concrètement :
+\[\overrightarrow{OD} = \dfrac{3}{2}\overrightarrow{OC}\]
+\item Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol7q4.png}
+\end{center}
+\item D'une part on a :
+\begin{align*}
+\overrightarrow{DF} &= \overrightarrow{DO} + \overrightarrow{OF}\\
+\overrightarrow{DF} &= \vec{v} - 3\vec{j}\\
+\overrightarrow{DF} &= 2\vec{i} + 3\vec{j} - 3\vec{j}\\
+\overrightarrow{DF} &= 2\vec{i}
+\end{align*}
+
+D'autre part on a :
+\begin{align*}
+\overrightarrow{CE} &= \overrightarrow{CO} + \overrightarrow{OE}\\
+\overrightarrow{CE} &= \vec{u} - 2\vec{j}\\
+\overrightarrow{CE} &= 3\vec{i} + 2\vec{j} - 2\vec{j}\\
+\overrightarrow{CE} &= 3\vec{i}
+\end{align*}
+
+Ainsi :
+\[\overrightarrow{CE} = \dfrac{3}{2}\overrightarrow{DF}\]
+\end{enumerate}
+
+\chapter{Solution du programme 6}
+\label{sec:orga391a99}
+
+\begin{minted}[]{python}
+x_u = float(input("Abscisse du 1er vecteur = "))
+y_u = float(input("Ordonnée du 1er vecteur = "))
+x_v = float(input("Abscisse du 2e vecteur = "))
+y_v = float(input("Ordonnée du 2e vecteur = "))
+d = x_u * y_v - x_v * y_u
+if d == 0:
+    print("Les vecteurs sont colinéaires.")
+    k = x_v / x_u
+    print(f"Vecteur 2 = {k} * Vecteur 1")
+else:
+    print("Les vecteurs ne sont pas colinéaires.")
+    print("Ils forment donc une base.")
+\end{minted}
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org117f609}
+
+\begin{enumerate}
+\item Si on multiplie un vecteur par un nombre réel supérieur à 1
+alors :
+\begin{enumerate}[label=\alph*.]
+\item Le vecteur change de direction.
+\item Le vecteur augmente sa norme.
+
+(\textbf{Bonne réponse})
+\item Le vecteur change de sens.
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel inférieur à -1
+alors :
+\begin{enumerate}[label=\alph*.]
+\item Le vecteur change de direction.
+\item Le vecteur augmente sa norme.
+
+(\textbf{Bonne réponse})
+\item Le vecteur change de sens.
+
+(\textbf{Bonne réponse})
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel supérieur à -1 et
+inférieur à 1 alors :
+\begin{enumerate}[label=\alph*.]
+\item Le vecteur change de direction.
+\item Le vecteur diminue sa norme.
+
+(\textbf{Bonne réponse})
+\item Le vecteur change de sens.
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel alors :
+\begin{enumerate}[label=\alph*.]
+\item Le vecteur obtenu n'est pas colinéaire au vecteur initial.
+\item Le vecteur obtenu est colinéaire au vecteur initial.
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\end{enumerate}
+
+
+
+\part{Solutions des exercices du contenu 7}
+\label{sec:orgb4c2f23}
+
+\chapter{Solution de l'exercice 8}
+\label{sec:org6aa3ca6}
+
+On reprend la configuration finale de l'exercice 7.
+
+Voir figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol7q4.png}
+\end{center}
+
+\begin{enumerate}
+\item Calculs de déterminants :
+\begin{align*}
+d_1 &= det(\vec{i}, \vec{j}) = \begin{vmatrix}1&0\\0&1\end{vmatrix} = 1\times 1 - 0\times 0 = 1\\
+d_2 &= det(\vec{u}, \vec{v}) = \begin{vmatrix}3&2\\2&3\end{vmatrix} = 3\times 3 - 2\times 2 = 5\\
+d_3 &= det(\overrightarrow{OA}, \overrightarrow{OB}) = \begin{vmatrix}2&3\\0&0\end{vmatrix} = 2\times 0 - 0\times 3 = 0\\
+d_4 &= det(\overrightarrow{OC}, \overrightarrow{OD}) = \begin{vmatrix}0&0\\2&3\end{vmatrix} = 0\times 3 - 2\times 0 = 0 \\
+d_5 &= det(\overrightarrow{OA}, \overrightarrow{OC}) = \begin{vmatrix}2&0\\0&2\end{vmatrix} = 2\times 2 - 0\times 0 = 4 \\
+d_6 &= det(\overrightarrow{OB}, \overrightarrow{OD}) = \begin{vmatrix}3&0\\0&3\end{vmatrix} = 3\times 3 - 0\times 0 = 9
+\end{align*}
+\item En utilisant le déterminant montrons que les vecteurs
+\(\overrightarrow{DF}\) et \(\overrightarrow{CE}\) sont
+colinéaires :
+\begin{align*}
+ det(\overrightarrow{DF}, \overrightarrow{CE}) &= \begin{vmatrix}2&3\\0&0\end{vmatrix}\\
+ det(\overrightarrow{DF}, \overrightarrow{CE}) &= 2\times 0 - 0\times 3\\
+ det(\overrightarrow{DF}, \overrightarrow{CE}) &= 0
+\end{align*}
+ Or \(\lvert\lvert\overrightarrow{DF}\rvert\rvert = 2\) et
+\(\lvert\lvert\overrightarrow{CE}\rvert\rvert = 3\).
+
+On en déduit que le quadrilatère DCEF est un trapèze.
+\item Faisons de même pour \(\overrightarrow{AF}\) et
+\(\overrightarrow{BE}\) et le quadrilatère ABEF.
+\begin{align*}
+  det(\overrightarrow{AF}, \overrightarrow{BE}) &= \begin{vmatrix}0&0\\3&2\end{vmatrix}\\
+  det(\overrightarrow{AF}, \overrightarrow{BE}) &= 0\times 2 - 3\times 0\\
+  det(\overrightarrow{AF}, \overrightarrow{BE}) &= 0
+ \end{align*}
+ Or \(\lvert\lvert\overrightarrow{AF}\rvert\rvert = 3\) et
+\(\lvert\lvert\overrightarrow{BE}\rvert\rvert = 2\).
+
+On en déduit que le quadrilatère ABFE est un trapèze.
+\item Calculons les normes des vecteurs \(\overrightarrow{IF}\) et
+\(\overrightarrow{JE}\) :
+\begin{align*}
+\lvert\lvert\overrightarrow{IF}\rvert\rvert &= \sqrt{(x_F - x_I)^2 + (y_F - y_I)^2}\\
+\lvert\lvert\overrightarrow{IF}\rvert\rvert &= \sqrt{(2 - 1)^2 + (3 - 0)^2}\\
+\lvert\lvert\overrightarrow{IF}\rvert\rvert &= \sqrt{10}\\
+\lvert\lvert\overrightarrow{JE}\rvert\rvert &= \sqrt{(x_E - x_J)^2 + (y_E - y_J)^2}\\
+\lvert\lvert\overrightarrow{JE}\rvert\rvert &= \sqrt{(3 - 0)^2 + (2 - 1)^2}\\
+\lvert\lvert\overrightarrow{JE}\rvert\rvert &= \sqrt{10}
+\end{align*}
+\item Comparons les vecteurs \(\overrightarrow{IJ}\) et
+\(\overrightarrow{EF}\).
+\begin{align*}
+\overrightarrow{IJ} &= \overrightarrow{IO} + \overrightarrow{OJ}\\
+\overrightarrow{IJ} &= \vec{j} - \vec{i}\\
+\overrightarrow{EF} &= \overrightarrow{EO} + \overrightarrow{OF}\\
+\overrightarrow{EF} &= \vec{v} - \vec{u}\\
+\overrightarrow{EF} &= 2\vec{i} + 3\vec{j} - (3\vec{i} + 2\vec{j})\\
+\overrightarrow{EF} &= \vec{j} - \vec{i}
+\end{align*}
+Ainsi \[\overrightarrow{IJ} = \overrightarrow{EF}\]
+
+ Le quadrilatère IEFJ est donc un parallélogramme.
+ Or d'après la question précédente ses diagonales [IF] et [JE] sont
+égales.
+Par conséquent IEFJ est un rectangle.
+\item Puisque G l'intersection des segments [IF] et [JE] et que ce
+sont les diagonales d'un rectangle alors G est leur milieu.
+Déterminons ses coordonnées :
+\begin{align*}
+G&\begin{pmatrix}\frac{x_I + x_F}{2}\\\frac{y_I + y_F}{2}\end{pmatrix}\\
+G&\begin{pmatrix}\frac{3}{2}\\\frac{3}{2}\end{pmatrix}
+\end{align*}
+Le point H est tel que \(\overrightarrow{OG} =
+      \overrightarrow{GH}\) alors en appliquant la relation de Chasles :
+\[\overrightarrow{OH} = 2\overrightarrow{OG}\]
+Ainsi on obtient les coordonnées de H en doublant celles de G,
+H(3 ; 3). 
+Étudions la nature du quadrilatère OBHD :
+\begin{align*}
+\overrightarrow{OH}&= 3\vec{i} + 3\vec{j}\\
+\overrightarrow{OB}&= 3\vec{i}\\
+\overrightarrow{OD}&= 3\vec{j}\\
+\overrightarrow{OH}&= \overrightarrow{OB} + \overrightarrow{OD}
+\end{align*}
+On vient de prouver que OBHD est un carré. Pourquoi ? Parce que
+\(\overrightarrow{OH}\) est la somme de deux vecteurs
+orthogonaux de même norme.
+\item Le triangle OFE est isocèle en O car les vecteurs \(\vec{u}\) et
+\(\vec{v}\) ont même norme :
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \sqrt{3^2 + 2^2} = \sqrt{13}\\
+\lvert\lvert\vec{v}\rvert\rvert &= \sqrt{3^2 + 2^2} = \sqrt{13}
+\end{align*}
+\item D'après la question 6 on sait que OBHD est un carré et que G est
+le milieu de la diagonale OH. Par conséquent G est aussi le
+milieu de la diagonale BD. Ainsi l'image de G par la translation
+de vecteur \(\overrightarrow{BG}\) est D.
+\item Le point K tel que \(\overrightarrow{BK} = \vec{j}\) a pour
+coordonnées K(3 ; 1).
+\item Le point L tel que \(\overrightarrow{DL} = \vec{i}\) a pour
+coordonnées L(1 ; 3).
+\end{enumerate}
+
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol8q10.png}
+\end{center}
+
+
+\chapter{Solution du programme 7}
+\label{sec:orgf2a35bf}
+
+\begin{minted}[]{python}
+def abc_aligned():
+  points = []
+
+  for i in range(3):
+    x = float(input(f"Abscisse du {i + 1}e point = "))
+    y = float(input(f"Ordonnée du {i + 1}e point = "))
+    points.append((x, y))
+
+  x_p1p2 = points[1][0] - points[0][0]
+  y_p1p2 = points[1][1] - points[0][1]
+  x_p1p3 = points[2][0] - points[0][0]
+  y_p1p3 = points[2][1] - points[0][1]
+
+  det = x_p1p2 * y_p1p3 - x_p1p3 * y_p1p2
+
+  if det == 0:
+    return True
+  else:
+    return False 
+
+
+# Test
+if abc_aligned():
+  print("Les points sont alignés.")
+else:
+  print("Les points ne sont pas alignés.")
+
+\end{minted}
+
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org330227f}
+
+\begin{enumerate}
+\item Considérons les vecteurs
+\[\vec{u}_1\begin{pmatrix}x_1\\y_1\end{pmatrix}\] et
+\[\vec{u}_2\begin{pmatrix}x_2\\y_2\end{pmatrix}\] alors :
+\begin{enumerate}[label=\alph*.]
+\item \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
+          = x_1x_2 + y_1y_2\]
+\item \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
+          = x_1x_2 - y_1y_2\]
+\item \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
+          = x_1y_2 + y_1x_2\]
+\item \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
+          = x_1y_2 - y_1x_2\]
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Considérons les mêmes vecteurs que précédemment.
+
+On dira que \(\vec{u}_1\) et \(\vec{u}_2\) sont colinéaires
+si :
+
+\begin{enumerate}[label=\alph*.]
+\item \(det(\vec{u}_1 , \vec{u}_2) = 1\)
+\item \(det(\vec{u}_1 , \vec{u}_2) = 0\)
+
+(\textbf{Bonne réponse})
+\item il existe un réel \(k\) tel que \(x_1 = kx_2\) et \(y_1 =
+          ky_2\)
+
+(\textbf{Bonne réponse})
+\item \(\dfrac{x_1}{x_2} = \dfrac{y_1}{y_2}\)
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\end{enumerate}
+
+\part{Solutions des exercices de la \(Ca_1\)}
+\label{sec:org56887f2}
+\chapter{Solution de l'exercice 9}
+\label{sec:org7b51234}
+
+On considère le triangle ABC représenté sur la figure avec le
+ quadrillage :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./ABCtrig.png}
+\end{center}
+
+\begin{enumerate}
+\item Pour construire le point D tel que \(\overrightarrow{BD} =
+       \overrightarrow{AB}\) il faut d'abord comprendre que D est le
+symétrique de A par rapport à B. Ou, dit autrement, B est le
+milieu de [AD].
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol9q1.png}
+\end{center}
+
+\item Pour construire le point E tel que \(\overrightarrow{CE} =
+       \overrightarrow{AB}\) il faut bien comprendre que l'on complète
+le triangle pour obtenir un parallélogramme.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol9q2.png}
+\end{center}
+
+\item Utilisons la realtion de Chasles pour décomposer le vecteur
+\(\overrightarrow{BE}\) : 
+\begin{align*}
+\overrightarrow{BE} &= \overrightarrow{BC} + \overrightarrow{CE}\\
+\overrightarrow{BE} &= \overrightarrow{BC} + \overrightarrow{AB}\\
+\overrightarrow{BE} &= \overrightarrow{AC}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol9q3.png}
+\end{center}
+\end{enumerate}
+
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:orgc4073dc}
+
+\begin{enumerate}
+\item Un vecteur est caractérisé par :
+\begin{enumerate}[label=\alph*.]
+\item Sa longueur uniquement
+\item Sa direction et son sens uniquement
+\item Sa direction, son sens et sa norme
+
+(\textbf{Bonne réponse})
+\item Son origine et son extrémité
+\end{enumerate}
+
+\item Les vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{CD}\) 
+sont égaux si :
+\begin{enumerate}[label=\alph*.]
+\item A = C et B = D
+
+(\textbf{Bonne réponse})
+\item ABDC est un parallélogramme
+
+(\textbf{Bonne réponse})
+\item AB = CD (distances égales)
+\item Les segments [AB] et [CD] sont parallèles
+\end{enumerate}
+\end{enumerate}
+
+\part{Solutions des exercices de la \(Ca_2\)}
+\label{sec:org9b34900}
+\chapter{Solution de l'exercice 10}
+\label{sec:org373a230}
+
+   On considère la configuration initiale de l'exercice 9 voir
+figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./ABCtrig.png}
+\end{center}
+
+\begin{enumerate}
+\item Pour construire le point D tel que \(\overrightarrow{BD} =
+       \overrightarrow{BC} + \overrightarrow{BA}\) il faut reporter le
+vecteur \(\overrightarrow{BA}\) à partir du point C.
+
+\item On en déduit que le quadrilatère ABCD est un
+parallélogramme. En effet :
+\begin{align*}
+\overrightarrow{BD} &= \overrightarrow{BC} + \overrightarrow{BA}\\
+\overrightarrow{BD} &= \overrightarrow{BC} + \overrightarrow{CD}\\
+&\Rightarrow \overrightarrow{BA} = \overrightarrow{CD}\\
+\overrightarrow{BD} &= \overrightarrow{BC} + \overrightarrow{BA}\\
+\overrightarrow{BD} &= \overrightarrow{BA} + \overrightarrow{AD}\\
+&\Rightarrow \overrightarrow{BC} = \overrightarrow{AD}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol10q2.png}
+\end{center}
+\item Construisons le point E tel que \(\overrightarrow{AE} =
+       \overrightarrow{AB} + \overrightarrow{AC}\) de façon similaire
+à la question 1.
+
+\item On en déduit que le quadrilatère ABEC est un parallélogramme de
+façon similaire à la question 2. En effet :
+\begin{align*}
+\overrightarrow{AE} &= \overrightarrow{AB} + \overrightarrow{AC}\\
+\overrightarrow{AE} &= \overrightarrow{AB} + \overrightarrow{BE}\\
+&\Rightarrow \overrightarrow{AC} = \overrightarrow{BE}\\
+\overrightarrow{AE} &= \overrightarrow{AC} + \overrightarrow{CE}\\
+&\Rightarrow \overrightarrow{AB} = \overrightarrow{CE}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol10q4.png}
+\end{center}
+\end{enumerate}
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org6c07067}
+
+Considérons deux vecteurs \(\vec{u}\) et \(\vec{v}\).
+
+\begin{enumerate}
+\item Pour construire géométriquement la somme il faut :
+\begin{enumerate}[label=\alph*.]
+\item partir de l'origine du vecteur \(\vec{u}\) puis, arrivé à
+son extrémité appliquer le vecteur \(\vec{v}\)
+
+(\textbf{Bonne réponse})
+\item partir de l'origine du vecteur \(\vec{v}\) puis, arrivé à
+son extrémité appliquer le vecteur \(\vec{u}\)
+
+(\textbf{Bonne réponse})
+\item les deux propositions précédentes aboutissent au même
+résultat
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Si \(\vec{u}\) et \(\vec{v}\) ne sont pas colinéaires alors
+\(\vec{w} = \vec{u} + \vec{v}\) :
+\begin{enumerate}[label=\alph*.]
+\item est un vecteur ayant même direction que \(\vec{u}\) et
+\(\vec{v}\)
+\item représente la diagonale du parallélogramme obtenu en
+faisant partir \(\vec{u}\) et \(\vec{v}\) de la même origine
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\end{enumerate}
+
+\part{Solutions des exercices de la \(Ca_3\)}
+\label{sec:org4802b3b}
+\chapter{Solution de l'exercice 11}
+\label{sec:orgf96ddd5}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+\begin{enumerate}
+\item Représenter le vecteur
+\(\vec{u}\begin{pmatrix}3\\ 5\end{pmatrix}\).
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol11q1.png}
+\end{center}
+\item Lire les coordonnées du vecteur \(\vec{v}\) sur la figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol11q2.png}
+\end{center}
+
+On peut voir sur la figure que :
+\[\vec{v} = 5\vec{i} + 3\vec{j}\]
+Ainsi les coordonnées du vecteur \(\vec{v}\) sont :
+\[\vec{v}\begin{pmatrix}5\\ 3\end{pmatrix}\]
+\end{enumerate}
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org759ce0e}
+
+Considérons le vecteur
+\(\vec{u}\begin{pmatrix}a\\b\end{pmatrix}\). Alors :
+
+\begin{enumerate}
+\item Pour le représenter dans le repère \((O ; \vec{i} , \vec{j})\) :
+\begin{enumerate}[label=\alph*.]
+\item on se place au point M de coordonnées (a ; b) et on trace le
+vecteur en se déplaçant de a unités sur l'axe horizontal et
+b unités sur l'axe vertical.
+\item partant de l'origine du repère on se déplace de a unités sur
+l'axe horizontal et b unités sur l'axe vertical.
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Pour lire les cordonnées d'un vecteur \(\vec{v}\) :
+\begin{enumerate}[label=\alph*.]
+\item on se place à son origine et on reporte les coordonnées du
+point
+\item on trace un représentant du vecteur en partant de l'origine
+du repère et on lit les coordonnées de son extrémité
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\end{enumerate}
+
+\part{Solutions des exercices de la \(Ca_4\)}
+\label{sec:org7877307}
+\chapter{Solution de l'exercice 12}
+\label{sec:orgfc30b9b}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+Calculons les coordonnées des vecteurs :
+\begin{align*}
+\vec{s} &= \vec{i} + \vec{j} = \begin{pmatrix}1\\ 1\end{pmatrix}\\
+\vec{d} &= \vec{i} - \vec{j} = \begin{pmatrix}1\\ -1\end{pmatrix}\\
+\vec{p} &= 3\vec{d} = \begin{pmatrix}3\\ -3\end{pmatrix}\\
+\vec{c} &= 2\vec{s} - 5\vec{d} = \begin{pmatrix}-3\\ 7\end{pmatrix}
+\end{align*}
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org2e4c362}
+
+\begin{enumerate}
+\item Soient \[\vec{u}_1\begin{pmatrix}x_1\\y_1\end{pmatrix}\] et
+\[\vec{u}_2\begin{pmatrix}x_2\\y_2\end{pmatrix}\] deux vecteurs
+alors \[\vec{u}_3 = \vec{u}_1 + \vec{u}_2\] a pour
+coordonnées : 
+\begin{enumerate}[label=\alph*.]
+\item \(\vec{u}_3\begin{pmatrix}x_1x_2\\y_1y_2\end{pmatrix}\)
+\item \(\vec{u}_3\begin{pmatrix}x_1 - x_2\\y_1 - y_2\end{pmatrix}\)
+\item \(\vec{u}_3\begin{pmatrix}x_1 + x_2\\y_1 +
+          y_2\end{pmatrix}\)
+
+(\textbf{Bonne réponse})
+\item \(\vec{u}_3\begin{pmatrix}\dfrac{x_1}{x_2}\\\dfrac{y_1}{y_2}\end{pmatrix}\)
+\end{enumerate}
+\item Soient un vecteur \(\vec{u}\begin{pmatrix}x\\y\end{pmatrix}\)
+et un réel k alors \(\vec{v} = ku\) vérifie :
+\begin{enumerate}[label=\alph*.]
+\item \(\vec{v}\begin{pmatrix}kx\\ y\end{pmatrix}\)
+\item \(\vec{v}\begin{pmatrix}x\\ ky\end{pmatrix}\)
+\item \(\vec{v}\begin{pmatrix}kx\\ y\end{pmatrix}\)
+
+(\textbf{Bonne réponse})
+\item \(\vec{v}\begin{pmatrix}\frac{1}{k}x\\ \frac{1}{k}y\end{pmatrix}\)
+\end{enumerate}
+\end{enumerate}
+
+
+\part{Solutions des exercices de la \(Ca_5\)}
+\label{sec:org7ce5dba}
+\chapter{Solution de l'exercice 13}
+\label{sec:org970af26}
+
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+On considère les points A(2 ; 3), B(-3 ; 2), C(-2 ; -3) et D(3 ;
+-2) tels que sur la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./figexo13.png}
+\end{center}
+
+\begin{enumerate}
+\item Calculs des distances AB, AC, AD, BC, BD, CD :
+\begin{align*}
+AB &= \sqrt{(-3 - 2)^2 + (2 - 3)^2} = \sqrt{26}\\
+AC &= \sqrt{(-2 - 2)^2 + (-3 - 3)^2} = \sqrt{52}\\
+AD &= \sqrt{(3 - 2)^2 + (-2 - 3)^2} = \sqrt{26}\\
+BC &= \sqrt{(-2 - (-3))^2 + (-3 - 2)^2} = \sqrt{26}\\
+BD &= \sqrt{(3 - (-3))^2 + (-2 - 2)^2} = \sqrt{52}\\
+CD &= \sqrt{(3 - (-2))^2 + (-2 - (-2))^2} = \sqrt{26}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol13q1.png}
+\end{center}
+\item Calculs des coordonnées des milieux des segments [AB], [AC],
+[AD], [BC], [BD], [CD] :
+\begin{align*}
+M_1&\begin{pmatrix}\frac{2+(-3)}{2}\\ \frac{3+2}{2}\end{pmatrix} = \begin{pmatrix}-\frac{1}{2}\\ \frac{5}{2}\end{pmatrix}\\
+M_2&\begin{pmatrix}\frac{2+(-2)}{2}\\ \frac{3+(-3)}{2}\end{pmatrix} = \begin{pmatrix}0\\ 0\end{pmatrix} = O\\
+M_3&\begin{pmatrix}\frac{2+3}{2}\\ \frac{3+(-2)}{2}\end{pmatrix} = \begin{pmatrix}\frac{5}{2}\\ \frac{1}{2}\end{pmatrix}\\
+M_4&\begin{pmatrix}\frac{(-3)+(-2)}{2}\\ \frac{2+(-3)}{2}\end{pmatrix} = \begin{pmatrix}-\frac{5}{2}\\ -\frac{1}{2}\end{pmatrix}\\
+M_5&\begin{pmatrix}\frac{(-3)+3}{2}\\ \frac{2+(-2)}{2}\end{pmatrix} = \begin{pmatrix}0\\ 0\end{pmatrix} = O\\
+M_6&\begin{pmatrix}\frac{(-2)+3}{2}\\ \frac{(-3)+(-2)}{2}\end{pmatrix} = \begin{pmatrix}\frac{1}{2}\\ -\frac{5}{2}\end{pmatrix}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol13q2.png}
+\end{center}
+\end{enumerate}
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:orgf1cd21c}
+
+\begin{enumerate}
+\item La distance entre \(A(x_A ; y_A)\) et \(B(x_B ; y_B)\) vaut :
+\begin{enumerate}[label=\alph*.]
+\item \(AB = x_Ax_B + y_Ay_B\)
+\item \(AB = (x_A + x_B)^2 + (y_A + y_B)^2\)
+\item \(AB = (x_A - x_B)^2 + (y_A - y_B)^2\)
+\item \(AB = \sqrt{(x_A - x_B)^2 + (y_A - y_B)^2}\)
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Le milieu \(M(x_M ; y_M)\) du segment [AB] vérifie :
+\begin{enumerate}[label=\alph*.]
+\item \((x_M ; y_M) = \left(\dfrac{x_A + x_B}{2} ; \dfrac{y_A +
+          y_B}{2}\right)\)
+
+(\textbf{Bonne réponse})
+\item \((x_M ; y_M) = \left(\dfrac{x_A - x_B}{2} ; \dfrac{y_A -
+          y_B}{2}\right)\)
+\item \((x_M ; y_M) = \left(\dfrac{x_A \times x_B}{2} ; \dfrac{y_A \times
+          y_B}{2}\right)\)
+\item \((x_M ; y_M) = \left(\dfrac{x_A \div x_B}{2} ; \dfrac{y_A \div
+          y_B}{2}\right)\)
+\end{enumerate}
+\end{enumerate}
+
+
+\part{Solutions des exercices de la \(Ca_6\)}
+\label{sec:orgc502908}
+\chapter{Solution de l'exercice 14}
+\label{sec:org314b6ff}
+
+On reprend la configuration de l'exercice précédent.
+
+Voir la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./figexo13.png}
+\end{center}
+
+\begin{enumerate}
+\item Le point O étant l'origine du repère on peut facilement
+déterminer les coordonnées des vecteurs \(\overrightarrow{OA}\)
+et \(\overrightarrow{OC}\) et ainsi déterminer si les points A,
+O et C sont alignés :
+\begin{align*}
+\overrightarrow{OA} &= 2\vec{i} + 3\vec{j}\\
+\overrightarrow{OC} &= -2\vec{i} - 3\vec{j}\\
+\overrightarrow{OC} &= -\overrightarrow{OA}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol14q1.png}
+\end{center}
+\item D'après ce qui précède on a :
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\overrightarrow{OA}\rvert\rvert = \lvert\lvert\overrightarrow{OC}\rvert\rvert \\
+\lvert\lvert\vec{u}\rvert\rvert &= \sqrt{13}
+\end{align*}
+On en déduit que O est le milieu du segment [AC].
+\item Calculon le déterminant \(det(\overrightarrow{OD} ,
+       \overrightarrow{OB})\) :
+\begin{align*}
+det(\overrightarrow{OD} , \overrightarrow{OB}) &= \begin{vmatrix}3&-3\\ -2&2\end{vmatrix} = 3\times 2 - (-2)\times (-3) = 0
+\end{align*}
+Le déterminant est nul donc les vecteurs
+\(\overrightarrow{OD}\) et \(\overrightarrow{OB}\) sont
+colinéaires. Puisqu'ils ont la même origine on en déduit que
+les points B, O et D sont alignés.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol14q3.png}
+\end{center}
+
+\item Comparons OB et OD :
+\begin{align*}
+OB &= \sqrt{(-3)^2 + 2^2} = \sqrt{13}\\
+OD &= \sqrt{3^2 + (-2)^2} = \sqrt{13}\\
+OB &= OD
+\end{align*}
+On en déduit que O est le milieu de [BD] et donc que ABCD est
+un rectangle car ses diagonales sont de même longueur
+\(2\sqrt{13} = \sqrt{52}\).
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol14q4.png}
+\end{center}
+
+\item Puisque ABCD est un rectangle, c'est donc un parallélogramme
+donc on a :
+\begin{align*}
+\overrightarrow{AB} &= \overrightarrow{DC}\\
+\overrightarrow{AB} &= -\overrightarrow{CD}
+\end{align*}
+Ainsi les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{CD}\) sont colinéaires.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol14q5.png}
+\end{center}
+
+\item Comparons AB et AD :
+\begin{align*}
+AB &= \sqrt{(-3 - 2)^2 + (2 - 3)^2} = \sqrt{26}\\
+AD &= \sqrt{(3 - 2)^2 + (-2 - 3)^2} = \sqrt{26}\\
+AB &= AD
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol14q6.png}
+\end{center}
+
+\item Le quadrilatère ABCD est un carré car c'est un rectangle avec
+deux côtés consécutifs de même longueur.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./sol14q7.png}
+\end{center}
+\end{enumerate}
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:orgc92e6c6}
+
+\begin{enumerate}
+\item Pour montrer que A, B et C sont alignés il faut :
+\begin{enumerate}[label=\alph*.]
+\item que \(\overrightarrow{AB} = \overrightarrow{AC}\)
+\item qu'il existe un réel k tel que \(\overrightarrow{AB} =
+          k\overrightarrow{AC}\)
+
+(\textbf{Bonne réponse})
+\item vérifier que \(\overrightarrow{AB} + \overrightarrow{BC} =
+          \overrightarrow{AC}\)
+\item vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{AC}) = 0\)
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Pour montrer que les droites (AB) et (CD) sont parallèles il faut :
+\begin{enumerate}[label=\alph*.]
+\item montrer que les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{CD}\) sont colinéaires
+
+(\textbf{Bonne réponse})
+\item vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) = 0\)
+
+(\textbf{Bonne réponse})
+\item montrer que \(\overrightarrow{AB} = \overrightarrow{CD}\)
+\item vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) \neq 0\)
+\end{enumerate}
+\end{enumerate}
+
+\part{Solutions pour la \(Ca_7\)}
+\label{sec:orgfadfdad}
+\chapter{Solution de l'exercice 15}
+\label{sec:orgbe694d3}
+
+Pour chacune des situations suivantes, indiquons comment la
+résoudre selon la représentation vectorielle parmi :
+
+\begin{itemize}
+\item Analytique (coordonnées, calculs algébriques)
+\item Colinéarité (proportionnalité, déterminant)
+\item Géométrique (relation de Chasles, parallélogramme)
+\end{itemize}
+
+
+\begin{enumerate}
+\item Démontrer que les points A, B, C sont alignés.
+\begin{itemize}
+\item Analytique : à l'aide des coordonnées de chaque point on peut
+calculer les coordonnées des vecteurs \(\overrightarrow{AB}\)
+et \(\overrightarrow{AC}\) et vérifier si les vecteurs sont
+colinéaires ou pas.
+\item Colinéarité : à l'aide des coordonnées ou de la décomposition
+de Chasles on peut calculer le déterminant ou établir une
+relation du type \(\overrightarrow{AB} =
+         k\overrightarrow{AC}\) si les vecteurs sont colinéaires.
+\item Géométrique : la relation de Chasles nous permet d'établie si
+la relation \(\overrightarrow{AB} = k\overrightarrow{AC}\)
+existe ou pas
+\end{itemize}
+\item Calculer la distance entre deux points A(2;3) et B(5;7)
+\begin{itemize}
+\item Analytique : on applique la formule (qui découle de
+Pythagore)
+\item Colinéarité : pour ce type de problème la colinéarité est
+inutile
+\item Géométrique : pour ce type de problème ni Chasles ni les
+identités du parallélogramme ne peuvent servir
+\end{itemize}
+\item Montrer que ABCD est un parallélogramme
+\begin{itemize}
+\item Analytique : à l'aide des coordonnées on peut vérifier si on
+a l'égalité vectorielle
+\[\overrightarrow{AB} = \overrightarrow{DC}\]
+ou pas.
+\item Colinéarité : à l'aide des coordonnées ou de la relation de
+Chasles on peut vérifier si on a l'égalité vectorielle
+\[\overrightarrow{AB} = \overrightarrow{DC}\]
+ou pas. On peut également calculer les deux déterminants
+importants
+\[det(\overrightarrow{AB} , \overrightarrow{DC})\quad
+         det(\overrightarrow{AD} , \overrightarrow{BC})\]
+\item Géométrique : en utilisant Chasles on peut vérifier si on
+obtient la relation
+\[\overrightarrow{AB} + \overrightarrow{AD} = \overrightarrow{AC}\]
+\end{itemize}
+\item Trouver les coordonnées du point M tel que :
+\[\overrightarrow{AM} = 2\overrightarrow{AB} +
+       3\overrightarrow{AC}\]
+\begin{itemize}
+\item Analytique : on calcule les coordonnées des vecteurs \(\overrightarrow{AB}\)
+et \(\overrightarrow{AC}\) et on résout les deux équations
+pour obtenir les coordonnées du points M(x ; y).
+Concrètement :
+\begin{align*}
+x - x_A &= 2(x_B - x_A) + 3(x_C - x_A)\\
+y - y_A &= 2(y_B - y_A) + 3(y_C - y_A)\\
+x &= -4x_A + 2x_B + 3x_C\\
+y &= -4y_A + 2y_B + 3y_C
+\end{align*}
+\item Colinéarité : on ne peut pas obtenir les coordonnées du point
+M uniquement avec le déterminant.
+\item Géométrique : on peut construire le point M grâce à la
+relation vectorielle puis en utilisant Chasles on peut
+exprimer le vecteur \(\overrightarrow{OM}\) en fonction des
+vecteurs \(\overrightarrow{OA}\), \(\overrightarrow{OB}\) et
+\(\overrightarrow{OC}\)
+\end{itemize}
+\item Vérifier si deux droites (AB) et (CD) sont parallèles
+\begin{itemize}
+\item Analytique : on peut comparer les coordonnées des vecteurs
+\(\overrightarrow{AB}\) et \(\overrightarrow{CD}\)
+\item Colinéarité : on peut calculer le déterminant
+\(det(\overrightarrow{AB} , \overrightarrow{CD}\) et voir
+s'il est nul ou pas
+\item Géométrique : on peut vérifier si on obtient une identité du
+parallélogramme ou pas
+\end{itemize}
+\end{enumerate}
+
+
+\chapter{Solution du programme}
+\label{sec:org187313b}
+
+Écrire un programme Python qui résout le problème
+\[\overrightarrow{AM} = a\overrightarrow{AB} +
+    b\overrightarrow{AC}\]
+C'est-à-dire un programme qui permet d'exprimer les coordonnées du
+point M en fonction des paramètres a et b et des coordonnées des
+points déjà existants A, B, et C.
+
+\begin{minted}[]{python}
+def get_M(a, b, A, B, C):
+    """
+    Cette fonction prend en entrées :
+    + a : 1 float correspondant au coefficient du vecteur AB
+    + b : 1 float correspondant au coefficient du vecteur AC
+    + A : 1 tuple de float correspondant aux coordonnées du point A
+    + B : 1 tuple de float correspondant aux coordonnées du point B
+    + C : 1 tuple de float correspondant aux coordonnées du point C
+    et elle renvoie 1 tuple de float correspondant aux coordonnées du point M
+    """
+    x = (1 - a - b) * A[0] + a * B[0] + b * C[0]
+    y = (1 - a - b) * A[1] + a * B[1] + b * C[1]
+    return (x, y)
+
+
+def vectAB(A, B):
+    """
+    Cette fonction prend en entrées :
+    + A : 1 tuple de float correspondant aux coordonnées du point A
+    + B : 1 tuple de float correspondant aux coordonnées du point B
+    et renvoie 1 tuple de float correspondant aux coordonnées du vecteur AB
+    """
+    x = B[0] - A[0]
+    y = B[1] - A[1]
+    return (x, y)
+
+
+# Tests
+a, b, A, B, C = 1, 1, (3, 2), (-3, 2), (3, -2)
+M = get_M(a, b, A, B, C)
+relation = f"On a la relation Vect(A, M) = {a}Vect(A, B) + {b}Vect(A, C)"
+print(relation)
+input("Pour voir les coordonnées du point M tapez 1\t")
+coordM = f"Voici les coordonnées du point M({M[0]}, {M[1]})"
+print(coordM)
+coordAB = vectAB(A, B)
+coordAC = vectAB(A, B = C)
+eqX = f"x - {A[0]} = {a} * {coordAB[0]} + {b} * {coordAC[0]}"
+input("Pour voir l'équation en x tapez 1\t")
+print(eqX)
+eqY = f"y - {A[1]} = {a} * {coordAB[1]} + {b} * {coordAC[1]}"
+input("Pour voir l'équation en y tapez 1\t")
+print(eqY)
+solve_x = f"x = {A[0] + a * coordAB[0] + b * coordAC[0]}"
+input("Pour voir la solution de l'équation en x tapez 1\t")
+print(solve_x)
+solve_y = f"y = {A[1] + a * coordAB[1] + b * coordAC[1]}"
+input("Pour voir la solution de l'équation en y tapez 1\t")
+print(solve_y)
+\end{minted}
+
+
+\chapter{Solution du QCM d'auto-évaluation}
+\label{sec:org8a34360}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Si ABC est un triangle et que D est un 4ème point qui vérifie
+l'égalité \[\overrightarrow{AD} = \overrightarrow{AB} +
+       \overrightarrow{AC}\]
+alors on peut en déduire que :
+\begin{enumerate}[label=\alph*.]
+\item \(\overrightarrow{AB} + \overrightarrow{BC} =
+          \overrightarrow{AC}\) la relation de Chasles n'est pas une
+déduction, elle existe toujours
+\item ABCD est un parallélogramme
+\item ABDC est un parallélogramme
+
+(\textbf{Bonne réponse})
+\item \(\overrightarrow{AB} = \overrightarrow{CD}\) et
+\(\overrightarrow{AC} = \overrightarrow{BD}\) les deux
+égalités sont vraies
+
+(\textbf{Bonne réponse})
+\item \(\overrightarrow{AB} = \overrightarrow{CD}\) ou
+\(\overrightarrow{AC} = \overrightarrow{BD}\) une seule des
+deux égalités est vraie
+\item \(\overrightarrow{AB} \neq \overrightarrow{CD}\) et
+\(\overrightarrow{AC} \neq \overrightarrow{BD}\) aucune
+des égalités n'est vraie
+\item le point D est à l'intérieur du triangle ABC
+\item le point D est l'image du point A par la symétrie de
+centre le milieu du segment [BC]
+
+(\textbf{Bonne réponse})
+\item le point D est à l'extérieur du triangle ABC
+
+(\textbf{Bonne réponse})
+\item le point D est l'image du point I par la translation de
+vecteur \(\overrightarrow{AI}\) où I est le milieu du
+segment [BC]
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Si ABCD est un carré alors : 
+\begin{enumerate}[label=\alph*.]
+\item Les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{AC}\) forment une base orthornomée
+\item Les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{AD}\) forment une base orthornomée
+
+(\textbf{Bonne réponse})
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 1\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 0\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 1\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\)
+\item \(AC^2 = AB^2 + BC^2\)
+
+(\textbf{Bonne réponse})
+\item \(\overrightarrow{AB} + \overrightarrow{CD} =
+          2\overrightarrow{AB}\)
+\item \(\overrightarrow{AB} + \overrightarrow{CD} = \vec{0}\)
+
+(\textbf{Bonne réponse})
+\item Le centre O du carré vérifie
+\[\overrightarrow{OA} + \overrightarrow{OB} +
+           \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}\]
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Si ABCD est un rectangle et O l'intersection des droites (AC)
+et (BD) alors : 
+\begin{enumerate}[label=\alph*.]
+\item \(\overrightarrow{OA} + \overrightarrow{OB} +
+          \overrightarrow{OB} + \overrightarrow{OD} = \vec{0}\)
+
+(\textbf{Bonne réponse})
+\item \(\overrightarrow{AO} = \overrightarrow{OC} =
+          \dfrac{1}{2}\overrightarrow{AC}\)
+
+(\textbf{Bonne réponse})
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 1\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 0\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 1\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\)
+\item \(AC > AB + BC\)
+\item \(AC < AB + AD\)
+
+(\textbf{Bonne réponse})
+\item \(AC = BD\)
+
+(\textbf{Bonne réponse})
+\item \(AC\neq BD\)
+\end{enumerate}
+\item Soient A et B deux points distincts du plan. Si C est l'image
+de B par la translation de vecteur \(\overrightarrow{AB}\)
+alors : 	 
+\begin{enumerate}[label=\alph*.]
+\item B est le milieu du segment [AC]
+
+(\textbf{Bonne réponse})
+\item \(\overrightarrow{AC} = 2\overrightarrow{AB}\)
+\item \(\overrightarrow{OC} = \overrightarrow{OA} +
+          2\overrightarrow{OB}\)
+\item les coordonnées de C vérifient :
+\begin{align*}
+x_C &= 2x_B - x_A\\
+y_C &= 2y_B - y_A
+\end{align*}
+\item les coordonnées de C vérifient :
+\begin{align*}
+x_C &= 2x_B + x_A\\
+y_C &= 2y_B + y_A
+\end{align*}
+
+(\textbf{Bonne réponse})
+\item C est l'image de A par la symétrie de centre B.
+
+(\textbf{Bonne réponse})
+\item C est le milieu du segment [AB].
+\item \(\overrightarrow{AB} = \overrightarrow{BC}\)
+
+(\textbf{Bonne réponse})
+\item \(\overrightarrow{AB} + \overrightarrow{BC} =
+          2\overrightarrow{AB}\)
+
+(\textbf{Bonne réponse})
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\)
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Si on a \(det(\overrightarrow{AB}, \overrightarrow{AD}) \neq 0\)
+et \(det(\overrightarrow{AB}, \overrightarrow{DC}) = 0\) alors :
+\begin{enumerate}[label=\alph*.]
+\item ABCD ou ABDC est un trapèze.
+
+(\textbf{Bonne réponse})
+\item Si AB = DC alors ABCD ou ABDC est un parallélogramme.
+
+(\textbf{Bonne réponse})
+\item Si AB = AD = DC alors ABCD est un losange.
+
+(\textbf{Bonne réponse})
+\item Si AB = AC = CD alors ABDC est un losange.
+
+(\textbf{Bonne réponse})
+\item Si AB = DC et CA = BD alors ABDC est un rectangle.
+\item Si AB = DC et AD = BC alors ABDC est un rectangle.
+\item Si AB = DC et AC = BD alors ABCD est un rectangle.
+
+(\textbf{Bonne réponse})
+\item Si AB = DC et AD = BC alors ABCD est un rectangle.
+\item Si AB = DC et AC = BD alors ABCD est un losange.
+\item Si AB = DC et AD = BC alors ABCD est un losange.
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Soient \(\vec{u}\), \(\vec{v}\) et \(\vec{w}\) trois vecteurs
+tels que \(\vec{w} = \vec{u} + \vec{v}\).
+\begin{enumerate}[label=\alph*.]
+\item Si \(\lvert\lvert\vec{u}\rvert\rvert +
+          \lvert\lvert\vec{v}\rvert\rvert =
+          \lvert\lvert\vec{w}\rvert\rvert\) alors les trois vecteurs
+sont colinéaires.
+\item Il est impossible que les trois vecteurs soient colinéaires.
+\item Si \(det(\vec{u}, \vec{v}) = 0\) alors les trois vecteurs
+sont colinéaires.
+\item Si \(det(\vec{u}, \vec{v}) = 0\) alors \(det(\vec{v},
+          \vec{w}) = 0\).
+\item Si \(det(\vec{w}, \vec{u}) = 0\) alors \(det(\vec{u},
+          \vec{v}) = 0\).
+\item \(\lvert\lvert\vec{u}\rvert\rvert +
+          \lvert\lvert\vec{v}\rvert\rvert >
+          \lvert\lvert\vec{w}\rvert\rvert\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert +
+          \lvert\lvert\vec{v}\rvert\rvert <
+          \lvert\lvert\vec{w}\rvert\rvert\)
+\item Si \(det(\vec{u}, \vec{v}) = 0\) alors soit \(\vec{u} =
+          \vec{0}\) soit \(\vec{v} = \vec{0}\)
+\item Si \(det(\vec{u}, \vec{v}) = 0\) alors soit \(\vec{w} =
+          \vec{u}\) soit \(\vec{w} = \vec{v}\)
+\item Si \(det(\vec{w}, \vec{u}) = 0\) alors soit \(\vec{u} =
+          -\vec{v}\) soit \(\vec{w} = \vec{0}\)
+\end{enumerate}
+\item Soit un vecteur \(\vec{u}\) de norme
+\(\lvert\lvert\vec{u}\rvert\rvert = 5\).
+\begin{enumerate}[label=\alph*.]
+\item Si \(x_{\vec{u}} = 3\) alors \(y_{\vec{u}} = 4\).
+\item Si \(x_{\vec{u}} = 3\) alors \(y_{\vec{u}} = -4\).
+\item Si \(x_{\vec{u}} = -3\) alors \(y_{\vec{u}} = -4\).
+\item Si \(x_{\vec{u}} = -3\) alors \(y_{\vec{u}} = 4\).
+\item Si \(x_{\vec{u}} = \pm 3\) alors \(y_{\vec{u}} = \pm 4\).
+
+(\textbf{Bonne réponse})
+\item Si \(x_{\vec{u}} = -4\) alors \(y_{\vec{u}} = 3\).
+\item Si \(x_{\vec{u}} = -4\) alors \(y_{\vec{u}} = -3\).
+\item Si \(x_{\vec{u}} = 4\) alors \(y_{\vec{u}} = -3\).
+\item Si \(x_{\vec{u}} = 4\) alors \(y_{\vec{u}} = 3\).
+\item Si \(x_{\vec{u}} = \pm 4\) alors \(y_{\vec{u}} = \pm 3\).
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Dans un repère orthonormée \((O ; \vec{i} , \vec{j})\) on
+considère les points A(3 ; 2), B(3 ; -2), C(-3 ; -2), D(3 ;
+-1), E(-3 ; -1), F(-1 ; -1), G(1 ; 1), H(1 ; 2), I(-1 ; 2).       
+\begin{enumerate}[label=\alph*.]
+\item Les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{AC}\) sont colinéaires car
+\[det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\]
+\item Les vecteurs \(\overrightarrow{AH}\) et
+\(\overrightarrow{AI}\) sont colinéaires car
+\[det(\overrightarrow{AH} , \overrightarrow{AI}) = 0\]
+\item Les points A, B et C sont alignés.
+\item Les points D, E et F sont alignés.
+
+(\textbf{Bonne réponse})
+\item ABC est un triangle rectangle en B.
+
+(\textbf{Bonne réponse})
+\item ABD est un triangle rectangle en B.
+\item GDF est un triangle rectangle en G.
+
+(\textbf{Bonne réponse})
+\item GDF est un triangle isocèle en G.
+
+(\textbf{Bonne réponse})
+\item BCHA est un trapèze.
+
+(\textbf{Bonne réponse})
+\item Les vecteurs \(\overrightarrow{BC}\) et
+\(\overrightarrow{AH}\) sont colinéaires.
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\item Dans un repère orthonormée \((O ; \vec{i} , \vec{j})\) on
+considère les points A(2 ; 3), B(-3 ; 2), C(-2 ; -3); D(3 ;
+-2).
+\begin{enumerate}[label=\alph*.]
+\item Le triangle BOA est isocèle en A.
+\item Le triangle BOA est isocèle en B.
+\item Le triangle BOA est isocèle en O.
+
+(\textbf{Bonne réponse})
+\item Le triangle BOA est rectangle en A.
+\item Le triangle BOA est rectangle en B.
+\item Le triangle BOA est rectangle en O.
+
+(\textbf{Bonne réponse})
+\item C est l'image de O par la translation de vecteur
+\(\overrightarrow{AO}\).
+
+(\textbf{Bonne réponse})
+\item D est l'image de O par la translation de vecteur
+\(\overrightarrow{BO}\).
+
+(\textbf{Bonne réponse})
+\item ABDC est un carré.
+\item ABCD est un carré.
+
+(\textbf{Bonne réponse})
+\end{enumerate}
+\end{enumerate}
+\end{document}

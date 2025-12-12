@@ -1,0 +1,2787 @@
+% Created 2025-12-12 Fri 14:23
+% Intended LaTeX compiler: lualatex
+\documentclass[a4paper,11pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[paperwidth=6in,paperheight=9in,margin=1in]{geometry}
+\setlength{\headheight}{25pt}
+\setcounter{tocdepth}{2} % Limiter la TdM aux subsections
+\usepackage{setspace}
+\onehalfspacing % Interligne 1,5
+\usepackage[most]{tcolorbox}
+\newtcolorbox{definition}{colback=blue!5,colframe=blue!50!black,title=Définition}
+\newtcolorbox{methode}{colback=green!5,colframe=green!50!black,title=Méthode}
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}
+\setsansfont{Helvetica Neue}
+\setmonofont{Courier}
+\usepackage{amsmath,amssymb}
+\usepackage{polyglossia}
+\setmainlanguage{french}
+\setotherlanguage{english}
+\usepackage{csquotes}
+\MakeAutoQuote{«}{»}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+citecolor=green,
+filecolor=magenta,
+urlcolor=cyan,
+pdftitle={Manipuler les vecteurs du plan},
+pdfauthor={Laurent Garnier},
+}
+\usepackage{graphicx}
+\graphicspath{{./img/}}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{xcolor}
+\definecolor{MyOrange}{HTML}{FF6600}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+\usepackage[toc]{glossaries}
+\makeglossaries
+\author{Laurent Garnier}
+\date{\today}
+\title{Manipuler les vecteurs du plan}
+\hypersetup{
+ pdfauthor={Laurent Garnier},
+ pdftitle={Manipuler les vecteurs du plan},
+ pdfkeywords={},
+ pdfsubject={Ce livre propose des exercices et explications pour manipuler les vecteurs},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={Fr}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\part{Introduction}
+\label{sec:orge72a0ba}
+\chapter{À qui s'adresse ce livre}
+\label{sec:orgf5c5d19}
+
+Ce livre constitue une mise en oeuvre concrète et pratique de la
+rubrique intitulée "Manipuler les vecteurs du plan" pages 8 et 9 du
+programme officiel de mathématiques pour la classe de seconde
+accessible à cette URL :
+\url{https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/95/7/spe631\_annexe\_1062957.pdf}
+
+Par conséquent, il intéressera :
+\begin{itemize}
+\item les élèves de fin de collège souhaitant prendre de l'avance et
+préparer au mieux leur entrée au lycée
+\item bien entendu les élèves de seconde qui sont les premiers concernés
+\item les élèves de premières, terminales, et même du supérieur,
+qui pourront (re)voir des notions pas toujours bien maîtrisées alors
+que cet aspect fondamental des mathématiques modernes est crucial
+\item enfin, toutes les personnes, amatrices ou professionnelles,
+soucieuses d'apprendre ou de ré-apprendre à des fins personnelles
+et/ou d'aide de personnes tierces (de façon bénévole ou rémunérée)
+\end{itemize}
+
+
+À l'heure où les deux lettres IA (pour Intelligence Artificielle)
+sont sur toutes les lèvres il me semble important de bien faire
+comprendre (ou de rappeler pour ceux qui l'avaient oublié) que les
+modèles de langage tels que ChatGPT, ClaudeAI, DeepSeek, Gemini, Grok,
+Kimi, Mistral et consort ne font que manipuler des vecteurs à chaque
+prompt que vous leur écrivez ou dictez.
+
+Oui, vous m'avez bien lu, les fameuses IAs supposément magiciennes
+et "aptes" à "nous remplacer" selon certains (oui je pense très fort
+à Laurent Alexandre), elles ne font QUE du calcul vectoriel.
+
+L'espace dédié à cette introduction, et même le cadre global de cet
+ouvrage, ne se prête pas aux explications générales et totales du
+pourquoi et du comment mais je vous livre tout de même une ressource
+très pédagogique qui vous permettra de mieux comprendre tous les
+détails par vous même : la chaîne 3blue1brown (meilleure chaîne de
+mathématiques au monde) a consacré une série de vidéos pour
+expliquer précisément comment les modèles de langage fonctionnent,
+voici l'URL : \url{https://youtu.be/LPZh9BOjkQs?si=QMzyEqxItcq7ZIR7}
+
+En conclusion de cette introduction, je dirais donc qu'il n'a jamais
+été aussi important de comprendre comment fonctionne le concept de
+vecteur car une très grande partie de cette technologie qui apparaît
+comme de la magie repose, expose et manipule quasi-exclusivement ce
+concept si fécond.
+
+Alors, cessez d'être spectateurs, devenez acteurs !
+
+\chapter{Organisation de l'ouvrage}
+\label{sec:org7296bd3}
+
+Comme indiqué précédemment, cet ouvrage se base sur le programme
+officiel de mathématiques en classe de seconde dans le système
+scolaire français auquel vous pouvez accéder via cette URL :
+  \url{https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/95/7/spe631\_annexe\_1062957.pdf}
+
+
+Ainsi, les 7 contenus sont listés dans le même ordre avec un ou
+deux exercices d'illustration à chaque fois et un QCM
+d'auto-évaluation.
+
+Ensuite viennent les 7 capacités attendues également illustrées par
+au moins un exercice par capacité ainsi qu'un QCM
+d'auto-évaluation.
+
+Viennent ensuite des exercices de synthèse, puis quelques
+démonstrations et enfin des exercices divers.
+
+Les exercices divers se veulent (beaucoup) plus originaux (par
+exemple analyse des déplacements du fou sur un échiquier) et
+concrets.
+
+Subséquemment vient une partie sur les erreurs fréquentes à éviter.
+
+Par suite vous obtiendrez des explications sur la façon d'obtenir
+les solutions qui ont volontairement été séparées de l'ouvrage afin
+de limiter la tentation de recourir à la solution avant d'avoir
+cherché à résoudre les exercices.
+
+On ne le dira jamais assez mais c'est durant la phase de recherche
+que vous évaluez votre niveau réel et que vous solidifiez les
+apprentissages.
+
+Enfin une dernière partie est consacrée aux remerciements et
+feedback.
+
+Bonne lecture, mais surtout, bonne action !
+
+\part{Contenus}
+\label{sec:org9255186}
+
+\begin{itemize}
+\item \(C_1\) : Vecteur \(\overrightarrow{MM'}\) associé à la translation
+qui transforme M en M'. Direction, sens et norme.
+\item \(C_2\) : Égalité de deux vecteurs. Notation \(\vec{u}\).
+Vecteur nul.
+\item \(C_3\) : Somme de deux vecteurs en lien avec l'enchaînement
+des translations. Relation de Chasles.
+\item \(C_4\) : Base orthonormée. Coordonnées d'un vecteur. Expression
+de la norme d'un vecteur.
+\item \(C_5\) : Expression des coordonnées de \(\overrightarrow{AB}\) en
+fonction de celles de A et de B.
+\item \(C_6\) : Produit d'un vecteur par un nombre réel. Colinéarité
+de deux vecteurs.
+\item \(C_7\) : Déterminant de deux vecteurs dans une base orthonormée,
+critère de colinéarité. Application à l'alignement, au
+parallélisme.
+\end{itemize}
+
+\chapter{Contenu 1}
+\label{sec:org741ffa3}
+
+\section{Objectifs pédagogiques}
+\label{sec:org7e301e0}
+
+Dans cette partie les exercices ont pour but de mettre en
+application le contenu 1.
+
+\begin{itemize}
+\item \(C_1\) : Vecteur \(\overrightarrow{MM'}\) associé à la
+translation qui transforme M en M'. Direction, sens et norme.
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./C1.png}
+\end{center}
+
+\section{Exercice 1}
+\label{sec:org83a5cb2}
+
+Soit les points A, B, C tels que :
+\begin{itemize}
+\item \(\vec{u} = \overrightarrow{AB}\)
+\item \(\vec{v} = \overrightarrow{AC}\)
+\end{itemize}
+
+Voir la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/ABCvect.png}
+\end{center}
+
+\begin{enumerate}
+\item Quelle est l'image du point B par la translation de vecteur
+\(\vec{v}\) c'est-à-dire qui transforme A en C ? On appellera D
+le point image.
+\item Quelle est l'image du point C par la translation de vecteur
+\(\vec{u}\) c'est-à-dire qui transforme A en B ? On appellera E
+le point image.
+\item Que peut-on déduire ?
+\item Quelle est la nature du quadrilatère ABDC ?
+\end{enumerate}
+
+
+\section{Exercice 2}
+\label{sec:org72b14ce}
+
+Soient A et B deux points distincts dans le plan.
+\begin{enumerate}
+\item On considère le point C image de B par la translation de
+vecteur \(\vec{u} = \overrightarrow{AB}\). Quelle est la
+direction du vecteur \(\overrightarrow{BC}\) ? Quelle est son
+sens ? Quelle est sa norme ?
+\item Que représente le point B pour le segment [AC] ?
+\item Comparer les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{BC}\) entre eux et avec le vecteur
+\(\overrightarrow{AC}\).
+\end{enumerate}
+
+\section{Programme 1}
+\label{sec:orgb13c080}
+
+Écrire un programme Python qui rappelle qu'un vecteur est défini
+par 3 caractéristiques fondamentales :
+\begin{enumerate}
+\item Direction
+\item Norme
+\item Sens
+\end{enumerate}
+
+\section{QCM d'auto-évaluation}
+\label{sec:org16b8bb9}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+Lorsqu'on parle du vecteur \(\overrightarrow{MM'}\) associé à
+la transalation qui transforme M en M'. 
+
+\begin{enumerate}
+\item Quelle est la direction ?
+\begin{enumerate}[label=\alph*.]
+\item Toute droite parallèle à l'axe des abscisses.
+\item Uniquement la droite (MM').
+\item Toute droite parallèle à l'axe des ordonnées.
+\item Toute droite parallèle à la droite (MM').
+\end{enumerate}
+\item Quelle est le sens ?
+\begin{enumerate}[label=\alph*.]
+\item De O à M.
+\item De M à M'.
+\item De M' à M.
+\item De M à O.
+\end{enumerate}
+\item Quelle est la norme ?
+\begin{enumerate}[label=\alph*.]
+\item La distance OM.
+\item La distance OM'.
+\item La distance MM'.
+\item La distance M'M.
+\end{enumerate}
+\end{enumerate}
+
+\chapter{Contenu 2}
+\label{sec:orgef3a09b}
+\section{Objectifs pédagogiques}
+\label{sec:org0fd6556}
+
+Dans cette partie les exercices ont pour but de mettre en
+application le contenu 2.
+
+\begin{itemize}
+\item \(C_2\) : Égalité de deux vecteurs. Notation
+\(\vec{u}\). Vecteur nul.
+\end{itemize}
+
+
+
+
+\section{Exercice 3}
+\label{sec:org68a9b34}
+
+On reprend la figure de l'exercice 1 : 
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/ABCvect.png}
+\end{center}
+
+
+Soit D l'image du point C par la translation de vecteur \(\vec{u}
+    = \overrightarrow{AB}\).
+
+\begin{enumerate}
+\item Comparer les vecteurs \(\vec{u} = \overrightarrow{AB}\) et
+\(\overrightarrow{CD}\).
+\item Soit le vecteur \(\vec{w} = \overrightarrow{AB} +
+       \overrightarrow{DC}\).
+
+Que remarquez-vous ?
+\item Soit E l'image de D par la translation de vecteur
+\[\vec{v} = \overrightarrow{AC}\]
+
+Calculer
+\[\overrightarrow{BD} + \overrightarrow{ED}\]
+\end{enumerate}
+
+\section{Programme 2}
+\label{sec:orgf002e26}
+
+Écrire un programme Python qui :
+\begin{itemize}
+\item demande à l'utilisateur si les vecteurs sont égaux
+\item ensuite demande s'ils sont alignés
+\item indique les déductions en fonction des réponses
+\end{itemize}
+
+
+\textbf{Indication} : réfléchir aux différents cas possibles.
+
+
+\section{QCM d'auto-évaluation}
+\label{sec:org5476c07}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Deux vecteurs \(\vec{u}\) et \(\vec{v}\) sont égaux si :
+\begin{enumerate}[label=\alph*.]
+\item Ils ont la même direction.
+\item Ils ont la même direction et le même sens.
+\item Ils ont la même direction et la même norme.
+\item Ils ont la même direction, le même sens et la même norme.
+\end{enumerate}
+\item On dit qu'un vecteur est nul si :
+\begin{enumerate}[label=\alph*.]
+\item Sa direction est horizontale.
+\item Sa direction est verticale.
+\item Il va dans un sens puis dans l'autre.
+\item Sa norme vaut zéro.
+\end{enumerate}
+\end{enumerate}
+
+
+\chapter{Contenu 3}
+\label{sec:org595b7d4}
+
+\section{Objectifs pédagogiques}
+\label{sec:orgb933366}
+
+Dans cette partie les exercices ont pour but de mettre en
+application le contenu 3.
+
+\begin{itemize}
+\item \(C_3\) : Somme de deux vecteurs en lien avec l'enchaînement des
+translations. Relation de Chasles.
+\end{itemize}
+
+
+
+\section{Exercice 4}
+\label{sec:org7c17797}
+
+On reprend la figure de l'exercice 1 : 
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/ABCvect.png}
+\end{center}
+
+
+\begin{enumerate}
+\item Calculer \(\overrightarrow{AB} + \overrightarrow{BC}\).
+
+\textbf{Indication} : utiliser la relation de Chasles.
+\item Construire le point D tel que \(\overrightarrow{AD} =
+       \overrightarrow{AB} + \overrightarrow{AC}\).
+\item Soit O l'intersection entre les segments [AD] et [BC]. Ecrire
+le vecteur \(\overrightarrow{AO}\) comme la somme de deux
+vecteurs.
+\item Calculer \(\overrightarrow{AO} + \overrightarrow{BO} +
+       \overrightarrow{CO} + \overrightarrow{DO}\).
+\end{enumerate}
+
+
+\section{Programme 3}
+\label{sec:orgc8caf54}
+
+Écrire un programme Python qui rappelle la relation de Chasles. 
+
+\section{QCM d'auto-évaluation}
+\label{sec:org3e0c1ad}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Ajouter deux vecteurs revient à :
+\begin{enumerate}[label=\alph*.]
+\item enchaîner deux translations successives
+\item faire une rotation
+\item faire une symétrie
+\item faire une homothétie
+\end{enumerate}
+\item La relation de Chasles :
+\begin{enumerate}[label=\alph*.]
+\item augmente la norme d'un vecteur
+\item décompose un vecteur en sommes de vecteurs
+\item consiste à passer un coup de fil à Michel
+\item revient à faire une transformation géométrique sur un
+vecteur
+\end{enumerate}
+\end{enumerate}
+
+
+\chapter{Contenu 4}
+\label{sec:orgc00862e}
+
+\section{Objectifs pédagogiques}
+\label{sec:orga2a50eb}
+
+Dans cette partie les exercices ont pour but de mettre en
+application le contenu 4.
+
+\begin{itemize}
+\item \(C_4\) : Base orthonormée. Coordonnées d'un vecteur. Expression
+de la norme d'un vecteur.
+\end{itemize}
+
+
+
+\section{Exercice 5}
+\label{sec:orgb35d50e}
+
+On considère le carré ABCD sur la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/ABCDsquare.png}
+\end{center}
+
+
+\begin{enumerate}
+\item Vérifier que les vecteurs \(\vec{u} = \overrightarrow{AB}\) et
+\(\vec{v} = \overrightarrow{AD}\) forment bien une base
+orthonormée.
+\item Déterminer les coordonnées des 4 points A, B, C, D dans la base
+\((\vec{u} ; \vec{v})\).
+\item Calculer la norme du vecteur \(\overrightarrow{AC}\).
+\end{enumerate}
+
+
+\section{Exercice 5 bis}
+\label{sec:org0eef747}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+Calculer les normes des vecteurs suivants :
+
+\begin{enumerate}
+\item \(n_1 = \lvert\lvert \vec{i} + \vec{j}\rvert\rvert\)
+\item \(n_2 = \lvert\lvert \vec{i} - \vec{j}\rvert\rvert\)
+\item \(n_3 = \lvert\lvert 3\vec{i}\rvert\rvert\)
+\item \(n_4 = \lvert\lvert 3\vec{i} + 4\vec{j}\rvert\rvert\)
+\item \(n_5 = \lvert\lvert -5\vec{j}\rvert\rvert\)
+\end{enumerate}
+
+\section{Exercice 5 ter}
+\label{sec:orgf9c2f12}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+Calculer et comparer les normes ajoutées séparément
+\[s = \lvert\lvert\vec{u}\rvert\rvert +
+    \lvert\lvert\vec{v}\rvert\rvert\]
+
+avec celles des vecteurs sommes
+
+\[e = \lvert\lvert\vec{u} + \vec{v}\rvert\rvert\]
+
+\begin{enumerate}
+\item \((\vec{u}, \vec{v}) = (\vec{i}, \vec{j})\)
+\item \((\vec{u}, \vec{v}) = (\vec{i} + \vec{j}, \vec{i} - \vec{j})\)
+\item \((\vec{u}, \vec{v}) = (a\vec{i} + b\vec{j}, c\vec{i} + d\vec{j})\)
+\end{enumerate}
+
+
+
+\section{Programme 4}
+\label{sec:orgd9525e7}
+
+Écrire un programme Python qui rappelle :
+\begin{enumerate}
+\item la définition d'une base orthonormée.
+\item la relation vectorielle entre les cordonnées d'un vecteur et
+les vecteurs de la base.
+\item la formule de calcul de la norme d'un vecteur et qui effectue
+le calcul.
+\end{enumerate}
+
+
+\section{QCM d'auto-évaluation}
+\label{sec:orgb71b63e}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Une base orthonormée du plan est :
+\begin{enumerate}[label=\alph*.]
+\item une station de lancement de fusée
+\item un couple de vecteurs ayant des directions distinctes
+\item un couple de vecteurs ayant des directions orthogonales et
+la même norme
+\item un couple de vecteurs ayant la même direction et la même
+norme
+\end{enumerate}
+\item Quelles sont les coordonnées d'un vecteur \(\vec{u}\) dans une
+base orthonormée \((\vec{i} , \vec{j})\) ?
+\begin{enumerate}[label=\alph*.]
+\item Le couple de nombres \((a ; b)\) tel que \(\vec{u} =
+          a\vec{i} + b\vec{j}\).
+\item Les coordonnées du point M obtenu par la translation de
+vecteur \(\vec{u}\) à partir du point O.
+\item La somme de celles des vecteurs \(\vec{i}\) et \(\vec{j}\).
+\item Les coefficients de toute combinaison linéaire des vecteurs
+de la base.
+\end{enumerate}
+\item Considérons le vecteur \(\vec{u} = a\vec{i} + b\vec{j}\) alors
+l'expression de sa norme est :
+\begin{enumerate}[label=\alph*.]
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a + b\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a^2 - b^2\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a^2 + b^2\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert = \sqrt{a^2 + b^2}\)
+\end{enumerate}
+\end{enumerate}
+
+\chapter{Contenu 5}
+\label{sec:orgbe26aaa}
+
+\section{Objectifs pédagogiques}
+\label{sec:org3001be4}
+
+Dans cette partie les exercices ont pour but de mettre en
+application le contenu 5.
+
+\begin{itemize}
+\item \(C_5\) : Expression des coordonnées de \(\overrightarrow{AB}\)
+en fonction de celles de A et de B.
+\end{itemize}
+
+
+
+\section{Exercice 6}
+\label{sec:orgb881096}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+
+Soient les points \(A(x_A ; y_A)\) et \(B(x_B ; y_B)\) deux points
+distincts dans le plan. 
+
+\begin{enumerate}
+\item Exprimer le vecteur \(\overrightarrow{OA}\) en fonction des
+vecteurs de la base.
+\item Exprimer le vecteur \(\overrightarrow{OB}\) en fonction des
+vecteurs de la base.
+\item Exprimer le vecteur \(\overrightarrow{AB}\) en fonction des
+vecteurs \(\overrightarrow{OA}\) et \(\overrightarrow{OB}\).
+\item En déduire l'expression du vecteur \(\overrightarrow{AB}\) en
+fonction des vecteurs de la base.
+\item En déduire l'expression des coordonnées du vecteur
+\(\overrightarrow{AB}\) en fonction de celles de A et de B.
+\end{enumerate}
+
+
+\section{Programme 5}
+\label{sec:org68456e3}
+
+Écrire un programme Python qui rappelle l'expression des
+coordonnées du vecteur \(\overrightarrow{AB}\) en fonction de
+celles de A et B et qui les calcule. 
+
+\section{QCM d'auto-évaluation}
+\label{sec:org0f2019a}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+On considère le vecteur \(\overrightarrow{AB}\) dans le plan muni
+du repère orthonormé \((O ; \vec{i}, \vec{j})\).
+
+\begin{enumerate}
+\item En utilisant Chasles on peut écrire :
+\begin{enumerate}[label=\alph*.]
+\item \(\overrightarrow{AB} = \overrightarrow{OA} +
+          \overrightarrow{OB}\)
+\item \(\overrightarrow{AB} = \overrightarrow{OA} - \overrightarrow{OB}\)
+\item \(\overrightarrow{AB} = \overrightarrow{AO} +
+          \overrightarrow{BO}\)
+\item \(\overrightarrow{AB} = \overrightarrow{AO} + \overrightarrow{OB}\)
+\end{enumerate}
+\item En utilisant les coordonnées des points A et B on a :
+\begin{enumerate}[label=\alph*.]
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A + x_B\\y_A +
+          y_B\end{pmatrix}\)
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A - x_B\\y_A -
+          y_B\end{pmatrix}\)
+\item \(\overrightarrow{AB}\begin{pmatrix}x_B - x_A\\y_B -
+          y_A\end{pmatrix}\)
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A \times x_B\\y_A
+          \times y_B\end{pmatrix}\)
+\end{enumerate}
+\end{enumerate}
+
+
+\chapter{Contenu 6}
+\label{sec:org0284c5e}
+
+\section{Objectifs pédagogiques}
+\label{sec:orgdeb586e}
+
+Dans cette partie les exercices ont pour but de mettre en
+application le contenu 6.
+
+\begin{itemize}
+\item \(C_6\) : Produit d'un vecteur par un nombre réel. Colinéarité
+de deux vecteurs.
+\end{itemize}
+
+
+
+\section{Exercice 7}
+\label{sec:org538d14f}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix} \\
+\vec{u} &= 3\vec{i} + 2\vec{j}              && \vec{v} = 2\vec{i} + 3\vec{j}
+\end{align*}
+
+Voir figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./Oijorthonormaluv.png}
+\end{center}
+
+\begin{enumerate}
+\item Construire les points A, B, C et D tels que :
+\begin{align*}
+\overrightarrow{OA} &= 2\vec{i} && \overrightarrow{OB} =
+3\vec{i}\\
+\overrightarrow{OC} &= 2\vec{j} && \overrightarrow{OD} =
+3\vec{j}
+\end{align*}
+\item Vérifier que les vecteurs \(\overrightarrow{OA}\) et
+\(\overrightarrow{OB}\) sont colinéaires.
+\item Vérifier que les vecteurs \(\overrightarrow{OC}\) et
+\(\overrightarrow{OD}\) sont colinéaires.
+\item Construire les points E et F tels que :
+\begin{align*}
+\overrightarrow{OE} = \vec{u} && \overrightarrow{OF} = \vec{v}
+\end{align*}
+\item Vérifier que les vecteurs \(\overrightarrow{DE}\) et
+\(\overrightarrow{CF}\) sont colinéaires.
+\end{enumerate}
+
+
+\section{Programme 6}
+\label{sec:org70942c4}
+
+Écrire un programme Python indique si deux vecteurs sont
+colinéaires ou pas. 
+
+\section{QCM d'auto-évaluation}
+\label{sec:org9c67d0b}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Si on multiplie un vecteur par un nombre réel supérieur à 1
+alors :
+\begin{enumerate}[label=\alph*.]
+\item Le vecteur change de direction.
+\item Le vecteur augmente sa norme.
+\item Le vecteur change de sens.
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel inférieur à -1
+alors :
+\begin{enumerate}[label=\alph*.]
+\item Le vecteur change de direction.
+\item Le vecteur augmente sa norme.
+\item Le vecteur change de sens.
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel supérieur à -1 et
+inférieur à 1 alors :
+\begin{enumerate}[label=\alph*.]
+\item Le vecteur change de direction.
+\item Le vecteur diminue sa norme.
+\item Le vecteur change de sens.
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel alors :
+\begin{enumerate}[label=\alph*.]
+\item Le vecteur obtenu n'est pas colinéaire au vecteur initial.
+\item Le vecteur obtenu est colinéaire au vecteur initial.
+\end{enumerate}
+\end{enumerate}
+
+
+\chapter{Contenu 7}
+\label{sec:orgdf65060}
+
+\section{Objectifs pédagogiques}
+\label{sec:org073adff}
+
+Dans cette partie les exercices ont pour but de mettre en
+application le contenu 7.
+
+\begin{itemize}
+\item \(C_7\) : Déterminant de deux vecteurs dans une base
+orthonormée, critère de colinéarité. Application à l'alignement,
+au parallélisme.
+\end{itemize}
+
+
+\section{Exercice 8}
+\label{sec:org1896bb2}
+
+On reprend la configuration finale de l'exercice 7.
+
+Voir figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./figexo8.png}
+\end{center}
+
+\begin{enumerate}
+\item Calculer les déterminants suivants :
+\begin{align*}
+d_1 = det(\vec{i}, \vec{j}) && d_2 = det(\vec{u}, \vec{v})\\
+d_3 = det(\overrightarrow{OA}, \overrightarrow{OB}) && d_4 = det(\overrightarrow{OC}, \overrightarrow{OD}) \\
+d_5 = det(\overrightarrow{OA}, \overrightarrow{OC}) && d_6 = det(\overrightarrow{OB}, \overrightarrow{OD})
+\end{align*}
+\item En utilisant le déterminant montrer que les vecteurs
+\(\overrightarrow{DF}\) et \(\overrightarrow{CE}\) sont
+colinéaires. En déduire la nature du quadrilatère DCEF.
+\item Même question pour \(\overrightarrow{AF}\) et
+\(\overrightarrow{BE}\) et le quadrilatère ABEF.
+\item Calculer les normes des vecteurs \(\overrightarrow{IF}\) et
+\(\overrightarrow{JE}\).
+\item Comparer les vecteurs \(\overrightarrow{IJ}\) et
+\(\overrightarrow{EF}\). En déduire la nature du quadrilatère
+IEFJ.
+\item On nommera G l'intersection des segments [IF] et
+[JE]. Déterminer ses coordonnées. En déduire celle du point H
+tel que \(\overrightarrow{OG} = \overrightarrow{GH}\). En
+déduire la nature du quadrilatère OBHD.
+\item Quelle est la nature du triangle OFE ?
+\item Quelle est l'image du point G par la translation de vecteur
+\(\overrightarrow{BG}\) ?
+\item Déterminer les coordonnées du point K tel que
+\(\overrightarrow{BK} = \vec{j}\).
+\item Déterminer les coordonnées du point L tel que
+\(\overrightarrow{DL} = \vec{i}\).
+\end{enumerate}
+
+
+\section{Programme 7}
+\label{sec:org09e2a0e}
+
+Écrire un programme Python qui indique si 3 points sont alignés ou pas.
+
+\section{QCM d'auto-évaluation}
+\label{sec:org28b540c}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Considérons les vecteurs
+\[\vec{u}_1\begin{pmatrix}x_1\\y_1\end{pmatrix}\] et
+\[\vec{u}_2\begin{pmatrix}x_2\\y_2\end{pmatrix}\] alors :
+\begin{enumerate}[label=\alph*.]
+\item \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
+          = x_1x_2 + y_1y_2\]
+\item \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
+          = x_1x_2 - y_1y_2\]
+\item \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
+          = x_1y_2 + y_1x_2\]
+\item \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
+          = x_1y_2 - y_1x_2\]
+\end{enumerate}
+\item Considérons les mêmes vecteurs que précédemment.
+
+On dira que \(\vec{u}_1\) et \(\vec{u}_2\) sont colinéaires
+si :
+
+\begin{enumerate}[label=\alph*.]
+\item \(det(\vec{u}_1 , \vec{u}_2) = 1\)
+\item \(det(\vec{u}_1 , \vec{u}_2) = 0\)
+\item il existe un réel \(k\) tel que \(x_1 = kx_2\) et \(y_1 =
+          ky_2\)
+\item \(\dfrac{x_1}{x_2} = \dfrac{y_1}{y_2}\)
+\end{enumerate}
+\end{enumerate}
+
+\part{Capacités attendues}
+\label{sec:org7765bf1}
+
+\begin{itemize}
+\item \(Ca_{1}\) : Représenter géométriquement des vecteurs.
+\item \(Ca_{2}\) : Construire géométriquement la somme de deux vecteurs.
+\item \(Ca_{3}\) : Représenter un vecteur dont on connaît les
+coordonnées. Lire les coordonnées d'un vecteur.
+\item \(Ca_{4}\) : Calculer les coordonnées d'une somme de vecteurs, d'un
+produit d'un vecteur par un nombre réel.
+\item \(Ca_{5}\) : Calculer la distance entre deux points. Calculer les
+coordonnées du milieu d'un segment.
+\item \(Ca_{6}\) : Caractériser alignement et parallélisme par la
+colinéarité de vecteurs.
+\item \(Ca_{7}\) : Résoudre des problèmes en utilisant la représentation la
+plus adaptée des vecteurs.
+\end{itemize}
+
+
+\chapter{Capacité attendue 1}
+\label{sec:org803d499}
+\section{Objectifs pédagogiques}
+\label{sec:orge98623e}
+
+Dans cette partie le but est de mettre en application la capacité
+attendue 1.
+
+\begin{itemize}
+\item \(Ca_{1}\) : Représenter géométriquement des vecteurs.
+\end{itemize}
+
+\section{Exercice 9}
+\label{sec:orgc31f625}
+
+On considère le triangle ABC représenté sur la figure avec le
+quadrillage :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./ABCtrig.png}
+\end{center}
+
+\begin{enumerate}
+\item Construire le point D tel que \(\overrightarrow{BD} =
+       \overrightarrow{AB}\).
+\item Construire le point E tel que \(\overrightarrow{CE} =
+       \overrightarrow{AB}\).
+\item Comparer les vecteurs \(\overrightarrow{BE}\) et
+\(\overrightarrow{AC}\).
+\end{enumerate}
+
+
+
+\section{QCM d'auto-évaluation}
+\label{sec:org660d033}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+    signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Un vecteur est caractérisé par :
+\begin{enumerate}[label=\alph*.]
+\item Sa longueur uniquement
+\item Sa direction et son sens uniquement
+\item Sa direction, son sens et sa norme
+\item Son origine et son extrémité
+\end{enumerate}
+
+\item Les vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{CD}\) 
+sont égaux si :
+\begin{enumerate}[label=\alph*.]
+\item A = C et B = D
+\item ABDC est un parallélogramme
+\item AB = CD (distances égales)
+\item Les segments [AB] et [CD] sont parallèles
+\end{enumerate}
+\end{enumerate}
+
+\chapter{Capacité attendue 2}
+\label{sec:org172e7ac}
+\section{Objectifs pédagogiques}
+\label{sec:orgb5edd6b}
+
+Dans cette partie le but est de mettre en application la capacité
+attendue 2.
+
+\begin{itemize}
+\item \(Ca_{2}\) : Construire géométriquement la somme de deux vecteurs.
+\end{itemize}
+
+
+\section{Exercice 10}
+\label{sec:org4a8aa33}
+
+On considère la configuration initiale de l'exercice 9 voir
+figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./ABCtrig.png}
+\end{center}
+
+\begin{enumerate}
+\item Construire le point D tel que \(\overrightarrow{BD} =
+       \overrightarrow{BC} + \overrightarrow{BA}\).
+\item En déduire la nature du quadrilatère ABCD.
+\item Construire le point E tel que \(\overrightarrow{AE} =
+       \overrightarrow{AB} + \overrightarrow{AC}\).
+\item En déduire la nature du quadrilatère ABEC.
+\end{enumerate}
+
+
+\section{QCM d'auto-évaluation}
+\label{sec:org7f38dab}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+Considérons deux vecteurs \(\vec{u}\) et \(\vec{v}\).
+
+\begin{enumerate}
+\item Pour construire géométriquement la somme il faut :
+\begin{enumerate}[label=\alph*.]
+\item partir de l'origine du vecteur \(\vec{u}\) puis, arrivé à
+son extrémité appliquer le vecteur \(\vec{v}\)
+\item partir de l'origine du vecteur \(\vec{v}\) puis, arrivé à
+son extrémité appliquer le vecteur \(\vec{u}\)
+\item les deux propositions précédentes aboutissent au même
+résultat
+\end{enumerate}
+\item Si \(\vec{u}\) et \(\vec{v}\) ne sont pas colinéaires alors
+\(\vec{w} = \vec{u} + \vec{v}\) :
+\begin{enumerate}[label=\alph*.]
+\item est un vecteur ayant même direction que \(\vec{u}\) et
+\(\vec{v}\)
+\item représente la diagonale du parallélogramme obtenu en
+faisant partir \(\vec{u}\) et \(\vec{v}\) de la même origine
+\end{enumerate}
+\end{enumerate}
+
+\chapter{Capacité attendue 3}
+\label{sec:org33ae0f8}
+\section{Objectifs pédagogiques}
+\label{sec:org0b0d5d2}
+
+Dans cette partie le but est de mettre en application la capacité
+attendue 3.
+
+\begin{itemize}
+\item \(Ca_{3}\) : Représenter un vecteur dont on connaît les
+coordonnées. Lire les coordonnées d'un vecteur.
+\end{itemize}
+
+
+\section{Exercice 11}
+\label{sec:orge14a8a4}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+\begin{enumerate}
+\item Représenter le vecteur
+\(\vec{u}\begin{pmatrix}3\\ 5\end{pmatrix}\).
+\item Lire les coordonnées du vecteur \(\vec{v}\) sur la figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./figexo11.png}
+\end{center}
+\end{enumerate}
+
+
+\section{QCM d'auto-évaluation}
+\label{sec:org0c2a5c4}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+Considérons le vecteur
+\(\vec{u}\begin{pmatrix}a\\b\end{pmatrix}\). Alors :
+
+\begin{enumerate}
+\item Pour le représenter dans le repère \((O ; \vec{i} , \vec{j})\) :
+\begin{enumerate}[label=\alph*.]
+\item on se place au point M de coordonnées (a ; b) et on trace le
+vecteur en se déplaçant de a unités sur l'axe horizontal et
+b unités sur l'axe vertical.
+\item partant de l'origine du repère on se déplace de a unités sur
+l'axe horizontal et b unités sur l'axe vertical.
+\end{enumerate}
+\item Pour lire les cordonnées d'un vecteur \(\vec{v}\) :
+\begin{enumerate}[label=\alph*.]
+\item on se place à son origine et on reporte les coordonnées du
+point
+\item on trace un représentant du vecteur en partant de l'origine
+du repère et on lit les coordonnées de son extrémité
+\end{enumerate}
+\end{enumerate}
+
+\chapter{Capacité attendue 4}
+\label{sec:orgb29f501}
+\section{Objectifs pédagogiques}
+\label{sec:org08e9a25}
+
+Dans cette partie le but est de mettre en application la capacité
+attendue 4.
+
+\begin{itemize}
+\item \(Ca_{4}\) : Calculer les coordonnées d'une somme de vecteurs,
+d'un produit d'un vecteur par un nombre réel.
+\end{itemize}
+
+
+
+\section{Exercice 12}
+\label{sec:org9c47387}
+
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+Calculer les coordonnées des vecteurs :
+\begin{align*}
+\vec{s} = \vec{i} + \vec{j} && \vec{d} = \vec{i} - \vec{j}\\
+\vec{p} = 3\vec{d} && \vec{c} = 2\vec{s} - 5\vec{d}
+\end{align*}
+
+\section{QCM d'auto-évaluation}
+\label{sec:org67cd69e}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Soient \[\vec{u}_1\begin{pmatrix}x_1\\y_1\end{pmatrix}\] et
+\[\vec{u}_2\begin{pmatrix}x_2\\y_2\end{pmatrix}\] deux vecteurs
+alors \[\vec{u}_3 = \vec{u}_1 + \vec{u}_2\] a pour
+coordonnées : 
+\begin{enumerate}[label=\alph*.]
+\item \(\vec{u}_3\begin{pmatrix}x_1x_2\\y_1y_2\end{pmatrix}\)
+\item \(\vec{u}_3\begin{pmatrix}x_1 - x_2\\y_1 - y_2\end{pmatrix}\)
+\item \(\vec{u}_3\begin{pmatrix}x_1 + x_2\\y_1 +
+          y_2\end{pmatrix}\)
+\item \(\vec{u}_3\begin{pmatrix}\dfrac{x_1}{x_2}\\\dfrac{y_1}{y_2}\end{pmatrix}\)
+\end{enumerate}
+\item Soient un vecteur \(\vec{u}\begin{pmatrix}x\\y\end{pmatrix}\)
+et un réel k alors \(\vec{v} = ku\) vérifie :
+\begin{enumerate}[label=\alph*.]
+\item \(\vec{v}\begin{pmatrix}kx\\y\end{pmatrix}\)
+\item \(\vec{v}\begin{pmatrix}x\\ky\end{pmatrix}\)
+\item \(\vec{v}\begin{pmatrix}kx\\ky\end{pmatrix}\)
+\item \(\vec{v}\begin{pmatrix}\frac{1}{k}x\\ \frac{1}{k}y\end{pmatrix}\)
+\end{enumerate}
+\end{enumerate}
+
+\chapter{Capacité attendue 5}
+\label{sec:org016fc5f}
+\section{Objectifs pédagogiques}
+\label{sec:org336a632}
+
+Dans cette partie le but est de mettre en application la capacité
+attendue 5.
+
+\begin{itemize}
+\item \(Ca_{5}\) : Calculer la distance entre deux points. Calculer
+les coordonnées du milieu d'un segment.
+\end{itemize}
+
+\section{Exercice 13}
+\label{sec:orgc8844fb}
+
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+On considère les points A(2 ; 3), B(-3 ; 2), C(-2 ; -3) et D(3 ;
+-2) tels que sur la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./figexo13.png}
+\end{center}
+
+\begin{enumerate}
+\item Calculer les distances AB, AC, AD, BC, BD, CD.
+\item Calculer les coordonnées des milieux des segments [AB], [AC],
+[AD], [BC], [BD], [CD].
+\end{enumerate}
+
+
+\section{QCM d'auto-évaluation}
+\label{sec:orgfb803f2}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item La distance entre \(A(x_A ; y_A)\) et \(B(x_B ; y_B)\) vaut :
+\begin{enumerate}[label=\alph*.]
+\item \(AB = x_Ax_B + y_Ay_B\)
+\item \(AB = (x_A + x_B)^2 + (y_A + y_B)^2\)
+\item \(AB = (x_A - x_B)^2 + (y_A - y_B)^2\)
+\item \(AB = \sqrt{(x_A - x_B)^2 + (y_A - y_B)^2}\)
+\end{enumerate}
+\item Le milieu \(M(x_M ; y_M)\) du segment [AB] vérifie :
+\begin{enumerate}[label=\alph*.]
+\item \((x_M ; y_M) = \left(\dfrac{x_A + x_B}{2} ; \dfrac{y_A +
+          y_B}{2}\right)\)
+\item \((x_M ; y_M) = \left(\dfrac{x_A - x_B}{2} ; \dfrac{y_A -
+          y_B}{2}\right)\)
+\item \((x_M ; y_M) = \left(\dfrac{x_A \times x_B}{2} ; \dfrac{y_A \times
+          y_B}{2}\right)\)
+\item \((x_M ; y_M) = \left(\dfrac{x_A \div x_B}{2} ; \dfrac{y_A \div
+          y_B}{2}\right)\)
+\end{enumerate}
+\end{enumerate}
+
+\chapter{Capacité attendue 6}
+\label{sec:org6c34a93}
+\section{Objectifs pédagogiques}
+\label{sec:org0e21249}
+
+Dans cette partie le but est de mettre en application la capacité
+attendue 6.
+
+\begin{itemize}
+\item \(Ca_{6}\) : Caractériser alignement et parallélisme par la
+colinéarité de vecteurs.
+\end{itemize}
+
+
+\section{Exercice 14}
+\label{sec:orgc3d6768}
+
+On reprend la configuration de l'exercice précédent.
+
+Voir la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./figexo13.png}
+\end{center}
+
+\begin{enumerate}
+\item Les points A, O et C sont-ils alignés ?
+\item Calculer OA et OC. Qu'en déduisez-vous ?
+\item Calculer le déterminant \(det(\overrightarrow{OD} ,
+       \overrightarrow{OB})\). Quelle interprétation géométrique en
+déduisez-vous ?
+\item Comparer OB et OD. Qu'en déduisez-vous ?
+\item Les vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{CD}\)
+sont-ils colinéaires ?
+\item Comparer AB et AD.
+\item Quelle est la nature du quadrilatère ABCD ?
+\end{enumerate}
+
+
+\section{QCM d'auto-évaluation}
+\label{sec:org8dc3f61}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Pour montrer que A, B et C sont alignés il faut :
+\begin{enumerate}[label=\alph*.]
+\item que \(\overrightarrow{AB} = \overrightarrow{AC}\)
+\item qu'il existe un réel k tel que \(\overrightarrow{AB} =
+          k\overrightarrow{AC}\)
+\item vérifier que \(\overrightarrow{AB} + \overrightarrow{BC} =
+          \overrightarrow{AC}\)
+\item vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{AC}) = 0\)
+\end{enumerate}
+\item Pour montrer que les droites (AB) et (CD) sont parallèles il faut :
+\begin{enumerate}[label=\alph*.]
+\item montrer que les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{CD}\) sont colinéaires
+\item vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) = 0\)
+\item montrer que \(\overrightarrow{AB} = \overrightarrow{CD}\)
+\item vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) \neq 0\)
+\end{enumerate}
+\end{enumerate}
+
+
+\chapter{Capacité attendue 7}
+\label{sec:org78b06c8}
+\section{Objectifs pédagogiques}
+\label{sec:org686198e}
+
+Dans cette partie le but est de mettre en application la capacité
+attendue 7.
+
+\begin{itemize}
+\item \(Ca_{7}\) : Résoudre des problèmes en utilisant la
+représentation la plus adaptée des vecteurs.
+\end{itemize}
+
+
+
+\section{Exercice 15}
+\label{sec:orgbb11954}
+
+Pour chacune des situations suivantes, indiquez comment la
+résoudre selon la représentation vectorielle parmi :
+
+\begin{itemize}
+\item Analytique (coordonnées, calculs algébriques)
+\item Colinéarité (proportionnalité, déterminant)
+\item Géométrique (relation de Chasles, parallélogramme)
+\end{itemize}
+
+
+\begin{enumerate}
+\item Démontrer que les points A, B, C sont alignés
+\item Calculer la distance entre deux points A(2;3) et B(5;7)
+\item Montrer que ABCD est un parallélogramme
+\item Trouver les coordonnées du point M tel que :
+\[\overrightarrow{AM} = 2\overrightarrow{AB} +
+       3\overrightarrow{AC}\]
+\item Vérifier si deux droites (AB) et (CD) sont parallèles
+\end{enumerate}
+
+
+\section{Programme}
+\label{sec:org15f4729}
+
+Écrire un programme Python qui résout le problème
+\[\overrightarrow{AM} = a\overrightarrow{AB} +
+    b\overrightarrow{AC}\]
+C'est-à-dire un programme qui permet d'exprimer les coordonnées du
+point M en fonction des paramètres a et b et des coordonnées des
+points déjà existants A, B, et C.
+
+\section{QCM d'auto-évaluation}
+\label{sec:org38ffb2f}
+
+\textbf{Parmi les réponses proposées au moins une est la bonne. Cela
+signifie qu'il peut y avoir \emph{plusieurs} bonnes réponses.}
+
+\begin{enumerate}
+\item Si ABC est un triangle et que D est un 4ème point qui vérifie
+l'égalité \[\overrightarrow{AD} = \overrightarrow{AB} +
+       \overrightarrow{AC}\]
+alors on peut en déduire que :
+\begin{enumerate}[label=\alph*.]
+\item \(\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}\)
+\item ABCD est un parallélogramme
+\item ABDC est un parallélogramme
+\item \(\overrightarrow{AB} = \overrightarrow{CD}\) et
+\(\overrightarrow{AC} = \overrightarrow{BD}\) les deux
+égalités sont vraies
+\item \(\overrightarrow{AB} = \overrightarrow{CD}\) ou
+\(\overrightarrow{AC} = \overrightarrow{BD}\) une seule des
+deux égalités est vraie
+\item \(\overrightarrow{AB} \neq \overrightarrow{CD}\) et
+\(\overrightarrow{AC} \neq \overrightarrow{BD}\) aucune
+des égalités n'est vraie
+\item le point D est à l'intérieur du triangle ABC
+\item le point D est l'image du point A par la symétrie de
+centre le milieu du segment [BC]
+\item le point D est à l'extérieur du triangle ABC
+\item le point D est l'image du point I par la translation de
+vecteur \(\overrightarrow{AI}\) où I est le milieu du
+segment [BC]
+\end{enumerate}
+\item Si ABCD est un carré alors : 
+\begin{enumerate}[label=\alph*.]
+\item Les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{AC}\) forment une base orthornomée
+\item Les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{AD}\) forment une base orthornomée
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 1\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 0\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 1\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\)
+\item \(AC^2 = AB^2 + BC^2\)
+\item \(\overrightarrow{AB} + \overrightarrow{CD} =
+          2\overrightarrow{AB}\)
+\item \(\overrightarrow{AB} + \overrightarrow{CD} = \vec{0}\)
+\item Le centre O du carré vérifie
+\[\overrightarrow{OA} + \overrightarrow{OB} +
+           \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}\]
+\end{enumerate}
+\item Si ABCD est un rectangle et O l'intersection des droites (AC)
+et (BD) alors : 
+\begin{enumerate}[label=\alph*.]
+\item \(\overrightarrow{OA} + \overrightarrow{OB} +
+          \overrightarrow{OB} + \overrightarrow{OD} = \vec{0}\)
+\item \(\overrightarrow{AO} = \overrightarrow{OC} = \dfrac{1}{2}\overrightarrow{AC}\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 1\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 0\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 1\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\)
+\item \(AC > AB + BC\)
+\item \(AC < AB + AD\)
+\item \(AC = BD\)
+\item \(AC\neq BD\)
+\end{enumerate}
+\item Soient A et B deux points distincts du plan. Si C est l'image
+de B par la translation de vecteur \(\overrightarrow{AB}\)
+alors : 	 
+\begin{enumerate}[label=\alph*.]
+\item B est le milieu du segment [AC]
+\item \(\overrightarrow{AC} = 2\overrightarrow{AB}\)
+\item \(\overrightarrow{OC} = \overrightarrow{OA} +
+          2\overrightarrow{OB}\)
+\item les coordonnées de C vérifient :
+\begin{align*}
+x_C &= 2x_B - x_A\\
+y_C &= 2y_B - y_A
+\end{align*}
+\item les coordonnées de C vérifient :
+\begin{align*}
+x_C &= 2x_B + x_A\\
+y_C &= 2y_B + y_A
+\end{align*}
+\item C est l'image de A par la symétrie de centre B.
+\item C est le milieu du segment [AB].
+\item \(\overrightarrow{AB} = \overrightarrow{BC}\)
+\item \(\overrightarrow{AB} + \overrightarrow{BC} =
+          2\overrightarrow{AB}\)
+\item \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\)
+\end{enumerate}
+\item Si on a \(det(\overrightarrow{AB}, \overrightarrow{AD}) \neq 0\)
+et \(det(\overrightarrow{AB}, \overrightarrow{DC}) = 0\) alors :
+\begin{enumerate}[label=\alph*.]
+\item ABCD ou ABDC est un trapèze.
+\item Si AB = DC alors ABCD ou ABDC est un parallélogramme.
+\item Si AB = AD = DC alors ABCD est un losange.
+\item Si AB = AC = CD alors ABDC est un losange.
+\item Si AB = DC et CA = BD alors ABDC est un rectangle.
+\item Si AB = DC et AD = BC alors ABDC est un rectangle.
+\item Si AB = DC et AC = BD alors ABCD est un rectangle.
+\item Si AB = DC et AD = BC alors ABCD est un rectangle.
+\item Si AB = DC et AC = BD alors ABCD est un losange.
+\item Si AB = DC et AD = BC alors ABCD est un losange.
+\end{enumerate}
+\item Soient \(\vec{u}\), \(\vec{v}\) et \(\vec{w}\) trois vecteurs
+tels que \(\vec{w} = \vec{u} + \vec{v}\).
+\begin{enumerate}[label=\alph*.]
+\item Si \(\lvert\lvert\vec{u}\rvert\rvert +
+          \lvert\lvert\vec{v}\rvert\rvert =
+          \lvert\lvert\vec{w}\rvert\rvert\) alors les trois vecteurs
+sont colinéaires.
+\item Il est impossible que les trois vecteurs soient colinéaires.
+\item Si \(det(\vec{u}, \vec{v}) = 0\) alors les trois vecteurs
+sont colinéaires.
+\item Si \(det(\vec{u}, \vec{v}) = 0\) alors \(det(\vec{v},
+          \vec{w}) = 0\).
+\item Si \(det(\vec{w}, \vec{u}) = 0\) alors \(det(\vec{u},
+          \vec{v}) = 0\).
+\item \(\lvert\lvert\vec{u}\rvert\rvert +
+          \lvert\lvert\vec{v}\rvert\rvert >
+          \lvert\lvert\vec{w}\rvert\rvert\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert +
+          \lvert\lvert\vec{v}\rvert\rvert <
+          \lvert\lvert\vec{w}\rvert\rvert\)
+\item Si \(det(\vec{u}, \vec{v}) = 0\) alors soit \(\vec{u} =
+          \vec{0}\) soit \(\vec{v} = \vec{0}\)
+\item Si \(det(\vec{u}, \vec{v}) = 0\) alors soit \(\vec{w} =
+          \vec{u}\) soit \(\vec{w} = \vec{v}\)
+\item Si \(det(\vec{w}, \vec{u}) = 0\) alors soit \(\vec{u} =
+          -\vec{v}\) soit \(\vec{w} = \vec{0}\)
+\end{enumerate}
+\item Soit un vecteur \(\vec{u}\) de norme
+\(\lvert\lvert\vec{u}\rvert\rvert = 5\).
+\begin{enumerate}[label=\alph*.]
+\item Si \(x_{\vec{u}} = 3\) alors \(y_{\vec{u}} = 4\).
+\item Si \(x_{\vec{u}} = 3\) alors \(y_{\vec{u}} = -4\).
+\item Si \(x_{\vec{u}} = -3\) alors \(y_{\vec{u}} = -4\).
+\item Si \(x_{\vec{u}} = -3\) alors \(y_{\vec{u}} = 4\).
+\item Si \(x_{\vec{u}} = \pm 3\) alors \(y_{\vec{u}} = \pm 4\).
+\item Si \(x_{\vec{u}} = -4\) alors \(y_{\vec{u}} = 3\).
+\item Si \(x_{\vec{u}} = -4\) alors \(y_{\vec{u}} = -3\).
+\item Si \(x_{\vec{u}} = 4\) alors \(y_{\vec{u}} = -3\).
+\item Si \(x_{\vec{u}} = 4\) alors \(y_{\vec{u}} = 3\).
+\item Si \(x_{\vec{u}} = \pm 4\) alors \(y_{\vec{u}} = \pm 3\).
+\end{enumerate}
+\item Dans un repère orthonormée \((O ; \vec{i} , \vec{j})\) on
+considère les points A(3 ; 2), B(3 ; -2), C(-3 ; -2), D(3 ;
+-1), E(-3 ; -1), F(-1 ; -1), G(1 ; 1), H(1 ; 2), I(-1 ; 2).       
+\begin{enumerate}[label=\alph*.]
+\item Les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{AC}\) sont colinéaires car
+\[det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\]
+\item Les vecteurs \(\overrightarrow{AH}\) et
+\(\overrightarrow{AI}\) sont colinéaires car
+\[det(\overrightarrow{AH} , \overrightarrow{AI}) = 0\]
+\item Les points A, B et C sont alignés.
+\item Les points D, E et F sont alignés.
+\item ABC est un triangle rectangle en B.
+\item ABD est un triangle rectangle en B.
+\item GDF est un triangle rectangle en G.
+\item GDF est un triangle isocèle en G.
+\item BCHA est un trapèze.
+\item Les vecteurs \(\overrightarrow{BC}\) et
+\(\overrightarrow{AH}\) sont colinéaires.
+\end{enumerate}
+\item Dans un repère orthonormée \((O ; \vec{i} , \vec{j})\) on
+considère les points A(2 ; 3), B(-3 ; 2), C(-2 ; -3); D(3 ;
+-2).
+\begin{enumerate}[label=\alph*.]
+\item Le triangle BOA est isocèle en A.
+\item Le triangle BOA est isocèle en B.
+\item Le triangle BOA est isocèle en O.
+\item Le triangle BOA est rectangle en A.
+\item Le triangle BOA est rectangle en B.
+\item Le triangle BOA est rectangle en O.
+\item C est l'image de O par la translation de vecteur
+\(\overrightarrow{AO}\).
+\item D est l'image de O par la translation de vecteur
+\(\overrightarrow{BO}\).
+\item ABDC est un carré.
+\item ABCD est un carré.
+\end{enumerate}
+\end{enumerate}
+
+\part{Exercices complémentaires}
+\label{sec:orgcb172e8}
+\chapter{Pour s'exercer davantage}
+\label{sec:org8c4e168}
+\section{Exercice 16}
+\label{sec:org7683aa5}
+
+
+Soit ABC un triangle. On note I, J, K les milieux respectifs de
+[BC], [CA], [AB].
+
+\begin{itemize}
+\item Méthode 1 (Géométrique) : En utilisant la relation de Chasles,
+montrer que :      
+\[\overrightarrow{AI} + \overrightarrow{BI} = \vec{0}\]
+\item Méthode 2 (Analytique) : Placer A(0;0), B(4;0), C(2;3) dans un
+repère et calculer les coordonnées de I. Vérifier la relation.
+\item Question : Quelle méthode préférez-vous ? Pourquoi ?
+\end{itemize}
+
+\section{Exercice 17}
+\label{sec:org7efc9ce}
+
+On considère un triangle ABC et un point G tel que :
+
+\[\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC}
+    = \vec{0}\]
+
+\begin{enumerate}
+\item Exprimer \(\overrightarrow{AG}\) en fonction de
+\(\overrightarrow{AB}\) et \(\overrightarrow{AC}\).
+\item En déduire les coordonées du point G en fonction de celles des
+points A, B et C.
+\end{enumerate}
+
+\section{Exercice 18}
+\label{sec:org35f0d77}
+
+Soient A et B deux points distincts dans le plan.
+
+Déterminer l'ensemble des points M tels que MA = MB.
+
+
+\section{Exercice 19}
+\label{sec:org9734e5b}
+
+\begin{enumerate}
+\item Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\), placer les points A(1 ; 2), B(4 ; 5) et C(7 ; 8).
+\item A, B et C sont-ils alignés ? Conjecturer géométriquement (à
+l'oeil).
+\item Démontrer votre conjecture par le calcul (en utilisant le
+déterminant).
+\end{enumerate}
+
+\section{Exercice 20}
+\label{sec:org65b1200}
+
+Dans le plan canonique on considère les points A(0 ; 0), B(3 ; 1),
+C(4 ; 4) et D(1 ; 3).
+
+Quelle est la nature du quadrilatère ABCD ?
+
+\begin{enumerate}
+\item Utiliser uniquement le calcul de distance et le déterminant.
+\item Utiliser une seule égalité vectorielle.
+\end{enumerate}
+
+
+\section{Exercice 21}
+\label{sec:orgcb677f7}
+
+On donne A(1;2), B(4;3), C(5;6), D(2;5).
+
+\begin{enumerate}
+\item Représentation analytique : Calculer les coordonnées des
+vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{DC}\)
+\item Test d'égalité : Que constatez-vous ?
+\item Interprétation géométrique : Quelle est la nature du
+quadrilatère ABCD ?
+\item Vérification alternative : Calculer les coordonnées des milieux
+de [AC] et [BD]. Conclusion ?
+\end{enumerate}
+
+
+\section{Exercice 22}
+\label{sec:orgb41eda6}
+
+Soit ABC un triangle. Le point G vérifie :
+\[\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC}
+    = \vec{0}\]
+
+\begin{enumerate}
+\item Pourquoi la représentation analytique est-elle préférable pour
+trouver les coordonnées de G ?
+\item Sachant que A(-2;1), B(4;3), C(1;-2), déterminer les
+coordonnées de G.
+\item Vérifier géométriquement que G est situé aux 2/3 de chaque
+médiane en partant du sommet.
+\end{enumerate}
+
+
+\section{Exercice 23}
+\label{sec:org486ed0b}
+
+On considère la transformation qui à tout point M associe le point
+M' tel que :
+
+\[\overrightarrow{OM'} = 2\overrightarrow{OM} + \vec{u}\]
+
+où \(\vec{u} = \begin{pmatrix}3\\-1\end{pmatrix}\)
+
+\begin{enumerate}
+\item Approche analytique : Si M(x;y), exprimer les coordonnées de
+M'(x';y')
+\item Cas particulier : Trouver le(s) point(s) invariant(s) par cette
+transformation
+\item Interprétation géométrique : Décrire cette transformation en
+termes simples
+\end{enumerate}
+
+
+
+\section{Exercice 24}
+\label{sec:org4bea973}
+
+Dans le triangle ABC, on place :
+
+\begin{itemize}
+\item M sur [AB] tel que AM = (1/3)AB
+\item N sur [AC] tel que AN = (1/3)AC
+\item P intersection de (BN) et (CM)
+\end{itemize}
+
+Démontrer que P appartient à la droite (AP) et que AP = (2/3) de
+la médiane issue de A.
+
+Conseil : Testez plusieurs approches et comparez leur efficacité.
+
+
+
+\section{Exercice 25}
+\label{sec:orgde8a469}
+
+Un bateau situé en B doit rejoindre un port P. Le courant marin
+exerce une force représentée par le vecteur
+\[\vec{c}\begin{pmatrix}2\\-3\end{pmatrix}\]
+(en km/h).
+
+Le capitaine peut diriger son bateau avec une vitesse propre de 18 km/h.
+Données : B(0;0), P(15;8) (distances en km)
+
+\begin{enumerate}
+\item Représentation : Quelle direction doit-il donner à son bateau
+pour atteindre exactement P en tenant compte du courant ?
+\item Calcul : Combien de temps mettra-t-il ?
+\item Justification : Expliquez votre choix de représentation
+vectorielle.
+\end{enumerate}
+
+
+\section{Exercice 26}
+\label{sec:org714d083}
+
+Trois villes A(0;0), B(8;0), C(4;6) doivent être reliées par un
+réseau routier.
+
+On cherche le point M qui minimise la somme des distances MA + MB + MC.
+
+\begin{enumerate}
+\item Approche géométrique : Pourquoi le centre de gravité G du
+triangle semble-t-il une bonne candidate ?
+\item Approche analytique : Calculer les coordonnées de G
+\item Vérification : Calculer GA + GB + GC
+\item Question ouverte : G est-il vraiment le point optimal ?
+
+\textbf{Note} : Le point qui minimise la somme des distances s'appelle
+le \textbf{point de Fermat} (ou point de Torricelli). Pour le trouver,
+il faudrait des outils mathématiques que vous verrez en études
+supérieures. Ici, on vérifie simplement que le centre de
+gravité G donne déjà un bon résultat, sans être optimal.
+\end{enumerate}
+
+
+
+\part{Exercices de synthèse}
+\label{sec:orgb28ee2c}
+\chapter{Représentation par coordonnées (dans un repère)}
+\label{sec:orgd0a6ee1}
+\section{Exercice 27}
+\label{sec:orge44bc54}
+
+Dans un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\), on donne les points A(2,3), B(-1, 4), et C(5,−2).
+
+
+\begin{enumerate}
+\item Déterminer les coordonnées des vecteurs
+\(\overrightarrow{AB}\) et \(\overrightarrow{AC}\).
+\item Montrer que les points A, B, et C ne sont pas alignés en
+utilisant les vecteurs.
+\item Trouver les coordonnées du point D tel que
+\[\overrightarrow{AD} = 2\overrightarrow{AB} -
+       \overrightarrow{AC}\]
+\end{enumerate}
+
+Objectif : Utiliser les coordonnées pour calculer des vecteurs,
+vérifier l’alignement, et résoudre des équations vectorielles.
+
+\chapter{Représentation géométrique (sans repère)}
+\label{sec:org4a43368}
+\section{Exercice 28}
+\label{sec:org7c0b7ea}
+
+Soit un parallélogramme ABCD de centre O.
+
+\begin{enumerate}
+\item Exprimer \(\overrightarrow{AO}\) en fonction de
+\(\overrightarrow{AB}\) et \(\overrightarrow{AD}\).
+\item Montrer que pour tout point M du plan, on a :
+\[\overrightarrow{MA} + \overrightarrow{MC} =
+       \overrightarrow{MB} + \overrightarrow{MD}\]
+\item En déduire l’ensemble des points M tels que
+\[\lvert\lvert \overrightarrow{MA} +
+       \overrightarrow{MC}\rvert\rvert = 6\]
+\end{enumerate}
+
+Objectif : Manipuler les vecteurs avec des relations géométriques
+(parallélogramme, milieu) et utiliser la norme pour caractériser
+un ensemble de points.
+
+
+\section{Exercice 29}
+\label{sec:orgd72093a}
+
+Soit ABCD un carré de centre O.
+
+Déterminer l'ensemble des points M(x, y) du plan tels que OM = OA.
+
+\chapter{Colinéarité et alignement}
+\label{sec:orgaf41a01}
+
+\section{Exercice 30}
+\label{sec:orgafc8876}
+
+Soit les vecteurs \(\vec{u}\begin{pmatrix}3\\-2\end{pmatrix}\) et
+\(\vec{v}\begin{pmatrix}-6\\4\end{pmatrix}\).
+
+\begin{enumerate}
+\item Montrer que \(\vec{u}\) et \(\vec{v}\) sont colinéaires.
+\item Trouver tous les points M(x,y) tels que le vecteur
+\(\overrightarrow{OM}\) soit colinéaire à \(\vec{u}\).
+\item Les points A(1,0), B(4,−2), et C(−2,1) sont-ils alignés ?
+Justifier avec les vecteurs.
+\end{enumerate}
+
+Objectif : Utiliser la colinéarité pour caractériser l’alignement
+ou trouver des ensembles de points.
+
+\section{Exercice 31}
+\label{sec:org47c37a6}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+\begin{enumerate}
+\item Déterminer l'ensemble des points M(x ; y) tels que
+\(\overrightarrow{OM} = k\vec{i}\) avec \(k\in\mathbb{R}\).
+\item Déterminer l'ensemble des points M(x ; y) tels que
+\(\overrightarrow{OM} = k\vec{j}\) avec \(k\in\mathbb{R}\).
+\item Posons \(\vec{u} = \vec{i} + \vec{j}\).
+Déterminer l'ensemble des points M(x ; y) tels que
+\(\overrightarrow{OM} = k\vec{u}\) avec \(k\in\mathbb{R}\).
+\item Posons \(\vec{v} = \vec{i} - \vec{j}\).
+Déterminer l'ensemble des points M(x ; y) tels que
+\(\overrightarrow{OM} = k\vec{v}\) avec \(k\in\mathbb{R}\).
+\item Posons \(\vec{w} = -\vec{i} - \vec{j}\).
+Déterminer l'ensemble des points M(x ; y) tels que
+\(\overrightarrow{OM} = k\vec{w}\) avec \(k\in\mathbb{R}\).
+\end{enumerate}
+
+
+
+\part{Démonstrations}
+\label{sec:org7ab991a}
+\chapter{Démonstrations}
+\label{sec:org382e893}
+\section{Exercice 32}
+\label{sec:orgb341fad}
+
+Démontrer que deux vecteurs sont colinéaires si et seulement si
+leur déterminant est nul.
+
+\section{Exercice 32bis}
+\label{sec:org8abc8f2}
+
+ Démontrer que pour tous points A, B, C : 
+\(\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}\)
+
+\section{Exercice 32ter}
+\label{sec:org4d3bea3}
+
+Démontrer que si I est le milieu de [AB], alors :
+\(\overrightarrow{AI} = \frac{1}{2}\overrightarrow{AB}\)   
+
+\part{Exercices divers}
+\label{sec:org534c36c}
+\chapter{Alphabet}
+\label{sec:org1f5d32a}
+\section{Introduction}
+\label{sec:org2cb548b}
+
+Dans cette section, vous allez apprendre à maîtriser les vecteurs en 
+traçant toutes les lettres de l'alphabet latin. Chaque lettre est une 
+construction géométrique précise utilisant les opérations vectorielles.
+
+\textbf{Objectifs} :
+\begin{itemize}
+\item Renforcer la manipulation des vecteurs de base \(\vec{i}\) et \(\vec{j}\)
+\item Visualiser concrètement les combinaisons linéaires
+\item Développer la précision du tracé géométrique
+\item S'amuser avec les mathématiques !
+\end{itemize}
+
+\textbf{Consignes générales} :
+\begin{enumerate}
+\item Utilisez une règle et un compas pour les tracés
+\item Respectez scrupuleusement l'échelle (1 carreau = 1 unité recommandé)
+\item Vérifiez visuellement que vous obtenez bien la lettre attendue
+\item Si nécessaire, recommencez le tracé pour gagner en précision
+\end{enumerate}
+
+\section{Exercice 33}
+\label{sec:orge8cd706}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer le point A tel que \(\overrightarrow{OA} = 2\vec{i} +
+       3\vec{j}\)
+\item Construire l'image A' du point A par la translation de vecteur
+\(\vec{v} = 2\vec{i} - 3\vec{j}\).
+\item Déterminer les coordonnées de milieux des segments [OA] et
+[AA'] qu'on nommera H et H' respectivement.
+\item Exprimer le vecteur \(\overrightarrow{HH'}\) en fonction des
+vecteurs de la base.
+\item À quelle lettre de l'alphabet latin peut-on penser lorsqu'on
+relie O, A, A' puis H et H' ?
+\end{enumerate}
+
+
+\section{Exercice 34}
+\label{sec:orgc41bd83}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer les points I et J images de O par les translations de
+vecteurs \(\vec{i}\) et \(\vec{j}\) respectivement.
+\item Placer J' image de O par la translation de vecteur
+\(-\vec{j}\).
+\item Placer O' image de J par la translation de vecteur
+\(\vec{j}\).
+\item Placer J'' image de J par la translation de vecteur
+\(2\vec{j}\).
+\item Placer I' image de O' par la translation de vecteur
+\(\vec{i}\).
+\item Tracer le demi-cercle de centre O passant par I et J (vérifier
+qu'il passe bien par J').
+\item Tracer le demi-cercle de centre O' passant par J et I' (vérifier
+qu'il passe bien par J'').
+\item Tracer le segment J'J''.
+\item Vérifier que vous avez bien obtenu la lettre B.
+\end{enumerate}
+
+
+\section{Exercice 35}
+\label{sec:org0c82540}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer le point C tel que \(\overrightarrow{OC} = -\vec{i}\).
+\item Placer le point J tel que \(\overrightarrow{OJ} = \vec{j}\).
+\item Placer le point J' image de O par la translation de vecteur
+\(-\vec{j}\).
+\item Tracer le demi-cercle de centre O passant par J et J'.
+\item Vérifier qu'il passe bien par C et qu'il forme le tracé de la
+lettre C.
+\end{enumerate}
+
+
+\section{Exercice 36}
+\label{sec:orge93ffb9}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer le point D image de O par la translation de vecteur
+\(\vec{i}\).
+\item Placer le point J tel que \(\overrightarrow{OJ} = \vec{j}\).
+\item Placer le point J' tel que O soit le milieu du segment [JJ'].
+\item Tracer le demi-cercle de centre O passant par J, I et J'.
+\item Reconnaître la lettre D.
+\end{enumerate}
+
+
+\section{Exercice 37}
+\label{sec:org97b1f2b}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer les points I et J tels qu'ils soient les images
+respectives de O par les translations de vecteurs \(\vec{i}\)
+et \(\vec{j}\).
+\item Tracer le vecteur \(\vec{j}\) en partant de J, on nommera J'
+son extrémité.
+\item Tracer le vecteur \(\vec{i}\) en partant de J, on nommera I'
+son extrémité.
+\item Tracer le vecteur \(\vec{i}\) en partant de J', on nommera I''
+son extrémité.
+\item Vérifier que vous avez bien obtenu la lettre E.
+\end{enumerate}
+
+\section{Exercice 38}
+\label{sec:orgb5b152c}
+
+Dans le plan muni d'un repère orthonormé \((O ; I ; J)\) avec I(1
+; 0) et J(0 ; 1). On veillera à NE PAS tracer le vecteur
+\(\vec{i}\begin{pmatrix}1\\0\end{pmatrix}\).
+
+\begin{enumerate}
+\item Tracer le vecteur \(2\overrightarrow{OJ}\) en partant de O, on
+nommera J' son extrémité.
+\item Tracer le vecteur \(\overrightarrow{OI}\) en partant de J, on
+nommera I' son extrémité.
+\item Tracer le vecteur \(\overrightarrow{OI}\) en partant de J', on
+nommera I'' son extrémité.
+\item Vérifier que les vecteurs tracés forment bien la lettre F.
+\end{enumerate}
+
+
+
+\section{Exercice 39}
+\label{sec:org94ffab2}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Tracer le vecteur \(\vec{j}\) avec pour origine I(1 ; 0) et
+extrémité I' dont vous déterminerez les coordonnées.
+\item Construire le point I'' image de I' par la translation de
+vecteur \(\vec{u} = -\dfrac{1}{2}\vec{i}\).
+\item Placer le point J' tel que \(\overrightarrow{OJ'} = 2\vec{j}\).
+\item Construire le point J'' image de J' par la translation de
+vecteur \(\vec{i}\).
+\item Vérifier que l'enchaînement \(\overrightarrow{I''I'}\) puis
+\(\overrightarrow{I'I}\) puis \(\overrightarrow{IO}\) puis
+\(\overrightarrow{OJ'}\) et enfin \(\overrightarrow{J'J''}\)
+forme bien la lettre G.
+\end{enumerate}
+
+
+
+\section{Exercice 40}
+\label{sec:org1d918c0}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+
+\begin{enumerate}
+\item Placer I tel que \(\overrightarrow{OI} = \vec{i}\).
+\item Placer J tel que \(\overrightarrow{OJ} = \vec{j}\).
+\item Construire J' tel que O soit le milieu de [JJ'] et donc tracer
+le vecteur \(\overrightarrow{OJ'}\).
+\item Construire I' l'image de I par la translation de vecteur
+\(\vec{j}\) et donc tracer le vecteur \(\overrightarrow{II'}\).
+\item Construire I'' l'image de I par la translation de vecteur
+\(-\vec{j}\) et donc tracer le vecteur
+\(\overrightarrow{II''}\).
+\item Vérifier que vous avez obtenu la lettre H.
+\end{enumerate}
+
+
+\section{Exercice 41}
+\label{sec:orga6d5c74}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer I image de O par la translation de vecteur \(\vec{i}\).
+\item Placer J image de O par la translation de vecteur
+\(2\vec{j}\).
+\item Construire I' tel que O soit le milieu de [II'].
+\item Construire I'' tel que \(\overrightarrow{O'I''} = \vec{i}\).
+\item Placer J' tel que J soit le milieu de [I''J].
+\item Si vous faites l'enchaînement \(\overrightarrow{OI}\) en
+partant de O, puis \(\overrightarrow{OI'}\) toujours en partant
+de O, puis \(\overrightarrow{OJ}\) toujours en partant de O,
+puis \(\overrightarrow{JI''}\) en partant de J et enfin
+\(\overrightarrow{JJ'}\) en partant de J vous obtenez la lettre
+I.
+\end{enumerate}
+
+
+\section{Exercice 42}
+\label{sec:orgbf25eea}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer le point I tel que \(\overrightarrow{OI} = \vec{i}\).
+\item Construire le point J tel que l'image de O par la translation
+de vecteur \(\vec{j}\).
+\item Tracer le vecteur \(2\vec{j}\) en partant de I et nommer I' son
+extrémité.
+\item Vérifier qu'en faisant l'enchaînement \(\overrightarrow{I'I}\)
+puis \(\overrightarrow{IO}\) puis enfin \(\overrightarrow{OJ}\)
+on obtient bien la lettre J.
+\end{enumerate}
+
+
+\section{Exercice 43}
+\label{sec:org7dd2332}
+
+Dans le plan muni d'un repère orthonormé \((O ; I ; J\). Avec I(1
+; 0) et J(0 ; 1).
+
+\begin{enumerate}
+\item Construire I' image de I par la translation de vecteur
+\(2\overrightarrow{OJ}\).
+\item Construire J' image de J par la translation de vecteur
+\(\overrightarrow{OJ}\).
+\item En partant de O tracer le vecteur \(\overrightarrow{OJ}\).
+\item En partant de J tracer le vecteur \(\overrightarrow{JI}\).
+\item En partant de J tracer le vecteur \(\overrightarrow{JI'}\).
+\item En partant de J tracer le vecteur \(\overrightarrow{JJ'}\).
+\item Vérifiez que vous avez bien obtenu la lettre K.
+\end{enumerate}
+
+
+\section{Exercice 44}
+\label{sec:org0bb8eb4}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item En partant de O tracer le vecteur \(\vec{i}\), on nommera I son
+extrémité.
+\item En partant de O tracer le vecteur \(\vec{j}\), on nommera J son
+extrémité.
+\item Vérifier que l'enchaînement \(\overrightarrow{JO}\) en partant
+de J puis \(\overrightarrow{OI}\) en partant de O donne bien la
+lettre L.
+\end{enumerate}
+
+\section{Exercice 45}
+\label{sec:org344d132}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{i}\). 
+
+\begin{enumerate}
+\item Partir de O et tracer le vecteur \(\vec{j}\), on nommera J son
+extrémité.
+\item À partir de J tracer le vecteur \(\vec{u} =
+       \dfrac{1}{2}(\vec{i} - \vec{j})\), on nommera K son extrémité.
+\item À partir de K tracer le vecteur \(\vec{v} =
+       \dfrac{1}{2}(\vec{i} + \vec{j})\), on nommera I' son extrémité.
+\item À partir de I' tracer le vecteur \(-\vec{j}\), on nommera I son
+extrémité.
+\item Vérifier qu'on a bien obtenu la lettre M.
+\end{enumerate}
+
+
+
+
+\section{Exercice 46}
+\label{sec:org602e570}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{i}\). 
+
+\begin{enumerate}
+\item Partir de O et tracer le vecteur \(\vec{j}\), on nommera J son
+extrémité.
+\item À partir de J tracer le vecteur \(\vec{u} = \vec{i} -
+       \vec{j}\), on nommera I son extrémité.
+\item À partir de I tracer le vecteur \(\vec{j}\), on nommera I' son
+extrémité.
+\item Vérifier qu'on a bien tracé la lettre N.
+\end{enumerate}
+
+
+
+\section{Exercice 47}
+\label{sec:org530f4f1}
+
+Dans le plan muni d'un repère orthonormé \((O ; I ; J\). Avec I(1
+; 0) et J(0 ; 1).
+
+\begin{enumerate}
+\item Tracer le cercle de centre O passant par I et J.
+\item Vérifier qu'on a bien obtenu la lettre O.
+\end{enumerate}
+
+
+\section{Exercice 48}
+\label{sec:orgb429317}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item En partant de O tracer le vecteur \(\vec{i}\), on nommera I son
+extrémité.
+\item À partir de I tracer le vecteur \(\vec{j}\), on nommera I' son
+extrémité.
+\item À partir de I' tracer le vecteur \(-\vec{i}\), on nommera J son
+extrémité.
+\item À partir de J tracer le vecteur \(-2\vec{j}\), on nommera J'
+son extrémité.
+\item Vérifiez qu'on a bien tracé la lettre P.
+\end{enumerate}
+
+
+
+\section{Exercice 49}
+\label{sec:orgfd51815}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item En partant de O tracer le vecteur \(\vec{j}\), on nommera J son
+extrémité.
+\item À partir de J tracer le vecteur \(\vec{i}\), on nommera J' son
+extrémité.
+\item À partir de J' tracer le vecteur \(-2\vec{j}\), on nommera J''
+son extrémité.
+\item En repartant de O tracer le vecteur \(\vec{i}\), on nommera I
+son extrémité.
+\item Vérifier qu'on a bien tracer la lettre Q.
+\end{enumerate}
+
+
+
+\section{Exercice 50}
+\label{sec:org573119d}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer directement I et J aux extrémités respectives des
+vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
+\item Tracer les vecteurs \(\vec{i}\) et \(\vec{j}\) en partant
+respectivement de J et I et noter I' leur extrémité commune.
+\item En partant de O tracer le vecteur \(\vec{u} = -\vec{j}\), on nommera J'
+son extrémité.
+\item Toujours en partant de O tracer le vecteur \(\vec{v} =
+       \vec{i} - \vec{j}\), on nommera I'' son extrémité.
+\item Vérifier qu'on a bien tracé la lettre R.
+\end{enumerate}
+
+
+
+\section{Exercice 51}
+\label{sec:orgf841758}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer directement I et J aux extrémités respectives des
+vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
+\item En partant de J tracer le vecteur \(\vec{i}\), on nommera J'
+son extrémité.
+\item En partant de I tracer le vecteur \(\vec{u} = -\vec{j}\), on
+nommera I' son extrémité.
+\item En partant de I' tracer le vecteur \(\vec{v} = -\vec{i}\), on
+nommera I'' son extrémité.
+\item Vérifier qu'on a bien tracé la letre S.
+\end{enumerate}
+
+
+
+
+\section{Exercice 52}
+\label{sec:org8b13ed6}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{i}\).
+
+\begin{enumerate}
+\item Placer le point J à l'extrémité du vecteur \(\vec{j}\) en
+partant de O.
+\item En partant de J tracer le vecteur \(\vec{i}\), on nommera J'
+son extrémité.
+\item Toujours en partant de J tracer le vecteur \(\vec{u} =
+       -\vec{i}\), on nommera J'' son extrémité.
+\item Vérifier qu'on a bien obtenu la lettre T.
+\end{enumerate}
+
+
+
+\section{Exercice 53}
+\label{sec:orgef0c927}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+\begin{enumerate}
+\item Placer directement I et J aux extrémités respectives des
+vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
+\item À partir de I tracer le vecteur \(\vec{j}\), on nommera I' son
+extrémité.
+\item Vérifier qu'on a bien obtenu la lettre U.
+\end{enumerate}
+
+\section{Exercice 54}
+\label{sec:org12fedc0}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) veillez à NE PAS tracer ni le vecteur \(\vec{i}\)
+   ni le vecteur \(\vec{j}\) :
+
+\begin{enumerate}
+\item En partant de O tracer le vecteur \(\vec{u} = \dfrac{1}{2}\vec{i} +
+       \vec{j}\), on nommera A son extrémité.
+\item En partant de O tracer le vecteur \(\vec{v} = -\dfrac{1}{2}\vec{i} +
+       \vec{j}\), on nommera B son extrémité.
+\item Vérifier qu'on a bien tracé la lettre V.
+\end{enumerate}
+
+
+\section{Exercice 55}
+\label{sec:org27b322f}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) veillez à NE PAS tracer ni le vecteur \(\vec{i}\)
+   ni le vecteur \(\vec{j}\) :
+
+\begin{enumerate}
+\item En partant de O tracer le vecteur \(\vec{u} = \dfrac{1}{2}\vec{i} +
+       \vec{j}\), on nommera A son extrémité.
+\item En partant de O tracer le vecteur \(\vec{v} = -\dfrac{1}{2}\vec{i} +
+       \vec{j}\), on nommera B son extrémité.
+\item En partant du point A tracer le vecteur \(\vec{w} =
+       \dfrac{1}{2}\vec{i} - \vec{j}\), on nommera I son extrémité.
+\item En partant de I tracer le vecteur \(\vec{u} = \dfrac{1}{2}\vec{i} +
+       \vec{j}\), on nommera C son extrémité.
+\item Vérifier qu'on a bien tracé la lettre W.
+\end{enumerate}
+
+
+\section{Exercice 56}
+\label{sec:org93a6044}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) veillez à NE PAS tracer ni le vecteur \(\vec{i}\)
+   ni le vecteur \(\vec{j}\) :
+
+\begin{enumerate}
+\item Placer directement I et J aux extrémités respectives des
+vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
+\item Construire I' tel que O milieu de [II'].
+\item En partant de I' tracer le vecteur \(\vec{u} = \vec{i} +
+       \vec{j}\).
+\item En partant du point I tracer le vecteur \(\vec{v} =
+       \overrightarrow{IJ}\) et donner son expression en fonction des
+vecteurs de la base.
+\item En partant de J tracer le vecteur \(\vec{v}\), on nommera J'
+son extrémité.
+\item Toujours en partant de J tracer le vecteur \(\vec{u}\), on
+nommera J'' son extrémité.
+\item Vérifier qu'on a bien obtenu la lettre X.
+\end{enumerate}
+
+
+\section{Exercice 57}
+\label{sec:org68335a4}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{i}\).
+
+\begin{enumerate}
+\item En partant du point O placer J à l'extrémité du vecteur
+\(\vec{j}\).
+\item À partir du point J tracer le vecteur \(\vec{u} =
+       \dfrac{3}{4}(\vec{i} + \vec{j})\), on nommera J' son extrémité.
+\item Toujours à partir du point J tracer le vecteur \(\vec{v} = \dfrac{3}{4}(\vec{j} -
+       \vec{i})\), on nommera J'' son extrémité.
+\item Vérifier qu'on a bien tracé la lettre Y.
+\end{enumerate}
+
+
+
+\section{Exercice 58}
+\label{sec:orgd81f21a}
+
+Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{j}\).
+
+\begin{enumerate}
+\item Placer directement I et J aux extrémités respectives des
+vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
+\item En partant de O tracer le vecteur \(\vec{u} = \vec{i} +
+       \vec{j}\), on nommera K son extrémité.
+\item En partant de J tracer le vecteur \(\vec{i}\) jusqu'à K.
+\item Vérifier qu'on a bien tracé la lettre Z.
+\end{enumerate}
+
+
+\chapter{Applications des vecteurs dans la vie réelle}
+\label{sec:org9d87e75}
+
+\section{Exercice 59}
+\label{sec:orgb8d6d63}
+
+Un drone se déplace selon les vecteurs successifs :
+\begin{align*}
+\vec{v}_1&\begin{pmatrix}100\\50\end{pmatrix}  \\
+\vec{v}_2&\begin{pmatrix}-30\\80\end{pmatrix}  \\
+\vec{v}_3&\begin{pmatrix}-20\\-100\end{pmatrix} 
+\end{align*}
+
+Calculer sa position finale et la distance parcourue au total.
+
+
+\section{Exercice 60}
+\label{sec:orgf7b4cec}
+
+On considère un échiquier standard comme celui sur la figure
+ci-dessous :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./chessboard_wiki.jpg}
+\end{center}
+
+L'échiquier est traditionnellement codé avec les lettres de a à h
+pour indiquer la position horizontale et les nombres de 1 à 8 pour
+indiquer la position verticale.
+
+De cette façon le codage a1 correspond à la case en bas à gauche
+et le codage h8 à la case en haut à droite.
+
+Afin de rendre cette représentation utilisable dans le cadre
+vectorielle conforme à la classe de seconde on va considérer que
+l'origine du repère sera la case a1 qu'on identifiera à O.
+
+De même, le vecteur \(\vec{i}\) est identifié à la translation de
+a1 vers b1 et le vecteur \(\vec{j}\) à celle de a1 vers a2.
+
+Considérons les déplacements possibles du fou blanc comme indiqué
+sur la photo ci-dessous :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./fou_motion.png}
+\end{center}
+
+\begin{enumerate}
+\item Quelles sont les coordonnées du vecteur \(\vec{v}_1\) indiquant
+le déplacement de la case h1 vers la case a8 (appelée aussi
+anti-diagonale ou seconde diagonale) ?
+\item Calculer la norme de ce vecteur
+\(\lvert\lvert\vec{v}_1\rvert\rvert\).
+\item Mêmes questions pour le fou noir et la diagonale a1 vers h8
+représentée par le vecteur \(\vec{v}_2\).
+\item Mêmes questions pour la sur-diagonale du fou blanc débutant à
+la case a2 et finissant à la case g8, on nommera le vecteur
+\(\vec{v}_3\).
+\item Mêmes questions pour la sur-diagonale du fou noir débutant à la
+case a3 et finissant à la case f8, on nommera le vecteur
+\(\vec{v}_4\).
+\item Idem pour \(\vec{v}_5\) qui part de a4 et termine en e8.
+\item Idem pour \(\vec{v}_6\) qui part de a5 et termine en d8.
+\item Idem pour \(\vec{v}_7\) qui commence en a6 et finit en c8.
+\item Idem pour \(\vec{v}_8\) qui commence en a7 et finit en b8.
+\item Idem pour \(\vec{v}_9\) qui commence en a8 et finit en a8.
+\item Si on souhaite généraliser les déplacements du fou en
+programmant un seul vecteur du type : \(\vec{v} = a\vec{i} +
+        b\vec{j}\) avec
+\[\vec{i}\begin{pmatrix}1\\0\end{pmatrix}\] et
+\[\vec{j}\begin{pmatrix}0\\1\end{pmatrix}\]
+les vecteurs de la base canonique, alors quelles sont les
+valeurs possibles pour les nombres \(a\) et \(b\) ?
+\end{enumerate}
+
+
+
+\section{Exercice 61}
+\label{sec:orge279636}
+
+Un projectile est lancé depuis O(0;0) avec une vitesse initiale 
+\(\vec{v}_0\) de coordonnées \(\begin{pmatrix}20\\30\end{pmatrix}\) m/s.
+
+La gravité exerce une accélération constante 
+\(\vec{g}\begin{pmatrix}0\\-10\end{pmatrix}\) m/s².
+
+Après 1 seconde, la vitesse devient \(\vec{v}_1 = \vec{v}_0 + \vec{g}\).
+
+\begin{enumerate}
+\item Calculer les coordonnées de \(\vec{v}_1\)
+\item Calculer la norme de \(\vec{v}_1\) (vitesse en m/s)
+\item La position après 1s est \(\vec{p}_1 = \vec{v}_0 + \frac{1}{2}\vec{g}\).
+Calculer les coordonnées du point P₁.
+\item Après combien de temps le projectile retombe-t-il au sol (y=0) ?
+\end{enumerate}
+
+\textbf{Note} : Cet exercice anticipe la physique de première/terminale.
+
+
+
+\section{Exercice 62 : Images vectorielles vs images bitmap}
+\label{sec:org8de6aca}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[scale=0.8]
+  % Image bitmap
+  \begin{scope}
+    \node at (2.25,4.5) {\textbf{Image Bitmap (PNG)}};
+    \draw[step=0.5cm,gray,very thin] (0,0) grid (4,3);
+    \foreach \x in {0,0.5,...,4}
+      \foreach \y in {0,0.5,...,3}
+        \fill[black!20] (\x,\y) rectangle ++(0.5,0.5);
+    \draw[thick,blue] (0.5,0.5) -- (1.5,2.5) -- (2.5,0.5);
+    \node[below] at (2,-0.5) {40 000 pixels pour 200×200};
+  \end{scope}
+  
+  % Image vectorielle
+  \begin{scope}[xshift=6cm]
+    \node at (2.25,4.5) {\textbf{Image Vectorielle (SVG)}};
+    \draw[thick,blue,->] (0.5,0.5) -- node[left] {$\vec{v}_1$} (1.5,2.5);
+    \draw[thick,blue,->] (1.5,2.5) -- node[right] {$\vec{v}_2$} (2.5,0.5);
+    \fill (0.5,0.5) circle (2pt) node[below left] {A};
+    \fill (1.5,2.5) circle (2pt) node[above] {B};
+    \fill (2.5,0.5) circle (2pt) node[below right] {C};
+    \node[below] at (2,-0.5) {3 points + 2 vecteurs};
+  \end{scope}
+\end{tikzpicture}
+\caption{Différence entre image bitmap et image vectorielle}
+\end{figure}
+
+Les images numériques peuvent être de deux types : \textbf{bitmap} 
+(aussi appelées matricielles ou raster) ou \textbf{vectorielles}.
+
+\begin{itemize}
+\item Une image bitmap (JPEG, PNG, GIF) est constituée d'une grille 
+de pixels. Chaque pixel a une couleur définie. Si on agrandit 
+l'image, elle devient floue et pixelisée.
+
+\item Une image vectorielle (SVG, PDF vectoriel) est constituée de 
+formules mathématiques décrivant des formes géométriques 
+(lignes, courbes, polygones). On peut l'agrandir infiniment 
+sans perte de qualité.
+\end{itemize}
+
+\textbf{Questions :}
+
+\begin{enumerate}
+\item Dans un logiciel de dessin vectoriel, on trace un segment de 
+A(100 ; 150) à B(300 ; 450). Quelles sont les coordonnées du 
+vecteur \(\overrightarrow{AB}\) ?
+
+\item Pour afficher ce segment à l'écran, l'ordinateur calcule sa 
+longueur. Quelle est-elle (en pixels) ?
+
+\item L'utilisateur applique un zoom ×2 (homothétie de rapport 2 
+centrée à l'origine). Quelles sont les nouvelles coordonnées 
+de A' et B' ?
+
+\item Le vecteur \(\overrightarrow{A'B'}\) est-il colinéaire à 
+\(\overrightarrow{AB}\) ? Justifier.
+
+\item Quelle est la longueur du segment [A'B'] après le zoom ?
+
+\item \textbf{\textbf{Question de réflexion}} : Pourquoi dit-on qu'une image 
+vectorielle peut être agrandie "infiniment" sans perte de 
+qualité, contrairement à une image bitmap ?
+\end{enumerate}
+
+\textbf{Note} : Les formats SVG (Scalable Vector Graphics) et PDF 
+utilisent exactement ces principes mathématiques. C'est pourquoi 
+les logos d'entreprises, icônes d'applications, et schémas 
+techniques sont toujours créés en vectoriel !
+
+\section{Exercice 63 : Décoder un fichier SVG}
+\label{sec:org44fc5d6}
+
+Le format SVG (Scalable Vector Graphics) est un format d'image 
+vectorielle basé sur du code XML. Voici un extrait simplifié 
+d'un fichier SVG :
+
+\begin{verbatim}
+<svg width="500" height="400">
+  <line x1="50" y1="100" x2="200" y2="250" stroke="blue" />
+  <line x1="200" y2="250" x2="350" y2="100" stroke="red" />
+  <circle cx="200" cy="175" r="80" fill="none" stroke="green" />
+</svg>
+\end{verbatim}
+
+Ce code décrit :
+\begin{itemize}
+\item Une ligne bleue du point A(50 ; 100) au point B(200 ; 250)
+\item Une ligne rouge du point B(200 ; 250) au point C(350 ; 100)
+\item Un cercle vert de centre O(200 ; 175) et de rayon 80 pixels
+\end{itemize}
+
+\textbf{Attention} : En SVG, l'axe des ordonnées est \textbf{\textbf{inversé}} par 
+rapport au repère mathématique classique (l'origine est en haut 
+à gauche, y augmente vers le bas).
+
+\textbf{Questions :}
+
+\begin{enumerate}
+\item Calculer les coordonnées des vecteurs \(\overrightarrow{AB}\) 
+et \(\overrightarrow{BC}\) dans le repère SVG.
+
+\item Les points A, B, C sont-ils alignés ? Justifier avec le 
+déterminant.
+
+\item Quelle est la nature du triangle ABC ?
+
+\item Le centre O du cercle appartient-il au segment [AC] ? 
+Justifier.
+
+\item \textbf{\textbf{Défi}} : Écrire le code SVG d'un carré DEFG de côté 100 
+pixels avec D(100 ; 100) comme sommet en haut à gauche.
+\end{enumerate}
+
+\textbf{Pour aller plus loin} : Ouvrez un fichier .svg avec un éditeur 
+de texte (Bloc-notes, TextEdit) et observez le code. Vous verrez 
+des vecteurs partout !
+
+\section{Exercice 64 : Pourquoi les PDF sont-ils vectoriels ?}
+\label{sec:org3ef0d88}
+
+Un fichier PDF peut contenir du texte, des images et des 
+graphiques. Le texte et les graphiques sont généralement 
+stockés sous forme \textbf{vectorielle}.
+
+Prenons l'exemple de la lettre "A" :
+\begin{itemize}
+\item Dans une image bitmap (photo), le "A" est une grille de 
+pixels noirs et blancs
+\item Dans un PDF vectoriel, le "A" est décrit par ses contours : 
+deux segments obliques et un segment horizontal
+\end{itemize}
+
+\textbf{Situation} : Un designer crée un logo avec la lettre "V" formée 
+par deux segments :
+\begin{itemize}
+\item Segment 1 : de O(0 ; 100) à M(50 ; 0)
+\item Segment 2 : de M(50 ; 0) à N(100 ; 100)
+\end{itemize}
+
+\textbf{Questions :}
+
+\begin{enumerate}
+\item Quelles sont les coordonnées des vecteurs 
+\(\overrightarrow{OM}\) et \(\overrightarrow{MN}\) ?
+
+\item Ces deux vecteurs sont-ils colinéaires ? Que peut-on en 
+déduire sur la forme de la lettre "V" ?
+
+\item Calculer les normes \(\|\overrightarrow{OM}\|\) et 
+\(\|\overrightarrow{MN}\|\). La lettre "V" est-elle symétrique ?
+
+\item Le designer applique une transformation : tous les points 
+sont multipliés par 2. Quelles sont les nouvelles coordonnées 
+de O', M', N' ?
+
+\item Les segments [O'M'] et [M'N'] conservent-ils les mêmes angles 
+que [OM] et [MN] ? Pourquoi ?
+
+\item \textbf{\textbf{Application}} : Expliquez pourquoi un PDF contenant du texte 
+reste net même quand on zoom à 400\%, alors qu'une photo devient 
+floue.
+\end{enumerate}
+
+\textbf{À retenir} : Quand vous convertissez un document Word en PDF, 
+tout le texte est transformé en vecteurs. C'est pour ça qu'on peut 
+zoomer sans pixelisation !
+
+\section{Exercice 65 : Bitmap vs Vectoriel - Étude comparative}
+\label{sec:org1787ff5}
+
+On souhaite créer un logo carré de 200×200 pixels pour une 
+application mobile.
+
+\textbf{Méthode 1 : Image bitmap (PNG)}
+\begin{itemize}
+\item Le logo est une grille de 200×200 = 40 000 pixels
+\item Chaque pixel stocke sa couleur (3 octets RGB)
+\item Taille du fichier : ≈ 120 Ko (avec compression)
+\item Si on agrandit à 400×400, il faut recalculer 160 000 pixels 
+par interpolation → image floue
+\end{itemize}
+
+\textbf{Méthode 2 : Image vectorielle (SVG)}
+\begin{itemize}
+\item Le logo est décrit par 4 segments formant un carré
+\item Stockage : 4 vecteurs avec leurs coordonnées
+\item Taille du fichier : ≈ 1 Ko
+\item Si on agrandit, on multiplie simplement les coordonnées par 2 
+→ image parfaitement nette
+\end{itemize}
+
+\textbf{Questions :}
+
+\begin{enumerate}
+\item Un carré vectoriel a pour sommets A(0;0), B(200;0), C(200;200), 
+D(0;200). Donner les coordonnées des 4 vecteurs 
+\(\overrightarrow{AB}\), \(\overrightarrow{BC}\), 
+\(\overrightarrow{CD}\), \(\overrightarrow{DA}\).
+
+\item On applique un zoom ×3. Quelles sont les nouvelles coordonnées 
+des 4 sommets ?
+
+\item Calculer le périmètre du carré initial et du carré agrandi. 
+Vérifier que le rapport est bien 3.
+
+\item \textbf{\textbf{Calcul de taille}} : 
+a) Bitmap : Combien de pixels dans l'image agrandie (600×600) ?
+b) Vectoriel : Combien de vecteurs dans l'image agrandie ?
+
+\item Quel format choisiriez-vous pour :
+a) Une photo de vacances ?
+b) Le logo d'une entreprise ?
+c) Un schéma mathématique ?
+Justifier chaque choix.
+\end{enumerate}
+
+\textbf{Conclusion} : Les vecteurs que vous apprenez en seconde sont 
+utilisés quotidiennement par des millions d'ordinateurs, 
+smartphones et imprimantes pour afficher des textes, logos, 
+icônes et graphiques !
+
+\section{Exercice 66 : Créer une icône vectorielle (Projet)}
+\label{sec:org095ad2a}
+
+Les icônes d'applications sur smartphone sont toujours créées 
+en vectoriel pour s'adapter aux différentes tailles d'écran 
+(iPhone, iPad, etc.).
+
+\textbf{Projet} : Créer l'icône ⚡ (éclair) en utilisant uniquement 
+des vecteurs.
+
+\textbf{Étape 1 : Conception}
+On dessine l'éclair avec 7 points :
+\begin{itemize}
+\item A(100 ; 0)     [sommet haut]
+\item B(60 ; 80)
+\item C(80 ; 80)
+\item D(40 ; 200)    [sommet bas]
+\item E(80 ; 120)
+\item F(60 ; 120)
+\item G(100 ; 0)     [retour au début]
+\end{itemize}
+
+\textbf{Questions :}
+
+\begin{enumerate}
+\item Calculer les vecteurs \(\overrightarrow{AB}\), 
+\(\overrightarrow{BC}\), \(\overrightarrow{CD}\), 
+\(\overrightarrow{DE}\), \(\overrightarrow{EF}\), 
+\(\overrightarrow{FG}\).
+
+\item Vérifier que \(\overrightarrow{AB} + \overrightarrow{BC} +
+       \overrightarrow{CD} + \overrightarrow{DE} +
+       \overrightarrow{EF} + \overrightarrow{FG} = \vec{0}\).
+Que signifie ce résultat ?
+
+\item L'icône doit être affichée en 3 tailles : 32×32, 64×64, 128×128 
+pixels. Pour chaque taille, donner le facteur d'homothétie à 
+appliquer sachant que le dessin initial fait 200×200.
+
+\item \textbf{\textbf{Défi}} : Proposer les coordonnées de 4-6 points pour créer 
+votre propre icône simple (maison, cœur, étoile, etc.).
+\end{enumerate}
+
+\textbf{Pour aller plus loin} : Les designers utilisent des logiciels 
+comme Adobe Illustrator, Inkscape (gratuit), ou Figma pour créer 
+des images vectorielles. Tous ces outils manipulent des vecteurs 
+mathématiques en arrière-plan !
+
+
+\chapter{Chiffres}
+\label{sec:orgc071a4a}
+\section{Introduction}
+\label{sec:orgb439667}
+
+Dans cette section, vous allez apprendre à maîtriser les vecteurs en 
+traçant tous les chiffres indo-arabes du système décimal. Chaque
+chiffre est une construction géométrique précise utilisant les
+opérations vectorielles.
+
+
+\textbf{Objectifs} :
+\begin{itemize}
+\item Renforcer la manipulation des vecteurs de base \(\vec{i}\) et \(\vec{j}\)
+\item Visualiser concrètement les combinaisons linéaires
+\item Développer la précision du tracé géométrique
+\item S'amuser avec les mathématiques !
+\end{itemize}
+
+\textbf{Consignes générales} :
+\begin{enumerate}
+\item Utilisez une règle et un compas pour les tracés
+\item Respectez scrupuleusement l'échelle (1 carreau = 1 unité recommandé)
+\item Vérifiez visuellement que vous obtenez bien la lettre attendue
+\item Si nécessaire, recommencez le tracé pour gagner en précision
+\end{enumerate}
+
+\section{Exercice 67}
+\label{sec:orgc57c5da}
+
+Dans le plan muni du repère orthonormé canonique
+\[(O ; \vec{i} ; \vec{j})\]
+
+\begin{enumerate}
+\item Construire O, construire \(\vec{i}\), placer le point I tel
+que \(\overrightarrow{OI} = \vec{i}\), veillez à ne pas
+construire \(\vec{j}\).
+\item Placer le point A tel que \(\overrightarrow{OA} =
+           2\vec{i}\) et tracer le vecteur
+\(\overrightarrow{OA}\). Exprimer le vecteur
+\(\overrightarrow{IA}\) en fonction des vecteurs de la base.
+\item Placer le point B tel que \(\overrightarrow{OB} =
+           2\vec{j}\) et tracer le vecteur \(\overrightarrow{OB}\).
+\item Placer le point J tel que \(\overrightarrow{OJ} =
+           \vec{j}\). Tracer le vecteur \(\overrightarrow{BJ}\).
+\item Quel est le symbole que vous avez obtenu ?
+\end{enumerate}
+
+
+\section{Exercice 68}
+\label{sec:org723f6df}
+
+Dans le plan muni du repère orthonormé canonique
+\[(O ; \vec{i} ; \vec{j})\]
+
+\begin{enumerate}
+\item Construire O, construire \(\vec{i}\), placer le point I tel
+que \(\overrightarrow{OI} = \vec{i}\), veillez à ne pas
+construire \(\vec{j}\).
+\item Placer le point A tel que \(\overrightarrow{OA} =
+           2\vec{i}\) et tracer le vecteur
+\(\overrightarrow{OA}\). Exprimer le vecteur
+\(\overrightarrow{IA}\) en fonction des vecteurs de la base.
+\item Placer le point B tel que \(\overrightarrow{OB} =
+           2\vec{j}\) et tracer le vecteur \(\overrightarrow{OB}\).
+\item Placer le point J tel que \(\overrightarrow{OJ} =
+           \vec{j}\). Tracer le vecteur \(\overrightarrow{BJ}\).
+\item Vérifier que vous avez obtenu le chiffre 1.
+\end{enumerate}
+
+
+
+\part{Erreurs fréquentes à éviter}
+\label{sec:orgfb558f4}
+
+\chapter{Erreur 1 : Confondre vecteur et longueur}
+\label{sec:orgd94b106}
+❌ \(\overrightarrow{AB} = 5\) 
+✓ \(\lvert\lvert\overrightarrow{AB}\rvert\rvert = 5\) ou \(AB = 5\)
+
+\chapter{Erreur 2 : Oublier le sens dans la relation de Chasles}
+\label{sec:orge9fdda0}
+❌ \(\overrightarrow{AB} + \overrightarrow{CA} = \overrightarrow{CB}\)
+✓ \(\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}\)
+
+\chapter{Erreur 3 : Confondre coordonnées de point et de vecteur}
+\label{sec:orgc14bf99}
+Si A(2;3) et B(5;7), alors :
+❌ \(\overrightarrow{AB}\begin{pmatrix}5\\7\end{pmatrix}\)
+✓ \(\overrightarrow{AB}\begin{pmatrix}3\\4\end{pmatrix}\)
+
+
+\part{Comment obtenir les solutions ?}
+\label{sec:orga848088}
+
+Les solutions détaillées de tous les exercices sont disponibles 
+en téléchargement sur notre site web :
+
+\textbf{\url{https://votresite.com/solutions-vecteurs}}
+
+Indiquez simplement votre adresse email pour recevoir le PDF 
+complet des corrigés.    
+
+
+\part{Remerciements et feedback}
+\label{sec:org7810ab1}
+
+Merci d'avoir choisi ce livre ! Vos retours sont précieux pour 
+améliorer les prochaines éditions.
+
+Contactez-moi : laurent.garnier@votreemail.com
+Site web : www.votresite.com
+
+Si ce livre vous a aidé, n'hésitez pas à le recommander !   
+\end{document}

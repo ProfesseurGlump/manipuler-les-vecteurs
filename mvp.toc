@@ -1,0 +1,148 @@
+\xpg@aux {}{french}
+\contentsline {part}{I\hspace {1em}Introduction}{11}{part.1}%
+\contentsline {chapter}{\numberline {1}À qui s'adresse ce livre}{13}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Organisation de l'ouvrage}{15}{chapter.2}%
+\contentsline {part}{II\hspace {1em}Contenus}{17}{part.2}%
+\contentsline {chapter}{\numberline {3}Contenu 1}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Objectifs pédagogiques}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Exercice 1}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Exercice 2}{23}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Programme 1}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.5}QCM d'auto-évaluation}{23}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Contenu 2}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Objectifs pédagogiques}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Exercice 3}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Programme 2}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}QCM d'auto-évaluation}{27}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Contenu 3}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Objectifs pédagogiques}{29}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Exercice 4}{29}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Programme 3}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.4}QCM d'auto-évaluation}{30}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Contenu 4}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Objectifs pédagogiques}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Exercice 5}{33}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Exercice 5 bis}{34}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Exercice 5 ter}{35}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Programme 4}{35}{section.6.5}%
+\contentsline {section}{\numberline {6.6}QCM d'auto-évaluation}{36}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Contenu 5}{39}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Objectifs pédagogiques}{39}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Exercice 6}{39}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Programme 5}{40}{section.7.3}%
+\contentsline {section}{\numberline {7.4}QCM d'auto-évaluation}{40}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Contenu 6}{43}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Objectifs pédagogiques}{43}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Exercice 7}{43}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Programme 6}{44}{section.8.3}%
+\contentsline {section}{\numberline {8.4}QCM d'auto-évaluation}{45}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Contenu 7}{47}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Objectifs pédagogiques}{47}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Exercice 8}{47}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Programme 7}{49}{section.9.3}%
+\contentsline {section}{\numberline {9.4}QCM d'auto-évaluation}{49}{section.9.4}%
+\contentsline {part}{III\hspace {1em}Capacités attendues}{51}{part.3}%
+\contentsline {chapter}{\numberline {10}Capacité attendue 1}{55}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Objectifs pédagogiques}{55}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Exercice 9}{55}{section.10.2}%
+\contentsline {section}{\numberline {10.3}QCM d'auto-évaluation}{56}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Capacité attendue 2}{59}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Objectifs pédagogiques}{59}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Exercice 10}{59}{section.11.2}%
+\contentsline {section}{\numberline {11.3}QCM d'auto-évaluation}{60}{section.11.3}%
+\contentsline {chapter}{\numberline {12}Capacité attendue 3}{63}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Objectifs pédagogiques}{63}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Exercice 11}{63}{section.12.2}%
+\contentsline {section}{\numberline {12.3}QCM d'auto-évaluation}{64}{section.12.3}%
+\contentsline {chapter}{\numberline {13}Capacité attendue 4}{67}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Objectifs pédagogiques}{67}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Exercice 12}{67}{section.13.2}%
+\contentsline {section}{\numberline {13.3}QCM d'auto-évaluation}{68}{section.13.3}%
+\contentsline {chapter}{\numberline {14}Capacité attendue 5}{71}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Objectifs pédagogiques}{71}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Exercice 13}{71}{section.14.2}%
+\contentsline {section}{\numberline {14.3}QCM d'auto-évaluation}{72}{section.14.3}%
+\contentsline {chapter}{\numberline {15}Capacité attendue 6}{75}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Objectifs pédagogiques}{75}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Exercice 14}{75}{section.15.2}%
+\contentsline {section}{\numberline {15.3}QCM d'auto-évaluation}{76}{section.15.3}%
+\contentsline {chapter}{\numberline {16}Capacité attendue 7}{79}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Objectifs pédagogiques}{79}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Exercice 15}{79}{section.16.2}%
+\contentsline {section}{\numberline {16.3}Programme}{80}{section.16.3}%
+\contentsline {section}{\numberline {16.4}QCM d'auto-évaluation}{80}{section.16.4}%
+\contentsline {part}{IV\hspace {1em}Exercices complémentaires}{87}{part.4}%
+\contentsline {chapter}{\numberline {17}Pour s'exercer davantage}{89}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Exercice 16}{89}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Exercice 17}{89}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Exercice 18}{90}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Exercice 19}{90}{section.17.4}%
+\contentsline {section}{\numberline {17.5}Exercice 20}{90}{section.17.5}%
+\contentsline {section}{\numberline {17.6}Exercice 21}{91}{section.17.6}%
+\contentsline {section}{\numberline {17.7}Exercice 22}{91}{section.17.7}%
+\contentsline {section}{\numberline {17.8}Exercice 23}{91}{section.17.8}%
+\contentsline {section}{\numberline {17.9}Exercice 24}{92}{section.17.9}%
+\contentsline {section}{\numberline {17.10}Exercice 25}{93}{section.17.10}%
+\contentsline {section}{\numberline {17.11}Exercice 26}{93}{section.17.11}%
+\contentsline {part}{V\hspace {1em}Exercices de synthèse}{95}{part.5}%
+\contentsline {chapter}{\numberline {18}Représentation par coordonnées (dans un repère)}{97}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Exercice 27}{97}{section.18.1}%
+\contentsline {chapter}{\numberline {19}Représentation géométrique (sans repère)}{99}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Exercice 28}{99}{section.19.1}%
+\contentsline {section}{\numberline {19.2}Exercice 29}{100}{section.19.2}%
+\contentsline {chapter}{\numberline {20}Colinéarité et alignement}{101}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Exercice 30}{101}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Exercice 31}{101}{section.20.2}%
+\contentsline {part}{VI\hspace {1em}Démonstrations}{103}{part.6}%
+\contentsline {chapter}{\numberline {21}Démonstrations}{105}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Exercice 32}{105}{section.21.1}%
+\contentsline {section}{\numberline {21.2}Exercice 32bis}{105}{section.21.2}%
+\contentsline {section}{\numberline {21.3}Exercice 32ter}{105}{section.21.3}%
+\contentsline {part}{VII\hspace {1em}Exercices divers}{107}{part.7}%
+\contentsline {chapter}{\numberline {22}Alphabet}{109}{chapter.22}%
+\contentsline {section}{\numberline {22.1}Introduction}{109}{section.22.1}%
+\contentsline {section}{\numberline {22.2}Exercice 33}{110}{section.22.2}%
+\contentsline {section}{\numberline {22.3}Exercice 34}{110}{section.22.3}%
+\contentsline {section}{\numberline {22.4}Exercice 35}{111}{section.22.4}%
+\contentsline {section}{\numberline {22.5}Exercice 36}{111}{section.22.5}%
+\contentsline {section}{\numberline {22.6}Exercice 37}{112}{section.22.6}%
+\contentsline {section}{\numberline {22.7}Exercice 38}{112}{section.22.7}%
+\contentsline {section}{\numberline {22.8}Exercice 39}{113}{section.22.8}%
+\contentsline {section}{\numberline {22.9}Exercice 40}{113}{section.22.9}%
+\contentsline {section}{\numberline {22.10}Exercice 41}{114}{section.22.10}%
+\contentsline {section}{\numberline {22.11}Exercice 42}{114}{section.22.11}%
+\contentsline {section}{\numberline {22.12}Exercice 43}{115}{section.22.12}%
+\contentsline {section}{\numberline {22.13}Exercice 44}{115}{section.22.13}%
+\contentsline {section}{\numberline {22.14}Exercice 45}{116}{section.22.14}%
+\contentsline {section}{\numberline {22.15}Exercice 46}{116}{section.22.15}%
+\contentsline {section}{\numberline {22.16}Exercice 47}{117}{section.22.16}%
+\contentsline {section}{\numberline {22.17}Exercice 48}{117}{section.22.17}%
+\contentsline {section}{\numberline {22.18}Exercice 49}{118}{section.22.18}%
+\contentsline {section}{\numberline {22.19}Exercice 50}{118}{section.22.19}%
+\contentsline {section}{\numberline {22.20}Exercice 51}{119}{section.22.20}%
+\contentsline {section}{\numberline {22.21}Exercice 52}{119}{section.22.21}%
+\contentsline {section}{\numberline {22.22}Exercice 53}{120}{section.22.22}%
+\contentsline {section}{\numberline {22.23}Exercice 54}{120}{section.22.23}%
+\contentsline {section}{\numberline {22.24}Exercice 55}{120}{section.22.24}%
+\contentsline {section}{\numberline {22.25}Exercice 56}{121}{section.22.25}%
+\contentsline {section}{\numberline {22.26}Exercice 57}{121}{section.22.26}%
+\contentsline {section}{\numberline {22.27}Exercice 58}{122}{section.22.27}%
+\contentsline {chapter}{\numberline {23}Applications des vecteurs dans la vie réelle}{123}{chapter.23}%
+\contentsline {section}{\numberline {23.1}Exercice 59}{123}{section.23.1}%
+\contentsline {section}{\numberline {23.2}Exercice 60}{123}{section.23.2}%
+\contentsline {section}{\numberline {23.3}Exercice 61}{126}{section.23.3}%
+\contentsline {section}{\numberline {23.4}Exercice 62 : Images vectorielles vs images bitmap}{127}{section.23.4}%
+\contentsline {section}{\numberline {23.5}Exercice 63 : Décoder un fichier SVG}{128}{section.23.5}%
+\contentsline {section}{\numberline {23.6}Exercice 64 : Pourquoi les PDF sont-ils vectoriels ?}{130}{section.23.6}%
+\contentsline {section}{\numberline {23.7}Exercice 65 : Bitmap vs Vectoriel - Étude comparative}{131}{section.23.7}%
+\contentsline {section}{\numberline {23.8}Exercice 66 : Créer une icône vectorielle (Projet)}{132}{section.23.8}%
+\contentsline {chapter}{\numberline {24}Chiffres}{135}{chapter.24}%
+\contentsline {section}{\numberline {24.1}Introduction}{135}{section.24.1}%
+\contentsline {section}{\numberline {24.2}Exercice 67}{136}{section.24.2}%
+\contentsline {section}{\numberline {24.3}Exercice 68}{136}{section.24.3}%
+\contentsline {part}{VIII\hspace {1em}Erreurs fréquentes à éviter}{139}{part.8}%
+\contentsline {chapter}{\numberline {25}Erreur 1 : Confondre vecteur et longueur}{141}{chapter.25}%
+\contentsline {chapter}{\numberline {26}Erreur 2 : Oublier le sens dans la relation de Chasles}{143}{chapter.26}%
+\contentsline {chapter}{\numberline {27}Erreur 3 : Confondre coordonnées de point et de vecteur}{145}{chapter.27}%
+\contentsline {part}{IX\hspace {1em}Comment obtenir les solutions ?}{147}{part.9}%
+\contentsline {part}{X\hspace {1em}Remerciements et feedback}{151}{part.10}%
