@@ -1848,4 +1848,238 @@
        10. ABCD est un carré.
 
 	   (*Bonne réponse*)
+
+
     
+* Solutions des exercices divers
+** Solutions des paradoxes
+*** Solution de l'exercice 77
+
+    1. Placement des points O(0 ; 0) et A(1 ; 0) ainsi que la
+       construction du vecteur
+       \[\vec{u}_1 = \overrightarrow{OA}\]
+
+       [[./img/sol77q1.png]]
+    2. Placement du point B(3 ; 1) et construction du vecteur
+       \[\vec{v}_1 = \overrightarrow{OB}\]
+
+       [[./img/sol77q2.png]]
+    3. Placement des points C(0 ; 3) et D(2 ; 7) ainsi que la
+       construction du vecteur
+       \[\vec{u}_2 = \overrightarrow{CD}\]
+
+       [[./img/sol77q3.png]]
+    4. Placement du point E(0 ; 4) et construction du vecteur
+       \[\vec{v}_2 = \overrightarrow{CE}\]
+
+       [[./img/sol77q4.png]]
+    5. *Rappel* : La pente d'un vecteur se calcule en faisant le
+       rapport entre son ordonnée (déplacement vertical) divisée par
+       son abscisse (déplacement horizontal).
+
+       Concrètement :
+       \begin{align*}
+       p_{\vec{u}_1} &= \dfrac{y_{\vec{u}_1}}{x_{\vec{u}_1}} = \dfrac{y_A - y_O}{x_A - x_O}\\
+       p_{\vec{u}_1} &= \dfrac{0 - 0}{1 - 0} = 0\\
+       p_{\vec{v}_1} &= \dfrac{y_{\vec{v}_1}}{x_{\vec{v}_1}} = \dfrac{y_B - y_O}{x_B - x_O}\\
+       p_{\vec{v}_1} &= \dfrac{1 - 0}{3 - 0} = \dfrac{1}{3}\\
+       &\Rightarrow p_{\vec{u}_1} = 0 < p_{\vec{v}_1} = \dfrac{1}{3}
+       \end{align*}
+
+       Les calculs confirment ce qu'on peut observer graphiquement, le
+       vecteur \(\vec{v}_1\) est plus incliné vers le haut
+       verticalement que le vecteur \(\vec{u}_1\).
+       
+    6. *Rappel* : La pente d'un vecteur se calcule en faisant le
+       rapport entre son ordonnée (déplacement vertical) divisée par
+       son abscisse (déplacement horizontal).
+
+       Concrètement :
+       \begin{align*}
+       p_{\vec{u}_2} &= \dfrac{y_{\vec{u}_2}}{x_{\vec{u}_2}} = \dfrac{y_D - y_C}{x_D - x_C}\\
+       p_{\vec{u}_2} &= \dfrac{7 - 3}{2 - 0} = \dfrac{4}{2} = 2\\
+       p_{\vec{v}_2} &= \dfrac{y_{\vec{v}_2}}{x_{\vec{v}_2}} = \dfrac{y_E - y_C}{x_E - x_C}\\
+       p_{\vec{v}_2} &= \dfrac{4 - 3}{0 - 0} = +\infty \\
+       &\Rightarrow p_{\vec{u}_2} = 2 < p_{\vec{v}_2} = +\infty
+       \end{align*}
+       
+       Les calculs confirment ce qu'on peut observer graphiquement, le
+       vecteur \(\vec{v}_2\) est plus incliné vers le haut
+       verticalement que le vecteur \(\vec{u}_2\).
+       
+    7. Placement des points F(4 ; 2) et G(7 ; 4) ainsi que la
+       construction du vecteur
+       \[\vec{v} = \vec{v}_1 + \vec{v}_2 = \overrightarrow{FG}\]
+
+       [[./img/sol77q7.png]]
+
+    8. Placement du point H(7 ; 6) et construction du vecteur
+       \[\vec{u} = \vec{u}_1 + \vec{u}_2 = \overrightarrow{FH}\]
+
+       [[./img/sol77q8.png]]
+
+    9. *Rappel* : La pente d'un vecteur se calcule en faisant le
+       rapport entre son ordonnée (déplacement vertical) divisée par
+       son abscisse (déplacement horizontal).
+
+       Concrètement :
+       \begin{align*}
+       p_{\vec{u}} &= \dfrac{y_{\vec{u}}}{x_{\vec{u}}} = \dfrac{y_H - y_F}{x_H - x_F}\\
+       p_{\vec{u}} &= \dfrac{6 - 2}{7 - 4} = \dfrac{4}{3}\\
+       p_{\vec{v}} &= \dfrac{y_{\vec{v}}}{x_{\vec{v}}} = \dfrac{y_G - y_F}{x_G - x_F}\\
+       p_{\vec{v}} &= \dfrac{4 - 2}{7 - 4} = \dfrac{2}{3} \\
+       &\Rightarrow p_{\vec{u}} = \dfrac{4}{3} > p_{\vec{v}} = \dfrac{2}{3}
+       \end{align*}
+       
+       Les calculs confirment ce qu'on peut observer graphiquement, le
+       vecteur \(\vec{u}\) est plus incliné vers le haut
+       verticalement que le vecteur \(\vec{v}\).
+
+       [[./img/sol77q9.png]]
+
+
+** Solutions des exercices d'arithmétique
+*** Solution de l'exercice 78
+
+    On se place dans le plan muni d'un repère \((O ; \vec{i} ,
+    \vec{j})\) avec \((\vec{i} , \vec{j})\) la base canonique.
+
+    1. Pour \(n\in\{1, 2, 3, 4, 5, 6\}\) tracer les 6 vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 6\end{pmatrix}\]
+
+       [[./img/sol78q1.png]]
+    2. Calcul des pentes respectives \(p_n\) :
+       \begin{align*}
+       p_1 &= \dfrac{6}{1} = 6\\
+       p_2 &= \dfrac{6}{2} = 3\\
+       p_3 &= \dfrac{6}{3} = 2\\
+       p_4 &= \dfrac{6}{4} = \dfrac{3}{2} = 1,5\\
+       p_5 &= \dfrac{6}{5} = 1,2\\
+       p_6 &= \dfrac{6}{6} = 1
+       \end{align*}
+    3. Les pentes \(p_1, p_2, p_3, p_6\) sont des entiers.       
+    4. On en déduit que les abscisses des vecteurs dont la pente est
+       un entier sont des diviseurs de 6.
+    5. Tracer les 6 vecteurs
+       \[\vec{v}_n\begin{pmatrix}6\\ n\end{pmatrix}\]
+
+       [[./img/sol78q5.png]]
+       
+       On remarque que \(\vec{v}_6 = \vec{u}_6\).
+    6. Calcul des pentes respectives \(q_n\) :
+       \begin{align*}
+       q_1 &= \dfrac{1}{6}\\
+       q_2 &= \dfrac{2}{6} = \dfrac{1}{3}\\
+       q_3 &= \dfrac{3}{6} = \dfrac{1}{2}\\
+       q_4 &= \dfrac{4}{6} = \dfrac{2}{3}\\
+       q_5 &= \dfrac{5}{6}\\
+       q_6 &= \dfrac{6}{6} = 1
+       \end{align*}
+    7. On peut obtenir les \(q_n) à partir des \(p_n\) en appliquant
+       la fonction inverse.
+    8. Concrètement la relation entre les \(p_n\) et les \(q_n\) est :
+       \[q_n = \dfrac{1}{p_n}\]
+    9. Il y a exactement 4 vecteurs du plan dans le cadrant supérieur
+       droit à coordonnées entières tels que leur produit vaut 6.
+    10. Les vecteurs à coordonnées entières vérifiant les
+        conditions de la question précédente sont :
+
+	[[./img/sol78q10.png]]
+
+
+*** Solutions de l'exercice 79
+
+    On se place dans le plan muni d'un repère \((O ; \vec{i} ,
+    \vec{j})\) avec \((\vec{i} , \vec{j})\) la base canonique.
+
+    1. Pour \(n\in\{1, 2, \dots , 12\}\) voici les 12 vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 12\end{pmatrix}\]
+
+       [[./img/sol79q1.png]]
+    2. Calcul des pentes respectives \(p_n\) :
+       \begin{align*}
+       p_1 &= \dfrac{12}{1} = 12\\
+       p_2 &= \dfrac{12}{2} = 6\\
+       p_3 &= \dfrac{12}{3} = 4\\
+       p_4 &= \dfrac{12}{4} = 3\\
+       p_5 &= \dfrac{12}{5} = 2,4\\
+       p_6 &= \dfrac{12}{6} = 2\\
+       p_7 &= \dfrac{12}{7} \\
+       p_8 &= \dfrac{12}{8} = \dfrac{3}{2} = 1,5\\
+       p_9 &= \dfrac{12}{9} = \dfrac{4}{3}\\
+       p_{10} &= \dfrac{12}{10} = \dfrac{6}{5} = 1,2\\
+       p_{11} &= \dfrac{12}{11}\\
+       p_{12} &= \dfrac{12}{12} = 1
+       \end{align*}
+       
+    3. Les pentes \(p_1, p_2, p_3, p_4, p_6, p_{12}\) sont des nombres entiers.
+    4. On en déduit que les abscisses des vecteurs dont la pente est
+       un entier sont les diviseurs de 12.
+    5. Voici les 12 vecteurs
+       \[\vec{v}_n\begin{pmatrix}12\\ n\end{pmatrix}\]
+
+       [[./img/sol79q5.png]]
+       On remarque que \(\vec{v}_{12} = \vec{u}_{12}\).
+    6. Calcul des pentes respectives \(q_n\) :
+       \begin{align*}
+       q_1 &= \dfrac{1}{12}\\
+       q_2 &= \dfrac{2}{12} = \dfrac{1}{6}\\
+       q_3 &= \dfrac{3}{12} = \dfrac{1}{4}\\
+       q_4 &= \dfrac{4}{12} = \dfrac{1}{3}\\
+       q_5 &= \dfrac{5}{12}\\
+       q_6 &= \dfrac{6}{12} = \dfrac{1}{2} = 0,5\\
+       q_7 &= \dfrac{7}{12} \\
+       q_8 &= \dfrac{8}{12} = \dfrac{2}{3}\\
+       q_9 &= \dfrac{9}{12} = \dfrac{3}{4} = 0,75\\
+       q_{10} &= \dfrac{10}{12} = \dfrac{5}{6}\\
+       q_{11} &= \dfrac{11}{12}\\
+       q_{12} &= \dfrac{12}{12} = 1
+       \end{align*}
+    7. On peut les obtenir à partir des \(p_n\) en appliquant la
+       fonction inverse.
+    8. La relation entre les \(p_n\) et les \(q_n\) est \[q_n = \dfrac{1}{p_n}\]
+    9. Il y a 6 vecteurs du plan dans le cadrant supérieur
+       droit de coordonnées entières tels que leur produit vaut 12.
+    10. Voici tous les vecteurs à coordonnées entières vérifiant les
+        conditions de la question précédente :
+
+	[[./img/sol79q10.png]]
+
+
+    
+*** Solutions de l'exercice 80
+
+    On poursuit la même logique que les deux exercices précédents.
+    
+    Mais cette fois on va calculer sans représenter les vecteurs parce
+    qu'on va prendre \(n = 60\).
+
+    1. Pour \(n\in\{1, 2, \dots , 60\}\) les vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 12\end{pmatrix}\]
+       qui ont une pente entière sont :
+       \begin{align*}
+       \vec{u}_1\begin{pmatrix}1\\ 60\end{pmatrix}\Rightarrow p_1 = 60 &&
+       \vec{u}_2\begin{pmatrix}2\\ 60\end{pmatrix}\Rightarrow p_2 = 30\\
+       \vec{u}_3\begin{pmatrix}3\\ 60\end{pmatrix}\Rightarrow p_3 = 20 &&
+       \vec{u}_4\begin{pmatrix}4\\ 60\end{pmatrix}\Rightarrow p_4 = 15\\
+       \vec{u}_5\begin{pmatrix}5\\ 60\end{pmatrix}\Rightarrow p_5 = 12 &&
+       \vec{u}_6\begin{pmatrix}6\\ 60\end{pmatrix}\Rightarrow p_6 = 10\\
+       \vec{u}_{10}\begin{pmatrix}10\\ 60\end{pmatrix}\Rightarrow p_{10} = 6 &&
+       \vec{u}_{12}\begin{pmatrix}12\\ 60\end{pmatrix}\Rightarrow p_{12} = 5\\
+       \vec{u}_{15}\begin{pmatrix}15\\ 60\end{pmatrix}\Rightarrow p_{15} = 4 &&
+       \vec{u}_{20}\begin{pmatrix}20\\ 60\end{pmatrix}\Rightarrow p_{20} = 3\\
+       \vec{u}_{30}\begin{pmatrix}30\\ 60\end{pmatrix}\Rightarrow p_{30} = 2 &&
+       \vec{u}_{60}\begin{pmatrix}60\\ 60\end{pmatrix}\Rightarrow p_{60} = 1
+       \end{align*}
+    2. On en déduit que les abscisses des vecteurs dont la
+       pente est un entier sont les diviseurs de 60.
+    3. Il y a 12 vecteurs du plan dans le cadrant supérieur
+       droit de coordonnées entières tels que leur produit vaut 60 :
+       \begin{align*}
+       \vec{d}_1\begin{pmatrix}1\\ 60\end{pmatrix} && \vec{d}_{12}\begin{pmatrix}60\\ 1\end{pmatrix}\\
+       \vec{d}_2\begin{pmatrix}2\\ 30\end{pmatrix} && \vec{d}_{11}\begin{pmatrix}30\\ 2\end{pmatrix}\\
+       \vec{d}_3\begin{pmatrix}3\\ 20\end{pmatrix} && \vec{d}_{10}\begin{pmatrix}20\\ 3\end{pmatrix}\\
+       \vec{d}_4\begin{pmatrix}4\\ 15\end{pmatrix} && \vec{d}_9\begin{pmatrix}15\\ 4\end{pmatrix}\\
+       \vec{d}_5\begin{pmatrix}5\\ 12\end{pmatrix} && \vec{d}_8\begin{pmatrix}12\\ 5\end{pmatrix}\\
+       \vec{d}_6\begin{pmatrix}6\\ 10\end{pmatrix} && \vec{d}_7\begin{pmatrix}10\\ 6\end{pmatrix}
+       \end{align*}

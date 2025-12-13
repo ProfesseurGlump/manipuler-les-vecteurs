@@ -52,3 +52,10 @@
 \contentsline {chapter}{\numberline {37}Solution de l'exercice 15}{139}{chapter.37}%
 \contentsline {chapter}{\numberline {38}Solution du programme}{143}{chapter.38}%
 \contentsline {chapter}{\numberline {39}Solution du QCM d'auto-évaluation}{147}{chapter.39}%
+\contentsline {part}{XV\hspace {1em}Solutions des exercices divers}{155}{part.15}%
+\contentsline {chapter}{\numberline {40}Solutions des paradoxes}{157}{chapter.40}%
+\contentsline {section}{\numberline {40.1}Solution de l'exercice 77}{157}{section.40.1}%
+\contentsline {chapter}{\numberline {41}Solutions des exercices d'arithmétique}{163}{chapter.41}%
+\contentsline {section}{\numberline {41.1}Solution de l'exercice 78}{163}{section.41.1}%
+\contentsline {section}{\numberline {41.2}Solutions de l'exercice 79}{166}{section.41.2}%
+\contentsline {section}{\numberline {41.3}Solutions de l'exercice 80}{170}{section.41.3}%

@@ -140,9 +140,22 @@
 \contentsline {section}{\numberline {24.1}Introduction}{135}{section.24.1}%
 \contentsline {section}{\numberline {24.2}Exercice 67}{136}{section.24.2}%
 \contentsline {section}{\numberline {24.3}Exercice 68}{136}{section.24.3}%
-\contentsline {part}{VIII\hspace {1em}Erreurs fréquentes à éviter}{139}{part.8}%
-\contentsline {chapter}{\numberline {25}Erreur 1 : Confondre vecteur et longueur}{141}{chapter.25}%
-\contentsline {chapter}{\numberline {26}Erreur 2 : Oublier le sens dans la relation de Chasles}{143}{chapter.26}%
-\contentsline {chapter}{\numberline {27}Erreur 3 : Confondre coordonnées de point et de vecteur}{145}{chapter.27}%
-\contentsline {part}{IX\hspace {1em}Comment obtenir les solutions ?}{147}{part.9}%
-\contentsline {part}{X\hspace {1em}Remerciements et feedback}{151}{part.10}%
+\contentsline {section}{\numberline {24.4}Exercice 69}{137}{section.24.4}%
+\contentsline {section}{\numberline {24.5}Exercice 70}{137}{section.24.5}%
+\contentsline {section}{\numberline {24.6}Exercice 71}{138}{section.24.6}%
+\contentsline {section}{\numberline {24.7}Exercice 72}{139}{section.24.7}%
+\contentsline {section}{\numberline {24.8}Exercice 73}{139}{section.24.8}%
+\contentsline {section}{\numberline {24.9}Exercice 74}{140}{section.24.9}%
+\contentsline {section}{\numberline {24.10}Exercice 75}{140}{section.24.10}%
+\contentsline {section}{\numberline {24.11}Exercice 76}{141}{section.24.11}%
+\contentsline {chapter}{\numberline {25}Paradoxe de Simpson}{143}{chapter.25}%
+\contentsline {section}{\numberline {25.1}Exercice 77}{143}{section.25.1}%
+\contentsline {chapter}{\numberline {26}Arithmétique}{145}{chapter.26}%
+\contentsline {section}{\numberline {26.1}Exercice 78}{145}{section.26.1}%
+\contentsline {section}{\numberline {26.2}Exercice 79}{146}{section.26.2}%
+\contentsline {part}{VIII\hspace {1em}Erreurs fréquentes à éviter}{149}{part.8}%
+\contentsline {chapter}{\numberline {27}Erreur 1 : Confondre vecteur et longueur}{151}{chapter.27}%
+\contentsline {chapter}{\numberline {28}Erreur 2 : Oublier le sens dans la relation de Chasles}{153}{chapter.28}%
+\contentsline {chapter}{\numberline {29}Erreur 3 : Confondre coordonnées de point et de vecteur}{155}{chapter.29}%
+\contentsline {part}{IX\hspace {1em}Comment obtenir les solutions ?}{157}{part.9}%
+\contentsline {part}{X\hspace {1em}Remerciements et feedback}{161}{part.10}%

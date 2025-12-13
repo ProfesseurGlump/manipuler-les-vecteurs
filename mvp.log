@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  12 DEC 2025 14:24
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  13 DEC 2025 16:15
  system commands enabled.
 **mvp.tex
 (.//mvp.tex
@@ -1461,15 +1461,15 @@ Overfull \hbox (8.61769pt too wide) in paragraph at lines 131--135
 
 ]
 Chapitre 3.
-<./img/./C1.png, id=893, 272.37437pt x 195.5648pt>
-File: ./img/./C1.png Graphic file (type png)
-<use ./img/./C1.png>
-Package luatex.def Info: ./img/./C1.png  used on input line 204.
+<./img/C1.png, id=958, 272.37437pt x 195.5648pt>
+File: ./img/C1.png Graphic file (type png)
+<use ./img/C1.png>
+Package luatex.def Info: ./img/C1.png  used on input line 204.
 (luatex.def)             Requested size: 260.17024pt x 186.82097pt.
 
 
-[21<./img/./C1.png>]
-<./img/ABCvect.png, id=900, 343.59746pt x 236.96771pt>
+[21<./img/C1.png>]
+<./img/ABCvect.png, id=965, 343.59746pt x 236.96771pt>
 File: ./img/ABCvect.png Graphic file (type png)
 <use ./img/ABCvect.png>
 Package luatex.def Info: ./img/ABCvect.png  used on input line 219.
@@ -1528,7 +1528,7 @@ la re-la-tion de Chasles.
 
 ]
 Chapitre 6.
-<./img/ABCDsquare.png, id=1002, 546.12091pt x 376.64139pt>
+<./img/ABCDsquare.png, id=1067, 546.12091pt x 376.64139pt>
 File: ./img/ABCDsquare.png Graphic file (type png)
 <use ./img/ABCDsquare.png>
 Package luatex.def Info: ./img/ABCDsquare.png  used on input line 465.
@@ -1564,16 +1564,16 @@ Chapitre 7.
 
 ]
 Chapitre 8.
-<./img/./Oijorthonormaluv.png, id=1092, 250.35797pt x 172.66354pt>
-File: ./img/./Oijorthonormaluv.png Graphic file (type png)
-<use ./img/./Oijorthonormaluv.png>
-Package luatex.def Info: ./img/./Oijorthonormaluv.png  used on input line 685.
+<./img/Oijorthonormaluv.png, id=1157, 250.35797pt x 172.66354pt>
+File: ./img/Oijorthonormaluv.png Graphic file (type png)
+<use ./img/Oijorthonormaluv.png>
+Package luatex.def Info: ./img/Oijorthonormaluv.png  used on input line 685.
 (luatex.def)             Requested size: 260.17024pt x 179.43938pt.
 
 
 [43]
 
-[44<./img/./Oijorthonormaluv.png>]
+[44<./img/Oijorthonormaluv.png>]
 
 [45]
 
@@ -1581,10 +1581,10 @@ Package luatex.def Info: ./img/./Oijorthonormaluv.png  used on input line 685.
 
 ]
 Chapitre 9.
-<./img/./figexo8.png, id=1133, 250.35797pt x 172.66354pt>
-File: ./img/./figexo8.png Graphic file (type png)
-<use ./img/./figexo8.png>
-Package luatex.def Info: ./img/./figexo8.png  used on input line 778.
+<./img/figexo8.png, id=1199, 250.35797pt x 172.66354pt>
+File: ./img/figexo8.png Graphic file (type png)
+<use ./img/figexo8.png>
+Package luatex.def Info: ./img/figexo8.png  used on input line 778.
 (luatex.def)             Requested size: 260.17024pt x 179.43938pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1599,7 +1599,7 @@ Serif(0)/m/n/10.95 . En dé-duire la na-ture du qua-dri-la-tère OBHD.
 
 
 
-[48<./img/./figexo8.png>]
+[48<./img/figexo8.png>]
 
 [49]
 
@@ -1617,10 +1617,10 @@ Serif(0)/m/n/10.95 . En dé-duire la na-ture du qua-dri-la-tère OBHD.
 
 ]
 Chapitre 10.
-<./img/./ABCtrig.png, id=1189, 383.73451pt x 264.6489pt>
-File: ./img/./ABCtrig.png Graphic file (type png)
-<use ./img/./ABCtrig.png>
-Package luatex.def Info: ./img/./ABCtrig.png  used on input line 889.
+<./img/ABCtrig.png, id=1254, 383.73451pt x 264.6489pt>
+File: ./img/ABCtrig.png Graphic file (type png)
+<use ./img/ABCtrig.png>
+Package luatex.def Info: ./img/ABCtrig.png  used on input line 889.
 (luatex.def)             Requested size: 260.17024pt x 179.43388pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1629,7 +1629,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [55]
 
-[56<./img/./ABCtrig.png>]
+[56<./img/ABCtrig.png>]
 
 [57]
 
@@ -1637,9 +1637,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapitre 11.
-File: ./img/./ABCtrig.png Graphic file (type png)
-<use ./img/./ABCtrig.png>
-Package luatex.def Info: ./img/./ABCtrig.png  used on input line 948.
+File: ./img/ABCtrig.png Graphic file (type png)
+<use ./img/ABCtrig.png>
+Package luatex.def Info: ./img/ABCtrig.png  used on input line 948.
 (luatex.def)             Requested size: 260.17024pt x 179.43388pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1662,10 +1662,10 @@ Overfull \hbox (5.25581pt too wide) in paragraph at lines 976--978
 
 ]
 Chapitre 12.
-<./img/./figexo11.png, id=1248, 284.52756pt x 204.29079pt>
-File: ./img/./figexo11.png Graphic file (type png)
-<use ./img/./figexo11.png>
-Package luatex.def Info: ./img/./figexo11.png  used on input line 1017.
+<./img/figexo11.png, id=1314, 284.52756pt x 204.29079pt>
+File: ./img/figexo11.png Graphic file (type png)
+<use ./img/figexo11.png>
+Package luatex.def Info: ./img/figexo11.png  used on input line 1017.
 (luatex.def)             Requested size: 235.53293pt x 169.11864pt.
 
 
@@ -1677,7 +1677,7 @@ par-tant de l’ori-
 
 
 
-[64<./img/./figexo11.png>]
+[64<./img/figexo11.png>]
 
 [65]
 
@@ -1697,16 +1697,16 @@ Chapitre 13.
 
 ]
 Chapitre 14.
-<./img/./figexo13.png, id=1301, 298.22559pt x 214.12598pt>
-File: ./img/./figexo13.png Graphic file (type png)
-<use ./img/./figexo13.png>
-Package luatex.def Info: ./img/./figexo13.png  used on input line 1135.
+<./img/figexo13.png, id=1366, 298.22559pt x 214.12598pt>
+File: ./img/figexo13.png Graphic file (type png)
+<use ./img/figexo13.png>
+Package luatex.def Info: ./img/figexo13.png  used on input line 1135.
 (luatex.def)             Requested size: 260.17024pt x 186.80432pt.
 
 
 [71]
 
-[72<./img/./figexo13.png>]
+[72<./img/figexo13.png>]
 
 [73]
 
@@ -1714,9 +1714,9 @@ Package luatex.def Info: ./img/./figexo13.png  used on input line 1135.
 
 ]
 Chapitre 15.
-File: ./img/./figexo13.png Graphic file (type png)
-<use ./img/./figexo13.png>
-Package luatex.def Info: ./img/./figexo13.png  used on input line 1194.
+File: ./img/figexo13.png Graphic file (type png)
+<use ./img/figexo13.png>
+Package luatex.def Info: ./img/figexo13.png  used on input line 1194.
 (luatex.def)             Requested size: 260.17024pt x 186.80432pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1911,29 +1911,29 @@ Chapitre 22.
 
 [122]
 Chapitre 23.
-<./img/./chessboard_wiki.jpg, id=1823, 2620.79124pt x 1705.37125pt>
-File: ./img/./chessboard_wiki.jpg Graphic file (type jpg)
-<use ./img/./chessboard_wiki.jpg>
-Package luatex.def Info: ./img/./chessboard_wiki.jpg  used on input line 2321.
+<./img/chessboard_wiki.jpg, id=1888, 2620.79124pt x 1705.37125pt>
+File: ./img/chessboard_wiki.jpg Graphic file (type jpg)
+<use ./img/chessboard_wiki.jpg>
+Package luatex.def Info: ./img/chessboard_wiki.jpg  used on input line 2321.
 (luatex.def)             Requested size: 260.17024pt x 169.27205pt.
 
 
 [123
 
 ]
-<./img/./fou_motion.png, id=1828, 310.15875pt x 272.01625pt>
-File: ./img/./fou_motion.png Graphic file (type png)
-<use ./img/./fou_motion.png>
-Package luatex.def Info: ./img/./fou_motion.png  used on input line 2342.
+<./img/fou_motion.png, id=1893, 310.15875pt x 272.01625pt>
+File: ./img/fou_motion.png Graphic file (type png)
+<use ./img/fou_motion.png>
+Package luatex.def Info: ./img/fou_motion.png  used on input line 2342.
 (luatex.def)             Requested size: 260.17024pt x 228.17249pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[124<./img/./chessboard_wiki.jpg>]
+[124<./img/chessboard_wiki.jpg>]
 
-[125<./img/./fou_motion.png>]
+[125<./img/fou_motion.png>]
 
 [126]
 Overfull \hbox (19.08348pt too wide) in paragraph at lines 2398--2398
@@ -2064,45 +2064,76 @@ Chapitre 24.
 
 [137]
 
-[138
-
-]
+[138]
 
 [139]
 
 [140]
-Chapitre 25.
 
-
-[141
-
-
-Missing character: There is no ❌ (U+274C) in font "name:Libertinus Serif:mode=
-node;script=latn;language=dflt;+tlig;"!
-Missing character: There is no ✓ (U+2713) in font "name:Libertinus Serif:mode=
-node;script=latn;language=dflt;+tlig;"!
-]
+[141]
 
 [142
 
 ]
+Chapitre 25.
+
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+
+
+[143]
+
+[144]
 Chapitre 26.
 
 
-[143
+[145
+
+]
+
+[146]
+
+[147]
+
+[148
+
+]
+
+[149]
+
+[150]
+Chapitre 27.
+
+
+[151
+
+
 Missing character: There is no ❌ (U+274C) in font "name:Libertinus Serif:mode=
 node;script=latn;language=dflt;+tlig;"!
 Missing character: There is no ✓ (U+2713) in font "name:Libertinus Serif:mode=
 node;script=latn;language=dflt;+tlig;"!
 ]
 
-[144
+[152
 
 ]
-Chapitre 27.
+Chapitre 28.
 
 
-[145
+[153
+Missing character: There is no ❌ (U+274C) in font "name:Libertinus Serif:mode=
+node;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ✓ (U+2713) in font "name:Libertinus Serif:mode=
+node;script=latn;language=dflt;+tlig;"!
+]
+
+[154
+
+]
+Chapitre 29.
+
+
+[155
 Missing character: There is no ❌ (U+274C) in font "name:Libertinus Serif:mode=
 node;script=latn;language=dflt;+tlig;"!
 Missing character: There is no ✓ (U+2713) in font "name:Libertinus Serif:mode=
@@ -2116,23 +2147,23 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.65904pt}.
 
-[146
+[156
 
 ]
 
-[147]
+[157]
 
-[148]
+[158]
 
-[149]
+[159]
 
-[150
+[160
 
 ]
 
-[151]
+[161]
 
-[152]
+[162]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2140,25 +2171,25 @@ This document will not have a glossary.
 
 
 
-[153] (.//mvp.aux)
+[163] (.//mvp.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `mvp.out' has not changed.
-(rerunfilecheck)             Checksum: C2299589131AA39AF9D71F27A6F28B50;21583.
+(rerunfilecheck)             Checksum: 3664ECF5D9F7EEAEAFC104FD1D37F43E;23129.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40621 strings out of 475506
+ 40729 strings out of 475506
  100000,1648299 words of node,token memory allocated
- 6058 words of node memory still in use:
-   31 hlist, 2 vlist, 14 rule, 358 glue, 5 kern, 1 penalty, 22 sub_mlist, 1 glyp
-h, 784 attribute, 66 glue_spec, 430 attribute_list, 2 write, 24 pdf_literal, 5 p
+ 6551 words of node memory still in use:
+   31 hlist, 2 vlist, 14 rule, 389 glue, 5 kern, 1 penalty, 22 sub_mlist, 1 glyp
+h, 876 attribute, 66 glue_spec, 476 attribute_list, 2 write, 24 pdf_literal, 5 p
 df_action, 24 pdf_colorstack nodes
-   avail lists: 1:2,2:3724,3:1744,4:304,5:559,6:88,7:3546,8:91,9:1264,10:10,11:2
+   avail lists: 1:2,2:3586,3:1744,4:304,5:570,6:94,7:3515,8:91,9:1264,10:10,11:2
 38
- 61843 multiletter control sequences out of 65536+600000
+ 61853 multiletter control sequences out of 65536+600000
  87 fonts using 18587439 bytes
  98i,20n,100p,2363b,865s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Courier.ttc></usr/local/texlive/2025/texmf-dist/fonts/ope
@@ -2174,10 +2205,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on mvp.pdf (153 pages, 4543724 bytes).
+Output written on mvp.pdf (163 pages, 4562911 bytes).
 
-PDF statistics: 2105 PDF objects out of 2487 (max. 8388607)
- 1865 compressed objects within 19 object streams
- 839 named destinations out of 1000 (max. 131072)
- 1432 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2291 PDF objects out of 2487 (max. 8388607)
+ 2039 compressed objects within 21 object streams
+ 937 named destinations out of 1000 (max. 131072)
+ 1536 words of extra memory for PDF output out of 10000 (max. 100000000)
 

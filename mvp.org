@@ -2456,7 +2456,98 @@ opérations vectorielles.
 	6. Tracer le vecteur \(\overrightarrow{OB}\).
 	7. Quel est le symbole que vous avez obtenu ?   
 	   
-	
+** Paradoxe de Simpson
+*** Exercice 77
+
+    1. Placer les points O(0 ; 0) et A(1 ; 0) et tracer le vecteur
+       \[\vec{u}_1 = \overrightarrow{OA}\]
+       en bleu.       
+    2. Placer le point B(3 ; 1) et tracer le vecteur
+       \[\vec{v}_1 = \overrightarrow{OB}\]
+       en rouge.
+    3. Placer les points C(0 ; 3) et D(2 ; 7) et tracer le
+       vecteur
+       \[\vec{u}_2 = \overrightarrow{CD}\]
+       en bleu.
+    4. Placer le point E(0 ; 4) et tracer le vecteur
+       \[\vec{v}_2 = \overrightarrow{CE}\]
+       en rouge.
+    5. Vérifier que le pente de \(\vec{u}_1\) est inférieure à celle de
+       \(\vec{v}_1\). 
+    6. Vérifier que le pente de \(\vec{u}_2\) est inférieure à celle de
+       \(\vec{v}_2\).
+    7. Placer les points F(4 ; 2) et G(7 ; 4) et tracer le vecteur
+       \[\vec{v} = \vec{v}_1 + \vec{v}_2 = \overrightarrow{FG}\]
+       en rouge.
+    8. Placer le point H(7 ; 6) et tracer le vecteur
+       \[\vec{u} = \vec{u}_1 + \vec{u}_2 = \overrightarrow{FH}\]
+       en bleu.
+    9. Comparer les pentes des vecteurs \(\vec{u}\) et
+       \(\vec{v}\). Que remarquez-vous ?
+
+** Arithmétique
+*** Exercice 78
+
+    On se place dans le plan muni d'un repère \((O ; \vec{i} ,
+    \vec{j})\) avec \((\vec{i} , \vec{j})\) la base canonique.
+
+    1. Pour \(n\in\{1, 2, 3, 4, 5, 6\}\) tracer les 6 vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 6\end{pmatrix}\]
+    2. Calculer leurs pentes respectives \(p_n\).
+    3. Lesquelles sont des nombres entiers ?
+    4. Qu'en déduisez-vous pour les abscisses des vecteurs dont la
+       pente est un entier ? 
+    5. Tracer les 6 vecteurs
+       \[\vec{v}_n\begin{pmatrix}6\\ n\end{pmatrix}\]
+       Que remarquez-vous pour \(\vec{v}_6\) ? 
+    6. Calculer les pentes respectives \(q_n\).
+    7. Avez-vous eu besoin de les calculer à partir de zéro ou alors y
+       avait-il un moyen de les obtenir à partir des \(p_n\) ?
+    8. Quelle est la relation entre les \(p_n\) et les \(q_n\) ?
+    9. Combien y a-t-il de vecteurs du plan dans le cadrant supérieur
+       droit de coordonnées entières tels que leur produit vaut 6 ?
+    10. Tracer tous les vecteurs à coordonnées entières vérifiant les
+        conditions de la question précédente.
+
+*** Exercice 79
+
+    On se place dans le plan muni d'un repère \((O ; \vec{i} ,
+    \vec{j})\) avec \((\vec{i} , \vec{j})\) la base canonique.
+
+    1. Pour \(n\in\{1, 2, \dots , 12\}\) tracer les 12 vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 12\end{pmatrix}\]
+    2. Calculer leurs pentes respectives \(p_n\).
+    3. Lesquelles sont des nombres entiers ?
+    4. Qu'en déduisez-vous pour les abscisses des vecteurs dont la
+       pente est un entier ? 
+    5. Tracer les 12 vecteurs
+       \[\vec{v}_n\begin{pmatrix}12\\ n\end{pmatrix}\]
+       Que remarquez-vous pour \(\vec{v}_12\) ? 
+    6. Calculer les pentes respectives \(q_n\).
+    7. Avez-vous eu besoin de les calculer à partir de zéro ou alors y
+       avait-il un moyen de les obtenir à partir des \(p_n\) ?
+    8. Quelle est la relation entre les \(p_n\) et les \(q_n\) ?
+    9. Combien y a-t-il de vecteurs du plan dans le cadrant supérieur
+       droit de coordonnées entières tels que leur produit vaut 12 ?
+    10. Tracer tous les vecteurs à coordonnées entières vérifiant les
+        conditions de la question précédente.
+
+*** Exercice 80
+
+    On poursuit la même logique que les deux exercices précédents.
+    
+    Mais cette fois on va calculer sans représenter les vecteurs parce
+    qu'on va prendre \(n = 60\).
+
+    1. Pour \(n\in\{1, 2, \dots , 60\}\) quels sont les vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 12\end{pmatrix}\]
+       qui ont une pente entière ?
+    2. Qu'en déduisez-vous pour les abscisses des vecteurs dont la
+       pente est un entier ? 
+    3. Combien y a-t-il de vecteurs du plan dans le cadrant supérieur
+       droit de coordonnées entières tels que leur produit vaut 60 ?
+
+    
 * Erreurs fréquentes à éviter
 
 ** Erreur 1 : Confondre vecteur et longueur
