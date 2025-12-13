@@ -184,7 +184,7 @@
     + \(C_1\) : Vecteur \(\overrightarrow{MM'}\) associé à la
       translation qui transforme M en M'. Direction, sens et norme.
       
-    [[./C1.png]]
+    [[./img/C1.png]]
     
 *** Exercice 1
 
@@ -570,7 +570,7 @@
  
     Voir figure :
 
-    [[./Oijorthonormaluv.png]]
+    [[./img/Oijorthonormaluv.png]]
 
     1. Construire les points A, B, C et D tels que :
        \begin{align*}
@@ -646,7 +646,7 @@
 
     Voir figure :
 
-    [[./figexo8.png]]
+    [[./img/figexo8.png]]
 
     1. Calculer les déterminants suivants :
        \begin{align*}
@@ -739,7 +739,7 @@
     On considère le triangle ABC représenté sur la figure avec le
     quadrillage :
 
-    [[./ABCtrig.png]]
+    [[./img/ABCtrig.png]]
 
     1. Construire le point D tel que \(\overrightarrow{BD} =
        \overrightarrow{AB}\).
@@ -784,7 +784,7 @@
     On considère la configuration initiale de l'exercice 9 voir
     figure :
 
-    [[./ABCtrig.png]]
+    [[./img/ABCtrig.png]]
 
     1. Construire le point D tel que \(\overrightarrow{BD} =
        \overrightarrow{BC} + \overrightarrow{BA}\).
@@ -838,7 +838,7 @@
     1. Représenter le vecteur
        \(\vec{u}\begin{pmatrix}3\\ 5\end{pmatrix}\).
     2. Lire les coordonnées du vecteur \(\vec{v}\) sur la figure :
-       [[./figexo11.png]]
+       [[./img/figexo11.png]]
 
 
 *** QCM d'auto-évaluation 
@@ -933,7 +933,7 @@
     On considère les points A(2 ; 3), B(-3 ; 2), C(-2 ; -3) et D(3 ;
     -2) tels que sur la figure :
 
-    [[./figexo13.png]]
+    [[./img/figexo13.png]]
 
     1. Calculer les distances AB, AC, AD, BC, BD, CD.
     2. Calculer les coordonnées des milieux des segments [AB], [AC],
@@ -978,7 +978,7 @@
 
     Voir la figure :
     
-    [[./figexo13.png]]
+    [[./img/figexo13.png]]
 
     1. Les points A, O et C sont-ils alignés ?
     2. Calculer OA et OC. Qu'en déduisez-vous ?
@@ -1931,7 +1931,7 @@ construction géométrique précise utilisant les opérations vectorielles.
     On considère un échiquier standard comme celui sur la figure
     ci-dessous :
 
-    [[./chessboard_wiki.jpg]]
+    [[./img/chessboard_wiki.jpg]]
 
     L'échiquier est traditionnellement codé avec les lettres de a à h
     pour indiquer la position horizontale et les nombres de 1 à 8 pour
@@ -1950,7 +1950,7 @@ construction géométrique précise utilisant les opérations vectorielles.
     Considérons les déplacements possibles du fou blanc comme indiqué
     sur la photo ci-dessous :
 
-    [[./fou_motion.png]]
+    [[./img/fou_motion.png]]
 
     1. Quelles sont les coordonnées du vecteur \(\vec{v}_1\) indiquant
        le déplacement de la case h1 vers la case a8 (appelée aussi

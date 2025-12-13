@@ -91,14 +91,14 @@
      \[\overrightarrow{BD} = \overrightarrow{AC}\]
      
      Voir figure :
-     [[./sol1q1.png]]
+     [[./img/sol1q1.png]]
   2. L'image du point C par la translation de vecteur
      \[\vec{u} = \overrightarrow{AB}\]
      est le point E tel que
      \[\overrightarrow{CE} = \overrightarrow{AB}\]
 
      Voir figure :
-     [[./sol1q2.png]]
+     [[./img/sol1q2.png]]
   3. On peut en déduire que D = E car :
      \begin{align*}
      \overrightarrow{AD} &= \overrightarrow{AB} + \overrightarrow{BD} = \vec{u} + \vec{v}\\
@@ -115,7 +115,7 @@
      Une seule égalité suffit.
      
      Voir figure :
-     [[./sol1q4.png]]
+     [[./img/sol1q4.png]]
 
 
 ** Solution de l'exercice 2
@@ -131,7 +131,7 @@
      + norme : la longueur BC, qui est aussi la longueur AB
 
      Voir figure :
-     [[./sol2q1.png]]
+     [[./img/sol2q1.png]]
   2. Le point B représente le milieu du segment [AC].
   3. On a :
      \begin{align*}
@@ -205,7 +205,7 @@
       Donc ABDC est un parallélogramme.
       
       Voir figure :
-      [[./sol3q1.png]]
+      [[./img/sol3q1.png]]
    2. On sait que
       \[\overrightarrow{DC} = -\overrightarrow{CD}\]
       donc
@@ -228,7 +228,7 @@
       \end{align*}
 
       Voir figure :
-      [[./sol3q3.png]]
+      [[./img/sol3q3.png]]
 
 
 ** Solution programme 2
@@ -289,7 +289,7 @@
       Ainsi ABDC est un parallélogramme.
       
       Voir figure :
-      [[./sol4q2.png]]
+      [[./img/sol4q2.png]]
    3. Dans un parallélogramme les diagonales se coupent en leur milieu
       donc O est le milieu de [AD] et [BC]. Cette information est
       inutile pour cette question mais elle le sera pour la question
@@ -318,7 +318,7 @@
       \end{align*}
 
       Voir figure :
-      [[./sol4q4.png]]
+      [[./img/sol4q4.png]]
 
 
 ** Solution programme 3
@@ -372,7 +372,7 @@
       est bien une base orthonormée.
 
       Voir figure :
-      [[./sol5q1.png]]
+      [[./img/sol5q1.png]]
    2. Pour déterminer les coordonnées des points dans cette base il
       faut exprimer les vecteurs partant de l'origine du repère comme
       combinaisons linéaires des vecteurs de la base. Tout d'abord il
@@ -409,7 +409,7 @@
         &\Rightarrow n_1 = \sqrt{2}
        \end{align*}
        Voir figure :
-       [[./sol5bisq1.png]]
+       [[./img/sol5bisq1.png]]
     2.
        \begin{align*}
         n_2 &= \lvert\lvert \vec{i} - \vec{j}\rvert\rvert\\
@@ -418,7 +418,7 @@
         &\Rightarrow n_2 = \sqrt{2}
        \end{align*}
        Voir figure :
-       [[./sol5bisq2.png]]
+       [[./img/sol5bisq2.png]]
     3.
        \begin{align*}
         n_3 &= \lvert\lvert 3\vec{i}\rvert\rvert\\
@@ -426,7 +426,7 @@
         &\Rightarrow n_3 = 3
        \end{align*}
        Voir figure :
-       [[./sol5bisq3.png]]
+       [[./img/sol5bisq3.png]]
     4.
        \begin{align*}
         n_4 &= \lvert\lvert 3\vec{i} + 4\vec{j}\rvert\rvert\\
@@ -435,7 +435,7 @@
         &\Rightarrow n_4 = 5
        \end{align*}
        Voir figure :
-       [[./sol5bisq4.png]]
+       [[./img/sol5bisq4.png]]
     5.
        \begin{align*}
         n_5 &= \lvert\lvert -5\vec{j}\rvert\rvert\\
@@ -443,7 +443,7 @@
         &\Rightarrow n_5 = 5
        \end{align*}
        Voir figure :
-       [[./sol5bisq5.png]]
+       [[./img/sol5bisq5.png]]
 
 
 ** Solution de l'exercice 5 ter
@@ -471,7 +471,7 @@
        &\Rightarrow s = 2 > e = \sqrt{2}
        \end{align*}
        Voir figure :
-       [[./sol5terq1.png]]
+       [[./img/sol5terq1.png]]
     2. \[(\vec{u}, \vec{v}) = (\vec{i} + \vec{j}, \vec{i} - \vec{j})\]
        \begin{align*}
        \lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\vec{v}\rvert\rvert = \sqrt{2}\\
@@ -482,7 +482,7 @@
        &\Rightarrow s = 2\sqrt{2} > e = 2
        \end{align*}
        Voir figure :
-       [[./sol5terq2.png]]
+       [[./img/sol5terq2.png]]
     3. \[ (\vec{u}, \vec{v}) = (a\vec{i} + b\vec{j}, c\vec{i} + d\vec{j}) \]
        \begin{align*}
        \lvert\lvert\vec{u}\rvert\rvert &= \sqrt{a^2 + b^2}\\
@@ -802,7 +802,7 @@
 ** Solution de l'exercice 7
 
    1. Voir figure :
-      [[./sol7q1.png]]
+      [[./img/sol7q1.png]]
    2. On peut voir sur la figure que les points A et B sont sur l'axe
       des abscisses donc les vecteurs \(\overrightarrow{OA}\) et
       \(\overrightarrow{OB}\) sont colinéaires. Concrètement :
@@ -812,7 +812,7 @@
       \(\overrightarrow{OD}\) sont colinéaires. Concrètement :
       \[\overrightarrow{OD} = \dfrac{3}{2}\overrightarrow{OC}\]
    4. Voir figure :
-      [[./sol7q4.png]]
+      [[./img/sol7q4.png]]
    5. D'une part on a :
       \begin{align*}
       \overrightarrow{DF} &= \overrightarrow{DO} + \overrightarrow{OF}\\
@@ -898,7 +898,7 @@
 
    Voir figure :
 
-    [[./sol7q4.png]]
+    [[./img/sol7q4.png]]
 
    1. Calculs de déterminants :
        \begin{align*}
@@ -996,7 +996,7 @@
        coordonnées L(1 ; 3).
 
 
-   [[./sol8q10.png]]
+   [[./img/sol8q10.png]]
 
 
 ** Solution du programme 7
@@ -1073,7 +1073,7 @@
    On considère le triangle ABC représenté sur la figure avec le
     quadrillage :
 
-    [[./ABCtrig.png]]
+    [[./img/ABCtrig.png]]
 
     1. Pour construire le point D tel que \(\overrightarrow{BD} =
        \overrightarrow{AB}\) il faut d'abord comprendre que D est le
@@ -1081,14 +1081,14 @@
        milieu de [AD].
 
        Voir figure :
-       [[./sol9q1.png]]
+       [[./img/sol9q1.png]]
        
     2. Pour construire le point E tel que \(\overrightarrow{CE} =
        \overrightarrow{AB}\) il faut bien comprendre que l'on complète
        le triangle pour obtenir un parallélogramme.
 
        Voir figure :
-       [[./sol9q2.png]]
+       [[./img/sol9q2.png]]
        
     3. Utilisons la relation de Chasles pour décomposer le vecteur
        \(\overrightarrow{BE}\) : 
@@ -1099,7 +1099,7 @@
        \end{align*}
 
        Voir figure :
-       [[./sol9q3.png]]
+       [[./img/sol9q3.png]]
 
     
 
@@ -1132,7 +1132,7 @@
        On considère la configuration initiale de l'exercice 9 voir
     figure :
 
-    [[./ABCtrig.png]]
+    [[./img/ABCtrig.png]]
 
     1. Pour construire le point D tel que \(\overrightarrow{BD} =
        \overrightarrow{BC} + \overrightarrow{BA}\) il faut reporter le
@@ -1150,7 +1150,7 @@
        \end{align*}
 
        Voir figure :
-       [[./sol10q2.png]]
+       [[./img/sol10q2.png]]
     3. Construisons le point E tel que \(\overrightarrow{AE} =
        \overrightarrow{AB} + \overrightarrow{AC}\) de façon similaire
        à la question 1.
@@ -1166,7 +1166,7 @@
        \end{align*}
        
        Voir figure :
-       [[./sol10q4.png]]
+       [[./img/sol10q4.png]]
 
 
 ** Solution du QCM d'auto-évaluation 
@@ -1210,9 +1210,9 @@
        \(\vec{u}\begin{pmatrix}3\\ 5\end{pmatrix}\).
 
        Voir figure :
-       [[./sol11q1.png]]
+       [[./img/sol11q1.png]]
     2. Lire les coordonnées du vecteur \(\vec{v}\) sur la figure :
-       [[./sol11q2.png]]
+       [[./img/sol11q2.png]]
 
        On peut voir sur la figure que :
        \[\vec{v} = 5\vec{i} + 3\vec{j}\]
@@ -1298,7 +1298,7 @@
     On considère les points A(2 ; 3), B(-3 ; 2), C(-2 ; -3) et D(3 ;
     -2) tels que sur la figure :
 
-    [[./figexo13.png]]
+    [[./img/figexo13.png]]
 
     1. Calculs des distances AB, AC, AD, BC, BD, CD :
        \begin{align*}
@@ -1311,7 +1311,7 @@
        \end{align*}
 
        Voir figure :
-       [[./sol13q1.png]]
+       [[./img/sol13q1.png]]
     2. Calculs des coordonnées des milieux des segments [AB], [AC],
        [AD], [BC], [BD], [CD] :
        \begin{align*}
@@ -1324,7 +1324,7 @@
        \end{align*}
 
        Voir figure :
-       [[./sol13q2.png]]
+       [[./img/sol13q2.png]]
        
 
 ** Solution du QCM d'auto-évaluation 
@@ -1358,7 +1358,7 @@
 
     Voir la figure :
     
-    [[./figexo13.png]]
+    [[./img/figexo13.png]]
 
     1. Le point O étant l'origine du repère on peut facilement
        déterminer les coordonnées des vecteurs \(\overrightarrow{OA}\)
@@ -1371,7 +1371,7 @@
        \end{align*}
 
        Voir figure :
-       [[./sol14q1.png]]
+       [[./img/sol14q1.png]]
     2. D'après ce qui précède on a :
        \begin{align*}
        \lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\overrightarrow{OA}\rvert\rvert = \lvert\lvert\overrightarrow{OC}\rvert\rvert \\
@@ -1389,7 +1389,7 @@
        les points B, O et D sont alignés.
 
        Voir figure :
-       [[./sol14q3.png]]
+       [[./img/sol14q3.png]]
        
     4. Comparons OB et OD :
        \begin{align*}
@@ -1402,7 +1402,7 @@
        \(2\sqrt{13} = \sqrt{52}\).
 
        Voir figure :
-       [[./sol14q4.png]]
+       [[./img/sol14q4.png]]
        
     5. Puisque ABCD est un rectangle, c'est donc un parallélogramme
        donc on a :
@@ -1414,7 +1414,7 @@
        \(\overrightarrow{CD}\) sont colinéaires.
        
        Voir figure :
-       [[./sol14q5.png]]
+       [[./img/sol14q5.png]]
        
     6. Comparons AB et AD :
        \begin{align*}
@@ -1424,13 +1424,13 @@
        \end{align*}
 
        Voir figure :
-       [[./sol14q6.png]]
+       [[./img/sol14q6.png]]
        
     7. Le quadrilatère ABCD est un carré car c'est un rectangle avec
        deux côtés consécutifs de même longueur.
 
        Voir figure :
-       [[./sol14q7.png]]
+       [[./img/sol14q7.png]]
 
 ** Solution du QCM d'auto-évaluation 
 
