@@ -1232,16 +1232,45 @@
 ** Pour s'exercer davantage
 *** Exercice 16
 
-
-    Soit ABC un triangle. On note I, J, K les milieux respectifs de
-    [BC], [CA], [AB].
+    On se place dans le plan muni du repère orthonormé \((O ; \vec{i},
+    \vec{j})\). 
     
-    + Méthode 1 (Géométrique) : En utilisant la relation de Chasles,
-      montrer que :      
-      \[\overrightarrow{AI} + \overrightarrow{BI} = \vec{0}\]
-    + Méthode 2 (Analytique) : Placer A(0;0), B(4;0), C(2;3) dans un
-      repère et calculer les coordonnées de I. Vérifier la relation.      
-    + Question : Quelle méthode préférez-vous ? Pourquoi ?
+    1. Placer les points O(0 ; 0), I(1 ; 0), J(0 ; 1) et A tel que
+       \[\overrightarrow{OA} = \vec{i} + \vec{j}\]
+       Quelle est la nature du triangle OIA ?
+    2. Placer le point B tel que
+       \[\overrightarrow{AB} = \vec{j} - \vec{i}\]
+       Trouver une égalité vectorielle plus simple pour placer le
+       point B. Comparer OA, AB et OB. En déduire la nature du
+       triangle OAB.
+    3. Placer le point C tel que
+       \[\overrightarrow{OC} = 2\overrightarrow{AB}\]
+       Trouver une égalité vectorielle plus simple pour placer le
+       point C. Comparer OB, BC et OC. En déduire la nature du
+       triangle OBC.
+    4. Placer le point D tel que
+       \[\overrightarrow{OD} = -4\vec{i}\]
+       Quelle est la nature du triangle COD ?
+    5. Placer le point E tel que
+       \[\overrightarrow{DE} = -4\vec{j}\]
+       Quelle est la nature du triangle ODE ? Les vecteurs
+       \(\overrightarrow{OA}\) et \(\overrightarrow{OE}\) sont-ils
+       colinéaires ?
+    6. Placer le point F tel que
+       \[\overrightarrow{OF} = -4\overrightarrow{OB}\]
+       Quelle est la nature du triangle EOF ?
+    7. Placer le point G tel que
+       \[\overrightarrow{FG} = 8\vec{i}\]
+       Quelle est la nature du triangle FOG ?
+    8. Calculer les coordonnées des points H, K, L, M, N, P milieux
+       respectifs des segments [OA], [OC], [OD], [OE], [OF], [OG].
+
+       *Rappel* : le point J est le milieu du segment [OB].
+    9. Tracer les segments [HJ], [JK], [KL], [LM], [MN] et [NP].
+    10. Tracer les cercles de centres H, J, K, L, M, N, P de rayons
+        respectifs HJ, JK, KL, LM, MN, NP.
+	Que remarquez-vous ?
+       
 
 *** Exercice 17
 
@@ -2540,7 +2569,7 @@ opérations vectorielles.
     qu'on va prendre \(n = 60\).
 
     1. Pour \(n\in\{1, 2, \dots , 60\}\) quels sont les vecteurs
-       \[\vec{u}_n\begin{pmatrix}n\\ 12\end{pmatrix}\]
+       \[\vec{u}_n\begin{pmatrix}n\\ 60\end{pmatrix}\]
        qui ont une pente entière ?
     2. Qu'en déduisez-vous pour les abscisses des vecteurs dont la
        pente est un entier ? 

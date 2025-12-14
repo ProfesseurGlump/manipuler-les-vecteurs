@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  13 DEC 2025 16:15
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  14 DEC 2025 12:53
  system commands enabled.
 **mvp.tex
 (.//mvp.tex
@@ -1461,7 +1461,7 @@ Overfull \hbox (8.61769pt too wide) in paragraph at lines 131--135
 
 ]
 Chapitre 3.
-<./img/C1.png, id=958, 272.37437pt x 195.5648pt>
+<./img/C1.png, id=963, 272.37437pt x 195.5648pt>
 File: ./img/C1.png Graphic file (type png)
 <use ./img/C1.png>
 Package luatex.def Info: ./img/C1.png  used on input line 204.
@@ -1469,7 +1469,7 @@ Package luatex.def Info: ./img/C1.png  used on input line 204.
 
 
 [21<./img/C1.png>]
-<./img/ABCvect.png, id=965, 343.59746pt x 236.96771pt>
+<./img/ABCvect.png, id=970, 343.59746pt x 236.96771pt>
 File: ./img/ABCvect.png Graphic file (type png)
 <use ./img/ABCvect.png>
 Package luatex.def Info: ./img/ABCvect.png  used on input line 219.
@@ -1528,7 +1528,7 @@ la re-la-tion de Chasles.
 
 ]
 Chapitre 6.
-<./img/ABCDsquare.png, id=1067, 546.12091pt x 376.64139pt>
+<./img/ABCDsquare.png, id=1072, 546.12091pt x 376.64139pt>
 File: ./img/ABCDsquare.png Graphic file (type png)
 <use ./img/ABCDsquare.png>
 Package luatex.def Info: ./img/ABCDsquare.png  used on input line 465.
@@ -1564,7 +1564,7 @@ Chapitre 7.
 
 ]
 Chapitre 8.
-<./img/Oijorthonormaluv.png, id=1157, 250.35797pt x 172.66354pt>
+<./img/Oijorthonormaluv.png, id=1162, 250.35797pt x 172.66354pt>
 File: ./img/Oijorthonormaluv.png Graphic file (type png)
 <use ./img/Oijorthonormaluv.png>
 Package luatex.def Info: ./img/Oijorthonormaluv.png  used on input line 685.
@@ -1581,7 +1581,7 @@ Package luatex.def Info: ./img/Oijorthonormaluv.png  used on input line 685.
 
 ]
 Chapitre 9.
-<./img/figexo8.png, id=1199, 250.35797pt x 172.66354pt>
+<./img/figexo8.png, id=1204, 250.35797pt x 172.66354pt>
 File: ./img/figexo8.png Graphic file (type png)
 <use ./img/figexo8.png>
 Package luatex.def Info: ./img/figexo8.png  used on input line 778.
@@ -1617,7 +1617,7 @@ Serif(0)/m/n/10.95 . En dé-duire la na-ture du qua-dri-la-tère OBHD.
 
 ]
 Chapitre 10.
-<./img/ABCtrig.png, id=1254, 383.73451pt x 264.6489pt>
+<./img/ABCtrig.png, id=1259, 383.73451pt x 264.6489pt>
 File: ./img/ABCtrig.png Graphic file (type png)
 <use ./img/ABCtrig.png>
 Package luatex.def Info: ./img/ABCtrig.png  used on input line 889.
@@ -1662,7 +1662,7 @@ Overfull \hbox (5.25581pt too wide) in paragraph at lines 976--978
 
 ]
 Chapitre 12.
-<./img/figexo11.png, id=1314, 284.52756pt x 204.29079pt>
+<./img/figexo11.png, id=1319, 284.52756pt x 204.29079pt>
 File: ./img/figexo11.png Graphic file (type png)
 <use ./img/figexo11.png>
 Package luatex.def Info: ./img/figexo11.png  used on input line 1017.
@@ -1697,7 +1697,7 @@ Chapitre 13.
 
 ]
 Chapitre 14.
-<./img/figexo13.png, id=1366, 298.22559pt x 214.12598pt>
+<./img/figexo13.png, id=1371, 298.22559pt x 214.12598pt>
 File: ./img/figexo13.png Graphic file (type png)
 <use ./img/figexo13.png>
 Package luatex.def Info: ./img/figexo13.png  used on input line 1135.
@@ -1911,7 +1911,7 @@ Chapitre 22.
 
 [122]
 Chapitre 23.
-<./img/chessboard_wiki.jpg, id=1888, 2620.79124pt x 1705.37125pt>
+<./img/chessboard_wiki.jpg, id=1893, 2620.79124pt x 1705.37125pt>
 File: ./img/chessboard_wiki.jpg Graphic file (type jpg)
 <use ./img/chessboard_wiki.jpg>
 Package luatex.def Info: ./img/chessboard_wiki.jpg  used on input line 2321.
@@ -1921,7 +1921,7 @@ Package luatex.def Info: ./img/chessboard_wiki.jpg  used on input line 2321.
 [123
 
 ]
-<./img/fou_motion.png, id=1893, 310.15875pt x 272.01625pt>
+<./img/fou_motion.png, id=1898, 310.15875pt x 272.01625pt>
 File: ./img/fou_motion.png Graphic file (type png)
 <use ./img/fou_motion.png>
 Package luatex.def Info: ./img/fou_motion.png  used on input line 2342.
@@ -2177,19 +2177,19 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `mvp.out' has not changed.
-(rerunfilecheck)             Checksum: 3664ECF5D9F7EEAEAFC104FD1D37F43E;23129.
+(rerunfilecheck)             Checksum: 2EEE163CB49F15B527A87AB4423EB158;23245.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40729 strings out of 475506
+ 40735 strings out of 475506
  100000,1648299 words of node,token memory allocated
- 6551 words of node memory still in use:
-   31 hlist, 2 vlist, 14 rule, 389 glue, 5 kern, 1 penalty, 22 sub_mlist, 1 glyp
-h, 876 attribute, 66 glue_spec, 476 attribute_list, 2 write, 24 pdf_literal, 5 p
+ 6596 words of node memory still in use:
+   31 hlist, 2 vlist, 14 rule, 392 glue, 5 kern, 1 penalty, 22 sub_mlist, 1 glyp
+h, 884 attribute, 66 glue_spec, 480 attribute_list, 2 write, 24 pdf_literal, 5 p
 df_action, 24 pdf_colorstack nodes
-   avail lists: 1:2,2:3586,3:1744,4:304,5:570,6:94,7:3515,8:91,9:1264,10:10,11:2
+   avail lists: 1:2,2:3574,3:1744,4:304,5:571,6:94,7:3512,8:91,9:1264,10:10,11:2
 38
- 61853 multiletter control sequences out of 65536+600000
+ 61855 multiletter control sequences out of 65536+600000
  87 fonts using 18587439 bytes
  98i,20n,100p,2363b,865s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Courier.ttc></usr/local/texlive/2025/texmf-dist/fonts/ope
@@ -2205,10 +2205,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on mvp.pdf (163 pages, 4562911 bytes).
+Output written on mvp.pdf (163 pages, 4563761 bytes).
 
-PDF statistics: 2291 PDF objects out of 2487 (max. 8388607)
- 2039 compressed objects within 21 object streams
- 937 named destinations out of 1000 (max. 131072)
- 1536 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2299 PDF objects out of 2487 (max. 8388607)
+ 2047 compressed objects within 21 object streams
+ 941 named destinations out of 1000 (max. 131072)
+ 1544 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1850,6 +1850,162 @@
 	   (*Bonne réponse*)
 
 
+* Solutions des exercices complémentaires
+** Pour s'exercer davantage
+*** Solution exercice 16
+
+
+    On se place dans le plan muni du repère orthonormé \((O ; \vec{i},
+    \vec{j})\). 
+    
+    1. Placer les points O(0 ; 0), I(1 ; 0), J(0 ; 1) et A tel que
+       \[\overrightarrow{OA} = \vec{i} + \vec{j}\]
+       On peut voir sur la figure que le triangle OIA est rectangle et
+       isocèle en I.
+       \begin{align*}
+       OI^2 + IA^2 &= 1^2 + 0^2 + 0^2 + 1^2 = 2\\
+       OA^2 &= 1^2 + 1^2 = 2
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q1.png]]
+       
+    2. Placer le point B tel que
+       \[\overrightarrow{AB} = \vec{j} - \vec{i}\]
+       Une égalité vectorielle plus simple pour placer le
+       point B est
+       \[\overrightarrow{OB} = 2\vec{j}\]
+       Pour la trouver on utilise Chasles :
+       \begin{align*}
+       \overrightarrow{AB} &= \overrightarrow{AO} +
+       \overrightarrow{OB}\\
+       \overrightarrow{OB} &= \overrightarrow{AB} -
+       \overrightarrow{AO}\\
+       \overrightarrow{OB} &= \overrightarrow{AB} +
+       \overrightarrow{OA}\\
+       \overrightarrow{OB} &= \vec{j} - \vec{i} + \vec{i} + \vec{j}\\
+       \overrightarrow{OB} &= 2\vec{j}
+       \end{algin*}
+       Par Pythagore :
+       \[OB^2 = OA^2 + AB^2\]
+       En effet :
+       \begin{align*}
+       OB^2 &= 0^2 + 2^2 = 4\\
+       OA^2 + AB^2 &= 1^2 + 1^2 + (0 - 1)^2 + (2 - 1)^2 = 4
+       \end{align*}
+       Le triangle OAB est isocèle et rectangle en A.
+
+       Voir figure :
+       [[./img/sol16q2.png]]
+       
+    3. Placer le point C tel que
+       \[\overrightarrow{OC} = 2\overrightarrow{AB}\]
+       Une égalité vectorielle plus simple pour placer le
+       point C est
+       \[\overrightarrow{BC} = -2\vec{i}\]
+       On la trouve en utilisant Chasles :
+       \begin{align*}
+       \overrightarrow{OC} &= \overrightarrow{OB} + \overrightarrow{BC}\\
+       \overrightarrow{BC} &= \overrightarrow{OC} - \overrightarrow{OB}\\
+       \overrightarrow{BC} &= 2(\vec{j} - \vec{i}) - 2\vec{j}\\
+       \overrightarrow{BC} &= -2\vec{i}
+       \end{align*}
+       Par Pythagore :
+       \[OC^2 = OB^2 + BC^2\]
+       En effet :
+       \begin{align*}
+       OC^2 &= (-2)^2 + 2^2 = 8\\
+       OB^2 + BC^2 &= 0^2 + 2^2 + (-2)^2 + 0^2 = 8
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q3.png]]
+       
+    4. Placer le point D tel que
+       \[\overrightarrow{OD} = -4\vec{i}\]
+       Le triangle COD est isocèle et rectangle en C :
+       \begin{align*}
+       OC^2 &= (-2)^2 + 2^2 = 8\\
+       \overrightarrow{CD} &= \overrightarrow{CO} + \overrightarrow{OD}\\
+       \overrightarrow{CD} &= 2\vec{i} - 2\vec{j} - 4\vec{i}\\
+       \overrightarrow{CD} &= -2(\vec{i} + \vec{i})\\
+       CD^2 &= (-2)^2 + (-2)^2 = 8\\
+       OD^2 &= (-4)^2 + 0^2 = 16
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q4.png]]
+       
+    5. Placer le point E tel que
+       \[\overrightarrow{DE} = -4\vec{j}\]
+       Le triangle ODE est isocèle est rectangle en D.
+       Les vecteurs \(\overrightarrow{OA}\) et \(\overrightarrow{OE}\) sont
+       colinéaires.
+       \begin{align*}
+       \overrightarrow{OE} &= \overrightarrow{OD} + \overrightarrow{DE}\\
+       \overrightarrow{OE} &= -4\vec{i} - 4\vec{j}\\
+       \overrightarrow{OE} &= -4\overrightarrow{OA}\\
+       DE^2 &= 0^2 + (-4)^2 = 16\\
+       OD^2 &= (-4)^2 + 0^2 = 16\\
+       OE^2 &= (-4)^2 + (-4)^2 = 32
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q5.png]]
+       
+    6. Placer le point F tel que
+       \[\overrightarrow{OF} = -4\overrightarrow{OB}\]
+       Le triangle EOF est isocèle est rectangle en E.
+       \begin{align*}
+       \overrightarrow{EF} &= \overrightarrow{EO} + \overrightarrow{OF}\\
+       \overrightarrow{EF} &= 4(\vec{i} + \vec{j}) - 4(2\vec{j})\\
+       \overrightarrow{EF} &= 4(\vec{i} - \vec{j})\\
+       EF^2 &= 4^2 + (-4)^2 = 32\\
+       OE^2 &= (-4)^2 + (-4)^2 = 32\\
+       OF^2 &= (-4)^2\times 2^2 = 64
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q6.png]]
+       
+    7. Placer le point G tel que
+       \[\overrightarrow{FG} = 8\vec{i}\]
+       Le triangle FOG est isocèle et rectangle en F.
+       \begin{align*}
+       OF^2 &= 64\\
+       FG^2 &= 8^2 + 0^2 = 64\\
+       OG^2 &= 64 + 64 = 128
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q7.png]]
+       
+    8. Calcul des coordonnées des points H, K, L, M, N, P milieux
+       respectifs des segments [OA], [OC], [OD], [OE], [OF], [OG] :
+
+       \begin{align*}
+       H\begin{pmatrix}\frac{1}{2}\\ \frac{1}{2}\end{pmatrix} &&
+       K\begin{pmatrix}-1\\ 1\end{pmatrix}\\
+       L\begin{pmatrix}-2\\ 0\end{pmatrix} &&
+       M\begin{pmatrix}-2\\ -2\end{pmatrix}\\
+       N\begin{pmatrix}0\\ -4\end{pmatrix} &&
+       P\begin{pmatrix}4\\ -4\end{pmatrix}
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q8.png]]
+       
+    9. Voir figure :
+       [[./img/sol16q9.png]]
+       
+    10. On remarque que les cercles sont circonscrits aux triangles
+        respectifs.
+	
+	Voir figure :
+	[[./img/sol16q10.png]]
+	
+    
+
     
 * Solutions des exercices divers
 ** Solutions des paradoxes

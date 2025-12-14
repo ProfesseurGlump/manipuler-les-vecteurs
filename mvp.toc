@@ -153,6 +153,7 @@
 \contentsline {chapter}{\numberline {26}Arithmétique}{145}{chapter.26}%
 \contentsline {section}{\numberline {26.1}Exercice 78}{145}{section.26.1}%
 \contentsline {section}{\numberline {26.2}Exercice 79}{146}{section.26.2}%
+\contentsline {section}{\numberline {26.3}Exercice 80}{147}{section.26.3}%
 \contentsline {part}{VIII\hspace {1em}Erreurs fréquentes à éviter}{149}{part.8}%
 \contentsline {chapter}{\numberline {27}Erreur 1 : Confondre vecteur et longueur}{151}{chapter.27}%
 \contentsline {chapter}{\numberline {28}Erreur 2 : Oublier le sens dans la relation de Chasles}{153}{chapter.28}%
