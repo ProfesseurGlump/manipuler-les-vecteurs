@@ -2005,7 +2005,203 @@
 	[[./img/sol16q10.png]]
 	
     
+*** Solution de l'exercice 17
 
+    On se place dans le plan muni du repère orthonormé \((O ; \vec{i},
+    \vec{j})\). Pour la suite de l'exercice on considère les points
+    \(I(1 ; 0)\) et \(J(0 ; 1)\) ainsi que le vecteur
+    \[\vec{u} = 2\vec{j} - 3\vec{i}\]
+
+    1. L'ensemble des points \(M(x ; y)\) du plan tels que
+       \[det(\vec{i} , \overrightarrow{OM}) = 0\]
+       est l'axe des abscisses. En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{i} , \overrightarrow{OM}) = 0
+       &\iff \begin{vmatrix}1&x\\ 0&y \end{vmatrix} = 0\\
+       det(\vec{i} , \overrightarrow{OM}) = 0 &\iff y = 0\\
+       det(\vec{i} , \overrightarrow{OM}) = 0 &\iff
+       \overrightarrow{OM} = x\vec{i}
+       \end{align*}
+       Avec \(x\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout l'axe des abscisses.
+
+       Voir figure :
+       [[./img/sol17q1.png]]
+    2. L'ensemble des points \(M(x ; y)\) du plan tels que
+       \[det(\vec{j} , \overrightarrow{OM}) = 0\]
+       est l'axe des ordonnées. En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{j} , \overrightarrow{OM}) = 0
+       &\iff \begin{vmatrix}0&x\\ 1&y \end{vmatrix} = 0\\
+       det(\vec{j} , \overrightarrow{OM}) = 0 &\iff x = 0\\
+       det(\vec{j} , \overrightarrow{OM}) = 0 &\iff
+       \overrightarrow{OM} = y\vec{j}
+       \end{align*}
+       Avec \(y\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout l'axe des ordonnées.
+
+       Voir figure :
+       [[./img/sol17q2.png]]
+    3. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\overrightarrow{OM} , \vec{u}) = 0\]
+       est la droite d'équation cartésienne
+       \[2x + 3y = 0\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\overrightarrow{OM} , \vec{u}) = 0
+       &\iff \begin{vmatrix}x&-3\\ y&2 \end{vmatrix} = 0\\
+       det(\overrightarrow{OM} , \vec{u}) = 0 &\iff 2x + 3y = 0
+       \end{align*}
+       Si \(2x + 3y = 0\) alors on peut écrire \(y = -\dfrac{2}{3}x\)
+       et on retrouve l'expression d'une fonction linéaire.
+       
+       Voir figure :
+       [[./img/sol17q3.png]]
+    4. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\vec{i} , \overrightarrow{IM}) = 0\]
+       est l'axe des abscisses.
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{i} , \overrightarrow{IM}) = 0
+       &\iff \begin{vmatrix}1&x - 1\\ 0&y - 0 \end{vmatrix} = 0\\
+       det(\vec{i} , \overrightarrow{IM}) = 0 &\iff y = 0\\
+       det(\vec{i} , \overrightarrow{IM}) = 0 &\iff
+       \overrightarrow{IM} = (x - 1)\vec{i}
+       \end{align*}
+       Avec \(x\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout l'axe des abscisses.
+
+       Voir figure :
+       [[./img/sol17q4.png]]
+    5. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\vec{j} , \overrightarrow{JM}) = 0\]
+       est l'axe des ordonnées. En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{j} , \overrightarrow{JM}) = 0
+       &\iff \begin{vmatrix}0&x\\ 1&y - 1 \end{vmatrix} = 0\\
+       det(\vec{j} , \overrightarrow{JM}) = 0 &\iff x = 0\\
+       det(\vec{j} , \overrightarrow{JM}) = 0 &\iff
+       \overrightarrow{OM} = (y - 1)\vec{j}
+       \end{align*}
+       Avec \(y\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout l'axe des ordonnées.
+
+       Voir figure :
+       [[./img/sol17q5.png]]
+    6. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\vec{i} , \overrightarrow{JM}) = 0\]
+       est la droite horizontale d'équation \[y = 1\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{i} , \overrightarrow{JM}) = 0
+       &\iff \begin{vmatrix}1&x\\ 0&y - 1 \end{vmatrix} = 0\\
+       det(\vec{i} , \overrightarrow{JM}) = 0 &\iff y = 1\\
+       det(\vec{i} , \overrightarrow{JM}) = 0 &\iff
+       \overrightarrow{JM} = x\vec{i}
+       \end{align*}
+       Avec \(x\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout la droite parallèle à
+       l'axe des abscisses passant par J.
+
+       Voir figure :
+       [[./img/sol17q6.png]]
+    7. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\vec{j} , \overrightarrow{IM}) = 0\]
+       est la droite verticale d'équation \[x = 1\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{j} , \overrightarrow{IM}) = 0
+       &\iff \begin{vmatrix}0&x - 1\\ 1&y \end{vmatrix} = 0\\
+       det(\vec{j} , \overrightarrow{IM}) = 0 &\iff x = 1\\
+       det(\vec{j} , \overrightarrow{IM}) = 0 &\iff
+       \overrightarrow{IM} = y\vec{j}
+       \end{align*}
+       Avec \(y\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout la droite parallèle à
+       l'axe des ordonnées passant par I.
+
+       Voir figure :
+       [[./img/sol17q7.png]]
+    8. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\overrightarrow{IM}, \vec{u}) = 0\]
+       est la droite d'équation
+       \[2x + 3y - 2 = 0\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\overrightarrow{IM} , \vec{u}) = 0
+       &\iff \begin{vmatrix}x - 1&-3\\ y&2 \end{vmatrix} = 0\\
+       det(\overrightarrow{IM} , \vec{u}) = 0 &\iff 2x + 3y - 2 = 0
+       \end{align*}
+       Si \(2x + 3y - 2 = 0\) alors on peut écrire \(y =
+       \dfrac{2}{3} - \dfrac{2}{3}x\)
+       et on retrouve l'expression d'une fonction affine.
+       
+       Voir figure :
+       [[./img/sol17q8.png]]
+    9. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\overrightarrow{JM}, \vec{u}) = 0\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\overrightarrow{JM} , \vec{u}) = 0
+       &\iff \begin{vmatrix}x&-3\\ y - 1&2 \end{vmatrix} = 0\\
+       det(\overrightarrow{JM} , \vec{u}) = 0 &\iff 2x + 3y - 3 = 0
+       \end{align*}
+       Si \(2x + 3y - 3 = 0\) alors on peut écrire \(y =
+       1 - \dfrac{2}{3}x\)
+       et on retrouve l'expression d'une fonction affine.
+       
+       Voir figure :
+       [[./img/sol17q9.png]]
+    10. Soient un point \(P(x_P ; y_P)\) et un vecteur \(\vec{v} =
+        a\vec{j} - b\vec{i}\). L'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \[det(\vec{v} , \overrightarrow{PM}) = 0\]
+       est la droite d'équation cartésienne :
+       \[ax + by + c = 0\]
+       Démontrons cela en détails : 
+       \begin{align*}
+       det(\vec{v} , \overrightarrow{PM}) = 0&\iff \begin{vmatrix}-b&(x - x_P)\\ a&(y - y_P)\end{vmatrix} = 0\\
+       det(\vec{v} , \overrightarrow{PM}) = 0&\iff a(x - x_P) + b(y - y_P) = 0\\
+       det(\vec{v} , \overrightarrow{PM}) = 0&\iff ax + by - (ax_P + by_P) = 0\\
+       det(\vec{v} , \overrightarrow{PM}) = 0&\iff ax + by + c = 0
+       \end{align*}
+       Il suffit de ce rappeler que
+       \[c = -(ax_P + by_P)\]
+       + Si \(a = 0\) on obtient \(y = -\dfrac{c}{b}\) c'est-à-dire
+         une droite parallèle à l'axe des abscisses.
+	 
+	 Voir figure :
+	 [[./img/sol17q10a.png]]
+       + Si \(b = 0\) on obtient \(x = -\dfrac{c}{a}\) c'est-à-dire
+         une droite parallèle à l'axe des ordonnées.
+	 
+	 Voir figure :
+	 [[./img/sol17q10b.png]]
+       + Si \(c = 0\) on obtient \(y = -\dfrac{a}{b}x\) c'est-à-dire
+         une fonction linéaire donc une droite oblique passant par
+         l'origine.
+	 
+	 Voir figure :
+	 [[./img/sol17q10c.png]]
+       + Si \(abc \neq 0\) on obtient \(y = -\dfrac{a}{b}x -
+         \dfrac{c}{b}\) c'est-à-dire	 
+         une fonction affine donc une droite oblique ne passant pas par
+         l'origine.
+	 
+	 Voir figure :
+	 [[./img/sol17q10d.png]]
+
+       Dans tous les cas le vecteur \(\vec{v} = a\vec{j} - b\vec{i}\)
+        dirige la droite obtenue.
     
 * Solutions des exercices divers
 ** Solutions des paradoxes

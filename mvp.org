@@ -1274,16 +1274,40 @@
 
 *** Exercice 17
 
-    On considère un triangle ABC et un point G tel que :
+    On se place dans le plan muni du repère orthonormé \((O ; \vec{i},
+    \vec{j})\). Pour la suite de l'exercice on considère les points
+    \(I(1 ; 0)\) et \(J(0 ; 1)\) ainsi que le vecteur
+    \[\vec{u} = 2\vec{j} - 3\vec{i}\]
 
-    \[\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC}
-    = \vec{0}\]
-
-    1. Exprimer \(\overrightarrow{AG}\) en fonction de
-       \(\overrightarrow{AB}\) et \(\overrightarrow{AC}\).
-    2. En déduire les coordonées du point G en fonction de celles des
-       points A, B et C.
-
+    1. Quel est l'ensemble des points \(M(x ; y)\) du plan tels que
+       \(det(\vec{i} , \overrightarrow{OM}) = 0\) ?
+    2. Quel est l'ensemble des points \(M(x ; y)\) du plan tels que
+       \(det(\vec{j} , \overrightarrow{OM}) = 0\) ?
+    3. Quel est l'ensemble des points \(M(x ; y)\) du plan tels que       
+       \(det(\overrightarrow{OM} , \vec{u}) = 0\) ?
+    4. Quel est l'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \(det(\vec{i} , \overrightarrow{IM}) = 0\) ?
+    5. Quel est l'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \(det(\vec{j} , \overrightarrow{JM}) = 0\) ?
+    6. Quel est l'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \(det(\vec{i} , \overrightarrow{JM}) = 0\) ?
+    7. Quel est l'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \(det(\vec{j} , \overrightarrow{IM}) = 0\) ?
+    8. Quel est l'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \(det(\overrightarrow{IM}, \vec{u}) = 0\) ?
+    9. Quel est l'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \(det(\overrightarrow{JM}, \vec{u}) = 0\) ?
+    10. Soient un point \(P(x_P ; y_P)\) et un vecteur \(\vec{v} =
+        a\vec{j} - b\vec{i}\). Quel est l'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \(det(\vec{v} , \overrightarrow{PM}) = 0\) ?
+       
 *** Exercice 18
 
     Soient A et B deux points distincts dans le plan.
