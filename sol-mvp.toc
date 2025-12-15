@@ -1,65 +1,67 @@
 \xpg@aux {}{french}
-\contentsline {part}{I\hspace {1em}Solutions des exercices du contenu 1}{7}{part.1}%
-\contentsline {chapter}{\numberline {1}Solution de l'exercice 1}{9}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Solution de l'exercice 2}{13}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Solution programme 1}{15}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Solution du QCM d'auto-évaluation}{17}{chapter.4}%
-\contentsline {part}{II\hspace {1em}Solutions des exercices du contenu 2}{19}{part.2}%
-\contentsline {chapter}{\numberline {5}Solution de l'exercice 3}{21}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Solution programme 2}{25}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Solution du QCM d'auto-évaluation}{27}{chapter.7}%
-\contentsline {part}{III\hspace {1em}Solutions des exercices du contenu 3}{29}{part.3}%
-\contentsline {chapter}{\numberline {8}Solution de l'exercice 4}{31}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Solution programme 3}{35}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Solution du QCM d'auto-évaluation}{37}{chapter.10}%
-\contentsline {part}{IV\hspace {1em}Solutions des exercices du contenu 4}{39}{part.4}%
-\contentsline {chapter}{\numberline {11}Solution de l'exercice 5}{41}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Solution de l'exercice 5 bis}{43}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Solution de l'exercice 5 ter}{47}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Solution programme 4}{51}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Solution du QCM d'auto-évaluation}{59}{chapter.15}%
-\contentsline {part}{V\hspace {1em}Solutions des exercices du contenu 5}{61}{part.5}%
-\contentsline {chapter}{\numberline {16}Solution de l'exercice 6}{63}{chapter.16}%
-\contentsline {chapter}{\numberline {17}Solution du programme 5}{65}{chapter.17}%
-\contentsline {chapter}{\numberline {18}Solution du QCM d'auto-évaluation}{67}{chapter.18}%
-\contentsline {part}{VI\hspace {1em}Solutions des exercices du contenu 6}{69}{part.6}%
-\contentsline {chapter}{\numberline {19}Solution de l'exercice 7}{71}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Solution du programme 6}{75}{chapter.20}%
-\contentsline {chapter}{\numberline {21}Solution du QCM d'auto-évaluation}{77}{chapter.21}%
-\contentsline {part}{VII\hspace {1em}Solutions des exercices du contenu 7}{79}{part.7}%
-\contentsline {chapter}{\numberline {22}Solution de l'exercice 8}{81}{chapter.22}%
-\contentsline {chapter}{\numberline {23}Solution du programme 7}{87}{chapter.23}%
-\contentsline {chapter}{\numberline {24}Solution du QCM d'auto-évaluation}{89}{chapter.24}%
-\contentsline {part}{VIII\hspace {1em}Solutions des exercices de la \(Ca_1\)}{91}{part.8}%
-\contentsline {chapter}{\numberline {25}Solution de l'exercice 9}{93}{chapter.25}%
-\contentsline {chapter}{\numberline {26}Solution du QCM d'auto-évaluation}{97}{chapter.26}%
-\contentsline {part}{IX\hspace {1em}Solutions des exercices de la \(Ca_2\)}{99}{part.9}%
-\contentsline {chapter}{\numberline {27}Solution de l'exercice 10}{101}{chapter.27}%
-\contentsline {chapter}{\numberline {28}Solution du QCM d'auto-évaluation}{105}{chapter.28}%
-\contentsline {part}{X\hspace {1em}Solutions des exercices de la \(Ca_3\)}{107}{part.10}%
-\contentsline {chapter}{\numberline {29}Solution de l'exercice 11}{109}{chapter.29}%
-\contentsline {chapter}{\numberline {30}Solution du QCM d'auto-évaluation}{111}{chapter.30}%
-\contentsline {part}{XI\hspace {1em}Solutions des exercices de la \(Ca_4\)}{113}{part.11}%
-\contentsline {chapter}{\numberline {31}Solution de l'exercice 12}{115}{chapter.31}%
-\contentsline {chapter}{\numberline {32}Solution du QCM d'auto-évaluation}{117}{chapter.32}%
-\contentsline {part}{XII\hspace {1em}Solutions des exercices de la \(Ca_5\)}{119}{part.12}%
-\contentsline {chapter}{\numberline {33}Solution de l'exercice 13}{121}{chapter.33}%
-\contentsline {chapter}{\numberline {34}Solution du QCM d'auto-évaluation}{125}{chapter.34}%
-\contentsline {part}{XIII\hspace {1em}Solutions des exercices de la \(Ca_6\)}{127}{part.13}%
-\contentsline {chapter}{\numberline {35}Solution de l'exercice 14}{129}{chapter.35}%
-\contentsline {chapter}{\numberline {36}Solution du QCM d'auto-évaluation}{135}{chapter.36}%
-\contentsline {part}{XIV\hspace {1em}Solutions pour la \(Ca_7\)}{137}{part.14}%
-\contentsline {chapter}{\numberline {37}Solution de l'exercice 15}{139}{chapter.37}%
-\contentsline {chapter}{\numberline {38}Solution du programme}{143}{chapter.38}%
-\contentsline {chapter}{\numberline {39}Solution du QCM d'auto-évaluation}{147}{chapter.39}%
-\contentsline {part}{XV\hspace {1em}Solutions des exercices complémentaires}{155}{part.15}%
-\contentsline {chapter}{\numberline {40}Pour s'exercer davantage}{157}{chapter.40}%
-\contentsline {section}{\numberline {40.1}Solution exercice 16}{157}{section.40.1}%
-\contentsline {section}{\numberline {40.2}Solution de l'exercice 17}{166}{section.40.2}%
-\contentsline {part}{XVI\hspace {1em}Solutions des exercices divers}{179}{part.16}%
-\contentsline {chapter}{\numberline {41}Solutions des paradoxes}{181}{chapter.41}%
-\contentsline {section}{\numberline {41.1}Solution de l'exercice 77}{181}{section.41.1}%
-\contentsline {chapter}{\numberline {42}Solutions des exercices d'arithmétique}{187}{chapter.42}%
-\contentsline {section}{\numberline {42.1}Solution de l'exercice 78}{187}{section.42.1}%
-\contentsline {section}{\numberline {42.2}Solutions de l'exercice 79}{190}{section.42.2}%
-\contentsline {section}{\numberline {42.3}Solutions de l'exercice 80}{194}{section.42.3}%
+\contentsline {part}{I\hspace {1em}Solutions des exercices du contenu 1}{9}{part.1}%
+\contentsline {chapter}{\numberline {1}Solution de l'exercice 1}{11}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Solution de l'exercice 2}{15}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Solution programme 1}{17}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Solution du QCM d'auto-évaluation}{19}{chapter.4}%
+\contentsline {part}{II\hspace {1em}Solutions des exercices du contenu 2}{21}{part.2}%
+\contentsline {chapter}{\numberline {5}Solution de l'exercice 3}{23}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Solution programme 2}{27}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Solution du QCM d'auto-évaluation}{29}{chapter.7}%
+\contentsline {part}{III\hspace {1em}Solutions des exercices du contenu 3}{31}{part.3}%
+\contentsline {chapter}{\numberline {8}Solution de l'exercice 4}{33}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Solution programme 3}{37}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Solution du QCM d'auto-évaluation}{39}{chapter.10}%
+\contentsline {part}{IV\hspace {1em}Solutions des exercices du contenu 4}{41}{part.4}%
+\contentsline {chapter}{\numberline {11}Solution de l'exercice 5}{43}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Solution de l'exercice 5 bis}{45}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Solution de l'exercice 5 ter}{49}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Solution programme 4}{53}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Solution du QCM d'auto-évaluation}{61}{chapter.15}%
+\contentsline {part}{V\hspace {1em}Solutions des exercices du contenu 5}{63}{part.5}%
+\contentsline {chapter}{\numberline {16}Solution de l'exercice 6}{65}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Solution du programme 5}{67}{chapter.17}%
+\contentsline {chapter}{\numberline {18}Solution du QCM d'auto-évaluation}{69}{chapter.18}%
+\contentsline {part}{VI\hspace {1em}Solutions des exercices du contenu 6}{71}{part.6}%
+\contentsline {chapter}{\numberline {19}Solution de l'exercice 7}{73}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Solution du programme 6}{77}{chapter.20}%
+\contentsline {chapter}{\numberline {21}Solution du QCM d'auto-évaluation}{79}{chapter.21}%
+\contentsline {part}{VII\hspace {1em}Solutions des exercices du contenu 7}{81}{part.7}%
+\contentsline {chapter}{\numberline {22}Solution de l'exercice 8}{83}{chapter.22}%
+\contentsline {chapter}{\numberline {23}Solution du programme 7}{89}{chapter.23}%
+\contentsline {chapter}{\numberline {24}Solution du QCM d'auto-évaluation}{91}{chapter.24}%
+\contentsline {part}{VIII\hspace {1em}Solutions des exercices de la \(Ca_1\)}{93}{part.8}%
+\contentsline {chapter}{\numberline {25}Solution de l'exercice 9}{95}{chapter.25}%
+\contentsline {chapter}{\numberline {26}Solution du QCM d'auto-évaluation}{99}{chapter.26}%
+\contentsline {part}{IX\hspace {1em}Solutions des exercices de la \(Ca_2\)}{101}{part.9}%
+\contentsline {chapter}{\numberline {27}Solution de l'exercice 10}{103}{chapter.27}%
+\contentsline {chapter}{\numberline {28}Solution du QCM d'auto-évaluation}{107}{chapter.28}%
+\contentsline {part}{X\hspace {1em}Solutions des exercices de la \(Ca_3\)}{109}{part.10}%
+\contentsline {chapter}{\numberline {29}Solution de l'exercice 11}{111}{chapter.29}%
+\contentsline {chapter}{\numberline {30}Solution du QCM d'auto-évaluation}{113}{chapter.30}%
+\contentsline {part}{XI\hspace {1em}Solutions des exercices de la \(Ca_4\)}{115}{part.11}%
+\contentsline {chapter}{\numberline {31}Solution de l'exercice 12}{117}{chapter.31}%
+\contentsline {chapter}{\numberline {32}Solution du QCM d'auto-évaluation}{119}{chapter.32}%
+\contentsline {part}{XII\hspace {1em}Solutions des exercices de la \(Ca_5\)}{121}{part.12}%
+\contentsline {chapter}{\numberline {33}Solution de l'exercice 13}{123}{chapter.33}%
+\contentsline {chapter}{\numberline {34}Solution du QCM d'auto-évaluation}{127}{chapter.34}%
+\contentsline {part}{XIII\hspace {1em}Solutions des exercices de la \(Ca_6\)}{129}{part.13}%
+\contentsline {chapter}{\numberline {35}Solution de l'exercice 14}{131}{chapter.35}%
+\contentsline {chapter}{\numberline {36}Solution du QCM d'auto-évaluation}{137}{chapter.36}%
+\contentsline {part}{XIV\hspace {1em}Solutions pour la \(Ca_7\)}{139}{part.14}%
+\contentsline {chapter}{\numberline {37}Solution de l'exercice 15}{141}{chapter.37}%
+\contentsline {chapter}{\numberline {38}Solution du programme}{145}{chapter.38}%
+\contentsline {chapter}{\numberline {39}Solution du QCM d'auto-évaluation}{149}{chapter.39}%
+\contentsline {part}{XV\hspace {1em}Solutions des exercices complémentaires}{157}{part.15}%
+\contentsline {chapter}{\numberline {40}Pour s'exercer davantage}{159}{chapter.40}%
+\contentsline {section}{\numberline {40.1}Solution exercice 16}{159}{section.40.1}%
+\contentsline {section}{\numberline {40.2}Solution de l'exercice 17}{168}{section.40.2}%
+\contentsline {section}{\numberline {40.3}Solution de l'exercice 18}{180}{section.40.3}%
+\contentsline {section}{\numberline {40.4}Solution de l'exercice 19}{182}{section.40.4}%
+\contentsline {part}{XVI\hspace {1em}Solutions des exercices divers}{187}{part.16}%
+\contentsline {chapter}{\numberline {41}Solutions des paradoxes}{189}{chapter.41}%
+\contentsline {section}{\numberline {41.1}Solution de l'exercice 77}{189}{section.41.1}%
+\contentsline {chapter}{\numberline {42}Solutions des exercices d'arithmétique}{195}{chapter.42}%
+\contentsline {section}{\numberline {42.1}Solution de l'exercice 78}{195}{section.42.1}%
+\contentsline {section}{\numberline {42.2}Solutions de l'exercice 79}{198}{section.42.2}%
+\contentsline {section}{\numberline {42.3}Solutions de l'exercice 80}{202}{section.42.3}%

@@ -2202,7 +2202,132 @@
 
        Dans tous les cas le vecteur \(\vec{v} = a\vec{j} - b\vec{i}\)
         dirige la droite obtenue.
+
+*** Solution de l'exercice 18
+
+    Puisque nous avons A et B deux points distincts dans le plan et
+    que la condition est MA = MB alors la seule chose que l'on peut
+    faire c'est de calculer les distances. Or les distances sont des
+    nombres positifs donc on peut utiliser leurs carrés ce qui nous
+    évitera de manipuler des radicaux (racines carrées).
+
+    \begin{align*}
+    MA &= MB\\
+    MA^2 &= MB^2\\
+    MA^2 - MB^2 &= 0\\
+    (x - x_A)^2 + (y - y_A)^2 - (x - x_B)^2 - (y - y_B)^2 &= 0\\
+    2x(x_B - x_A) + (x_A)^2 - (x_B)^2 + 2y(y_B - y_A) + (y_A)^2 - (y_B)^2 &= 0\\
+    2x_{\overrightarrow{AB}}x + 2y_{\overrightarrow{AB}}y - (x_B + x_A)x_{\overrightarrow{AB}} - (y_B + y_A)y_{\overrightarrow{AB}} &= 0\\
+    x_{\overrightarrow{AB}}x + y_{\overrightarrow{AB}}y - \left(\dfrac{x_B + x_A}{2}x_{\overrightarrow{AB}} + \dfrac{y_B + y_A}{2}y_{\overrightarrow{AB}}\right) &= 0\\
+    ax + by + c &= 0
+    \end{align*}
+    Il s'agit d'une droite passant par le milieu du segment [AB] de
+    coordonnées
+    \[\begin{pmatrix}\frac{x_A+x_B}{2}\\ \frac{y_A+y_B}{2}\end{pmatrix}\]
+    et dirigée par le vecteur
+    \[\vec{v} = b\vec{j} - a\vec{i}\]
+    Avec
+    \begin{align*}
+    a &= (x_B - x_A) = x_{\overrightarrow{AB}}\\
+    b &= (y_B - y_A) = y_{\overrightarrow{AB}}\\
+    c &= \dfrac{(x_A)^2 - (x_B)^2 + (y_A)^2 - (y_B)^2}{2}\\
+    c &= -\left(\dfrac{x_B+x_A}{2}x_{\overrightarrow{AB}}+\dfrac{y_B+y_A}{2}y_{\overrightarrow{AB}}\right)
+    \end{align*}
+
+    Si on considère les points D et E tels que :
+    \begin{align*}
+    \overrightarrow{OD} &= \overrightarrow{AB}\\
+    \overrightarrow{OE} &= \vec{v}\\
+    DE^2 &= \left((y_B - y_A) - (x_B - x_A)\right)^2 + \left(-(x_B - x_A) - (y_B - y_A)\right)^2\\
+    DE^2 &= \left((x_B - x_A) - (y_B - y_A)\right)^2 + \left((x_B - x_A) + (y_B - y_A)\right)^2\\
+    DE^2 &= 2\left((y_B - y_A)^2 + (x_B - x_A)^2\right)\\
+    DE^2 &= 2\lvert\lvert\vec{v}\rvert\rvert^2\\
+    \lvert\lvert\vec{v}\rvert\rvert &= AB = OD
+    \end{align*}
+    Ainsi le triangle ODE est rectangle en O donc les vecteurs
+    \(\overrightarrow{AB}\) et \(\vec{v}\) sont orthogonaux.
+
+    L'ensemble des points vérifiants MA = MB est donc une droite
+    passant perpendiculairement par le milieu du segment [AB], c'est
+    donc la médiatrice du segment [AB].
+
+    Voir figure :
+    [[./img/sol18.png]]
+
+
+*** Solution de l'exercice 19
     
+    1. Pour que les trois points A, B et C soient alignés il faut
+       obtenir l'une des égalités vectorielles suivantes :
+       \begin{align*}
+       \overrightarrow{AC} &= k\overrightarrow{AB}\\
+       \overrightarrow{BC} &= k\overrightarrow{BA}
+       \end{align*}
+       Avec \(k\in\mathbb{R}\) un nombre réel non nul (qui n'est pas
+       le même dans les deux égalités). Une seule des deux égalités
+       suffit. Il est important que l'origine du vecteur soit l'un des
+       deux points connus (A ou B) et l'extrémité le nouveau point
+       C. De cette manière on a deux vecteurs colinéaires avec la même
+       origine donc les points sont alignés.
+       
+    2. Il existe 3 configurations différentes pour que les
+       points A, B et C soient alignés. Sans perte de généralité on va
+       supposer que le point A est plus à gauche que le point B.
+       1. Le point C est situé avant le point A ce qui correspond à
+          \(k < 0\) dans la première égalité.
+
+	  Voir figure :
+	  [[./sol19q2a.png]]
+       2. Le point C est situé entre le point A et le point B ce qui
+          correspond à \( 0 < k < 1\) dans la première égalité.
+
+	  Voir figure :
+	  [[./sol19q2b.png]]
+       3. Le point C est situé après le point B ce qui correspond à
+          \(k > 1\) dans la première égalité.
+
+	  Voir figure :
+	  [[./sol19q2c.png]]
+    3. Désormais on ajoute un repère orthonormé \((O ; \vec{i} ,
+       \vec{j})\) et par conséquent les points ont les coordonnées
+       respectives :
+       \[A(x_A ; y_A), B(x_B ; y_B), C(x_C ; y_C) \]
+
+       On peut donc calculer le déterminant.
+       \begin{align*}
+       det(\overrightarrow{AC} , \overrightarrow{AB}) &= \begin{vmatrix}x_C - x_A&x_B - x_A\\ y_C - y_A&y_B - y_A\end{vmatrix}\\
+       det(\overrightarrow{AC} , \overrightarrow{AB}) &= (x_C - x_A)(y_B - y_A) - (y_C - y_A)(x_B - x_A)
+       \end{align*}
+
+       Si le déterminant est nul alors les points A, B et C sont
+       alignés et sinon ils forment un triangle.
+    4. Écrivons un programme Python :
+       #+BEGIN_SRC python
+	 x_1 = float(input("Abscisse du point 1, x_1 = "))
+	 y_1 = float(input("Ordonnée du point 1, y_1 = "))
+	 x_2 = float(input("Abscisse du point 2, x_2 = "))
+	 y_2 = float(input("Ordonnée du point 2, y_2 = "))
+	 x_3 = float(input("Abscisse du point 3, x_3 = "))
+	 y_3 = float(input("Ordonnée du point 3, y_3 = "))
+	 x12 = x_2 - x_1
+	 y12 = y_2 - y_1
+	 x13 = x_3 - x_1
+	 y13 = y_3 - y_1
+	 det = x12 * y13 - y12 * x13
+	 if det == 0:
+	     print("Les points sont alignés")
+	     if x13 / x12 < 0:
+		 print("Le 3ème point est à gauche du 1er.")
+	     elif x13 / x12 > 1:
+		 print("Le 3ème point est à droite du 2nd.")
+	     else:
+		 print("Le 3ème point est entre les 2 premiers.")
+	 else:
+	     print("Les 3 points forment un triangle.")
+       #+END_SRC
+       
+    
+
 * Solutions des exercices divers
 ** Solutions des paradoxes
 *** Solution de l'exercice 77

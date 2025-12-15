@@ -1317,12 +1317,29 @@
 
 *** Exercice 19
 
-    1. Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\), placer les points A(1 ; 2), B(4 ; 5) et C(7 ; 8).
-    2. A, B et C sont-ils alignés ? Conjecturer géométriquement (à
-       l'oeil).
-    3. Démontrer votre conjecture par le calcul (en utilisant le
-       déterminant).
+    On considère deux points A et B distincts.
+    
+    1. On souhaite étudier les configurations possibles pour ajouter
+       un troisième point C de sorte qu'ils soient tous les trois
+       alignés. En l'absence de repère, quelle égalité vectorielle
+       doit être vérifiée pour que les trois points soient alignés ? 
+
+       *Rappel* : sans repère vous ne pouvez /pas/ utiliser de
+       coordonnées.
+    2. Combien existe-t-il de configurations différentes pour que les
+       points A, B et C soient alignés ?
+
+       *Indication* : faire des dessins.
+    3. Désormais on ajoute un repère orthonormé \((O ; \vec{i} ,
+       \vec{j})\) et par conséquent les points ont les coordonnées
+       respectives :
+       \[A(x_A ; y_A), B(x_B ; y_B), C(x_C ; y_C) \]
+
+       Comment déterminer si les points sont alignés ou pas ?
+    4. Écrire un programme Python qui permet de déterminer si 3 points
+       sont alignés ou non connaissant leurs coordonnées. Dans le cas
+       où les points sont alignés il indiquera la nature de la
+       configuration.
     
 *** Exercice 20
       

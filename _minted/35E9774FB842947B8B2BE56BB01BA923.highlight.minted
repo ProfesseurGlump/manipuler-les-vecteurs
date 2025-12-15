@@ -1,0 +1,23 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{x\PYGZus{}1} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Abscisse du point 1, x\PYGZus{}1 = }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{y\PYGZus{}1} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Ordonnée du point 1, y\PYGZus{}1 = }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{x\PYGZus{}2} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Abscisse du point 2, x\PYGZus{}2 = }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{y\PYGZus{}2} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Ordonnée du point 2, y\PYGZus{}2 = }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{x\PYGZus{}3} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Abscisse du point 3, x\PYGZus{}3 = }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{y\PYGZus{}3} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Ordonnée du point 3, y\PYGZus{}3 = }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+\PYG{n}{x12} \PYG{o}{=} \PYG{n}{x\PYGZus{}2} \PYG{o}{\PYGZhy{}} \PYG{n}{x\PYGZus{}1}
+\PYG{n}{y12} \PYG{o}{=} \PYG{n}{y\PYGZus{}2} \PYG{o}{\PYGZhy{}} \PYG{n}{y\PYGZus{}1}
+\PYG{n}{x13} \PYG{o}{=} \PYG{n}{x\PYGZus{}3} \PYG{o}{\PYGZhy{}} \PYG{n}{x\PYGZus{}1}
+\PYG{n}{y13} \PYG{o}{=} \PYG{n}{y\PYGZus{}3} \PYG{o}{\PYGZhy{}} \PYG{n}{y\PYGZus{}1}
+\PYG{n}{det} \PYG{o}{=} \PYG{n}{x12} \PYG{o}{*} \PYG{n}{y13} \PYG{o}{\PYGZhy{}} \PYG{n}{y12} \PYG{o}{*} \PYG{n}{x13}
+\PYG{k}{if} \PYG{n}{det} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Les points sont alignés}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{if} \PYG{n}{x13} \PYG{o}{/} \PYG{n}{x12} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Le 3ème point est à gauche du 1er.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{elif} \PYG{n}{x13} \PYG{o}{/} \PYG{n}{x12} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1}\PYG{p}{:}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Le 3ème point est à droite du 2nd.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Le 3ème point est entre les 2 premiers.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Les 3 points forment un triangle.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}
