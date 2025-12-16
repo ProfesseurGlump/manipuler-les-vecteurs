@@ -2268,8 +2268,7 @@
        suffit. Il est important que l'origine du vecteur soit l'un des
        deux points connus (A ou B) et l'extrémité le nouveau point
        C. De cette manière on a deux vecteurs colinéaires avec la même
-       origine donc les points sont alignés.
-       
+       origine donc les points sont alignés.       
     2. Il existe 3 configurations différentes pour que les
        points A, B et C soient alignés. Sans perte de généralité on va
        supposer que le point A est plus à gauche que le point B.
@@ -2326,6 +2325,99 @@
 	     print("Les 3 points forment un triangle.")
        #+END_SRC
        
+
+*** Solution de l'exercice 20
+      
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\).
+
+    1. Construction du vecteur
+       \[\vec{u} = 3\vec{i} + 4\vec{j}\]
+       et placement du point A tel que
+       \[\overrightarrow{OA} = \vec{u}\]
+
+       Voir figure :
+       [[./img/sol20q1.png]]       
+    2. Plaçons le point H tel que
+       \[\overrightarrow{OH} = 3\vec{i}\]
+       et le point K tel que
+       \[\overrightarrow{OK} = 4\vec{j}\]
+       On en déduit une égalité vectorielle liant \(\overrightarrow{OA},
+       \overrightarrow{OH}\) et \(\overrightarrow{OK}\) :
+       \[\overrightarrow{OA} = \overrightarrow{OH} +
+       \overrightarrow{OK}\]
+
+       Voir figure :
+       [[./img/sol20q2.png]]       
+    3. Le triangle AHO est rectangle en H car
+       \begin{align*}
+       OA^2 &= 3^2 + 4^2\\
+       OH^2 + HA^2 &= 3^2 + 4^2
+       \end{align*}
+       Le triangle AHI est rectangle en H car
+       \begin{align*}
+       IA^2 &= (3 - 1)^2 + (4 - 0)^2 = 2^2 + 4^2 = 20\\
+       IH^2 + HA^2 &= (3 - 1)^2 + 4^2 = 2^2 + 4^2 = 20
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol20q3.png]]
+       
+    4. Soit M un point quelconque sur l'axe des abscisses. Comparons
+       AM et AH :
+       + soit \(M = H\) et dans ce cas \(AM = AH\)
+       + soit \(M\neq H\) et dans ce cas AMH est rectangle en H donc
+         AM est l'hypoténuse ce qui veut dire AM > AH :
+	 \begin{align*}
+         AM^2 &= (x - 3)^2 + 4^2\\
+         AH^2 + HM^2 &= 4^2 + (x - 3)^2\\
+         AM^2 &= AH^2 + HM^2 
+	 \end{align*}
+       
+       Il est impossible de trouver un point M tel que AM < AH.
+
+       Voir figure :
+       [[./img/sol20q4.png]]       
+    5. D'après ce qui précède le point M de l'axe des abscisses tel que la
+       distance AM soit minimale est le point H. Ainsi cette distance
+       entre A et l'axe des abscisses est :
+       \[d(A ; (OI)) = \min_{M\in (OI)}(AM) = AH\]
+       On en déduit sa valeur qui est \(AH = 4\).
+    6. Le triangle AKO est rectangle en K car :
+       \begin{align*}
+       OA^2 &= 3^2 + 4^2\\
+       OK^2 + KA^2 &= 4^2 + 3^2
+       \end{align*}
+       Le triangle AKJ est rectangle en K car :
+       \begin{align*}
+       AJ^2 &= 3^2 + (y - 4)^2\\
+       JK^2 + KA^2 &= (y - 4)^2 + 3^2
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol20q6.png]]       
+    7. Soit N un point quelconque sur l'axe des ordonnées.
+       Comparons
+       AN et AK :
+       + soit \(N = K\) et dans ce cas \(AN = AK\)
+       + soit \(N\neq K\) et dans ce cas ANK est rectangle en K donc
+         AN est l'hypoténuse ce qui veut dire AN > AK :
+	 \begin{align*}
+         AN^2 &= 3^2 + (y - 4)^2\\
+         AK^2 + KN^2 &= 3^2 + (y - 4)^2\\
+         AN^2 &= AK^2 + KN^2 
+	 \end{align*}
+       
+       Il est impossible de trouver un point N tel que AN < AK.
+
+       Voir figure :
+       [[./img/sol20q7.png]]       
+    8. D'après ce qui précède le point N de l'axe des ordonnées tel que la
+       distance AN soit minimale est le point K. Ainsi cette distance
+       entre A et l'axe des ordonnées est :
+       \[d(A ; (OJ)) = \min_{N\in (OJ)}(AN) = AK\]
+       On en déduit sa valeur qui est \(AK = 3\).
+    
     
 
 * Solutions des exercices divers

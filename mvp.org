@@ -1343,27 +1343,64 @@
     
 *** Exercice 20
       
-    Dans le plan canonique on considère les points A(0 ; 0), B(3 ; 1),
-    C(4 ; 4) et D(1 ; 3).
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\).
 
-    Quelle est la nature du quadrilatère ABCD ?
-
-    1. Utiliser uniquement le calcul de distance et le déterminant.
-    2. Utiliser une seule égalité vectorielle.
+    1. Construire le vecteur
+       \[\vec{u} = 3\vec{i} + 4\vec{j}\]
+       et placer le point A tel que
+       \[\overrightarrow{OA} = \vec{u}\]
+    2. Placer le point H tel que
+       \[\overrightarrow{OH} = 3\vec{i}\]
+       et le point K tel que
+       \[\overrightarrow{OK} = 4\vec{j}\]
+       En déduire une égalité vectorielle liant \(\overrightarrow{OA},
+       \overrightarrow{OH}\) et \(\overrightarrow{OK}\).
+    3. Quelle est la nature du triangle AHO ? AHI ?
+    4. Soit M un point quelconque sur l'axe des abscisses. Comparer AM
+       et AH. Est-il possible de trouver un point M tel que AM < AH ?
+    5. Quel est le point M de l'axe des abscisses tel que la
+       distance AM soit minimale ? On appellera cette distance entre A et
+       l'axe des abscisses :
+       \[d(A ; (OI)) = \min_{M\in (OI)}(AM)\]
+       En déduire sa valeur.
+    6. Quelle est la nature du triangle AKO ? AKJ ?
+    7. Soit N un point quelconque sur l'axe des ordonnées. Comparer AN
+       et AK. Est-il possible de trouver un point N tel que AN < AK ?
+    8. Quel est le point N de l'axe des ordonnées tel que la
+       distance AN soit minimale ? On appellera cette distance entre A et
+       l'axe des ordonnées :
+       \[d(A ; (OJ)) = \min_{N\in (OJ)}(AN)\]
+       En déduire sa valeur.
+    
+    
 
 
 *** Exercice 21
 
-    On donne A(1;2), B(4;3), C(5;6), D(2;5).
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\).
 
-    1. Représentation analytique : Calculer les coordonnées des
-       vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{DC}\)       
-    2. Test d'égalité : Que constatez-vous ?
-    3. Interprétation géométrique : Quelle est la nature du
-       quadrilatère ABCD ?
-    4. Vérification alternative : Calculer les coordonnées des milieux
-       de [AC] et [BD]. Conclusion ?
-       
+    1. Placer les points I, J et K tels que :
+       \begin{align*}
+       OI &= \vec{i}\\
+       OJ &= \vec{j}\\
+       OK &= \vec{u} = \vec{i} + \vec{j}\\
+       \end{align*}
+       Calculer les coordonnées du point L milieu du segment [OK]. En
+       déduire la nature des triangles LOI et JOL.
+    2. Comparer IK et IL. En déduire la distance entre le point I et
+       la droite (OK).
+    3. Comparer JK et JL. En déduire la distance entre le point J et
+       la droite (OK).
+    4. Construire les points A et B tels que :
+       \begin{align*}
+       \overrightarrow{IA} &= \vec{u}\\
+       \overrightarrow{JB} &= \vec{u}
+       \end{align*}
+       En déduire la nature du quadrilatère IABJ.
+    5. Quelle est la distance entre le point A et la droite (IJ) ?
+    
 
 *** Exercice 22
 

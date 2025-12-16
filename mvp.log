@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  15 DEC 2025 07:40
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  16 DEC 2025 11:56
  system commands enabled.
 **mvp.tex
 (.//mvp.tex
@@ -1788,32 +1788,41 @@ Chapitre 17.
 [91]
 
 [92]
-Overfull \hbox (8.55182pt too wide) in paragraph at lines 1620--1622
+Overfull \hbox (3.85376pt too wide) in paragraph at lines 1602--1604
+[]\TU/LibertinusSerif(0)/m/n/10.95 On se place dans le plan mu-ni d’un re-p
+ère or-tho-nor-mé $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.9
+5 ; []\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 )$\TU/LibertinusSerif(0)/m/n/1
+0.95 . 
+ []
+
+
+
+[93]
+
+[94]
+Overfull \hbox (8.55182pt too wide) in paragraph at lines 1661--1663
 []\TU/LibertinusSerif(0)/m/n/10.95 Pour-quoi la re-pré-sen-ta-tion ana-ly-tique
  est-elle pré-fé-rable pour
  []
 
 
 
-[93]
-Underfull \vbox (badness 1132) has occurred while \output is active []
-
-
-
-[94]
-
 [95]
 
 [96]
 
-[97
+[97]
+
+[98
 
 ]
 
-[98]
+[99]
+
+[100]
 Chapitre 18.
 
-Overfull \hbox (7.46085pt too wide) in paragraph at lines 1719--1721
+Overfull \hbox (7.46085pt too wide) in paragraph at lines 1760--1762
 []\TU/LibertinusSerif(0)/m/n/10.95 Dans un re-père or-tho-nor-mé $\OT1/cmr/m/
 n/10.95 (\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 ; []; [])$\TU/LibertinusSerif(
 0)/m/n/10.95 , on donne les points A(2,3),
@@ -1821,7 +1830,7 @@ n/10.95 (\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 ; []; [])$\TU/LibertinusSerif(
 
 
 
-[99
+[101
 
 ]
 
@@ -1832,13 +1841,13 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.65904pt}.
 
-[100
+[102
 
 ]
 Chapitre 19.
 
 
-[101]
+[103]
 
 
 Package fancyhdr Warning: \headheight is too small (25.0pt): 
@@ -1847,45 +1856,41 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.65904pt}.
 
-[102]
+[104]
 Chapitre 20.
 
-
-[103
-
-]
-
-[104]
 
 [105
 
 ]
 
 [106]
-Chapitre 21.
-
 
 [107
 
 ]
 
-[108
+[108]
+Chapitre 21.
+
+
+[109
 
 ]
 
-[109]
+[110
 
-[110]
+]
+
+[111]
+
+[112]
 Chapitre 22.
 
 
-[111
+[113
 
 ]
-
-[112]
-
-[113]
 
 [114]
 
@@ -1908,95 +1913,99 @@ Chapitre 22.
 [123]
 
 [124]
+
+[125]
+
+[126]
 Chapitre 23.
-<./img/chessboard_wiki.jpg, id=1920, 2620.79124pt x 1705.37125pt>
+<./img/chessboard_wiki.jpg, id=1936, 2620.79124pt x 1705.37125pt>
 File: ./img/chessboard_wiki.jpg Graphic file (type jpg)
 <use ./img/chessboard_wiki.jpg>
-Package luatex.def Info: ./img/chessboard_wiki.jpg  used on input line 2374.
+Package luatex.def Info: ./img/chessboard_wiki.jpg  used on input line 2415.
 (luatex.def)             Requested size: 260.17024pt x 169.27205pt.
 
 
-[125
+[127
 
 ]
-<./img/fou_motion.png, id=1925, 310.15875pt x 272.01625pt>
+<./img/fou_motion.png, id=1941, 310.15875pt x 272.01625pt>
 File: ./img/fou_motion.png Graphic file (type png)
 <use ./img/fou_motion.png>
-Package luatex.def Info: ./img/fou_motion.png  used on input line 2395.
+Package luatex.def Info: ./img/fou_motion.png  used on input line 2436.
 (luatex.def)             Requested size: 260.17024pt x 228.17249pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[126<./img/chessboard_wiki.jpg>]
+[128<./img/chessboard_wiki.jpg>]
 
-[127<./img/fou_motion.png>]
+[129<./img/fou_motion.png>]
 
-[128]
-Overfull \hbox (19.08348pt too wide) in paragraph at lines 2451--2451
+[130]
+Overfull \hbox (19.08348pt too wide) in paragraph at lines 2492--2492
 []\TU/LibertinusSerif(0)/b/n/14.4 Exer-cice 62 : Images vec-to-rielles vs images
 
  []
 
 
 
-[129]
-Overfull \hbox (1.76923pt too wide) in paragraph at lines 2515--2518
+[131]
+Overfull \hbox (1.76923pt too wide) in paragraph at lines 2556--2559
 []\TU/LibertinusSerif(0)/b/n/10.95 󰀯ues-tion de ré-flexion \TU/LibertinusSe
 rif(0)/m/n/10.95 : Pour-quoi dit-on qu’une image vec-
  []
 
 
-Overfull \hbox (7.02792pt too wide) in paragraph at lines 2520--2524
+Overfull \hbox (7.02792pt too wide) in paragraph at lines 2561--2565
 \TU/LibertinusSerif(0)/m/n/10.95 les lo-gos d’en-tre-prises, icônes d’ap-pl
 i-ca-tions, et sché-mas tech-niques
  []
 
 
-Overfull \hbox (6.30084pt too wide) in paragraph at lines 2528--2531
+Overfull \hbox (6.30084pt too wide) in paragraph at lines 2569--2572
 []\TU/LibertinusSerif(0)/m/n/10.95 Le for-mat SVG (Sca-lable Vec-tor Gra-phics) est un for-mat d
 ’image
  []
 
 
-Overfull \hbox (98.61253pt too wide) in paragraph at lines 2534--2534
+Overfull \hbox (98.61253pt too wide) in paragraph at lines 2575--2575
 []  \TU/Courier(0)/m/n/10.95 <line x1="50" y1="100" x2="200" y2="250" stroke="bl
 ue" />[] 
  []
 
 
-Overfull \hbox (98.61253pt too wide) in paragraph at lines 2535--2535
+Overfull \hbox (98.61253pt too wide) in paragraph at lines 2576--2576
 []  \TU/Courier(0)/m/n/10.95 <line x1="200" y2="250" x2="350" y2="100" stroke="r
 ed" />[] 
  []
 
 
-Overfull \hbox (131.46783pt too wide) in paragraph at lines 2536--2536
+Overfull \hbox (131.46783pt too wide) in paragraph at lines 2577--2577
 []  \TU/Courier(0)/m/n/10.95 <circle cx="200" cy="175" r="80" fill="none" stroke
 ="green" />[] 
  []
 
 
 
-[130]
-Overfull \hbox (0.301pt too wide) in paragraph at lines 2576--2579
+[132]
+Overfull \hbox (0.301pt too wide) in paragraph at lines 2617--2620
 \TU/LibertinusSerif(0)/m/n/10.95 phiques. Le texte et les gra-phiques sont gé-n
 é-ra-le-ment sto-ckés sous
  []
 
 
 
-[131]
+[133]
 
-[132]
-Overfull \hbox (3.8003pt too wide) in paragraph at lines 2623--2623
+[134]
+Overfull \hbox (3.8003pt too wide) in paragraph at lines 2664--2664
 []\TU/LibertinusSerif(0)/b/n/14.4 Exer-cice 65 : Bit-map vs Vec-to-riel - Étude
 
  []
 
 
-Overfull \hbox (14.3936pt too wide) in paragraph at lines 2650--2654
+Overfull \hbox (14.3936pt too wide) in paragraph at lines 2691--2695
 []\TU/LibertinusSerif(0)/m/n/10.95 Un car-ré vec-to-riel a pour som-mets A(0;0)
 , B(200;0), C(200;200),
  []
@@ -2010,33 +2019,33 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.65904pt}.
 
-[133]
-Overfull \hbox (3.4144pt too wide) in paragraph at lines 2661--2664
+[135]
+Overfull \hbox (3.4144pt too wide) in paragraph at lines 2702--2705
 []\TU/LibertinusSerif(0)/b/n/10.95 Cal-cul de taille \TU/LibertinusSerif(0)/m/n
 /10.95 : a) Bit-map : Com-bien de pixels dans l’image
  []
 
 
-Overfull \hbox (1.14958pt too wide) in paragraph at lines 2661--2664
+Overfull \hbox (1.14958pt too wide) in paragraph at lines 2702--2705
 \TU/LibertinusSerif(0)/m/n/10.95 agran-die (600×600)? b) Vec-to-riel : Com-bien
  de vec-teurs dans
  []
 
 
-Overfull \hbox (6.29884pt too wide) in paragraph at lines 2665--2670
+Overfull \hbox (6.29884pt too wide) in paragraph at lines 2706--2711
 []\TU/LibertinusSerif(0)/m/n/10.95 󰀺uel for-mat choisiriez-vous pour : a) Une
  pho-to de va-cances?
  []
 
 
-Overfull \hbox (3.47383pt too wide) in paragraph at lines 2677--2677
+Overfull \hbox (3.47383pt too wide) in paragraph at lines 2718--2718
 []\TU/LibertinusSerif(0)/b/n/14.4 Exer-cice 66 : Créer une icône vec-to-rielle
 
  []
 
 
 
-[134
+[136
 Missing character: There is no ⚡ (U+26A1) in font "name:Libertinus Serif:mode=
 node;script=latn;language=dflt;+tlig;"!
 ]
@@ -2048,17 +2057,13 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.65904pt}.
 
-[135]
+[137]
 
-[136
+[138
 
 ]
 Chapitre 24.
 
-
-[137]
-
-[138]
 
 [139]
 
@@ -2070,7 +2075,11 @@ Chapitre 24.
 
 [143]
 
-[144
+[144]
+
+[145]
+
+[146
 
 ]
 Chapitre 25.
@@ -2079,46 +2088,33 @@ Underfull \vbox (badness 2735) has occurred while \output is active []
 
 
 
-[145]
+[147]
 
-[146]
+[148]
 Chapitre 26.
 
 
-[147
+[149
 
 ]
 
-[148]
-
-[149]
-
-[150
-
-]
+[150]
 
 [151]
 
-[152]
+[152
+
+]
+
+[153]
+
+[154]
 Chapitre 27.
 
 
-[153
-
-
-Missing character: There is no ❌ (U+274C) in font "name:Libertinus Serif:mode=
-node;script=latn;language=dflt;+tlig;"!
-Missing character: There is no ✓ (U+2713) in font "name:Libertinus Serif:mode=
-node;script=latn;language=dflt;+tlig;"!
-]
-
-[154
-
-]
-Chapitre 28.
-
-
 [155
+
+
 Missing character: There is no ❌ (U+274C) in font "name:Libertinus Serif:mode=
 node;script=latn;language=dflt;+tlig;"!
 Missing character: There is no ✓ (U+2713) in font "name:Libertinus Serif:mode=
@@ -2128,10 +2124,23 @@ node;script=latn;language=dflt;+tlig;"!
 [156
 
 ]
-Chapitre 29.
+Chapitre 28.
 
 
 [157
+Missing character: There is no ❌ (U+274C) in font "name:Libertinus Serif:mode=
+node;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ✓ (U+2713) in font "name:Libertinus Serif:mode=
+node;script=latn;language=dflt;+tlig;"!
+]
+
+[158
+
+]
+Chapitre 29.
+
+
+[159
 Missing character: There is no ❌ (U+274C) in font "name:Libertinus Serif:mode=
 node;script=latn;language=dflt;+tlig;"!
 Missing character: There is no ✓ (U+2713) in font "name:Libertinus Serif:mode=
@@ -2145,23 +2154,23 @@ Package fancyhdr Warning: \headheight is too small (25.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.65904pt}.
 
-[158
+[160
 
 ]
-
-[159]
-
-[160]
 
 [161]
 
-[162
-
-]
+[162]
 
 [163]
 
-[164]
+[164
+
+]
+
+[165]
+
+[166]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2169,7 +2178,7 @@ This document will not have a glossary.
 
 
 
-[165] (.//mvp.aux)
+[167] (.//mvp.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2179,34 +2188,35 @@ Package rerunfilecheck Info: File `mvp.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40755 strings out of 475506
+ 40765 strings out of 475506
  100000,1648299 words of node,token memory allocated
- 6820 words of node memory still in use:
-   31 hlist, 2 vlist, 14 rule, 406 glue, 5 kern, 1 penalty, 22 sub_mlist, 1 glyp
-h, 926 attribute, 66 glue_spec, 501 attribute_list, 2 write, 24 pdf_literal, 5 p
+ 6953 words of node memory still in use:
+   31 hlist, 2 vlist, 14 rule, 413 glue, 5 kern, 1 penalty, 22 sub_mlist, 1 glyp
+h, 954 attribute, 66 glue_spec, 515 attribute_list, 2 write, 24 pdf_literal, 5 p
 df_action, 24 pdf_colorstack nodes
-   avail lists: 1:2,2:3574,3:1744,4:304,5:571,6:94,7:3498,8:91,9:1264,10:10,11:2
+   avail lists: 1:2,2:3574,3:1744,4:304,5:571,6:94,7:3491,8:91,9:1264,10:10,11:2
 38
- 61855 multiletter control sequences out of 65536+600000
- 87 fonts using 18587439 bytes
+ 61856 multiletter control sequences out of 65536+600000
+ 88 fonts using 18988631 bytes
  98i,20n,100p,2363b,865s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Courier.ttc></usr/local/texlive/2025/texmf-dist/fonts/ope
-ntype/public/libertinus-fonts/LibertinusSerif-BoldItalic.otf></System/Library/Fo
-nts/Courier.ttc></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libert
-inus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/2025/texmf-dist/fonts/op
-entype/public/libertinus-fonts/LibertinusSerif-Regular.otf></usr/local/texlive/2
-025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/202
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/font
-s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on mvp.pdf (165 pages, 4568183 bytes).
+ntype/public/libertinus-fonts/LibertinusSerif-Italic.otf></usr/local/texlive/202
+5/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-BoldItalic.o
+tf></System/Library/Fonts/Courier.ttc></usr/local/texlive/2025/texmf-dist/fonts/
+opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf></usr/local/texlive/20
+25/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on mvp.pdf (167 pages, 4574305 bytes).
 
-PDF statistics: 2326 PDF objects out of 2487 (max. 8388607)
- 2072 compressed objects within 21 object streams
- 961 named destinations out of 1000 (max. 131072)
+PDF statistics: 2348 PDF objects out of 2487 (max. 8388607)
+ 2089 compressed objects within 21 object streams
+ 970 named destinations out of 1000 (max. 131072)
  1544 words of extra memory for PDF output out of 10000 (max. 100000000)
 
