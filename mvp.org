@@ -1743,18 +1743,18 @@ construction géométrique précise utilisant les opérations vectorielles.
 
 *** Exercice 38
 
-    Dans le plan muni d'un repère orthonormé \((O ; I ; J)\) avec I(1
-    ; 0) et J(0 ; 1). On veillera à NE PAS tracer le vecteur
-    \(\vec{i}\begin{pmatrix}1\\0\end{pmatrix}\).
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
 
-    1. Tracer le vecteur \(2\overrightarrow{OJ}\) en partant de O, on
-       nommera J' son extrémité.
-    2. Tracer le vecteur \(\overrightarrow{OI}\) en partant de J, on
-       nommera I' son extrémité.
-    3. Tracer le vecteur \(\overrightarrow{OI}\) en partant de J', on
-       nommera I'' son extrémité.
-    4. Vérifier que les vecteurs tracés forment bien la lettre F.
-
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       -\vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{JB} =
+       \vec{i}\). En déduire les coordonnées du point B.
+    3. Tracer les vecteurs \(\overrightarrow{OA}, \overrightarrow{OJ},
+       \overrightarrow{JB}\) et vérifier que vous avez bien obtenu la
+       lettre F.
+       
+    
 
     
 *** Exercice 39
@@ -1762,19 +1762,21 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Tracer le vecteur \(\vec{j}\) avec pour origine I(1 ; 0) et
-       extrémité I' dont vous déterminerez les coordonnées.
-    2. Construire le point I'' image de I' par la translation de
-       vecteur \(\vec{u} = -\dfrac{1}{2}\vec{i}\).
-    3. Placer le point J' tel que \(\overrightarrow{OJ'} = 2\vec{j}\).
-    4. Construire le point J'' image de J' par la translation de
-       vecteur \(\vec{i}\).
-    5. Vérifier que l'enchaînement \(\overrightarrow{I''I'}\) puis
-       \(\overrightarrow{I'I}\) puis \(\overrightarrow{IO}\) puis
-       \(\overrightarrow{OJ'}\) et enfin \(\overrightarrow{J'J''}\)
-       forme bien la lettre G.
-
-       
+    1. Construire le point A tel que \(\overrightarrow{IA} =
+       \vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{AB} =
+       -\dfrac{1}{2}\vec{i}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{JC} =
+       \vec{j}\). En déduire les coordonnées du point C.
+    4. Construire le point D tel que \(\overrightarrow{JD} =
+       \vec{i}\). En déduire les coordonnées du point D.
+    5. Construire le point E tel que \(\overrightarrow{DE} =
+       -\dfrac{1}{2}\vec{j}\). En déduire les coordonnées du point E.
+    6. Tracer les vecteurs \(\overrightarrow{OI}, \overrightarrow{IA},
+       \overrightarrow{OJ}, \overrightarrow{JC}, \overrightarrow{CD},
+       \overrightarrow{DE}\) et vérifier que vous avez bien obtenu la
+       lettre G.
+              
        
 *** Exercice 40
 
@@ -1782,16 +1784,16 @@ construction géométrique précise utilisant les opérations vectorielles.
        \vec{j})\) :
 
 
-    1. Placer I tel que \(\overrightarrow{OI} = \vec{i}\).
-    2. Placer J tel que \(\overrightarrow{OJ} = \vec{j}\).
-    3. Construire J' tel que O soit le milieu de [JJ'] et donc tracer
-       le vecteur \(\overrightarrow{OJ'}\).
-    4. Construire I' l'image de I par la translation de vecteur
-       \(\vec{j}\) et donc tracer le vecteur \(\overrightarrow{II'}\).
-    5. Construire I'' l'image de I par la translation de vecteur
-       \(-\vec{j}\) et donc tracer le vecteur
-       \(\overrightarrow{II''}\).
-    6. Vérifier que vous avez obtenu la lettre H.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       -\vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{IB} =
+       -\vec{j}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{IC} =
+       \vec{j}\). En déduire les coordonnées du point C.
+    4. Tracer les vecteurs \(\overrightarrow{OA}, \overrightarrow{OI},
+       \overrightarrow{IB}, \overrightarrow{IC}, \overrightarrow{OJ}\)
+       et vérifier que vous avez bien obtenu la lettre H.
+       
 
 
 *** Exercice 41
@@ -1799,18 +1801,19 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Placer I image de O par la translation de vecteur \(\vec{i}\).
-    2. Placer J image de O par la translation de vecteur
-       \(2\vec{j}\).
-    3. Construire I' tel que O soit le milieu de [II'].
-    4. Construire I'' tel que \(\overrightarrow{O'I''} = \vec{i}\).
-    5. Placer J' tel que J soit le milieu de [I''J].
-    6. Si vous faites l'enchaînement \(\overrightarrow{OI}\) en
-       partant de O, puis \(\overrightarrow{OI'}\) toujours en partant
-       de O, puis \(\overrightarrow{OJ}\) toujours en partant de O,
-       puis \(\overrightarrow{JI''}\) en partant de J et enfin
-       \(\overrightarrow{JJ'}\) en partant de J vous obtenez la lettre
-       I.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       -\vec{i}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{JB} =
+       \vec{j}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{BC} =
+       -\vec{i}\). En déduire les coordonnées du point C.
+    4. Construire le point D tel que \(\overrightarrow{BD} =
+       \vec{i}\). En déduire les coordonnées du point D.
+    5. Tracer les vecteurs \(\overrightarrow{OA}, \overrightarrow{OI},
+       \overrightarrow{OJ}, \overrightarrow{JB}, \overrightarrow{BC},
+       \overrightarrow{BD}\) et vérifier que vous avez bien obtenu la
+       lettre I.
+       
 
 
 *** Exercice 42
@@ -1818,30 +1821,35 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Placer le point I tel que \(\overrightarrow{OI} = \vec{i}\).
-    2. Construire le point J tel que l'image de O par la translation
-       de vecteur \(\vec{j}\).
-    3. Tracer le vecteur \(2\vec{j}\) en partant de I et nommer I' son
-       extrémité.
-    4. Vérifier qu'en faisant l'enchaînement \(\overrightarrow{I'I}\)
-       puis \(\overrightarrow{IO}\) puis enfin \(\overrightarrow{OJ}\)
-       on obtient bien la lettre J.
-
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       -\vec{i}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{JB} =
+       \vec{j}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{BC} =
+       -\vec{i}\). En déduire les coordonnées du point C.
+    4. Construire le point D tel que \(\overrightarrow{BD} =
+       \vec{i}\). En déduire les coordonnées du point D.
+    5. Tracer les vecteurs \(\overrightarrow{OA}, \overrightarrow{OJ},
+       \overrightarrow{JB}, \overrightarrow{BC}, \overrightarrow{BD}\)
+       et vérifier que vous avez bien obtenu la lettre J.
+    
 
 *** Exercice 43
 
-    Dans le plan muni d'un repère orthonormé \((O ; I ; J\). Avec I(1
-    ; 0) et J(0 ; 1).
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
 
-    1. Construire I' image de I par la translation de vecteur
-       \(2\overrightarrow{OJ}\).
-    2. Construire J' image de J par la translation de vecteur
-       \(\overrightarrow{OJ}\).
-    3. En partant de O tracer le vecteur \(\overrightarrow{OJ}\).
-    4. En partant de J tracer le vecteur \(\overrightarrow{JI}\).
-    5. En partant de J tracer le vecteur \(\overrightarrow{JI'}\).
-    6. En partant de J tracer le vecteur \(\overrightarrow{JJ'}\).
-    7. Vérifiez que vous avez bien obtenu la lettre K.
+    1. Construire le point A tel que \(\overrightarrow{JA} =
+       \vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{JB} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{JC} =
+       \vec{i} - \vec{j}\). En déduire les coordonnées du point C.
+    4. Tracer les vecteurs \(\overrightarrow{OJ}, \overrightarrow{JC},
+       \overrightarrow{JB}, \overrightarrow{JA}\) et vérifier que vous
+       avez bien obtenu la lettre K.
+       
+    
 
 
 *** Exercice 44
@@ -1853,24 +1861,23 @@ construction géométrique précise utilisant les opérations vectorielles.
        extrémité.
     2. En partant de O tracer le vecteur \(\vec{j}\), on nommera J son
        extrémité.
-    3. Vérifier que l'enchaînement \(\overrightarrow{JO}\) en partant
-       de J puis \(\overrightarrow{OI}\) en partant de O donne bien la
-       lettre L.
+    3. Vérifier que l'enchaînement \(\overrightarrow{OI}\) puis
+       \(\overrightarrow{OJ}\) donne bien la lettre L.
+       
 
 *** Exercice 45
 
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{i}\). 
-
-    1. Partir de O et tracer le vecteur \(\vec{j}\), on nommera J son
-       extrémité.
-    2. À partir de J tracer le vecteur \(\vec{u} =
-       \dfrac{1}{2}(\vec{i} - \vec{j})\), on nommera K son extrémité.
-    3. À partir de K tracer le vecteur \(\vec{v} =
-       \dfrac{1}{2}(\vec{i} + \vec{j})\), on nommera I' son extrémité.
-    4. À partir de I' tracer le vecteur \(-\vec{j}\), on nommera I son
-       extrémité.
-    5. Vérifier qu'on a bien obtenu la lettre M.
+       \vec{j})\) :
+    
+    1. Construire le point A tel que \(\overrightarrow{JA} =
+       \dfrac{1}{2}(\vec{i} - \vec{j})\). En déduire les coordonnées
+       du point A.       
+    2. Construire le point B tel que \(\overrightarrow{AB} =
+       \dfrac{1}{2}(\vec{i} + \vec{j})\). En déduire les coordonnées du point B.
+    3. Tracer les vecteurs \(\overrightarrow{OJ}, \overrightarrow{JA},
+       \overrightarrow{AB}, \overrightarrow{BI}\) et vérifier que vous
+       avez bien obtenu la lettre M.
 
        
     
@@ -1878,42 +1885,43 @@ construction géométrique précise utilisant les opérations vectorielles.
 *** Exercice 46
 
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{i}\). 
+       \vec{j})\). 
 
-    1. Partir de O et tracer le vecteur \(\vec{j}\), on nommera J son
-       extrémité.
-    2. À partir de J tracer le vecteur \(\vec{u} = \vec{i} -
-       \vec{j}\), on nommera I son extrémité.
-    3. À partir de I tracer le vecteur \(\vec{j}\), on nommera I' son
-       extrémité.
-    4. Vérifier qu'on a bien tracé la lettre N.
+    1. Construire le point A tel que \(\overrightarrow{IA} =
+       \vec{j}\). En déduire les coordonnées du point A.
+    2. Tracer les vecteurs \(\overrightarrow{OJ}, \overrightarrow{JI},
+       \overrightarrow{IA}\) et vérifier que vous avez bien obtenu la
+       lettre N.
+       
 
 
     
 *** Exercice 47
 
-    Dans le plan muni d'un repère orthonormé \((O ; I ; J\). Avec I(1
-    ; 0) et J(0 ; 1).
-
-    1. Tracer le cercle de centre O passant par I et J.
-    2. Vérifier qu'on a bien obtenu la lettre O.
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point A.
+    2. Tracer les vecteurs \(\overrightarrow{OJ}, \overrightarrow{OI},
+       \overrightarrow{IA}, \overrightarrow{AJ}\) et vérifier que vous
+       avez bien obtenu la lettre O.
 
 
 *** Exercice 48
 
-    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\) :
+        Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{OB} =
+       -\vec{j}\). En déduire les coordonnées du point B.
+    3. Tracer les vecteurs \(\overrightarrow{OJ}, \overrightarrow{OI},
+       \overrightarrow{IA}, \overrightarrow{AJ}, \overrightarrow{OB}\)
+       et vérifier que vous avez bien obtenu la lettre P.
 
-    1. En partant de O tracer le vecteur \(\vec{i}\), on nommera I son
-       extrémité.
-    2. À partir de I tracer le vecteur \(\vec{j}\), on nommera I' son
-       extrémité.
-    3. À partir de I' tracer le vecteur \(-\vec{i}\), on nommera J son
-       extrémité.
-    4. À partir de J tracer le vecteur \(-2\vec{j}\), on nommera J'
-       son extrémité.
-    5. Vérifiez qu'on a bien tracé la lettre P.
-
+       
 
     
 *** Exercice 49
@@ -1921,15 +1929,13 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
        
-    1. En partant de O tracer le vecteur \(\vec{j}\), on nommera J son
-       extrémité.
-    2. À partir de J tracer le vecteur \(\vec{i}\), on nommera J' son
-       extrémité.
-    3. À partir de J' tracer le vecteur \(-2\vec{j}\), on nommera J''
-       son extrémité.
-    4. En repartant de O tracer le vecteur \(\vec{i}\), on nommera I
-       son extrémité.
-    5. Vérifier qu'on a bien tracer la lettre Q.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{IB} =
+       -\vec{j}\). En déduire les coordonnées du point B.
+    3. Tracer les vecteurs \(\overrightarrow{OJ}, \overrightarrow{OI},
+       \overrightarrow{IA}, \overrightarrow{AJ}, \overrightarrow{IB}\)
+       et vérifier que vous avez bien obtenu la lettre Q.
 
 
     
@@ -1938,16 +1944,17 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Placer directement I et J aux extrémités respectives des
-       vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
-    2. Tracer les vecteurs \(\vec{i}\) et \(\vec{j}\) en partant
-       respectivement de J et I et noter I' leur extrémité commune.
-    3. En partant de O tracer le vecteur \(\vec{u} = -\vec{j}\), on nommera J'
-       son extrémité.
-    4. Toujours en partant de O tracer le vecteur \(\vec{v} =
-       \vec{i} - \vec{j}\), on nommera I'' son extrémité.
-    5. Vérifier qu'on a bien tracé la lettre R.
-
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{IB} =
+       -\vec{j}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{OC} =
+       -\vec{j}\). En déduire les coordonnées du point C.
+    4. Tracer les vecteurs \(\overrightarrow{OJ}, \overrightarrow{OI},
+       \overrightarrow{IA}, \overrightarrow{AJ}, \overrightarrow{JB},
+       \overrightarrow{JC}\) et vérifier que vous avez bien obtenu la
+       lettre R.
+       
 
     
 *** Exercice 51
@@ -1955,15 +1962,15 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Placer directement I et J aux extrémités respectives des
-       vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
-    2. En partant de J tracer le vecteur \(\vec{i}\), on nommera J'
-       son extrémité.
-    3. En partant de I tracer le vecteur \(\vec{u} = -\vec{j}\), on
-       nommera I' son extrémité.
-    4. En partant de I' tracer le vecteur \(\vec{v} = -\vec{i}\), on
-       nommera I'' son extrémité.
-    5. Vérifier qu'on a bien tracé la letre S.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{IB} =
+       -\vec{j}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{OC} =
+       -\vec{j}\). En déduire les coordonnées du point C.
+    4. Tracer les vecteurs \(\overrightarrow{OI}, \overrightarrow{IB},
+       \overrightarrow{BC}, \overrightarrow{OJ}, \overrightarrow{JA}\)
+       et vérifier que vous avez bien obtenu la lettre S.
 
 
     
@@ -1971,15 +1978,18 @@ construction géométrique précise utilisant les opérations vectorielles.
 *** Exercice 52
 
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{i}\).
+       \vec{j})\). 
 
-    1. Placer le point J à l'extrémité du vecteur \(\vec{j}\) en
-       partant de O.
-    2. En partant de J tracer le vecteur \(\vec{i}\), on nommera J'
-       son extrémité.
-    3. Toujours en partant de J tracer le vecteur \(\vec{u} =
-       -\vec{i}\), on nommera J'' son extrémité.
-    4. Vérifier qu'on a bien obtenu la lettre T.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{JB} =
+       -\vec{u}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{OC} =
+       -\vec{j}\). En déduire les coordonnées du point C.
+    4. Tracer les vecteurs \(\overrightarrow{OC}, \overrightarrow{OJ},
+       \overrightarrow{JA}, \overrightarrow{JB}\) et vérifier que vous
+       avez bien obtenu la lettre T.
+       
 
 
     
@@ -1988,61 +1998,68 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Placer directement I et J aux extrémités respectives des
-       vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
-    2. À partir de I tracer le vecteur \(\vec{j}\), on nommera I' son
-       extrémité.
-    3. Vérifier qu'on a bien obtenu la lettre U.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point A.
+    2. Tracer les vecteurs \(\overrightarrow{OJ}, \overrightarrow{OI},
+       \overrightarrow{IA}\) et vérifier que vous avez bien obtenu la
+       lettre U.
+       
 
 *** Exercice 54
 
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\) veillez à NE PAS tracer ni le vecteur \(\vec{i}\)
-       ni le vecteur \(\vec{j}\) :
+       \vec{j})\) 
 
-    1. En partant de O tracer le vecteur \(\vec{u} = \dfrac{1}{2}\vec{i} +
-       \vec{j}\), on nommera A son extrémité. 
-    2. En partant de O tracer le vecteur \(\vec{v} = -\dfrac{1}{2}\vec{i} +
-       \vec{j}\), on nommera B son extrémité.
-    3. Vérifier qu'on a bien tracé la lettre V.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \dfrac{1}{2}\vec{i} + \vec{j}\). En déduire les coordonnées du
+       point A.
+    2. Construire le point B tel que \(\overrightarrow{OB} =
+       \vec{j} - \dfrac{1}{2}\vec{i}\). En déduire les coordonnées du
+       point B.       
+    3. Tracer les vecteurs \(\overrightarrow{OA},
+       \overrightarrow{OB}\) et vérifier que vous avez bien obtenu la
+       lettre V.
+       
 
 
 *** Exercice 55
 
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\) veillez à NE PAS tracer ni le vecteur \(\vec{i}\)
-       ni le vecteur \(\vec{j}\) :
+       \vec{j})\)  :
 
-    1. En partant de O tracer le vecteur \(\vec{u} = \dfrac{1}{2}\vec{i} +
-       \vec{j}\), on nommera A son extrémité. 
-    2. En partant de O tracer le vecteur \(\vec{v} = -\dfrac{1}{2}\vec{i} +
-       \vec{j}\), on nommera B son extrémité.
-    3. En partant du point A tracer le vecteur \(\vec{w} =
-       \dfrac{1}{2}\vec{i} - \vec{j}\), on nommera I son extrémité.
-    4. En partant de I tracer le vecteur \(\vec{u} = \dfrac{1}{2}\vec{i} +
-       \vec{j}\), on nommera C son extrémité.
-    5. Vérifier qu'on a bien tracé la lettre W.
-
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \dfrac{1}{2}\vec{i} + \vec{j}\). En déduire les coordonnées du
+       point A.
+    2. Construire le point B tel que \(\overrightarrow{OB} =
+       \vec{j} - \dfrac{1}{2}\vec{i}\). En déduire les coordonnées du
+       point B.
+    3. Construire le point C tel que \(\overrightarrow{IC} =
+       \dfrac{1}{2}\vec{i} + \vec{j}\). En déduire les coordonnées du
+       point C.
+    4. Tracer les vecteurs \(\overrightarrow{OA},
+       \overrightarrow{OB}, \overrightarrow{IA}, \overrightarrow{IC}\)
+       et vérifier que vous avez bien obtenu la lettre W.
 
 *** Exercice 56
 
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\) veillez à NE PAS tracer ni le vecteur \(\vec{i}\)
-       ni le vecteur \(\vec{j}\) :
+       \vec{j})\) 
     
-    1. Placer directement I et J aux extrémités respectives des
-       vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
-    2. Construire I' tel que O milieu de [II'].
-    3. En partant de I' tracer le vecteur \(\vec{u} = \vec{i} +
-       \vec{j}\). 
-    4. En partant du point I tracer le vecteur \(\vec{v} =
-       \overrightarrow{IJ}\) et donner son expression en fonction des
-       vecteurs de la base.
-    5. En partant de J tracer le vecteur \(\vec{v}\), on nommera J'
-       son extrémité.
-    6. Toujours en partant de J tracer le vecteur \(\vec{u}\), on
-       nommera J'' son extrémité.
-    7. Vérifier qu'on a bien obtenu la lettre X.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \dfrac{1}{2}\vec{i} + \vec{j}\). En déduire les coordonnées du
+       point A.
+    2. Construire le point B tel que \(\overrightarrow{OB} =
+       \vec{j} - \dfrac{1}{2}\vec{i}\). En déduire les coordonnées du
+       point B.
+    3. Construire le point C tel que \(\overrightarrow{OC} =
+       -\dfrac{1}{2}\vec{i} - \vec{j}\). En déduire les coordonnées du
+       point C.
+    4. Construire le point D tel que \(\overrightarrow{OD} =
+       \dfrac{1}{2}\vec{i} - \vec{j}\). En déduire les coordonnées du
+       point D.       
+    5. Tracer les vecteurs \(\overrightarrow{OA},
+       \overrightarrow{OB}, \overrightarrow{OC}, \overrightarrow{OD}\)
+       et vérifier que vous avez bien obtenu la lettre X.
 
 
 *** Exercice 57
@@ -2050,27 +2067,34 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{i}\).
 
-    1. En partant du point O placer J à l'extrémité du vecteur
-       \(\vec{j}\).
-    2. À partir du point J tracer le vecteur \(\vec{u} =
-       \dfrac{3}{4}(\vec{i} + \vec{j})\), on nommera J' son extrémité.
-    3. Toujours à partir du point J tracer le vecteur \(\vec{v} = \dfrac{3}{4}(\vec{j} -
-       \vec{i})\), on nommera J'' son extrémité.
-    4. Vérifier qu'on a bien tracé la lettre Y.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \dfrac{1}{2}\vec{i} + \vec{j}\). En déduire les coordonnées du
+       point A.
+    2. Construire le point B tel que \(\overrightarrow{OB} =
+       \vec{j} - \dfrac{1}{2}\vec{i}\). En déduire les coordonnées du
+       point B.
+    3. Construire le point C tel que \(\overrightarrow{OC} =
+       -\vec{j}\). En déduire les coordonnées du
+       point C.
+    4. Tracer les vecteurs \(\overrightarrow{OA},
+       \overrightarrow{OB}, \overrightarrow{OC}\) et vérifier que vous
+       avez bien obtenu la lettre Y.
+       
+
 
 
     
 *** Exercice 58
 
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\). Veiller à NE PAS tracer le vecteur \(\vec{j}\).
+       \vec{j})\). 
 
-    1. Placer directement I et J aux extrémités respectives des
-       vecteurs \(\vec{i}\) et \(\vec{j}\) en partant de O.
-    2. En partant de O tracer le vecteur \(\vec{u} = \vec{i} +
-       \vec{j}\), on nommera K son extrémité.
-    3. En partant de J tracer le vecteur \(\vec{i}\) jusqu'à K.
-    4. Vérifier qu'on a bien tracé la lettre Z.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du
+       point A.
+    2. Tracer les vecteurs \(\overrightarrow{OI},
+       \overrightarrow{OA}, \overrightarrow{AJ}\) et vérifier que vous
+       avez bien obtenu la lettre Z.
      
 
 ** Applications des vecteurs dans la vie réelle
