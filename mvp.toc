@@ -80,9 +80,9 @@
 \contentsline {section}{\numberline {17.5}Exercice 20}{93}{section.17.5}%
 \contentsline {section}{\numberline {17.6}Exercice 21}{94}{section.17.6}%
 \contentsline {section}{\numberline {17.7}Exercice 22}{95}{section.17.7}%
-\contentsline {section}{\numberline {17.8}Exercice 23}{95}{section.17.8}%
+\contentsline {section}{\numberline {17.8}Exercice 23}{96}{section.17.8}%
 \contentsline {section}{\numberline {17.9}Exercice 24}{96}{section.17.9}%
-\contentsline {section}{\numberline {17.10}Exercice 25}{96}{section.17.10}%
+\contentsline {section}{\numberline {17.10}Exercice 25}{97}{section.17.10}%
 \contentsline {section}{\numberline {17.11}Exercice 26}{97}{section.17.11}%
 \contentsline {part}{V\hspace {1em}Exercices de synthèse}{99}{part.5}%
 \contentsline {chapter}{\numberline {18}Représentation par coordonnées (dans un repère)}{101}{chapter.18}%

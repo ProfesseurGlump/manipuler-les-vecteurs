@@ -2418,8 +2418,190 @@
        \[d(A ; (OJ)) = \min_{N\in (OJ)}(AN) = AK\]
        On en déduit sa valeur qui est \(AK = 3\).
     
-    
+*** Solution de l'exercice 21
 
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\).
+
+    1. Calcul des coordonnées du point L milieu du segment [OK] :
+       \begin{align*}
+       x_L &= \dfrac{x_O + x_K}{2} = \dfrac{1}{2}\\
+       y_L &= \dfrac{y_O + y_K}{2} = \dfrac{1}{2}
+       \end{align*}
+       
+       Pour en déduire la nature des triangles LOI et JOL il faut
+       calculer les longueurs des côtés :
+       \begin{align*}
+       OL^2 &= \left(\dfrac{2}{2}\right)^2 + \left(\dfrac{2}{2}\right)^2 = \dfrac{1}{2}\\
+       LI^2 &= \left(1 - \dfrac{2}{2}\right)^2 + \left(0 - \dfrac{2}{2}\right)^2 = \dfrac{1}{2}\\
+       OI^2 &= 1^2 = 1\\
+       OI^2 &= OL^2 + LI^2\\
+       JL^2 &= \left(\dfrac{2}{2} - 0\right)^2 + \left(\dfrac{2}{2} - 1\right)^2 = \dfrac{1}{2}\\
+       JO^2 &= 1^2 = 1\\
+       JO^2 &= OL^2 + JL^2
+       \end{align*}
+       Les deux triangles sont isocèles et rectangles, LOI en I et JOL
+       en J.
+       
+    2. Comparons IK et IL :
+       \begin{align*}
+       IK^2 &= (1 - 1)^2 + (1 - 0)^2 = 1\\
+       IL^2 &= \dfrac{1}{2}
+       \end{align*}
+
+       Ainsi IK > IL.
+       
+       On en déduit la distance entre le point I et la droite (OK) à
+       savoir
+       \[d(I, (OK)) = IL = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}\]
+
+       *Remarque* : c'est parce que dans la question précédente on a
+       établi que LOI était rectangle en I qu'on peut conclure. 
+    3. Comparons JK et JL :
+       \begin{align*}
+       JK^2 &= (1 - 0)^2 + (1 - 1)^2 = 1\\
+       JL^2 &= \dfrac{1}{2}
+       \end{align*}
+
+       Ainsi JK > JL.
+       
+       On en déduit la distance entre le point J et la droite (OK) à
+       savoir
+       \[d(J, (OK)) = JL = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}\]
+
+       *Remarque* : c'est parce que dans la question précédente on a
+       établi que JOL était rectangle en J qu'on peut conclure. 
+    4. Par construction les points A et B sont tels que :
+       \begin{align*}
+       \overrightarrow{IA} &= \vec{u}\\
+       \overrightarrow{JB} &= \vec{u}
+       \end{align*}
+       Donc IABJ est un parallélogramme.
+
+       Maintenant comparons \(\overrightarrow{AB}\) et
+       \(\overrightarrow{IJ}\) :
+       \begin{align*}
+       x_{A} &= x_I + x_{\vec{u}} = 1 + 1 = 2\\
+       y_{A} &= y_I + y_{\vec{u}} = 0 + 1 = 1\\
+       x_{B} &= x_J + x_{\vec{u}} = 0 + 1 = 1\\
+       y_{B} &= y_J + y_{\vec{u}} = 1 + 1 = 2\\
+       x_{\overrightarrow{AB}} &= x_B - x_A = 1 - 2 = -1\\
+       y_{\overrightarrow{AB}} &= y_B - y_A = 2 - 1 = 1\\
+       x_{\overrightarrow{IJ}} &= x_J - x_I = 0 - 1 = -1\\
+       y_{\overrightarrow{IJ}} &= y_J - y_I = 1 - 0 = 1
+       \end{align*}
+
+       Ainsi \(\overrightarrow{AB} = \overrightarrow{IJ}\) et de plus
+       \[IA = AB\]
+
+       Donc IABJ est un losange.
+
+       Maintenant comparons AJ et IB :
+       \begin{align*}
+       AJ^2 &= (0 - 2)^2 + (1 - 1)^2 = 4\\
+       IB^2 &= (1 - 1)^2 + (2 - 0)^2 = 4
+       \end{align*}
+
+       Ainsi AJ = IB donc IABJ est un losange.
+
+       Finalement IABJ est un carré.
+       
+    5. Puisque IABJ est un carré la distance entre le point A et la
+       droite (IJ) est tout simplement \[IA = \sqrt{2}\]
+    
+*** Solution de l'exercice 22
+
+    Soit ABC un triangle. Le point G vérifie :
+    \[\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC}
+    = \vec{0}\]
+    
+    1. Appliquons la relation de Chasles dans l'égalité initiale et
+       exprimons le vecteur \(\overrightarrow{AG}\) en fonction des
+       vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{AC}\) :
+       \begin{align*}
+       \overrightarrow{GA} + \overrightarrow{GA} + \overrightarrow{AB} + \overrightarrow{GA} + \overrightarrow{AC} &= \vec{0}\\
+       3\overrightarrow{AG} &= \overrightarrow{AB} + \overrightarrow{AC}\\
+       \overrightarrow{AG} &= \dfrac{1}{3}(\overrightarrow{AB} + \overrightarrow{AC})
+       \end{align*}
+    2. Appliquons la relation de Chasles dans l'égalité initiale et
+       exprimons le vecteur \(\overrightarrow{BG}\) en fonction des
+       vecteurs \(\overrightarrow{BA}\) et \(\overrightarrow{BC}\) :
+       \[\overrightarrow{BG} &= \dfrac{1}{3}(\overrightarrow{BA} + \overrightarrow{BC})\]
+    3. Appliquons la relation de Chasles dans l'égalité initiale et
+       exprimons le vecteur \(\overrightarrow{CG}\) en fonction des
+       vecteurs \(\overrightarrow{CB}\) et \(\overrightarrow{CA}\) :
+       \[\overrightarrow{CG} &= \dfrac{1}{3}(\overrightarrow{CA} + \overrightarrow{CB})\]
+    4. Déterminons les coordonnées des points I, J et K milieux
+       respectifs des segments [AB], [BC] et [CA] :
+       \begin{align*}
+       x_I = \dfrac{x_A + x_B}{2} && y_I = \dfrac{y_A + y_B}{2} \\
+       x_J = \dfrac{x_B + x_C}{2} && y_J = \dfrac{y_B + y_C}{2} \\
+       x_K = \dfrac{x_C + x_A}{2} && y_K = \dfrac{y_C + y_A}{2} 
+       \end{align*}
+    5. Appliquons la relation de Chasles dans l'identité du milieu et
+       exprimons le vecteur \(\overrightarrow{AJ}\) en fonction des       
+       vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{AC}\) :
+       \begin{align*}
+       \overrightarrow{BJ} &= \dfrac{1}{2}\overrightarrow{BC}\\
+       \overrightarrow{BA} + \overrightarrow{AJ} &= \dfrac{1}{2}(\overrightarrow{BA} + \overrightarrow{AC})\\
+       \overrightarrow{AJ} &= \dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})
+       \end{align*}
+       On en déduit une comparaison avec \(\overrightarrow{AG}\) :
+       \[\overrightarrow{AG} = \dfrac{2}{3}\overrightarrow{AJ}\]
+    6. Faisons de même avec le vecteur \(\overrightarrow{BK}\) en
+       fonction des vecteurs \(\overrightarrow{BA}\) et
+       \(\overrightarrow{BC}\) :
+       \[\overrightarrow{BK} = \dfrac{1}{2}(\overrightarrow{BA} + \overrightarrow{BC})\]
+       On en déduit une comparaison avec \(\overrightarrow{BG}\) :
+       \[\overrightarrow{BG} = \dfrac{2}{3}\overrightarrow{BK}\]
+    7. Faisons de même avec le vecteur \(\overrightarrow{CI}\) en
+       fonction des vecteurs \(\overrightarrow{CA}\) et
+       \(\overrightarrow{CB}\) :
+       \[\overrightarrow{CI} = \dfrac{1}{2}(\overrightarrow{CA} + \overrightarrow{CB})\]
+       On en déduit une comparaison avec \(\overrightarrow{CG}\) :
+       \[\overrightarrow{CG} = \dfrac{2}{3}\overrightarrow{CI}\]
+    8. En utilisant les éléments précédents on peut établir le calcul
+       des coordonnées du point G en fonction de celles des points A,
+       B, C :
+       \begin{align*}
+       x_G - x_A &= \dfrac{1}{3}(x_B - x_A + x_C - x_A)\\
+       x_G &= \dfrac{1}{3}(x_A + x_B + x_C)\\
+       y_G &= \dfrac{1}{3}(y_A + y_B + y_C)
+       \end{align*}
+    9. En utilisant les éléments précédents on peut établir le calcul
+       des coordonnées du point G en fonction de celles des points I,
+       J, K :
+       \begin{align*}
+       \overrightarrow{AG} + \overrightarrow{BG} + \overrightarrow{CG} &= \vec{0}\\
+       \dfrac{2}{3}(\overrightarrow{AJ} + \overrightarrow{BK} + \overrightarrow{CI}) &= \vec{0}\\
+       \overrightarrow{AJ} + \overrightarrow{BK} + \overrightarrow{CI} &= \vec{0}\\
+       \overrightarrow{AG} + \overrightarrow{GJ} + \overrightarrow{BG} + \overrightarrow{GK} + \overrightarrow{CG} + \overrightarrow{GI} &= \vec{0}\\
+       \overrightarrow{GJ} + \overrightarrow{GK} + \overrightarrow{GI} &= \vec{0}\\
+       3\overrightarrow{IG} &= \overrightarrow{IJ} + \overrightarrow{IK}\\
+       \overrightarrow{IG} &= \dfrac{1}{3}(\overrightarrow{IJ} + \overrightarrow{IK})\\
+       x_G - x_I &= \dfrac{1}{3}(x_J - x_I + x_K - x_I)\\
+       x_G &= \dfrac{1}{3}(x_I + x_J + x_K)\\
+       y_G &= \dfrac{1}{3}(y_I + y_J + y_K)
+       \end{align*}
+    10. Appliquons les résultats précédents dans un cas concret avec
+        les points \(A(-4 ; 4), B(5 ; 4), C(-1 ; -2)\).
+	Calculons les coordonnées des milieux I, J, K :
+	\begin{align*}
+         x_I = \dfrac{-4 + 5}{2} = \dfrac{1}{2} && y_I = \dfrac{4 + 4}{2} = 4\\
+         x_J = \dfrac{5 + (-1)}{2} = 2&& y_J = \dfrac{4 + (-2)}{2} = 2\\
+         x_K = \dfrac{-1 + (-4)}{2} = -\dfrac{5}{2}&& y_K = \dfrac{-1 + 4}{2} = \dfrac{3}{2} 
+	\end{align*}
+	Calculons les coordonnées du point G :
+	\begin{align*}
+        x_G &= \dfrac{1}{3}(-4 + 5 - 1) = 0\\
+        y_G &= \dfrac{1}{3}(4 + 4 - 2) = 2
+	\end{align*}
+	
+	On remarque que G est le centre de gravité du triangle.
+
+	Voir figure :
+	[[./img/sol22.png]]
+    
 * Solutions des exercices divers
 ** Solutions des paradoxes
 *** Solution de l'exercice 77

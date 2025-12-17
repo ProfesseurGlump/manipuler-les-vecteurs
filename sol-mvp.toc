@@ -59,10 +59,12 @@
 \contentsline {section}{\numberline {40.3}Solution de l'exercice 18}{180}{section.40.3}%
 \contentsline {section}{\numberline {40.4}Solution de l'exercice 19}{182}{section.40.4}%
 \contentsline {section}{\numberline {40.5}Solution de l'exercice 20}{185}{section.40.5}%
-\contentsline {part}{XVI\hspace {1em}Solutions des exercices divers}{193}{part.16}%
-\contentsline {chapter}{\numberline {41}Solutions des paradoxes}{195}{chapter.41}%
-\contentsline {section}{\numberline {41.1}Solution de l'exercice 77}{195}{section.41.1}%
-\contentsline {chapter}{\numberline {42}Solutions des exercices d'arithmétique}{201}{chapter.42}%
-\contentsline {section}{\numberline {42.1}Solution de l'exercice 78}{201}{section.42.1}%
-\contentsline {section}{\numberline {42.2}Solutions de l'exercice 79}{204}{section.42.2}%
-\contentsline {section}{\numberline {42.3}Solutions de l'exercice 80}{208}{section.42.3}%
+\contentsline {section}{\numberline {40.6}Solution de l'exercice 21}{191}{section.40.6}%
+\contentsline {section}{\numberline {40.7}Solution de l'exercice 22}{194}{section.40.7}%
+\contentsline {part}{XVI\hspace {1em}Solutions des exercices divers}{199}{part.16}%
+\contentsline {chapter}{\numberline {41}Solutions des paradoxes}{201}{chapter.41}%
+\contentsline {section}{\numberline {41.1}Solution de l'exercice 77}{201}{section.41.1}%
+\contentsline {chapter}{\numberline {42}Solutions des exercices d'arithmétique}{207}{chapter.42}%
+\contentsline {section}{\numberline {42.1}Solution de l'exercice 78}{207}{section.42.1}%
+\contentsline {section}{\numberline {42.2}Solutions de l'exercice 79}{210}{section.42.2}%
+\contentsline {section}{\numberline {42.3}Solutions de l'exercice 80}{214}{section.42.3}%

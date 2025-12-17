@@ -1106,7 +1106,7 @@
        et (BD) alors : 
        #+ATTR_LATEX: :options [label=\alph*.]
        1. \(\overrightarrow{OA} + \overrightarrow{OB} +
-          \overrightarrow{OB} + \overrightarrow{OD} = \vec{0}\)
+          \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}\)
        2. \(\overrightarrow{AO} = \overrightarrow{OC} = \dfrac{1}{2}\overrightarrow{AC}\)
        3. \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 1\)	  
        4. \(det(\overrightarrow{AB} , \overrightarrow{AD}) = 0\)
@@ -1400,7 +1400,7 @@
        \end{align*}
        En déduire la nature du quadrilatère IABJ.
     5. Quelle est la distance entre le point A et la droite (IJ) ?
-    
+       
 
 *** Exercice 22
 
@@ -1408,13 +1408,36 @@
     \[\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC}
     = \vec{0}\]
     
-    1. Pourquoi la représentation analytique est-elle préférable pour
-       trouver les coordonnées de G ?       
-    2. Sachant que A(-2;1), B(4;3), C(1;-2), déterminer les
-       coordonnées de G.       
-    3. Vérifier géométriquement que G est situé aux 2/3 de chaque
-       médiane en partant du sommet.
-
+    1. Exprimer le vecteur \(\overrightarrow{AG}\) en fonction des
+       vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{AC}\).
+    2. Exprimer le vecteur \(\overrightarrow{BG}\) en fonction des
+       vecteurs \(\overrightarrow{BA}\) et \(\overrightarrow{BC}\).
+    3. Exprimer le vecteur \(\overrightarrow{CG}\) en fonction des
+       vecteurs \(\overrightarrow{CB}\) et \(\overrightarrow{CA}\).
+    4. Déterminer les coordonnées des points I, J et K milieux
+       respectifs des segments [AB], [BC] et [CA].
+    5. Exprimer le vecteur \(\overrightarrow{AJ}\) en fonction des
+       vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{AC}\). En
+       déduire une comparaison avec \(\overrightarrow{AG}\).
+    6. Exprimer le vecteur \(\overrightarrow{BK}\) en fonction des
+       vecteurs \(\overrightarrow{BA}\) et \(\overrightarrow{BC}\). En
+       déduire une comparaison avec \(\overrightarrow{BG}\).
+    7. Exprimer le vecteur \(\overrightarrow{CI}\) en fonction des
+       vecteurs \(\overrightarrow{CA}\) et \(\overrightarrow{CB}\). En
+       déduire une comparaison avec \(\overrightarrow{CG}\).
+    8. En utilisant les éléments précédents (sélectionnez les
+       informations nécessaires) établir le calcul des coordonnées du
+       point G en fonction de celles des points A, B, C.
+    9. En utilisant les éléments précédents (sélectionnez les
+       informations nécessaires) établir le calcul des coordonnées du
+       point G en fonction de celles des points I, J, K.
+    10. Appliquons les résultats précédents dans un cas concret. Dans
+        un repère orthonormé \((O ; \vec{i}, \vec{j})\) placer les
+        points \(A(-4 ; 4), B(5 ; 4), C(-1 ; -2)\). Tracer le
+        triangle, calculer les coordonnées des milieux I, J, K, les
+        placer, tracer les médianes, calculer les coordonnées du point
+        G. Que remarquez-vous ?
+       
 
 *** Exercice 23
 
@@ -1423,7 +1446,7 @@
     
     \[\overrightarrow{OM'} = 2\overrightarrow{OM} + \vec{u}\]
 
-    où \(\vec{u} = \begin{pmatrix}3\\-1\end{pmatrix}\)
+    où \(\vec{u}\begin{pmatrix}3\\-1\end{pmatrix}\)
 
     1. Approche analytique : Si M(x;y), exprimer les coordonnées de
        M'(x';y')       
