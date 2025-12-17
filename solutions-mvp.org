@@ -2601,7 +2601,209 @@
 
 	Voir figure :
 	[[./img/sol22.png]]
+
+
+*** Solution de l'exercice 23
+
+    On considère la transformation qui à tout point M associe le point
+    M' tel que :
     
+    \[\overrightarrow{OM'} = 2\overrightarrow{OM} + \vec{u}\]
+
+    où \(\vec{u}\begin{pmatrix}3\\-1\end{pmatrix}\)
+
+    1. Approche analytique :
+       \begin{align*}
+       x' &= 2x + 3\\
+       y' &= 2y - 1
+       \end{align*}
+    2. Cas particulier : on cherche le(s) point(s) tel(s) que \(M =
+       M'\) c'est-à-dire les solutions de l'équation :
+       \begin{align*}
+       x &= 2x + 3 \Rightarrow x = -3\\
+       y &= 2y - 1 \Rightarrow y = 1
+       \end{align*}
+       Il y a exactement un point invariant par cette transformation :
+       \(A(-3 ; 1)\)
+    3. Interprétation géométrique : cette transformation est la
+       composée d'une translation et d'une homothétie de
+       rapport 2. Concrètement elle multiplie par 2 la distance à
+       l'origine du repère puis effectue un décalage de 3 unités vers
+       la droite et 1 unité vers le bas.
+    4. La transformation réciproque est celle qui fait une translation
+       de vecteur \(\vec{v} = -\vec{u}\) puis multiplie la distance à
+       l'origine par \(\dfrac{1}{2}\). Concrètement :
+       \[\overrightarrow{OM'} = \dfrac{1}{2}\overrightarrow{OM} +
+       \vec{v}\]
+       De façon analytique :
+       \begin{align*}
+       x' &= \dfrac{1}{2}x - 3\\
+       y' &= \dfrac{1}{2}y + 1
+       \end{align*}
+       Son point invariant est la solution de l'équation :
+       \begin{align*}
+       x &= \dfrac{1}{2}x - 3 \Rightarrow x = -6\\
+       y &= \dfrac{1}{2}y + 1 \Rightarrow y = 2
+       \end{align*}
+       \[B(-6 ; 2)\]
+
+
+    Voir figure :
+    [[./img/sol23.png]]
+
+
+* Démonstrations
+** Démonstrations
+*** Solution de l'exercice 32
+
+    Commençons par montrer que si deux vecteurs sont colinéaires alors
+    leur déterminant est nul. Rappelons que si \(\vec{u}\) et
+    \(\vec{v}\) sont deux vecteurs colinéaires alors il existe un réel
+    \(k\) tel que \(\vec{u} = k\vec{v}\). Calculons le déterminant :
+    \begin{align*}
+    det(\vec{u} , \vec{v}) &= \begin{vmatrix}kx_{\vec{v}}&x_{\vec{v}}\\ ky_{\vec{v}}&y_{\vec{v}}\end{vmatrix}\\
+    det(\vec{u} , \vec{v}) &= kx_{\vec{v}}y_{\vec{v}} - ky_{\vec{v}}x_{\vec{v}}\\
+    det(\vec{u} , \vec{v}) &= k(x_{\vec{v}}y_{\vec{v}} - y_{\vec{v}}x_{\vec{v}})\\
+    det(\vec{u} , \vec{v}) &= 0
+    \end{align*}
+
+    Réciproquement, considérons deux vecteurs \(\vec{u}\) et
+    \(\vec{v}\) tels que leur déterminant soit nul :
+    \begin{align*}
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow \begin{vmatrix}x_{\vec{u}}&x_{\vec{v}}\\ y_{\vec{u}}&y_{\vec{v}}\end{vmatrix} = 0\\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow x_{\vec{u}}y_{\vec{v}} - x_{\vec{v}}y_{\vec{u}} = 0\\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow x_{\vec{u}}y_{\vec{v}} = x_{\vec{v}}y_{\vec{u}} \\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow \dfrac{x_{\vec{u}}}{x_{\vec{v}}} = \dfrac{y_{\vec{u}}}{y_{\vec{v}}} = k \\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow \begin{pmatrix}x_{\vec{u}}\\ y_{\vec{u}}\end{pmatrix} = k\begin{pmatrix}x_{\vec{v}}\\ y_{\vec{v}}\end{pmatrix}\\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow \vec{u} = k\vec{v}
+    \end{align*}
+
+    Attention, dans le calcul on est passé de 
+    \[x_{\vec{u}}y_{\vec{v}} = x_{\vec{v}}y_{\vec{u}}\]
+    à
+    \[\dfrac{x_{\vec{u}}}{x_{\vec{v}}} =
+    \dfrac{y_{\vec{u}}}{y_{\vec{v}}} = k\]
+    mais il faudrait traiter le cas où \[x_{\vec{v}}y_{\vec{v}} = 0\]
+    En effet, si \(x_{\vec{v}} = 0\) soit \(\vec{v} = \vec{0}\) soit
+    \(x_{\vec{u}} = 0\) et donc l'égalité avec \(k\) est vérifié sans
+    passer par le quotient. Idem pour \(y_{\vec{v}} = 0\). 
+
+*** Exercice 32bis
+
+   Démontrons que pour tous points A, B, C (relation de Chasles) : 
+   \(\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}\)
+
+   Il suffit d'écrire les coordonnées :
+   \begin{align*}
+   x_B - x_A + x_C - x_B = x_C - x_A &\iff x_{\overrightarrow{AB}}+x_{\overrightarrow{BC}} = x_{\overrightarrow{AC}}\\
+   y_B - y_A + y_C - y_B = y_C - y_A &\iff y_{\overrightarrow{AB}}+y_{\overrightarrow{BC}} = y_{\overrightarrow{AC}}
+   \end{align*}
+   
+*** Exercice 32ter
+
+   Démontrons que si I est le milieu de [AB], alors :
+   \(\overrightarrow{AI} = \dfrac{1}{2}\overrightarrow{AB}\)   
+
+   Si I est le milieu de [AB] alors :
+   \begin{align*}
+   \overrightarrow{AI} &= \overrightarrow{IB}\\
+   \overrightarrow{AB} &= \overrightarrow{AI} + \overrightarrow{IB}\\
+   \overrightarrow{AB} &= 2\overrightarrow{AI}\\
+   &\Rightarrow \overrightarrow{AI} = \dfrac{1}{2}\overrightarrow{AB}
+   \end{align*}
+
+* Exercices divers
+** Alphabet
+
+*** Solution de l'exercice 33
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. Plaçons le point A tel que \(\overrightarrow{OA} = 2\vec{i} +
+       3\vec{j}\) c'est-à-dire \(A(2 ; 3)\).
+    2. Construisons l'image A' du point A par la translation de vecteur
+       \(\vec{v} = 2\vec{i} - 3\vec{j}\) c'est-à-dire \(A'(4 ; 0)\).
+    3. Déterminons les coordonnées de milieux des segments [OA] et
+       [AA'] qu'on nommera H et H' respectivement c'est-à-dire \(H(1 ;
+       1,5)\) et \(H'(3 ; 1,5)\).
+    4. Exprimons le vecteur \(\overrightarrow{HH'}\) en fonction des
+       vecteurs de la base c'est-à-dire
+       \[\overrightarrow{HH'} = 2\vec{i}\]
+    5. On pense à la lettre A.
+
+       Voir figure :
+       [[./img/sol33.png]]
+
+
+*** Solution de l'exercice 34
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((0 ; -3)\).
+    2. B a pour coordonnées du point \((2 ; -3)\).
+    3. C a pour coordonnées du point \((3 ; -2)\).
+    4. D a pour coordonnées du point \((3 ; -1)\).
+    5. E a pour coordonnées du point \((2 ; 0)\).
+    6. F a pour coordonnées du point \((3 ; 1)\).
+    7. G a pour coordonnées du point \((3 ; 2)\).
+    8. H a pour coordonnées du point \((2 ; 3)\).
+    9. K a pour coordonnées du point \((0 ; 3)\).
+    10. On peut vérifier qu'on a bien obtenu la lettre B.
+    
+       Voir figure :
+       [[./img/sol34.png]]
+    
+*** Solution de l'exercice 35
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+    
+    1. A a pour coordonnées du point \((0 ; -1)\).
+    2. B a pour coordonnées du point \((1 ; -2)\).
+    3. C a pour coordonnées du point \((2 ; -2)\).
+    4. B' a pour coordonnées du point \((1 ; 2)\).
+    5. C' a pour coordonnées du point \((2 ; 2)\).
+    6. On peut vérifier qu'on a bien obtenu la lettre C.
+
+       Voir figure :
+       [[./img/sol35.png]]
+
+
+*** Solution de l'exercice 36
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((0 ; -3)\).
+    2. B a pour coordonnées du point \((2 ; -3)\).
+    3. C a pour coordonnées du point \((3 ; -2)\).
+    4. D a pour coordonnées du point \((3 ; 2)\).
+    5. E a pour coordonnées du point \((2 ; 3)\).
+    6. F a pour coordonnées du point \((0 ; 3)\).
+    7. On peut vérifier qu'on a bien obtenu la lettre D.
+
+	Voir figure :
+	[[./img/sol36.png]]
+    
+
+     
+     
+*** Solution de l'exercice 37
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((0 ; -1)\).
+    2. B a pour coordonnées du point \((1 ; -1)\).
+    3. B' a pour coordonnées du point \((1 ; 1)\).
+    5. On peut vérifier qu'on a bien obtenu la lettre E.
+
+       Voir figure :
+       [[./img/sol37.png]]
+    
+
 * Solutions des exercices divers
 ** Solutions des paradoxes
 *** Solution de l'exercice 77

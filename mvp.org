@@ -1448,18 +1448,22 @@
 
     où \(\vec{u}\begin{pmatrix}3\\-1\end{pmatrix}\)
 
-    1. Approche analytique : Si M(x;y), exprimer les coordonnées de
-       M'(x';y')       
+    1. Approche analytique : Si \(M(x;y)\), exprimer les coordonnées de
+       \(M'(x';y')\)       
     2. Cas particulier : Trouver le(s) point(s) invariant(s) par cette
        transformation       
     3. Interprétation géométrique : Décrire cette transformation en
-       termes simples
+       termes simples.
+
+       *Indication* : on commencera par déterminer l'image des points
+       O, I, J.
+    4. Trouver la transformation réciproque.
        
 
     
 *** Exercice 24
 
-    Dans le triangle ABC, on place :
+     le triangle ABC, on place :
 
     + M sur [AB] tel que AM = (1/3)AB
     + N sur [AC] tel que AN = (1/3)AC
@@ -1649,22 +1653,30 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Placer les points I et J images de O par les translations de
-       vecteurs \(\vec{i}\) et \(\vec{j}\) respectivement.
-    2. Placer J' image de O par la translation de vecteur
-       \(-\vec{j}\).
-    3. Placer O' image de J par la translation de vecteur
-       \(\vec{j}\).
-    4. Placer J'' image de J par la translation de vecteur
-       \(2\vec{j}\).
-    5. Placer I' image de O' par la translation de vecteur
-       \(\vec{i}\).
-    6. Tracer le demi-cercle de centre O passant par I et J (vérifier
-       qu'il passe bien par J').
-    7. Tracer le demi-cercle de centre O' passant par J et I' (vérifier
-       qu'il passe bien par J'').
-    8. Tracer le segment J'J''.
-    9. Vérifier que vous avez bien obtenu la lettre B.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       -3\vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{AB} =
+       2\vec{i}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{BC} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point C.
+    4. Construire le point D tel que \(\overrightarrow{CD} =
+        \vec{j}\). En déduire les coordonnées du point D. 
+    5. Construire le point E tel que \(\overrightarrow{DE} =
+       \vec{j} - \vec{i}\). En déduire les coordonnées du point E.
+    6. Construire le point F tel que \(\overrightarrow{EF} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point F.
+    7. Construire le point G tel que \(\overrightarrow{FG} =
+       \vec{j}\). En déduire les coordonnées du point G.
+    8. Construire le point H tel que \(\overrightarrow{GH} =
+       \vec{j} - \vec{i}\). En déduire les coordonnées du point H.
+    9. Construire le point K tel que \(\overrightarrow{HK} =
+       -2\vec{i}\). En déduire les coordonnées du point K.
+    10. Tracer les vecteurs \(\overrightarrow{OA}, \overrightarrow{AB},
+	\overrightarrow{BC}, \overrightarrow{CD}, \overrightarrow{DE},
+	\overrightarrow{EF}, \overrightarrow{FG}, \overrightarrow{GH},
+	\overrightarrow{HK}, \overrightarrow{KO}, \overrightarrow{OE}\)
+	et vérifier que vous avez bien obtenu la lettre B.
+       
 
 
 *** Exercice 35
@@ -1672,13 +1684,21 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
     
-    1. Placer le point C tel que \(\overrightarrow{OC} = -\vec{i}\).
-    2. Placer le point J tel que \(\overrightarrow{OJ} = \vec{j}\).
-    3. Placer le point J' image de O par la translation de vecteur
-       \(-\vec{j}\).
-    4. Tracer le demi-cercle de centre O passant par J et J'.
-    5. Vérifier qu'il passe bien par C et qu'il forme le tracé de la
-       lettre C.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       -\vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{AB} =
+       \vec{i}-\vec{j}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{BC} =
+       \vec{i}\). En déduire les coordonnées du point C.
+    4. Construire le point B' tel que \(\overrightarrow{JB'} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point B'.
+    5. Construire le point C' tel que \(\overrightarrow{B'C'} =
+       \vec{i}\). En déduire les coordonnées du point C'.
+    6. Tracer les vecteurs \(\overrightarrow{OA}, \overrightarrow{AB},
+	\overrightarrow{BC}, \overrightarrow{OJ}, \overrightarrow{JB'},
+	\overrightarrow{B'C'}\) et vérifier que vous avez bien obtenu
+       la lettre C.
+       
 
 
 *** Exercice 36
@@ -1686,29 +1706,40 @@ construction géométrique précise utilisant les opérations vectorielles.
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Placer le point D image de O par la translation de vecteur
-       \(\vec{i}\).
-    2. Placer le point J tel que \(\overrightarrow{OJ} = \vec{j}\).
-    3. Placer le point J' tel que O soit le milieu du segment [JJ'].
-    4. Tracer le demi-cercle de centre O passant par J, I et J'.
-    5. Reconnaître la lettre D.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       -3\vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{AB} =
+       2\vec{i}\). En déduire les coordonnées du point B.
+    3. Construire le point C tel que \(\overrightarrow{BC} =
+       \vec{i} + \vec{j}\). En déduire les coordonnées du point C.
+    4. Construire le point D tel que \(\overrightarrow{CD} =
+        4\vec{j}\). En déduire les coordonnées du point D. 
+    5. Construire le point E tel que \(\overrightarrow{DE} =
+       \vec{j} - \vec{i}\). En déduire les coordonnées du point E.
+    6. Construire le point F tel que \(\overrightarrow{EF} =
+       -2\vec{i}\). En déduire les coordonnées du point F.
+    7. Tracer les vecteurs \(\overrightarrow{OA}, \overrightarrow{AB},
+	\overrightarrow{BC}, \overrightarrow{CD}, \overrightarrow{DE},
+	\overrightarrow{EF}, \overrightarrow{FO}\)
+	et vérifier que vous avez bien obtenu la lettre D.
 
-  
+	
+	
 *** Exercice 37
 
     Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
        \vec{j})\) :
 
-    1. Placer les points I et J tels qu'ils soient les images
-       respectives de O par les translations de vecteurs \(\vec{i}\)
-       et \(\vec{j}\).
-    2. Tracer le vecteur \(\vec{j}\) en partant de J, on nommera J'
-       son extrémité.
-    3. Tracer le vecteur \(\vec{i}\) en partant de J, on nommera I'
-       son extrémité.
-    4. Tracer le vecteur \(\vec{i}\) en partant de J', on nommera I''
-       son extrémité.
-    5. Vérifier que vous avez bien obtenu la lettre E.
+    1. Construire le point A tel que \(\overrightarrow{OA} =
+       -\vec{j}\). En déduire les coordonnées du point A.
+    2. Construire le point B tel que \(\overrightarrow{AB} =
+       \vec{i}\). En déduire les coordonnées du point B.
+    4. Construire le point B' tel que \(\overrightarrow{JB'} =
+       \vec{i}\). En déduire les coordonnées du point B'.
+    5. Tracer les vecteurs \(\overrightarrow{OA}, \overrightarrow{AB},
+	\overrightarrow{OJ}, \overrightarrow{JB'}\) et vérifier que
+       vous avez bien obtenu la lettre E.
+       
 
 *** Exercice 38
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  17 DEC 2025 11:12
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  17 DEC 2025 14:19
  system commands enabled.
 **sol-mvp.tex
 (.//sol-mvp.tex
@@ -1405,7 +1405,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [10]
 Chapitre 1.
-<./img/ABCvect.png, id=441, 343.59746pt x 236.96771pt>
+<./img/ABCvect.png, id=506, 343.59746pt x 236.96771pt>
 File: ./img/ABCvect.png Graphic file (type png)
 <use ./img/ABCvect.png>
 Package luatex.def Info: ./img/ABCvect.png  used on input line 89.
@@ -1415,12 +1415,12 @@ Package luatex.def Info: ./img/ABCvect.png  used on input line 89.
 [11
 
 <./img/ABCvect.png>]
-<./img/sol1q1.png, id=451, 343.59746pt x 236.96771pt>
+<./img/sol1q1.png, id=517, 343.59746pt x 236.96771pt>
 File: ./img/sol1q1.png Graphic file (type png)
 <use ./img/sol1q1.png>
 Package luatex.def Info: ./img/sol1q1.png  used on input line 100.
 (luatex.def)             Requested size: 235.53293pt x 162.43759pt.
-<./img/sol1q2.png, id=452, 343.59746pt x 236.96771pt>
+<./img/sol1q2.png, id=518, 343.59746pt x 236.96771pt>
 File: ./img/sol1q2.png Graphic file (type png)
 <use ./img/sol1q2.png>
 Package luatex.def Info: ./img/sol1q2.png  used on input line 109.
@@ -1431,7 +1431,7 @@ Underfull \vbox (badness 1939) has occurred while \output is active []
 
 
 [12<./img/sol1q1.png>]
-<./img/sol1q4.png, id=460, 343.59746pt x 236.96771pt>
+<./img/sol1q4.png, id=526, 343.59746pt x 236.96771pt>
 File: ./img/sol1q4.png Graphic file (type png)
 <use ./img/sol1q4.png>
 Package luatex.def Info: ./img/sol1q4.png  used on input line 128.
@@ -1445,7 +1445,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [14<./img/sol1q4.png>]
 Chapitre 2.
-<./img/sol2q1.png, id=473, 546.12091pt x 376.64139pt>
+<./img/sol2q1.png, id=539, 546.12091pt x 376.64139pt>
 File: ./img/sol2q1.png Graphic file (type png)
 <use ./img/sol2q1.png>
 Package luatex.def Info: ./img/sol2q1.png  used on input line 151.
@@ -1464,10 +1464,10 @@ Chapitre 3.
 \pydata@fh@_44228D8618D2E8165C6E59DC5781E556.data.minted=\write9
 
 \openout9 = _44228D8618D2E8165C6E59DC5781E556.data.minted
-runsystem(latexminted config  --timestamp 20251217111209 44228D8618D2E8165C6E59D
+runsystem(latexminted config  --timestamp 20251217141940 44228D8618D2E8165C6E59D
 C5781E556)...executed.
 (.//_44228D8618D2E8165C6E59DC5781E556.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20251217111209 44228D8618D2E8165C
+runsystem(latexminted cleanconfig  --timestamp 20251217141940 44228D8618D2E8165C
 6E59DC5781E556)...executed.
 
 (.//_minted/monokai.style.minted)
@@ -1614,7 +1614,7 @@ Chapitre 4.
 
 [22]
 Chapitre 5.
-<./img/sol3q1.png, id=531, 546.12091pt x 376.64139pt>
+<./img/sol3q1.png, id=596, 546.12091pt x 376.64139pt>
 File: ./img/sol3q1.png Graphic file (type png)
 <use ./img/sol3q1.png>
 Package luatex.def Info: ./img/sol3q1.png  used on input line 240.
@@ -1632,7 +1632,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [24<./img/sol3q1.png>]
-<./img/sol3q3.png, id=544, 755.43555pt x 520.99872pt>
+<./img/sol3q3.png, id=609, 755.43555pt x 520.99872pt>
 File: ./img/sol3q3.png Graphic file (type png)
 <use ./img/sol3q3.png>
 Package luatex.def Info: ./img/sol3q3.png  used on input line 265.
@@ -1822,7 +1822,7 @@ Chapitre 7.
 
 [32]
 Chapitre 8.
-<./img/sol4q2.png, id=589, 551.67938pt x 380.47488pt>
+<./img/sol4q2.png, id=655, 551.67938pt x 380.47488pt>
 File: ./img/sol4q2.png Graphic file (type png)
 <use ./img/sol4q2.png>
 Package luatex.def Info: ./img/sol4q2.png  used on input line 338.
@@ -1840,7 +1840,7 @@ Underfull \vbox (badness 6876) has occurred while \output is active []
 
 
 [34<./img/sol4q2.png>]
-<./img/sol4q4.png, id=603, 551.67938pt x 380.47488pt>
+<./img/sol4q4.png, id=669, 551.67938pt x 380.47488pt>
 File: ./img/sol4q4.png Graphic file (type png)
 <use ./img/sol4q4.png>
 Package luatex.def Info: ./img/sol4q4.png  used on input line 369.
@@ -2030,7 +2030,7 @@ Chapitre 10.
 
 [42]
 Chapitre 11.
-<./img/sol5q1.png, id=649, 546.12091pt x 376.64139pt>
+<./img/sol5q1.png, id=714, 546.12091pt x 376.64139pt>
 File: ./img/sol5q1.png Graphic file (type png)
 <use ./img/sol5q1.png>
 Package luatex.def Info: ./img/sol5q1.png  used on input line 435.
@@ -2046,7 +2046,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [44<./img/sol5q1.png>]
 Chapitre 12.
-<./img/sol5bisq1.png, id=663, 65.22563pt x 44.98395pt>
+<./img/sol5bisq1.png, id=728, 65.22563pt x 44.98395pt>
 File: ./img/sol5bisq1.png Graphic file (type png)
 <use ./img/sol5bisq1.png>
 Package luatex.def Info: ./img/sol5bisq1.png  used on input line 476.
@@ -2056,7 +2056,7 @@ Package luatex.def Info: ./img/sol5bisq1.png  used on input line 476.
 [45
 
 ]
-<./img/sol5bisq2.png, id=669, 90.29988pt x 62.27681pt>
+<./img/sol5bisq2.png, id=734, 90.29988pt x 62.27681pt>
 File: ./img/sol5bisq2.png Graphic file (type png)
 <use ./img/sol5bisq2.png>
 Package luatex.def Info: ./img/sol5bisq2.png  used on input line 486.
@@ -2064,12 +2064,12 @@ Package luatex.def Info: ./img/sol5bisq2.png  used on input line 486.
 
 
 [46<./img/sol5bisq1.png><./img/sol5bisq2.png>]
-<./img/sol5bisq3.png, id=677, 120.24959pt x 82.93213pt>
+<./img/sol5bisq3.png, id=742, 120.24959pt x 82.93213pt>
 File: ./img/sol5bisq3.png Graphic file (type png)
 <use ./img/sol5bisq3.png>
 Package luatex.def Info: ./img/sol5bisq3.png  used on input line 495.
 (luatex.def)             Requested size: 235.53293pt x 162.45853pt.
-<./img/sol5bisq4.png, id=678, 212.97643pt x 146.88274pt>
+<./img/sol5bisq4.png, id=743, 212.97643pt x 146.88274pt>
 File: ./img/sol5bisq4.png Graphic file (type png)
 <use ./img/sol5bisq4.png>
 Package luatex.def Info: ./img/sol5bisq4.png  used on input line 505.
@@ -2080,7 +2080,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [47<./img/sol5bisq3.png>]
-<./img/sol5bisq5.png, id=686, 267.99753pt x 184.82896pt>
+<./img/sol5bisq5.png, id=751, 267.99753pt x 184.82896pt>
 File: ./img/sol5bisq5.png Graphic file (type png)
 <use ./img/sol5bisq5.png>
 Package luatex.def Info: ./img/sol5bisq5.png  used on input line 514.
@@ -2097,7 +2097,7 @@ Underfull \vbox (badness 5431) has occurred while \output is active []
 [49
 
 ]
-<./img/sol5terq1.png, id=699, 61.0045pt x 42.07277pt>
+<./img/sol5terq1.png, id=764, 61.0045pt x 42.07277pt>
 File: ./img/sol5terq1.png Graphic file (type png)
 <use ./img/sol5terq1.png>
 Package luatex.def Info: ./img/sol5terq1.png  used on input line 547.
@@ -2108,7 +2108,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [50<./img/sol5terq1.png>]
-<./img/sol5terq2.png, id=706, 103.29204pt x 71.23708pt>
+<./img/sol5terq2.png, id=771, 103.29204pt x 71.23708pt>
 File: ./img/sol5terq2.png Graphic file (type png)
 <use ./img/sol5terq2.png>
 Package luatex.def Info: ./img/sol5terq2.png  used on input line 560.
@@ -4503,7 +4503,7 @@ Chapitre 18.
 
 [72]
 Chapitre 19.
-<./img/sol7q1.png, id=833, 169.91379pt x 117.86354pt>
+<./img/sol7q1.png, id=898, 169.91379pt x 117.86354pt>
 File: ./img/sol7q1.png Graphic file (type png)
 <use ./img/sol7q1.png>
 Package luatex.def Info: ./img/sol7q1.png  used on input line 903.
@@ -4513,7 +4513,7 @@ Package luatex.def Info: ./img/sol7q1.png  used on input line 903.
 [73
 
 <./img/sol7q1.png>]
-<./img/sol7q4.png, id=842, 169.91379pt x 117.86354pt>
+<./img/sol7q4.png, id=908, 169.91379pt x 117.86354pt>
 File: ./img/sol7q4.png Graphic file (type png)
 <use ./img/sol7q4.png>
 Package luatex.def Info: ./img/sol7q4.png  used on input line 915.
@@ -4729,7 +4729,7 @@ Underfull \vbox (badness 2617) has occurred while \output is active []
 
 
 [86]
-<./img/sol8q10.png, id=925, 166.52074pt x 112.23497pt>
+<./img/sol8q10.png, id=990, 166.52074pt x 112.23497pt>
 File: ./img/sol8q10.png Graphic file (type png)
 <use ./img/sol8q10.png>
 Package luatex.def Info: ./img/sol8q10.png  used on input line 1116.
@@ -5100,12 +5100,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [94]
 Chapitre 25.
-<./img/ABCtrig.png, id=974, 383.73451pt x 264.6489pt>
+<./img/ABCtrig.png, id=1040, 383.73451pt x 264.6489pt>
 File: ./img/ABCtrig.png Graphic file (type png)
 <use ./img/ABCtrig.png>
 Package luatex.def Info: ./img/ABCtrig.png  used on input line 1203.
 (luatex.def)             Requested size: 260.17024pt x 179.43388pt.
-<./img/sol9q1.png, id=975, 277.96153pt x 199.57639pt>
+<./img/sol9q1.png, id=1041, 277.96153pt x 199.57639pt>
 File: ./img/sol9q1.png Graphic file (type png)
 <use ./img/sol9q1.png>
 Package luatex.def Info: ./img/sol9q1.png  used on input line 1214.
@@ -5115,7 +5115,7 @@ Package luatex.def Info: ./img/sol9q1.png  used on input line 1214.
 [95
 
 <./img/ABCtrig.png>]
-<./img/sol9q2.png, id=982, 277.96153pt x 199.57639pt>
+<./img/sol9q2.png, id=1048, 277.96153pt x 199.57639pt>
 File: ./img/sol9q2.png Graphic file (type png)
 <use ./img/sol9q2.png>
 Package luatex.def Info: ./img/sol9q2.png  used on input line 1223.
@@ -5123,7 +5123,7 @@ Package luatex.def Info: ./img/sol9q2.png  used on input line 1223.
 
 
 [96<./img/sol9q1.png><./img/sol9q2.png>]
-<./img/sol9q3.png, id=991, 277.96153pt x 199.57639pt>
+<./img/sol9q3.png, id=1057, 277.96153pt x 199.57639pt>
 File: ./img/sol9q3.png Graphic file (type png)
 <use ./img/sol9q3.png>
 Package luatex.def Info: ./img/sol9q3.png  used on input line 1236.
@@ -5166,7 +5166,7 @@ Package luatex.def Info: ./img/ABCtrig.png  used on input line 1279.
 [103
 
 ]
-<./img/sol10q2.png, id=1035, 252.6923pt x 181.43307pt>
+<./img/sol10q2.png, id=1100, 252.6923pt x 181.43307pt>
 File: ./img/sol10q2.png Graphic file (type png)
 <use ./img/sol10q2.png>
 Package luatex.def Info: ./img/sol10q2.png  used on input line 1300.
@@ -5177,7 +5177,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [104<./img/sol10q2.png>]
-<./img/sol10q4.png, id=1043, 248.06636pt x 178.11165pt>
+<./img/sol10q4.png, id=1108, 248.06636pt x 178.11165pt>
 File: ./img/sol10q4.png Graphic file (type png)
 <use ./img/sol10q4.png>
 Package luatex.def Info: ./img/sol10q4.png  used on input line 1318.
@@ -5217,7 +5217,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [110]
 Chapitre 29.
-<./img/sol11q1.png, id=1076, 268.32921pt x 192.66037pt>
+<./img/sol11q1.png, id=1141, 268.32921pt x 192.66037pt>
 File: ./img/sol11q1.png Graphic file (type png)
 <use ./img/sol11q1.png>
 Package luatex.def Info: ./img/sol11q1.png  used on input line 1373.
@@ -5230,7 +5230,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [111
 
 ]
-<./img/sol11q2.png, id=1083, 284.52756pt x 204.29079pt>
+<./img/sol11q2.png, id=1148, 284.52756pt x 204.29079pt>
 File: ./img/sol11q2.png Graphic file (type png)
 <use ./img/sol11q2.png>
 Package luatex.def Info: ./img/sol11q2.png  used on input line 1377.
@@ -5302,7 +5302,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [122]
 Chapitre 33.
-<./img/figexo13.png, id=1149, 298.22559pt x 214.12598pt>
+<./img/figexo13.png, id=1214, 298.22559pt x 214.12598pt>
 File: ./img/figexo13.png Graphic file (type png)
 <use ./img/figexo13.png>
 Package luatex.def Info: ./img/figexo13.png  used on input line 1480.
@@ -5312,7 +5312,7 @@ Package luatex.def Info: ./img/figexo13.png  used on input line 1480.
 [123
 
 <./img/figexo13.png>]
-<./img/sol13q1.png, id=1155, 298.22559pt x 214.12598pt>
+<./img/sol13q1.png, id=1220, 298.22559pt x 214.12598pt>
 File: ./img/sol13q1.png Graphic file (type png)
 <use ./img/sol13q1.png>
 Package luatex.def Info: ./img/sol13q1.png  used on input line 1496.
@@ -5323,7 +5323,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [124<./img/sol13q1.png>]
-<./img/sol13q2.png, id=1163, 298.22559pt x 214.12598pt>
+<./img/sol13q2.png, id=1228, 298.22559pt x 214.12598pt>
 File: ./img/sol13q2.png Graphic file (type png)
 <use ./img/sol13q2.png>
 Package luatex.def Info: ./img/sol13q2.png  used on input line 1511.
@@ -5369,7 +5369,7 @@ Underfull \vbox (badness 1960) has occurred while \output is active []
 [131
 
 ]
-<./img/sol14q1.png, id=1205, 298.22559pt x 214.12598pt>
+<./img/sol14q1.png, id=1270, 298.22559pt x 214.12598pt>
 File: ./img/sol14q1.png Graphic file (type png)
 <use ./img/sol14q1.png>
 Package luatex.def Info: ./img/sol14q1.png  used on input line 1571.
@@ -5377,12 +5377,12 @@ Package luatex.def Info: ./img/sol14q1.png  used on input line 1571.
 
 
 [132<./img/sol14q1.png>]
-<./img/sol14q3.png, id=1213, 298.22559pt x 214.12598pt>
+<./img/sol14q3.png, id=1278, 298.22559pt x 214.12598pt>
 File: ./img/sol14q3.png Graphic file (type png)
 <use ./img/sol14q3.png>
 Package luatex.def Info: ./img/sol14q3.png  used on input line 1591.
 (luatex.def)             Requested size: 235.53293pt x 169.11517pt.
-<./img/sol14q4.png, id=1214, 298.22559pt x 214.12598pt>
+<./img/sol14q4.png, id=1279, 298.22559pt x 214.12598pt>
 File: ./img/sol14q4.png Graphic file (type png)
 <use ./img/sol14q4.png>
 Package luatex.def Info: ./img/sol14q4.png  used on input line 1606.
@@ -5393,7 +5393,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [133<./img/sol14q3.png>]
-<./img/sol14q5.png, id=1221, 298.22559pt x 214.12598pt>
+<./img/sol14q5.png, id=1287, 298.22559pt x 214.12598pt>
 File: ./img/sol14q5.png Graphic file (type png)
 <use ./img/sol14q5.png>
 Package luatex.def Info: ./img/sol14q5.png  used on input line 1620.
@@ -5401,12 +5401,12 @@ Package luatex.def Info: ./img/sol14q5.png  used on input line 1620.
 
 
 [134<./img/sol14q4.png><./img/sol14q5.png>]
-<./img/sol14q6.png, id=1229, 298.22559pt x 214.12598pt>
+<./img/sol14q6.png, id=1295, 298.22559pt x 214.12598pt>
 File: ./img/sol14q6.png Graphic file (type png)
 <use ./img/sol14q6.png>
 Package luatex.def Info: ./img/sol14q6.png  used on input line 1632.
 (luatex.def)             Requested size: 235.53293pt x 169.11517pt.
-<./img/sol14q7.png, id=1230, 298.22559pt x 214.12598pt>
+<./img/sol14q7.png, id=1296, 298.22559pt x 214.12598pt>
 File: ./img/sol14q7.png Graphic file (type png)
 <use ./img/sol14q7.png>
 Package luatex.def Info: ./img/sol14q7.png  used on input line 1640.
@@ -6120,7 +6120,7 @@ OT1/cmr/m/n/10.95 )$ \TU/LibertinusSerif(0)/m/n/10.95 on consi-dère les points
 
 [158]
 Chapitre 40.
-<./img/sol16q1.png, id=1450, 62.35548pt x 44.77124pt>
+<./img/sol16q1.png, id=1516, 62.35548pt x 44.77124pt>
 File: ./img/sol16q1.png Graphic file (type png)
 <use ./img/sol16q1.png>
 Package luatex.def Info: ./img/sol16q1.png  used on input line 2119.
@@ -6152,7 +6152,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [160<./img/sol16q1.png>]
-<./img/sol16q2.png, id=1462, 102.55913pt x 73.63745pt>
+<./img/sol16q2.png, id=1528, 102.55913pt x 73.63745pt>
 File: ./img/sol16q2.png Graphic file (type png)
 <use ./img/sol16q2.png>
 Package luatex.def Info: ./img/sol16q2.png  used on input line 2149.
@@ -6163,7 +6163,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [161<./img/sol16q2.png>]
-<./img/sol16q3.png, id=1470, 137.65715pt x 98.83783pt>
+<./img/sol16q3.png, id=1536, 137.65715pt x 98.83783pt>
 File: ./img/sol16q3.png Graphic file (type png)
 <use ./img/sol16q3.png>
 Package luatex.def Info: ./img/sol16q3.png  used on input line 2174.
@@ -6171,7 +6171,7 @@ Package luatex.def Info: ./img/sol16q3.png  used on input line 2174.
 
 
 [162<./img/sol16q3.png>]
-<./img/sol16q4.png, id=1477, 193.23529pt x 138.74294pt>
+<./img/sol16q4.png, id=1543, 193.23529pt x 138.74294pt>
 File: ./img/sol16q4.png Graphic file (type png)
 <use ./img/sol16q4.png>
 Package luatex.def Info: ./img/sol16q4.png  used on input line 2191.
@@ -6182,7 +6182,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [163<./img/sol16q4.png>]
-<./img/sol16q5.png, id=1484, 298.22559pt x 214.12598pt>
+<./img/sol16q5.png, id=1550, 298.22559pt x 214.12598pt>
 File: ./img/sol16q5.png Graphic file (type png)
 <use ./img/sol16q5.png>
 Package luatex.def Info: ./img/sol16q5.png  used on input line 2210.
@@ -6193,7 +6193,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [164<./img/sol16q5.png>]
-<./img/sol16q6.png, id=1491, 504.2093pt x 362.02228pt>
+<./img/sol16q6.png, id=1557, 504.2093pt x 362.02228pt>
 File: ./img/sol16q6.png Graphic file (type png)
 <use ./img/sol16q6.png>
 Package luatex.def Info: ./img/sol16q6.png  used on input line 2227.
@@ -6204,7 +6204,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [165<./img/sol16q6.png>]
-<./img/sol16q7.png, id=1498, 504.2093pt x 362.02228pt>
+<./img/sol16q7.png, id=1564, 504.2093pt x 362.02228pt>
 File: ./img/sol16q7.png Graphic file (type png)
 <use ./img/sol16q7.png>
 Package luatex.def Info: ./img/sol16q7.png  used on input line 2241.
@@ -6212,17 +6212,17 @@ Package luatex.def Info: ./img/sol16q7.png  used on input line 2241.
 
 
 [166<./img/sol16q7.png>]
-<./img/sol16q8.png, id=1505, 414.55067pt x 297.64738pt>
+<./img/sol16q8.png, id=1571, 414.55067pt x 297.64738pt>
 File: ./img/sol16q8.png Graphic file (type png)
 <use ./img/sol16q8.png>
 Package luatex.def Info: ./img/sol16q8.png  used on input line 2258.
 (luatex.def)             Requested size: 235.53293pt x 169.11122pt.
-<./img/sol16q9.png, id=1506, 414.55067pt x 297.64738pt>
+<./img/sol16q9.png, id=1572, 414.55067pt x 297.64738pt>
 File: ./img/sol16q9.png Graphic file (type png)
 <use ./img/sol16q9.png>
 Package luatex.def Info: ./img/sol16q9.png  used on input line 2263.
 (luatex.def)             Requested size: 235.53293pt x 169.11122pt.
-<./img/sol16q10.png, id=1507, 602.25pt x 382.42876pt>
+<./img/sol16q10.png, id=1573, 602.25pt x 382.42876pt>
 File: ./img/sol16q10.png Graphic file (type png)
 <use ./img/sol16q10.png>
 Package luatex.def Info: ./img/sol16q10.png  used on input line 2271.
@@ -6232,12 +6232,12 @@ Package luatex.def Info: ./img/sol16q10.png  used on input line 2271.
 [167<./img/sol16q8.png><./img/sol16q9.png>]
 
 [168<./img/sol16q10.png>]
-<./img/sol17q1.png, id=1524, 139.78723pt x 106.93724pt>
+<./img/sol17q1.png, id=1589, 139.78723pt x 106.93724pt>
 File: ./img/sol17q1.png Graphic file (type png)
 <use ./img/sol17q1.png>
 Package luatex.def Info: ./img/sol17q1.png  used on input line 2301.
 (luatex.def)             Requested size: 235.53293pt x 180.18852pt.
-<./img/sol17q2.png, id=1525, 138.35992pt x 99.34242pt>
+<./img/sol17q2.png, id=1590, 138.35992pt x 99.34242pt>
 File: ./img/sol17q2.png Graphic file (type png)
 <use ./img/sol17q2.png>
 Package luatex.def Info: ./img/sol17q2.png  used on input line 2319.
@@ -6248,7 +6248,7 @@ Underfull \vbox (badness 3460) has occurred while \output is active []
 
 
 [169<./img/sol17q1.png>]
-<./img/sol17q3.png, id=1532, 241.97545pt x 173.73837pt>
+<./img/sol17q3.png, id=1597, 241.97545pt x 173.73837pt>
 File: ./img/sol17q3.png Graphic file (type png)
 <use ./img/sol17q3.png>
 Package luatex.def Info: ./img/sol17q3.png  used on input line 2337.
@@ -6259,7 +6259,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [170<./img/sol17q2.png>]
-<./img/sol17q4.png, id=1539, 241.97545pt x 173.73837pt>
+<./img/sol17q4.png, id=1604, 241.97545pt x 173.73837pt>
 File: ./img/sol17q4.png Graphic file (type png)
 <use ./img/sol17q4.png>
 Package luatex.def Info: ./img/sol17q4.png  used on input line 2356.
@@ -6270,7 +6270,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [171<./img/sol17q3.png>]
-<./img/sol17q5.png, id=1547, 241.97545pt x 173.73837pt>
+<./img/sol17q5.png, id=1612, 241.97545pt x 173.73837pt>
 File: ./img/sol17q5.png Graphic file (type png)
 <use ./img/sol17q5.png>
 Package luatex.def Info: ./img/sol17q5.png  used on input line 2374.
@@ -6281,7 +6281,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [172<./img/sol17q4.png>]
-<./img/sol17q6.png, id=1554, 152.46835pt x 109.47227pt>
+<./img/sol17q6.png, id=1619, 152.46835pt x 109.47227pt>
 File: ./img/sol17q6.png Graphic file (type png)
 <use ./img/sol17q6.png>
 Package luatex.def Info: ./img/sol17q6.png  used on input line 2394.
@@ -6289,7 +6289,7 @@ Package luatex.def Info: ./img/sol17q6.png  used on input line 2394.
 
 
 [173<./img/sol17q5.png>]
-<./img/sol17q7.png, id=1561, 122.49153pt x 87.94891pt>
+<./img/sol17q7.png, id=1626, 122.49153pt x 87.94891pt>
 File: ./img/sol17q7.png Graphic file (type png)
 <use ./img/sol17q7.png>
 Package luatex.def Info: ./img/sol17q7.png  used on input line 2414.
@@ -6297,7 +6297,7 @@ Package luatex.def Info: ./img/sol17q7.png  used on input line 2414.
 
 
 [174<./img/sol17q6.png>]
-<./img/sol17q8.png, id=1568, 177.56757pt x 127.49352pt>
+<./img/sol17q8.png, id=1633, 177.56757pt x 127.49352pt>
 File: ./img/sol17q8.png Graphic file (type png)
 <use ./img/sol17q8.png>
 Package luatex.def Info: ./img/sol17q8.png  used on input line 2433.
@@ -6308,7 +6308,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [175<./img/sol17q7.png>]
-<./img/sol17q9.png, id=1575, 177.56757pt x 127.49352pt>
+<./img/sol17q9.png, id=1640, 177.56757pt x 127.49352pt>
 File: ./img/sol17q9.png Graphic file (type png)
 <use ./img/sol17q9.png>
 Package luatex.def Info: ./img/sol17q9.png  used on input line 2450.
@@ -6321,17 +6321,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [176<./img/sol17q8.png>]
 
 [177<./img/sol17q9.png>]
-<./img/sol17q10a.png, id=1588, 177.56757pt x 127.49352pt>
+<./img/sol17q10a.png, id=1653, 177.56757pt x 127.49352pt>
 File: ./img/sol17q10a.png Graphic file (type png)
 <use ./img/sol17q10a.png>
 Package luatex.def Info: ./img/sol17q10a.png  used on input line 2473.
 (luatex.def)             Requested size: 213.85211pt x 153.54976pt.
-<./img/sol17q10b.png, id=1589, 177.56757pt x 127.49352pt>
+<./img/sol17q10b.png, id=1654, 177.56757pt x 127.49352pt>
 File: ./img/sol17q10b.png Graphic file (type png)
 <use ./img/sol17q10b.png>
 Package luatex.def Info: ./img/sol17q10b.png  used on input line 2480.
 (luatex.def)             Requested size: 213.85211pt x 153.54976pt.
-<./img/sol17q10c.png, id=1590, 177.56757pt x 127.49352pt>
+<./img/sol17q10c.png, id=1655, 177.56757pt x 127.49352pt>
 File: ./img/sol17q10c.png Graphic file (type png)
 <use ./img/sol17q10c.png>
 Package luatex.def Info: ./img/sol17q10c.png  used on input line 2488.
@@ -6339,7 +6339,7 @@ Package luatex.def Info: ./img/sol17q10c.png  used on input line 2488.
 
 
 [178<./img/sol17q10a.png><./img/sol17q10b.png>]
-<./img/sol17q10d.png, id=1597, 177.56757pt x 127.49352pt>
+<./img/sol17q10d.png, id=1662, 177.56757pt x 127.49352pt>
 File: ./img/sol17q10d.png Graphic file (type png)
 <use ./img/sol17q10d.png>
 Package luatex.def Info: ./img/sol17q10d.png  used on input line 2497.
@@ -6364,7 +6364,7 @@ Overfull \hbox (14.35083pt too wide) detected at line 2546
 []
  []
 
-<./img/sol18.png, id=1608, 497.27065pt x 357.04031pt>
+<./img/sol18.png, id=1673, 497.27065pt x 357.04031pt>
 File: ./img/sol18.png Graphic file (type png)
 <use ./img/sol18.png>
 Package luatex.def Info: ./img/sol18.png  used on input line 2556.
@@ -6377,17 +6377,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [181]
 
 [182<./img/sol18.png>]
-<./img/./sol19q2a.png, id=1621, 477.55507pt x 342.88454pt>
+<./img/./sol19q2a.png, id=1687, 477.55507pt x 342.88454pt>
 File: ./img/./sol19q2a.png Graphic file (type png)
 <use ./img/./sol19q2a.png>
 Package luatex.def Info: ./img/./sol19q2a.png  used on input line 2585.
 (luatex.def)             Requested size: 213.85211pt x 153.5432pt.
-<./img/./sol19q2b.png, id=1622, 477.55507pt x 342.88454pt>
+<./img/./sol19q2b.png, id=1688, 477.55507pt x 342.88454pt>
 File: ./img/./sol19q2b.png Graphic file (type png)
 <use ./img/./sol19q2b.png>
 Package luatex.def Info: ./img/./sol19q2b.png  used on input line 2592.
 (luatex.def)             Requested size: 213.85211pt x 153.5432pt.
-<./img/./sol19q2c.png, id=1623, 477.55507pt x 342.88454pt>
+<./img/./sol19q2c.png, id=1689, 477.55507pt x 342.88454pt>
 File: ./img/./sol19q2c.png Graphic file (type png)
 <use ./img/./sol19q2c.png>
 Package luatex.def Info: ./img/./sol19q2c.png  used on input line 2599.
@@ -6663,7 +6663,7 @@ Overfull \hbox (3.85376pt too wide) in paragraph at lines 2645--2647
 0.95 . 
  []
 
-<./img/sol20q1.png, id=1640, 206.48572pt x 148.25674pt>
+<./img/sol20q1.png, id=1706, 206.48572pt x 148.25674pt>
 File: ./img/sol20q1.png Graphic file (type png)
 <use ./img/sol20q1.png>
 Package luatex.def Info: ./img/sol20q1.png  used on input line 2656.
@@ -6671,7 +6671,7 @@ Package luatex.def Info: ./img/sol20q1.png  used on input line 2656.
 
 
 [185]
-<./img/sol20q2.png, id=1646, 206.48572pt x 148.25674pt>
+<./img/sol20q2.png, id=1712, 206.48572pt x 148.25674pt>
 File: ./img/sol20q2.png Graphic file (type png)
 <use ./img/sol20q2.png>
 Package luatex.def Info: ./img/sol20q2.png  used on input line 2669.
@@ -6682,7 +6682,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [186<./img/sol20q1.png>]
-<./img/sol20q3.png, id=1653, 206.48572pt x 148.25674pt>
+<./img/sol20q3.png, id=1719, 206.48572pt x 148.25674pt>
 File: ./img/sol20q3.png Graphic file (type png)
 <use ./img/sol20q3.png>
 Package luatex.def Info: ./img/sol20q3.png  used on input line 2684.
@@ -6693,7 +6693,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [187<./img/sol20q2.png>]
-<./img/sol20q4.png, id=1660, 206.48572pt x 148.25674pt>
+<./img/sol20q4.png, id=1726, 206.48572pt x 148.25674pt>
 File: ./img/sol20q4.png Graphic file (type png)
 <use ./img/sol20q4.png>
 Package luatex.def Info: ./img/sol20q4.png  used on input line 2704.
@@ -6704,7 +6704,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [188<./img/sol20q3.png>]
-<./img/sol20q6.png, id=1667, 206.48572pt x 148.25674pt>
+<./img/sol20q6.png, id=1733, 206.48572pt x 148.25674pt>
 File: ./img/sol20q6.png Graphic file (type png)
 <use ./img/sol20q6.png>
 Package luatex.def Info: ./img/sol20q6.png  used on input line 2724.
@@ -6712,7 +6712,7 @@ Package luatex.def Info: ./img/sol20q6.png  used on input line 2724.
 
 
 [189<./img/sol20q4.png>]
-<./img/sol20q7.png, id=1675, 249.78111pt x 179.34283pt>
+<./img/sol20q7.png, id=1741, 249.78111pt x 179.34283pt>
 File: ./img/sol20q7.png Graphic file (type png)
 <use ./img/sol20q7.png>
 Package luatex.def Info: ./img/sol20q7.png  used on input line 2744.
@@ -6788,7 +6788,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [197]
-<./img/sol22.png, id=1729, 328.00302pt x 235.72484pt>
+<./img/sol22.png, id=1794, 328.00302pt x 235.72484pt>
 File: ./img/sol22.png Graphic file (type png)
 <use ./img/sol22.png>
 Package luatex.def Info: ./img/sol22.png  used on input line 2941.
@@ -6796,96 +6796,211 @@ Package luatex.def Info: ./img/sol22.png  used on input line 2941.
 
 
 [198<./img/sol22.png>]
+Overfull \hbox (4.23665pt too wide) in paragraph at lines 2970--2975
+[]\TU/LibertinusSerif(0)/m/n/10.95 In-ter-pré-ta-tion géo-mé-trique : cette 
+trans-for-ma-tion est la com-
+ []
 
-[199
+
+
+[199]
+<./img/sol23.png, id=1808, 414.55067pt x 297.92375pt>
+File: ./img/sol23.png Graphic file (type png)
+<use ./img/sol23.png>
+Package luatex.def Info: ./img/sol23.png  used on input line 2996.
+(luatex.def)             Requested size: 260.17024pt x 186.98378pt.
+
+
+[200<./img/sol23.png>]
+
+[201
 
 ]
 
-[200]
+[202]
 Chapitre 41.
-<./img/sol77q1.png, id=1743, 147.99318pt x 106.2591pt>
-File: ./img/sol77q1.png Graphic file (type png)
-<use ./img/sol77q1.png>
-Package luatex.def Info: ./img/sol77q1.png  used on input line 2958.
-(luatex.def)             Requested size: 235.53293pt x 169.12137pt.
+
+Overfull \hbox (4.72856pt too wide) in paragraph at lines 3007--3011
+[]\TU/LibertinusSerif(0)/m/n/10.95 Com-men-çons par mon-trer que si deux vec-te
+urs sont co-li-néaires
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[201
+[203
 
-<./img/sol77q1.png>]
-<./img/sol77q2.png, id=1751, 157.45097pt x 113.0498pt>
-File: ./img/sol77q2.png Graphic file (type png)
-<use ./img/sol77q2.png>
-Package luatex.def Info: ./img/sol77q2.png  used on input line 2964.
-(luatex.def)             Requested size: 235.53293pt x 169.12576pt.
-<./img/sol77q3.png, id=1752, 357.18286pt x 256.45729pt>
-File: ./img/sol77q3.png Graphic file (type png)
-<use ./img/sol77q3.png>
-Package luatex.def Info: ./img/sol77q3.png  used on input line 2971.
-(luatex.def)             Requested size: 235.53293pt x 169.11362pt.
+]
+Overfull \hbox (2.63617pt too wide) in paragraph at lines 3042--3044
+[]\TU/LibertinusSerif(0)/m/n/10.95 Dé-mon-trons que pour tous points A, B, C (r
+e-la-tion de Chasles) :
+ []
 
-
-[202<./img/sol77q2.png><./img/sol77q3.png>]
-<./img/sol77q4.png, id=1761, 357.18286pt x 256.45729pt>
-File: ./img/sol77q4.png Graphic file (type png)
-<use ./img/sol77q4.png>
-Package luatex.def Info: ./img/sol77q4.png  used on input line 2977.
-(luatex.def)             Requested size: 235.53293pt x 169.11362pt.
-
-
-[203<./img/sol77q4.png>]
-<./img/sol77q7.png, id=1770, 357.18286pt x 256.45729pt>
-File: ./img/sol77q7.png Graphic file (type png)
-<use ./img/sol77q7.png>
-Package luatex.def Info: ./img/sol77q7.png  used on input line 3018.
-(luatex.def)             Requested size: 235.53293pt x 169.11362pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [204]
-<./img/sol77q8.png, id=1777, 357.18286pt x 256.45729pt>
+
+[205]
+
+[206
+
+]
+
+[207]
+
+[208]
+Chapitre 42.
+
+Overfull \hbox (1.33209pt too wide) in paragraph at lines 3081--3084
+[]\TU/LibertinusSerif(0)/m/n/10.95 Dé-ter-mi-nons les co-or-don-nées de mi-lie
+ux des seg-ments [OA]
+ []
+
+<./img/sol33.png, id=1848, 174.9879pt x 125.75797pt>
+File: ./img/sol33.png Graphic file (type png)
+<use ./img/sol33.png>
+Package luatex.def Info: ./img/sol33.png  used on input line 3091.
+(luatex.def)             Requested size: 235.53293pt x 169.27083pt.
+
+
+[209
+
+]
+<./img/sol34.png, id=1858, 298.22559pt x 214.32478pt>
+File: ./img/sol34.png Graphic file (type png)
+<use ./img/sol34.png>
+Package luatex.def Info: ./img/sol34.png  used on input line 3116.
+(luatex.def)             Requested size: 235.53293pt x 169.2722pt.
+
+
+[210<./img/sol33.png>]
+<./img/sol35.png, id=1874, 211.72852pt x 152.16223pt>
+File: ./img/sol35.png Graphic file (type png)
+<use ./img/sol35.png>
+Package luatex.def Info: ./img/sol35.png  used on input line 3136.
+(luatex.def)             Requested size: 235.53293pt x 169.27586pt.
+
+Underfull \vbox (badness 1997) has occurred while \output is active []
+
+
+
+[211<./img/sol34.png>]
+<./img/sol36.png, id=1887, 314.21739pt x 225.81757pt>
+File: ./img/sol36.png Graphic file (type png)
+<use ./img/sol36.png>
+Package luatex.def Info: ./img/sol36.png  used on input line 3158.
+(luatex.def)             Requested size: 235.53293pt x 169.2766pt.
+
+
+[212<./img/sol35.png>]
+<./img/sol37.png, id=1900, 111.93082pt x 80.44095pt>
+File: ./img/sol37.png Graphic file (type png)
+<use ./img/sol37.png>
+Package luatex.def Info: ./img/sol37.png  used on input line 3179.
+(luatex.def)             Requested size: 235.53293pt x 169.28198pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[213<./img/sol36.png>]
+
+[214<./img/sol37.png>]
+
+[215
+
+]
+
+[216]
+Chapitre 43.
+<./img/sol77q1.png, id=1923, 147.99318pt x 106.2591pt>
+File: ./img/sol77q1.png Graphic file (type png)
+<use ./img/sol77q1.png>
+Package luatex.def Info: ./img/sol77q1.png  used on input line 3197.
+(luatex.def)             Requested size: 235.53293pt x 169.12137pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[217
+
+<./img/sol77q1.png>]
+<./img/sol77q2.png, id=1930, 157.45097pt x 113.0498pt>
+File: ./img/sol77q2.png Graphic file (type png)
+<use ./img/sol77q2.png>
+Package luatex.def Info: ./img/sol77q2.png  used on input line 3203.
+(luatex.def)             Requested size: 235.53293pt x 169.12576pt.
+<./img/sol77q3.png, id=1931, 357.18286pt x 256.45729pt>
+File: ./img/sol77q3.png Graphic file (type png)
+<use ./img/sol77q3.png>
+Package luatex.def Info: ./img/sol77q3.png  used on input line 3210.
+(luatex.def)             Requested size: 235.53293pt x 169.11362pt.
+
+
+[218<./img/sol77q2.png><./img/sol77q3.png>]
+<./img/sol77q4.png, id=1940, 357.18286pt x 256.45729pt>
+File: ./img/sol77q4.png Graphic file (type png)
+<use ./img/sol77q4.png>
+Package luatex.def Info: ./img/sol77q4.png  used on input line 3216.
+(luatex.def)             Requested size: 235.53293pt x 169.11362pt.
+
+
+[219<./img/sol77q4.png>]
+<./img/sol77q7.png, id=1949, 357.18286pt x 256.45729pt>
+File: ./img/sol77q7.png Graphic file (type png)
+<use ./img/sol77q7.png>
+Package luatex.def Info: ./img/sol77q7.png  used on input line 3257.
+(luatex.def)             Requested size: 235.53293pt x 169.11362pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[220]
+<./img/sol77q8.png, id=1957, 357.18286pt x 256.45729pt>
 File: ./img/sol77q8.png Graphic file (type png)
 <use ./img/sol77q8.png>
-Package luatex.def Info: ./img/sol77q8.png  used on input line 3025.
+Package luatex.def Info: ./img/sol77q8.png  used on input line 3264.
 (luatex.def)             Requested size: 235.53293pt x 169.11362pt.
 
 
-[205<./img/sol77q7.png><./img/sol77q8.png>]
-<./img/sol77q9.png, id=1786, 357.18286pt x 256.45729pt>
+[221<./img/sol77q7.png><./img/sol77q8.png>]
+<./img/sol77q9.png, id=1967, 357.18286pt x 256.45729pt>
 File: ./img/sol77q9.png Graphic file (type png)
 <use ./img/sol77q9.png>
-Package luatex.def Info: ./img/sol77q9.png  used on input line 3046.
+Package luatex.def Info: ./img/sol77q9.png  used on input line 3285.
 (luatex.def)             Requested size: 235.53293pt x 169.11362pt.
 
 
-[206<./img/sol77q9.png>]
-Chapitre 42.
-<./img/sol78q1.png, id=1792, 292.19676pt x 209.79727pt>
+[222<./img/sol77q9.png>]
+Chapitre 44.
+<./img/sol78q1.png, id=1973, 292.19676pt x 209.79727pt>
 File: ./img/sol78q1.png Graphic file (type png)
 <use ./img/sol78q1.png>
-Package luatex.def Info: ./img/sol78q1.png  used on input line 3064.
+Package luatex.def Info: ./img/sol78q1.png  used on input line 3303.
 (luatex.def)             Requested size: 235.53293pt x 169.11533pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[207
+[223
 
 ]
-<./img/sol78q5.png, id=1798, 292.19676pt x 209.79727pt>
+<./img/sol78q5.png, id=1979, 292.19676pt x 209.79727pt>
 File: ./img/sol78q5.png Graphic file (type png)
 <use ./img/sol78q5.png>
-Package luatex.def Info: ./img/sol78q5.png  used on input line 3082.
+Package luatex.def Info: ./img/sol78q5.png  used on input line 3321.
 (luatex.def)             Requested size: 235.53293pt x 169.11533pt.
 
 
-[208<./img/sol78q1.png>]
+[224<./img/sol78q1.png>]
 
 ! LaTeX Error: Bad math environment delimiter.
 
@@ -6893,7 +7008,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3095 ...peut obtenir les \(q_n) à partir des \(
+l.3334 ...peut obtenir les \(q_n) à partir des \(
                                                   p_n\) en appliquant
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6903,57 +7018,57 @@ Missing character: There is no à (U+00E0) in font cmmi10!
 Missing character: There is no à (U+00E0) in font cmmi10!
 
 
-[209<./img/sol78q5.png>]
-<./img/sol78q10.png, id=1816, 291.02014pt x 208.95245pt>
+[225<./img/sol78q5.png>]
+<./img/sol78q10.png, id=1997, 291.02014pt x 208.95245pt>
 File: ./img/sol78q10.png Graphic file (type png)
 <use ./img/sol78q10.png>
-Package luatex.def Info: ./img/sol78q10.png  used on input line 3105.
+Package luatex.def Info: ./img/sol78q10.png  used on input line 3344.
 (luatex.def)             Requested size: 235.53293pt x 169.11345pt.
-<./img/sol79q1.png, id=1817, 624.81268pt x 379.46957pt>
+<./img/sol79q1.png, id=1998, 624.81268pt x 379.46957pt>
 File: ./img/sol79q1.png Graphic file (type png)
 <use ./img/sol79q1.png>
-Package luatex.def Info: ./img/sol79q1.png  used on input line 3121.
+Package luatex.def Info: ./img/sol79q1.png  used on input line 3360.
 (luatex.def)             Requested size: 235.53293pt x 143.04767pt.
 
 Underfull \vbox (badness 3557) has occurred while \output is active []
 
 
 
-[210<./img/sol78q10.png>]
+[226<./img/sol78q10.png>]
 
-[211<./img/sol79q1.png>]
-<./img/sol79q5.png, id=1834, 624.81268pt x 379.46957pt>
+[227<./img/sol79q1.png>]
+<./img/sol79q5.png, id=2013, 624.81268pt x 379.46957pt>
 File: ./img/sol79q5.png Graphic file (type png)
 <use ./img/sol79q5.png>
-Package luatex.def Info: ./img/sol79q5.png  used on input line 3146.
+Package luatex.def Info: ./img/sol79q5.png  used on input line 3385.
 (luatex.def)             Requested size: 235.53293pt x 143.04767pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[212<./img/sol79q5.png>]
+[228<./img/sol79q5.png>]
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
 
 
-[213]
-<./img/sol79q10.png, id=1851, 503.03944pt x 361.18233pt>
+[229]
+<./img/sol79q10.png, id=2030, 503.03944pt x 361.18233pt>
 File: ./img/sol79q10.png Graphic file (type png)
 <use ./img/sol79q10.png>
-Package luatex.def Info: ./img/sol79q10.png  used on input line 3173.
+Package luatex.def Info: ./img/sol79q10.png  used on input line 3412.
 (luatex.def)             Requested size: 235.53293pt x 169.1109pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[214<./img/sol79q10.png>]
+[230<./img/sol79q10.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[215]
+[231]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -6961,25 +7076,25 @@ This document will not have a glossary.
 
 
 
-[216] (.//sol-mvp.aux)
+[232] (.//sol-mvp.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `sol-mvp.out' has not changed.
-(rerunfilecheck)             Checksum: C4D4D800C61EBFD4ED2D410A908800E5;14246.
+(rerunfilecheck)             Checksum: D51C3768B98994337BFC3951E708B8B9;16363.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44902 strings out of 475506
+ 45053 strings out of 475506
  100000,1977958 words of node,token memory allocated
- 5894 words of node memory still in use:
-   31 hlist, 2 vlist, 14 rule, 290 glue, 5 kern, 1 penalty, 28 sub_mlist, 1 glyp
-h, 892 attribute, 66 glue_spec, 484 attribute_list, 2 write, 24 pdf_literal, 24 
+ 6274 words of node memory still in use:
+   31 hlist, 2 vlist, 14 rule, 316 glue, 5 kern, 1 penalty, 28 sub_mlist, 1 glyp
+h, 958 attribute, 66 glue_spec, 517 attribute_list, 2 write, 24 pdf_literal, 24 
 pdf_colorstack nodes
-   avail lists: 1:3,2:2319,3:279,4:1348,5:609,6:82,7:3238,8:58,9:1622,10:18,11:2
+   avail lists: 1:3,2:2220,3:279,4:1348,5:615,6:82,7:3212,8:58,9:1622,10:18,11:2
 04
- 65975 multiletter control sequences out of 65536+600000
+ 66043 multiletter control sequences out of 65536+600000
  94 fonts using 15139207 bytes
  96i,22n,100p,2367b,1132s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/libertinus-fonts/Liber
@@ -7001,10 +7116,10 @@ onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on sol-mvp.pdf (216 pages, 17921293 bytes).
+Output written on sol-mvp.pdf (232 pages, 19222436 bytes).
 
-PDF statistics: 1968 PDF objects out of 2073 (max. 8388607)
- 1516 compressed objects within 16 object streams
- 677 named destinations out of 1000 (max. 131072)
- 808 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2150 PDF objects out of 2487 (max. 8388607)
+ 1669 compressed objects within 17 object streams
+ 742 named destinations out of 1000 (max. 131072)
+ 912 words of extra memory for PDF output out of 10000 (max. 100000000)
 
