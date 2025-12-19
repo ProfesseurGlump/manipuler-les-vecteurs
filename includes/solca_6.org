@@ -1,0 +1,108 @@
+** Solution de l'exercice 14
+
+    On reprend la configuration de l'exercice précédent.
+
+    Voir la figure :
+    
+    [[./img/figexo13.png]]
+
+    1. Le point O étant l'origine du repère on peut facilement
+       déterminer les coordonnées des vecteurs \(\overrightarrow{OA}\)
+       et \(\overrightarrow{OC}\) et ainsi déterminer si les points A,
+       O et C sont alignés :
+       \begin{align*}
+       \overrightarrow{OA} &= 2\vec{i} + 3\vec{j}\\
+       \overrightarrow{OC} &= -2\vec{i} - 3\vec{j}\\
+       \overrightarrow{OC} &= -\overrightarrow{OA}
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol14q1.png]]
+    2. D'après ce qui précède on a :
+       \begin{align*}
+       \lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\overrightarrow{OA}\rvert\rvert = \lvert\lvert\overrightarrow{OC}\rvert\rvert \\
+       \lvert\lvert\vec{u}\rvert\rvert &= \sqrt{13}
+       \end{align*}
+       On en déduit que O est le milieu du segment [AC].
+    3. Calculons le déterminant \(det(\overrightarrow{OD} ,
+       \overrightarrow{OB})\) :
+       \begin{align*}
+       det(\overrightarrow{OD} , \overrightarrow{OB}) &= \begin{vmatrix}3&-3\\ -2&2\end{vmatrix} = 3\times 2 - (-2)\times (-3) = 0
+       \end{align*}
+       Le déterminant est nul donc les vecteurs
+       \(\overrightarrow{OD}\) et \(\overrightarrow{OB}\) sont
+       colinéaires. Puisqu'ils ont la même origine on en déduit que
+       les points B, O et D sont alignés.
+
+       Voir figure :
+       [[./img/sol14q3.png]]
+       
+    4. Comparons OB et OD :
+       \begin{align*}
+       OB &= \sqrt{(-3)^2 + 2^2} = \sqrt{13}\\
+       OD &= \sqrt{3^2 + (-2)^2} = \sqrt{13}\\
+       OB &= OD
+       \end{align*}
+       On en déduit que O est le milieu de [BD] et donc que ABCD est
+       un rectangle car ses diagonales sont de même longueur
+       \(2\sqrt{13} = \sqrt{52}\).
+
+       Voir figure :
+       [[./img/sol14q4.png]]
+       
+    5. Puisque ABCD est un rectangle, c'est donc un parallélogramme
+       donc on a :
+       \begin{align*}
+       \overrightarrow{AB} &= \overrightarrow{DC}\\
+       \overrightarrow{AB} &= -\overrightarrow{CD}
+       \end{align*}
+       Ainsi les vecteurs \(\overrightarrow{AB}\) et
+       \(\overrightarrow{CD}\) sont colinéaires.
+       
+       Voir figure :
+       [[./img/sol14q5.png]]
+       
+    6. Comparons AB et AD :
+       \begin{align*}
+       AB &= \sqrt{(-3 - 2)^2 + (2 - 3)^2} = \sqrt{26}\\
+       AD &= \sqrt{(3 - 2)^2 + (-2 - 3)^2} = \sqrt{26}\\
+       AB &= AD
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol14q6.png]]
+       
+    7. Le quadrilatère ABCD est un carré car c'est un rectangle avec
+       deux côtés consécutifs de même longueur.
+
+       Voir figure :
+       [[./img/sol14q7.png]]
+
+** Solution du QCM d'auto-évaluation 
+
+    1. Pour montrer que A, B et C sont alignés il faut :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. que \(\overrightarrow{AB} = \overrightarrow{AC}\)
+       2. qu'il existe un réel k tel que \(\overrightarrow{AB} =
+          k\overrightarrow{AC}\)
+
+	  (*Bonne réponse*)
+       3. vérifier que \(\overrightarrow{AB} + \overrightarrow{BC} =
+          \overrightarrow{AC}\)
+       4. vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{AC}) = 0\)
+
+	  (*Bonne réponse*)
+    2. Pour montrer que les droites (AB) et (CD) sont parallèles il faut :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. montrer que les vecteurs \(\overrightarrow{AB}\) et
+          \(\overrightarrow{CD}\) sont colinéaires
+
+	  (*Bonne réponse*)
+       2. vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) = 0\)
+
+	  (*Bonne réponse*)
+       3. montrer que \(\overrightarrow{AB} = \overrightarrow{CD}\)
+       4. vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) \neq 0\)	  

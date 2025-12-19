@@ -1,0 +1,29 @@
+#+LATEX_CLASS: book
+#+LATEX_CLASS_OPTIONS: [a4paper,11pt]
+#+LATEX_COMPILER: lualatex
+
+# Packages essentiels
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{Libertinus Serif}
+#+LATEX_HEADER: \usepackage{polyglossia}
+#+LATEX_HEADER: \setmainlanguage{french}
+#+LATEX_HEADER: \usepackage{amsmath,amssymb}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{paperwidth=6in,paperheight=9in,margin=1in}
+
+# Configuration minted pour Python
+#+LATEX_HEADER: \usepackage{minted}
+#+LATEX_HEADER: \usemintedstyle{monokai}
+#+LATEX_HEADER: \setminted{linenos=true,breaklines=true,fontsize=\small}
+
+# Configuration tcolorbox
+#+LATEX_HEADER: \usepackage[most]{tcolorbox}
+#+LATEX_HEADER: \newtcolorbox{solution}{colback=blue!5,colframe=blue!50!black,title=Solution}
+
+# Macros pour les QCM
+#+LATEX_HEADER: \newcommand{\qcm}[1]{\begin{enumerate}[label=\alph*.] #1 \end{enumerate}}
+#+LATEX_HEADER: \newcommand{\bonnereponse}{\quad\textbf{(Bonne réponse)}}
+
+# Hyperref (doit être un des derniers)
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue,pdftitle={Manipuler les vecteurs du plan},pdfauthor={Laurent Garnier}}

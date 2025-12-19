@@ -1,0 +1,44 @@
+** Solution de l'exercice 11
+
+   On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+    \begin{align*}
+    \vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+    \end{align*}
+
+    1. Représenter le vecteur
+       \(\vec{u}\begin{pmatrix}3\\ 5\end{pmatrix}\).
+
+       Voir figure :
+       [[./img/sol11q1.png]]
+    2. Lire les coordonnées du vecteur \(\vec{v}\) sur la figure :
+       [[./img/sol11q2.png]]
+
+       On peut voir sur la figure que :
+       \[\vec{v} = 5\vec{i} + 3\vec{j}\]
+       Ainsi les coordonnées du vecteur \(\vec{v}\) sont :
+       \[\vec{v}\begin{pmatrix}5\\ 3\end{pmatrix}\]
+
+
+** Solution du QCM d'auto-évaluation 
+
+    Considérons le vecteur
+    \(\vec{u}\begin{pmatrix}a\\b\end{pmatrix}\). Alors :
+
+    1. Pour le représenter dans le repère \((O ; \vec{i} , \vec{j})\) :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. on se place au point M de coordonnées (a ; b) et on trace le
+          vecteur en se déplaçant de a unités sur l'axe horizontal et
+          b unités sur l'axe vertical.
+       2. partant de l'origine du repère on se déplace de a unités sur
+          l'axe horizontal et b unités sur l'axe vertical.
+
+	  (*Bonne réponse*)
+    2. Pour lire les cordonnées d'un vecteur \(\vec{v}\) :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. on se place à son origine et on reporte les coordonnées du
+          point
+       2. on trace un représentant du vecteur en partant de l'origine
+          du repère et on lit les coordonnées de son extrémité
+
+	  (*Bonne réponse*)

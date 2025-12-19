@@ -1,0 +1,58 @@
+** Démonstrations
+*** Solution de l'exercice 32
+
+    Commençons par montrer que si deux vecteurs sont colinéaires alors
+    leur déterminant est nul. Rappelons que si \(\vec{u}\) et
+    \(\vec{v}\) sont deux vecteurs colinéaires alors il existe un réel
+    \(k\) tel que \(\vec{u} = k\vec{v}\). Calculons le déterminant :
+    \begin{align*}
+    det(\vec{u} , \vec{v}) &= \begin{vmatrix}kx_{\vec{v}}&x_{\vec{v}}\\ ky_{\vec{v}}&y_{\vec{v}}\end{vmatrix}\\
+    det(\vec{u} , \vec{v}) &= kx_{\vec{v}}y_{\vec{v}} - ky_{\vec{v}}x_{\vec{v}}\\
+    det(\vec{u} , \vec{v}) &= k(x_{\vec{v}}y_{\vec{v}} - y_{\vec{v}}x_{\vec{v}})\\
+    det(\vec{u} , \vec{v}) &= 0
+    \end{align*}
+
+    Réciproquement, considérons deux vecteurs \(\vec{u}\) et
+    \(\vec{v}\) tels que leur déterminant soit nul :
+    \begin{align*}
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow \begin{vmatrix}x_{\vec{u}}&x_{\vec{v}}\\ y_{\vec{u}}&y_{\vec{v}}\end{vmatrix} = 0\\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow x_{\vec{u}}y_{\vec{v}} - x_{\vec{v}}y_{\vec{u}} = 0\\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow x_{\vec{u}}y_{\vec{v}} = x_{\vec{v}}y_{\vec{u}} \\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow \dfrac{x_{\vec{u}}}{x_{\vec{v}}} = \dfrac{y_{\vec{u}}}{y_{\vec{v}}} = k \\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow \begin{pmatrix}x_{\vec{u}}\\ y_{\vec{u}}\end{pmatrix} = k\begin{pmatrix}x_{\vec{v}}\\ y_{\vec{v}}\end{pmatrix}\\
+    det(\vec{u} , \vec{v}) = 0 &\Rightarrow \vec{u} = k\vec{v}
+    \end{align*}
+
+    Attention, dans le calcul on est passé de 
+    \[x_{\vec{u}}y_{\vec{v}} = x_{\vec{v}}y_{\vec{u}}\]
+    à
+    \[\dfrac{x_{\vec{u}}}{x_{\vec{v}}} =
+    \dfrac{y_{\vec{u}}}{y_{\vec{v}}} = k\]
+    mais il faudrait traiter le cas où \[x_{\vec{v}}y_{\vec{v}} = 0\]
+    En effet, si \(x_{\vec{v}} = 0\) soit \(\vec{v} = \vec{0}\) soit
+    \(x_{\vec{u}} = 0\) et donc l'égalité avec \(k\) est vérifié sans
+    passer par le quotient. Idem pour \(y_{\vec{v}} = 0\). 
+
+*** Exercice 32bis
+
+   Démontrons que pour tous points A, B, C (relation de Chasles) : 
+   \(\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}\)
+
+   Il suffit d'écrire les coordonnées :
+   \begin{align*}
+   x_B - x_A + x_C - x_B = x_C - x_A &\iff x_{\overrightarrow{AB}}+x_{\overrightarrow{BC}} = x_{\overrightarrow{AC}}\\
+   y_B - y_A + y_C - y_B = y_C - y_A &\iff y_{\overrightarrow{AB}}+y_{\overrightarrow{BC}} = y_{\overrightarrow{AC}}
+   \end{align*}
+   
+*** Exercice 32ter
+
+   Démontrons que si I est le milieu de [AB], alors :
+   \(\overrightarrow{AI} = \dfrac{1}{2}\overrightarrow{AB}\)   
+
+   Si I est le milieu de [AB] alors :
+   \begin{align*}
+   \overrightarrow{AI} &= \overrightarrow{IB}\\
+   \overrightarrow{AB} &= \overrightarrow{AI} + \overrightarrow{IB}\\
+   \overrightarrow{AB} &= 2\overrightarrow{AI}\\
+   &\Rightarrow \overrightarrow{AI} = \dfrac{1}{2}\overrightarrow{AB}
+   \end{align*}

@@ -1,0 +1,85 @@
+** Solution de l'exercice 4
+
+   1. D'après la relation de Chasles :
+      \[\overrightarrow{AB} + \overrightarrow{BC} =
+      \overrightarrow{AC}\]
+   2. D'après la relation de Chasles :
+      \[\overrightarrow{AB} + \overrightarrow{BD} =
+      \overrightarrow{AD}\]
+      Or par construction :
+      \[\overrightarrow{AD} = \overrightarrow{AB} +
+      \overrightarrow{AC}\]
+      Donc
+      \[\overrightarrow{BD} = \overrightarrow{AC}\]
+      Ainsi ABDC est un parallélogramme.
+      
+      Voir figure :
+      [[./img/sol4q2.png]]
+   3. Dans un parallélogramme les diagonales se coupent en leur milieu
+      donc O est le milieu de [AD] et [BC]. Cette information est
+      inutile pour cette question mais elle le sera pour la question
+      suivante.
+      
+      En utilisant Chasles ou la question précédente (avec la remarque
+      sur le milieu), on peut trouver plusieurs somme permettant
+      d'obtenir le vecteur \(\overrightarrow{AO}\) :
+      \begin{align*}
+      \overrightarrow{AO} &= \overrightarrow{AB} + \overrightarrow{BO}\\
+      \overrightarrow{AO} &= \overrightarrow{AC} + \overrightarrow{CO} \\
+      \overrightarrow{AO} &= \dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})
+      \end{align*}
+   4. Avant de calculer cette somme vectorielle il faut réarranger
+      l'ordre des vecteurs et utiliser la remarque concernant les
+      milieux. En effet, puisque O est le milieu du segment [AD] alors
+      \[\overrightarrow{AO} = \overrightarrow{OD}\]
+      de même puisque O est le milieu du segment [BC] alors
+      \[\overrightarrow{BO} = \overrightarrow{OC}\]
+      Par conséquent :
+      \begin{align*}
+      \overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} + \overrightarrow{DO} + \overrightarrow{BO} + \overrightarrow{CO}\\
+      \overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} - \overrightarrow{OD} + \overrightarrow{BO} - \overrightarrow{OC}\\
+      \overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} - \overrightarrow{AO} + \overrightarrow{BO} - \overrightarrow{BO}\\
+      \overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \vec{0}
+      \end{align*}
+
+      Voir figure :
+      [[./img/sol4q4.png]]
+
+
+** Solution programme 3
+
+   #+BEGIN_SRC python
+     abc = """
+      C <-- B
+      ^    /
+      |   /
+      |  /
+      | /
+      A
+     """
+     somme = "Vecteur(A, B) + Vecteur(B, C)"
+     result = "Vecteur(A, C)"
+     chasles = somme + " = " + result
+     print(chasles)
+     print(abc)
+   #+END_SRC
+   
+** Solution du QCM d'auto-évaluation 
+
+    1. Ajouter deux vecteurs revient à :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. enchaîner deux translations successives
+
+	  (*Bonne réponse*)
+       2. faire une rotation
+       3. faire une symétrie
+       4. faire une homothétie
+    2. La relation de Chasles :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. augmente la norme d'un vecteur
+       2. décompose un vecteur en sommes de vecteurs
+
+	  (*Bonne réponse*)
+       3. consiste à passer un coup de fil à Michel
+       4. revient à faire une transformation géométrique sur un
+          vecteur

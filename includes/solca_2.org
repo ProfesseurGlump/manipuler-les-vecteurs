@@ -1,0 +1,69 @@
+** Solution de l'exercice 10
+
+       On considère la configuration initiale de l'exercice 9 voir
+    figure :
+
+    [[./img/ABCtrig.png]]
+
+    1. Pour construire le point D tel que \(\overrightarrow{BD} =
+       \overrightarrow{BC} + \overrightarrow{BA}\) il faut reporter le
+       vecteur \(\overrightarrow{BA}\) à partir du point C.
+
+    2. On en déduit que le quadrilatère ABCD est un
+       parallélogramme. En effet :
+       \begin{align*}
+       \overrightarrow{BD} &= \overrightarrow{BC} + \overrightarrow{BA}\\
+       \overrightarrow{BD} &= \overrightarrow{BC} + \overrightarrow{CD}\\
+       &\Rightarrow \overrightarrow{BA} = \overrightarrow{CD}\\
+       \overrightarrow{BD} &= \overrightarrow{BC} + \overrightarrow{BA}\\
+       \overrightarrow{BD} &= \overrightarrow{BA} + \overrightarrow{AD}\\
+       &\Rightarrow \overrightarrow{BC} = \overrightarrow{AD}
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol10q2.png]]
+    3. Construisons le point E tel que \(\overrightarrow{AE} =
+       \overrightarrow{AB} + \overrightarrow{AC}\) de façon similaire
+       à la question 1.
+
+    4. On en déduit que le quadrilatère ABEC est un parallélogramme de
+       façon similaire à la question 2. En effet :
+       \begin{align*}
+       \overrightarrow{AE} &= \overrightarrow{AB} + \overrightarrow{AC}\\
+       \overrightarrow{AE} &= \overrightarrow{AB} + \overrightarrow{BE}\\
+       &\Rightarrow \overrightarrow{AC} = \overrightarrow{BE}\\
+       \overrightarrow{AE} &= \overrightarrow{AC} + \overrightarrow{CE}\\
+       &\Rightarrow \overrightarrow{AB} = \overrightarrow{CE}
+       \end{align*}
+       
+       Voir figure :
+       [[./img/sol10q4.png]]
+
+
+** Solution du QCM d'auto-évaluation 
+
+    Considérons deux vecteurs \(\vec{u}\) et \(\vec{v}\).
+
+    1. Pour construire géométriquement la somme il faut :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. partir de l'origine du vecteur \(\vec{u}\) puis, arrivé à
+          son extrémité appliquer le vecteur \(\vec{v}\)
+
+	  (*Bonne réponse*)
+       2. partir de l'origine du vecteur \(\vec{v}\) puis, arrivé à
+          son extrémité appliquer le vecteur \(\vec{u}\)
+
+	  (*Bonne réponse*)
+       3. les deux propositions précédentes aboutissent au même
+          résultat
+
+	  (*Bonne réponse*)
+    2. Si \(\vec{u}\) et \(\vec{v}\) ne sont pas colinéaires alors
+       \(\vec{w} = \vec{u} + \vec{v}\) :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. est un vecteur ayant même direction que \(\vec{u}\) et
+          \(\vec{v}\)	  
+       2. représente la diagonale du parallélogramme obtenu en
+          faisant partir \(\vec{u}\) et \(\vec{v}\) de la même origine
+
+	  (*Bonne réponse*)

@@ -1,0 +1,108 @@
+** Solution de l'exercice 1
+
+  Soient les points A, B, C tels que :
+  + \(\vec{u} = \overrightarrow{AB}\)
+  + \(\vec{v} = \overrightarrow{AC}\)
+
+  Voir la figure :
+
+  [[./img/ABCvect.png]]
+
+  1. L'image du point B par la translation de vecteur
+     \[\vec{v} = \overrightarrow{AC}\]
+     est le point D tel que
+     \[\overrightarrow{BD} = \overrightarrow{AC}\]
+     
+     Voir figure :
+     [[./img/sol1q1.png]]
+  2. L'image du point C par la translation de vecteur
+     \[\vec{u} = \overrightarrow{AB}\]
+     est le point E tel que
+     \[\overrightarrow{CE} = \overrightarrow{AB}\]
+
+     Voir figure :
+     [[./img/sol1q2.png]]
+  3. On peut en déduire que D = E car :
+     \begin{align*}
+     \overrightarrow{AD} &= \overrightarrow{AB} + \overrightarrow{BD} = \vec{u} + \vec{v}\\
+     \overrightarrow{AE} &= \overrightarrow{AC} + \overrightarrow{CE} = \vec{v} + \vec{u}\\
+     \overrightarrow{AD} &= \overrightarrow{AB} + \overrightarrow{AC} = \vec{u} + \vec{v}\\
+     \overrightarrow{AE} &= \overrightarrow{AC} + \overrightarrow{AB} = \vec{v} + \vec{u}\\
+     \overrightarrow{AD} &= \overrightarrow{AE}
+     \end{align*}
+  4. ABDC est un parallélogramme car (au choix) :
+     \begin{align*}
+     \overrightarrow{AB} &= \overrightarrow{CD}\\
+     \overrightarrow{AC} &= \overrightarrow{BD}
+     \end{align*}
+     Une seule égalité suffit.
+     
+     Voir figure :
+     [[./img/sol1q4.png]]
+
+
+** Solution de l'exercice 2
+
+  1. Par construction, le point C est l'image de B par la translation
+     de vecteur
+     \[\vec{u} = \overrightarrow{AB}\]
+     donc
+     \[\overrightarrow{BC} = \vec{u}\]
+     Le vecteur \(\overrightarrow{BC}\) a pour
+     + direction : la droite (BC), qui est aussi la droite (AB).
+     + sens : de B vers C, qui est aussi de A vers B.
+     + norme : la longueur BC, qui est aussi la longueur AB
+
+     Voir figure :
+     [[./img/sol2q1.png]]
+  2. Le point B représente le milieu du segment [AC].
+  3. On a :
+     \begin{align*}
+     \vec{u} &= \overrightarrow{AB} \\
+     \overrightarrow{BC} &= \vec{u} \\
+     \overrightarrow{AC} &= \overrightarrow{AB} + \overrightarrow{BC} \\
+     \overrightarrow{AB} &= \overrightarrow{BC} = \dfrac{1}{2}\overrightarrow{AC}
+     \end{align*}
+
+
+** Solution programme 1
+
+#+INCLUDE: ../code/prog_1.py src python
+
+Exécution du programme :
+#+BEGIN_SRC sh :results output
+python3 code/prog_1.py
+#+END_SRC
+ 
+** Solution du QCM d'auto-évaluation
+
+   Lorsqu'on parle du vecteur \(\overrightarrow{MM'}\) associé à
+   la translation qui transforme M en M'. 
+
+   1. Quelle est la direction ?
+       #+ATTR_LATEX: :options [label=\alph*.)]
+       1. Toute droite parallèle à l'axe des abscisses.
+       2. Uniquement la droite (MM').
+       3. Toute droite parallèle à l'axe des ordonnées.
+       4. Toute droite parallèle à la droite (MM').
+	  
+	  (*Bonne réponse*)
+    2. Quelle est le sens ?
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. De O à M.
+       2. De M à M'.
+
+	  (*Bonne réponse*)
+       3. De M' à M.
+       4. De M à O.
+    3. Quelle est la norme ?
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. La distance OM.
+       2. La distance OM'.
+       3. La distance MM'.
+
+	  (*Bonne réponse*)
+       4. La distance M'M.
+
+	  (*Bonne réponse*)
+

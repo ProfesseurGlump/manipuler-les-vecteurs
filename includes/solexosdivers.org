@@ -1,0 +1,1326 @@
+** Alphabet
+
+*** Solution de l'exercice 33
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. Plaçons le point A tel que \(\overrightarrow{OA} = 2\vec{i} +
+       3\vec{j}\) c'est-à-dire \(A(2 ; 3)\).
+    2. Construisons l'image A' du point A par la translation de vecteur
+       \(\vec{v} = 2\vec{i} - 3\vec{j}\) c'est-à-dire \(A'(4 ; 0)\).
+    3. Déterminons les coordonnées de milieux des segments [OA] et
+       [AA'] qu'on nommera H et H' respectivement c'est-à-dire \(H(1 ;
+       1,5)\) et \(H'(3 ; 1,5)\).
+    4. Exprimons le vecteur \(\overrightarrow{HH'}\) en fonction des
+       vecteurs de la base c'est-à-dire
+       \[\overrightarrow{HH'} = 2\vec{i}\]
+    5. On pense à la lettre A.
+
+       Voir figure :
+       [[./img/sol33.png]]
+
+
+*** Solution de l'exercice 34
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((0 ; -3)\).
+    2. B a pour coordonnées du point \((2 ; -3)\).
+    3. C a pour coordonnées du point \((3 ; -2)\).
+    4. D a pour coordonnées du point \((3 ; -1)\).
+    5. E a pour coordonnées du point \((2 ; 0)\).
+    6. F a pour coordonnées du point \((3 ; 1)\).
+    7. G a pour coordonnées du point \((3 ; 2)\).
+    8. H a pour coordonnées du point \((2 ; 3)\).
+    9. K a pour coordonnées du point \((0 ; 3)\).
+    10. On peut vérifier qu'on a bien obtenu la lettre B.
+    
+       Voir figure :
+       [[./img/sol34.png]]
+    
+*** Solution de l'exercice 35
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+    
+    1. A a pour coordonnées du point \((0 ; -1)\).
+    2. B a pour coordonnées du point \((1 ; -2)\).
+    3. C a pour coordonnées du point \((2 ; -2)\).
+    4. B' a pour coordonnées du point \((1 ; 2)\).
+    5. C' a pour coordonnées du point \((2 ; 2)\).
+    6. On peut vérifier qu'on a bien obtenu la lettre C.
+
+       Voir figure :
+       [[./img/sol35.png]]
+
+
+*** Solution de l'exercice 36
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((0 ; -3)\).
+    2. B a pour coordonnées du point \((2 ; -3)\).
+    3. C a pour coordonnées du point \((3 ; -2)\).
+    4. D a pour coordonnées du point \((3 ; 2)\).
+    5. E a pour coordonnées du point \((2 ; 3)\).
+    6. F a pour coordonnées du point \((0 ; 3)\).
+    7. On peut vérifier qu'on a bien obtenu la lettre D.
+
+	Voir figure :
+	[[./img/sol36.png]]
+    
+
+     
+     
+*** Solution de l'exercice 37
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((0 ; -1)\).
+    2. B a pour coordonnées du point \((1 ; -1)\).
+    3. B' a pour coordonnées du point \((1 ; 1)\).
+    4. On peut vérifier qu'on a bien obtenu la lettre E.
+
+       Voir figure :
+       [[./img/sol37.png]]
+    
+*** Solution de l'exercice 38
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((0 ; -1)\).
+    2. B a pour coordonnées du point \((1 ; 1)\).
+    3. On peut vérifier qu'on a bien obtenu la lettre F.
+
+       Voir figure :
+       [[./img/sol38.png]]
+    
+
+*** Solution de l'exercice 39
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. B a pour coordonnées du point \((0,5 ; 1)\).
+    3. C a pour coordonnées du point \((0 ; 2)\).
+    4. D a pour coordonnées du point \((1 ; 2)\).
+    5. E a pour coordonnées du point \((1 ; 1,5)\).
+    6. On peut vérifier qu'on a bien obtenu la lettre G.
+
+       Voir figure :
+       [[./img/sol39.png]]
+
+
+*** Solution de l'exercice 40
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+
+    1. A a pour coordonnées du point \((0 ; -1)\).
+    2. B a pour coordonnées du point \((1 ; -1)\).
+    3. C a pour coordonnées du point \((1 ; 1)\).
+    4. On peut vérifier qu'on a bien obtenu la lettre H.
+
+       Voir figure :
+       [[./img/sol40.png]]
+
+
+*** Solution de l'exercice 41
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((-1 ; 0)\).
+    2. B a pour coordonnées du point \((0 ; 2)\).
+    3. C a pour coordonnées du point \((-1 ; 2)\).
+    4. D a pour coordonnées du point \((1 ; 2)\).   
+    5. On peut vérifier qu'on a bien obtenu la lettre I.
+
+       Voir figure :
+       [[./img/sol41.png]]
+
+
+*** Solution de l'exercice 42
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((-1 ; 0)\).
+    2. B a pour coordonnées du point \((0 ; 2)\).
+    3. C a pour coordonnées du point \((-1 ; 2)\).
+    4. D a pour coordonnées du point \((1 ; 2)\).   
+    5. On peut vérifier qu'on a bien obtenu la lettre J.
+
+       Voir figure :
+       [[./img/sol42.png]]
+
+*** Solution de l'exercice 43
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+
+    1. A a pour coordonnées du point \((0 ; 2)\).
+    2. B a pour coordonnées du point \((1 ; 2)\).
+    3. C a pour coordonnées du point \((1 ; 0)\)
+    4. On peut vérifier qu'on a bien obtenu la lettre K.
+
+       Voir figure :
+       [[./img/sol43.png]]
+
+
+*** Solution de l'exercice 44
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+    
+    1. I a pour coordonnées du point \((1 ; 0)\).
+    2. J a pour coordonnées du point \((0 ; 1)\).
+    3. On peut vérifier que \(\overrightarrow{OI}\) puis
+       \(\overrightarrow{OJ}\) donne bien la lettre L.
+
+       Voir figure :
+       [[./img/sol44.png]]
+
+
+*** Solution de l'exercice 45
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\) :
+    
+    1. A a pour coordonnées du point \((0,5 ; 0,5)\).
+    2. B a pour coordonnées du point \((1 ; 1)\).
+    3. On peut vérifier qu'on a bien obtenu la lettre M.
+
+       Voir figure :
+       [[./img/sol45.png]]
+
+*** Solution de l'exercice 46
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\). 
+
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. On peut vérifier qu'on a bien obtenu la lettre N.
+
+       Voir figure :
+       [[./img/sol46.png]]
+
+*** Solution de l'exercice 47
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. On peut vérifier qu'on a bien obtenu la lettre O.
+
+       Voir figure :
+       [[./img/sol47.png]]
+
+*** Solution de l'exercice 48
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. B a pour coordonnées du point \((0 ; -1)\).   
+    3. On peut vérifier qu'on a bien obtenu la lettre P.
+
+       Voir figure :
+       [[./img/sol48.png]]
+
+*** Solution de l'exercice 49
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. B a pour coordonnées du point \((1 ; -1)\).   
+    3. On peut vérifier qu'on a bien obtenu la lettre Q.
+
+       Voir figure :
+       [[./img/sol49.png]]
+       
+*** Solution de l'exercice 50
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. B a pour coordonnées du point \((1 ; -1)\).
+    3. C a pour coordonnées du point \((0 ; -1)\).   
+    4. On peut vérifier qu'on a bien obtenu la lettre R.
+
+       Voir figure :
+       [[./img/sol50.png]]
+
+*** Solution de l'exercice 51
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. B a pour coordonnées du point \((1 ; -1)\).
+    3. C a pour coordonnées du point \((0 ; -1)\).   
+    4. On peut vérifier qu'on a bien obtenu la lettre S.
+
+       Voir figure :
+       [[./img/sol51.png]]
+
+*** Solution de l'exercice 52
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. B a pour coordonnées du point \((-1 ; 1)\).
+    3. C a pour coordonnées du point \((0 ; -1)\).   
+    4. On peut vérifier qu'on a bien obtenu la lettre T.
+
+       Voir figure :
+       [[./img/sol52.png]]
+
+*** Solution de l'exercice 53
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. On peut vérifier qu'on a bien obtenu la lettre U.
+
+       Voir figure :
+       [[./img/sol53.png]]
+
+*** Solution de l'exercice 54
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((0,5 ; 1)\).
+    2. B a pour coordonnées du point \((-0,5 ; 1)\).   
+    3. On peut vérifier qu'on a bien obtenu la lettre V.
+
+       Voir figure :
+       [[./img/sol54.png]]
+
+*** Solution de l'exercice 55
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((0,5 ; 1)\).
+    2. B a pour coordonnées du point \((-0,5 ; 1)\).
+    3. C a pour coordonnées du point \((1,5 ; 1)\).   
+    4. On peut vérifier qu'on a bien obtenu la lettre W.
+
+       Voir figure :
+       [[./img/sol55.png]]
+
+*** Solution de l'exercice 56
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((0,5 ; 1)\).
+    2. B a pour coordonnées du point \((-0,5 ; 1)\).
+    3. C a pour coordonnées du point \((-0,5 ; -1)\).
+    4. D a pour coordonnées du point \((0,5 ; -1)\).
+    5. On peut vérifier qu'on a bien obtenu la lettre X.
+
+       Voir figure :
+       [[./img/sol56.png]]
+       
+*** Solution de l'exercice 57
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((0,5 ; 1)\).
+    2. B a pour coordonnées du point \((-0,5 ; 1)\).
+    3. C a pour coordonnées du point \((0 ; -1)\).
+    4. On peut vérifier qu'on a bien obtenu la lettre Y.
+
+       Voir figure :
+       [[./img/sol57.png]]
+
+*** Solution de l'exercice 58
+
+    Dans le plan muni d'un repère orthonormé \((O ; \vec{i} ;
+       \vec{j})\).
+       
+    1. A a pour coordonnées du point \((1 ; 1)\).
+    2. On peut vérifier qu'on a bien obtenu la lettre Z.
+
+       Voir figure :
+       [[./img/sol58.png]]
+       
+** Applications des vecteurs dans la vie réelle
+
+*** Solution de l'exercice 59
+
+    Un drone se déplace selon les vecteurs successifs :
+    \begin{align*}
+    \vec{v}_1&\begin{pmatrix}100\\50\end{pmatrix}  \\
+    \vec{v}_2&\begin{pmatrix}-30\\80\end{pmatrix}  \\
+    \vec{v}_3&\begin{pmatrix}-20\\-100\end{pmatrix} 
+    \end{align*}
+
+    Pour calculer sa position finale on va ajouter les vecteurs :
+    \begin{align*}
+    \vec{v}_1 + \vec{v}_2 + \vec{v}_3 &= \begin{pmatrix}100 - 30 - 20\\ 50 + 80 - 100\end{pmatrix}\\
+    \vec{v}_1 + \vec{v}_2 + \vec{v}_3 &= \begin{pmatrix}50\\ 30\end{pmatrix}
+    \end{align*}
+
+    Si on prend comme origine du repère sa position initiale alors sa
+    position finale sera \((50 ; 30)\). 
+    
+    Et pour calculer la distance parcourue au total on va faire la
+    somme des normes :
+    
+    \begin{align*}
+    \lvert\lvert\vec{v}_1\rvert\rvert &= \sqrt{100^2 + 50^2} = \sqrt{12 500} \simeq 111,80  \\
+    \lvert\lvert\vec{v}_2\rvert\rvert &= \sqrt{(-30)^2 + 80^2} = \sqrt{7300} \simeq 85,44  \\
+    \lvert\lvert\vec{v}_3\rvert\rvert &= \sqrt{(-20)^2 + (-100)^2} = \sqrt{10 400} \simeq 101,98
+    \end{align*}
+
+    Donc la distance totale parcourue est d'environ 299,22 unités de
+    mesure.
+
+*** Solution de l'exercice 60
+
+    On considère un échiquier standard comme celui sur la figure
+    ci-dessous :
+
+    [[./img/chessboard_wiki.jpg]]
+
+    L'échiquier est traditionnellement codé avec les lettres de a à h
+    pour indiquer la position horizontale et les nombres de 1 à 8 pour
+    indiquer la position verticale.
+
+    De cette façon le codage a1 correspond à la case en bas à gauche
+    et le codage h8 à la case en haut à droite.
+
+    Afin de rendre cette représentation utilisable dans le cadre
+    vectoriel conforme à la classe de seconde on va considérer que
+    l'origine du repère sera la case a1 qu'on identifiera à O.
+
+    De même, le vecteur \(\vec{i}\) est identifié à la translation de
+    a1 vers b1 et le vecteur \(\vec{j}\) à celle de a1 vers a2.
+
+    Considérons les déplacements possibles du fou blanc comme indiqué
+    sur la photo ci-dessous :
+
+    [[./img/fou_motion.png]]
+
+    1. Le déplacement de la case h1 vers la case a8 (appelée aussi
+       anti-diagonale ou seconde diagonale) correspond à 8
+       déplacements vers la gauche et 8 déplacement vert le haut d'où
+       le résultat :
+       \[\vec{v}_1 = 8(\vec{j} - \vec{i}) = 8\begin{pmatrix}-1\\ 1\end{pmatrix}\]
+    2. Calcul de la norme de ce vecteur
+       \[\lvert\lvert\vec{v}_1\rvert\rvert = 8\sqrt{(-1)^2 + 1^2} = 8\sqrt{2}\]
+    3. Le déplacement selon la diagonale a1 vers h8 correspond à 8
+       déplacements vers la droite et 8 vers le haut d'où les
+       résultats : 
+       \begin{align*}
+       \vec{v}_2 &= 8(\vec{i} + \vec{j}) =
+       8\begin{pmatrix}1\\ 1\end{pmatrix}\\
+       \lvert\lvert\vec{v}_2\rvert\rvert &= 8\sqrt{1^2 + 1^2} =
+       8\sqrt{2}
+       \end{align*}
+    4. Le déplacement de la case a2 et finissant à la case g8
+       correspond à 6 déplacements vers la droite et 6 vers le vaut :
+       \begin{align*}
+       \vec{v}_3 &= 6(\vec{i} + \vec{j}) =
+       6\begin{pmatrix}1\\ 1\end{pmatrix}\\
+       \lvert\lvert\vec{v}_3\rvert\rvert &= 6\sqrt{1^2 + 1^2} =
+       6\sqrt{2}
+       \end{align*}
+    5. Le déplacement de la case a3 et finissant à la case f8
+       correspond à 5 déplacements vers la droite et 5 vers le vaut :
+       \begin{align*}
+       \vec{v}_4 &= 5(\vec{i} + \vec{j}) =
+       5\begin{pmatrix}1\\ 1\end{pmatrix}\\
+       \lvert\lvert\vec{v}_4\rvert\rvert &= 5\sqrt{1^2 + 1^2} =
+       5\sqrt{2}
+       \end{align*}
+    6. Le déplacement qui part de a4 et termine en e8
+       correspond à 4 déplacements vers la droite et 4 vers le vaut :
+       \begin{align*}
+       \vec{v}_5 &= 4(\vec{i} + \vec{j}) =
+       4\begin{pmatrix}1\\ 1\end{pmatrix}\\
+       \lvert\lvert\vec{v}_5\rvert\rvert &= 4\sqrt{1^2 + 1^2} =
+       4\sqrt{2}
+       \end{align*}
+    7. Le déplacement qui part de a5 et termine en d8
+       correspond à 3 déplacements vers la droite et 3 vers le vaut :
+       \begin{align*}
+       \vec{v}_6 &= 3(\vec{i} + \vec{j}) =
+       3\begin{pmatrix}1\\ 1\end{pmatrix}\\
+       \lvert\lvert\vec{v}_6\rvert\rvert &= 3\sqrt{1^2 + 1^2} =
+       3\sqrt{2}
+       \end{align*}
+    8. Le déplacement qui commence en a6 et finit en c8
+       correspond à 2 déplacements vers la droite et 2 vers le vaut :
+       \begin{align*}
+       \vec{v}_7 &= 2(\vec{i} + \vec{j}) =
+       2\begin{pmatrix}1\\ 1\end{pmatrix}\\
+       \lvert\lvert\vec{v}_7\rvert\rvert &= 2\sqrt{1^2 + 1^2} =
+       2\sqrt{2}
+       \end{align*}
+    9. Le déplacement qui commence en a7 et finit en b8
+       correspond à 1 déplacement vers la droite et 1 vers le vaut :
+       \begin{align*}
+       \vec{v}_8 &= \vec{i} + \vec{j} =
+       \begin{pmatrix}1\\ 1\end{pmatrix}\\
+       \lvert\lvert\vec{v}_8\rvert\rvert &= \sqrt{1^2 + 1^2} =
+       \sqrt{2}
+       \end{align*}
+    10. Le déplacement qui commence en a8 et finit en a8
+	correspond à 0 déplacements vers la droite et 0 vers le vaut :
+       \begin{align*}
+       \vec{v}_9 &= \vec{0} = \begin{pmatrix}0\\ 0\end{pmatrix}\\
+       \lvert\lvert\vec{v}_9\rvert\rvert &= 0
+       \end{align*}
+    11. Si on souhaite généraliser les déplacements du fou en
+        programmant un seul vecteur du type : \(\vec{v} = a\vec{i} +
+        b\vec{j}\) avec
+	\[\vec{i}\begin{pmatrix}1\\0\end{pmatrix}\] et
+	\[\vec{j}\begin{pmatrix}0\\1\end{pmatrix}\]
+	les vecteurs de la base canonique, alors les valeurs possibles
+        pour les nombres \(a\) et \(b\) sont les entiers entre 0 et 8
+        avec 0 pour l'absence de déplacement et 8 pour le déplacement
+        maximal. 
+	
+    
+*** Solution de l'exercice 61 
+
+Un projectile est lancé depuis O(0;0) avec une vitesse initiale 
+\(\vec{v}_0\) de coordonnées \(\begin{pmatrix}20\\30\end{pmatrix}\) m/s.
+
+La gravité exerce une accélération constante 
+\(\vec{g}\begin{pmatrix}0\\-10\end{pmatrix}\) m/s².
+
+Après 1 seconde, la vitesse devient \(\vec{v}_1 = \vec{v}_0 + \vec{g}\).
+
+1. Calcul des coordonnées de \(\vec{v}_1\) :
+   \begin{align*}
+   \vec{v}_1 &= \vec{v}_0 + \vec{g}\\
+   \vec{v}_1 &= \begin{pmatrix}20\\ 30\end{pmatrix} + \begin{pmatrix}0\\-10\end{pmatrix}\\
+   \vec{v}_1 &= \begin{pmatrix}20 + 0\\ 30 + (-10)\end{pmatrix}\\
+   \vec{v}_1 &= \begin{pmatrix}20\\ 20\end{pmatrix} 
+   \end{align*}
+2. Calcul de la norme de \(\vec{v}_1\) (vitesse en m/s) :
+   \begin{align*}
+   \lvert\lvert\vec{v}_1\rvert\rvert &= \sqrt{20^2 + 20^2}\\
+   \lvert\lvert\vec{v}_1\rvert\rvert &= 20\sqrt{2} \simeq 28,28
+   \end{align*}
+3. La position après 1s est \(\vec{p}_1 = \vec{v}_0 + \frac{1}{2}\vec{g}\).
+   Calcul des coordonnées du point \(P_1\) :
+   \begin{align*}
+   \vec{p}_1 &= \vec{v}_0 + \dfrac{1}{2}\vec{g}\\
+   \vec{p}_1 &= \begin{pmatrix}20\\ 30\end{pmatrix} + \dfrac{1}{2}\begin{pmatrix}0\\-10\end{pmatrix}\\
+   \vec{p}_1 &= \begin{pmatrix}20 + \dfrac{1}{2}\times 0\\ 30 + \dfrac{1}{2}(-10)\end{pmatrix}\\
+   \vec{p}_1 &= \begin{pmatrix}20\\ 25\end{pmatrix} 
+   \end{align*}
+   Le point \(P_1\) a pour coordonnées \((20 ; 25)\). 
+4. Après combien de temps le projectile retombe-t-il au sol (y=0) ?
+
+
+*** Solution de l'exercice 62 : Images vectorielles vs images bitmap
+
+#+BEGIN_EXPORT latex
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[scale=0.8]
+  % Image bitmap
+  \begin{scope}
+    \node at (2.25,4.5) {\textbf{Image Bitmap (PNG)}};
+    \draw[step=0.5cm,gray,very thin] (0,0) grid (4,3);
+    \foreach \x in {0,0.5,...,4}
+      \foreach \y in {0,0.5,...,3}
+        \fill[black!20] (\x,\y) rectangle ++(0.5,0.5);
+    \draw[thick,blue] (0.5,0.5) -- (1.5,2.5) -- (2.5,0.5);
+    \node[below] at (2,-0.5) {40 000 pixels pour 200×200};
+  \end{scope}
+  
+  % Image vectorielle
+  \begin{scope}[xshift=6cm]
+    \node at (2.25,4.5) {\textbf{Image Vectorielle (SVG)}};
+    \draw[thick,blue,->] (0.5,0.5) -- node[left] {$\vec{v}_1$} (1.5,2.5);
+    \draw[thick,blue,->] (1.5,2.5) -- node[right] {$\vec{v}_2$} (2.5,0.5);
+    \fill (0.5,0.5) circle (2pt) node[below left] {A};
+    \fill (1.5,2.5) circle (2pt) node[above] {B};
+    \fill (2.5,0.5) circle (2pt) node[below right] {C};
+    \node[below] at (2,-0.5) {3 points + 2 vecteurs};
+  \end{scope}
+\end{tikzpicture}
+\caption{Différence entre image bitmap et image vectorielle}
+\end{figure}
+#+END_EXPORT
+
+    Les images numériques peuvent être de deux types : *bitmap* 
+    (aussi appelées matricielles ou raster) ou *vectorielles*.
+
+    + Une image bitmap (JPEG, PNG, GIF) est constituée d'une grille 
+      de pixels. Chaque pixel a une couleur définie. Si on agrandit 
+      l'image, elle devient floue et pixelisée.
+      
+    + Une image vectorielle (SVG, PDF vectoriel) est constituée de 
+      formules mathématiques décrivant des formes géométriques 
+      (lignes, courbes, polygones). On peut l'agrandir infiniment 
+      sans perte de qualité.
+
+    *Réponses :*
+
+    1. Dans un logiciel de dessin vectoriel, on trace un segment de 
+       A(100 ; 150) à B(300 ; 450). Calculons les coordonnées du 
+       vecteur \(\overrightarrow{AB}\) :
+       \begin{align*}
+       x_{\overrightarrow{AB}} &= x_B - x_A = 300 - 100 = 200\\
+       y_{\overrightarrow{AB}} &= y_B - y_A = 450 - 150 = 300\\
+       \overrightarrow{AB}&\begin{pmatrix}200\\ 300\end{pmatrix}
+       \end{align*}
+       
+    2. Pour afficher ce segment à l'écran, l'ordinateur calcule sa 
+       longueur. Calcul de la norme :
+       \begin{align*}
+       \lvert\lvert\overrightarrow{AB}\rvert\rvert &= AB = \sqrt{200^2 + 300^2}\\
+       AB &= \sqrt{200 000} = \sqrt{4\times 10^4\times 5} = 200\sqrt{5}\\
+       AB &\simeq 447
+       \end{align*}
+       
+    3. L'utilisateur applique un zoom ×2 (homothétie de rapport 2 
+       centrée à l'origine). Les nouvelles coordonnées de A' et B'
+       sont \(A'(200 ; 300)\) et \(B'(600 ; 900)\). 
+       
+    4. Pour savoir si le vecteur \(\overrightarrow{A'B'}\) est-il
+       colinéaire à \(\overrightarrow{AB}\) on va calculer ses
+       coordonnées puis les comparer :
+       \begin{align*}
+       x_{\overrightarrow{A'B'}} &= x_{B'} - x_{A'} = 600 - 200 = 400\\
+       y_{\overrightarrow{A'B'}} &= y_{B'} - y_{A'} = 900 - 300 = 600\\
+       \overrightarrow{A'B'}&\begin{pmatrix}400\\ 600\end{pmatrix}\\
+       \overrightarrow{A'B'}&= 2\overrightarrow{AB}
+       \end{align*}
+       Les vecteurs sont clairement colinéaires.
+       
+    5. La longueur du segment [A'B'] après le zoom est 2 fois celle du
+       segement [AB] avant le zoom. Concrètement :
+       \begin{align*}
+       A'B' &= 2AB = 400\sqrt{5} \simeq 894
+       \end{align*}
+       
+    6. Une image bitmap est composée d'une grille fixe de pixels donc
+       lorsque l'image est agrandie le logiciel doit faire une sorte
+       de moyenne et perd donc de l'information donc de la qualité
+       visuelle. A contrario, une image vectorielle est définie par
+       des formules mathématiques permettant de construire les objets
+       grâce à leurs coordonnées. À chaque affichage ou agrandissement
+       le logiciel recalcule les nouvelles coordonnées ce qui ajuste
+       SANS perte d'information la forme des objets affichés avec les
+       bonnes coordonnées.
+
+    *Note* : Les formats SVG (Scalable Vector Graphics) et PDF 
+    utilisent exactement ces principes mathématiques. C'est pourquoi 
+    les logos d'entreprises, icônes d'applications, et schémas 
+    techniques sont toujours créés en vectoriel !
+
+
+*** Solution de l'exercice 63 : Décoder un fichier SVG
+
+    Le format SVG (Scalable Vector Graphics) est un format d'image 
+    vectorielle basé sur du code XML. Voici un extrait simplifié 
+    d'un fichier SVG :
+
+    #+BEGIN_EXAMPLE
+    <svg
+        width="500"
+	height="400">
+      <line
+          x1="50" y1="100"
+	  x2="200" y2="250"
+	  stroke="blue" />
+      <line
+          x1="200" y2="250"
+	  x2="350" y2="100"
+	  stroke="red" />
+      <circle
+          cx="200" cy="175"
+	  r="80" fill="none"
+	  stroke="green" />
+    </svg>
+    #+END_EXAMPLE
+
+    Ce code décrit :
+    + Une ligne bleue du point A(50 ; 100) au point B(200 ; 250)
+    + Une ligne rouge du point B(200 ; 250) au point C(350 ; 100)
+    + Un cercle vert de centre O(200 ; 175) et de rayon 80 pixels
+
+    *Attention* : En SVG, l'axe des ordonnées est **inversé** par 
+    rapport au repère mathématique classique (l'origine est en haut 
+    à gauche, y augmente vers le bas).
+
+    *Réponses :*
+
+    1. Calcul des coordonnées des vecteurs \(\overrightarrow{AB}\) 
+       et \(\overrightarrow{BC}\) dans le repère SVG :
+       \begin{align*}
+       x_{\overrightarrow{AB}} &= x_B - x_A = 200 - 50 = 150\\
+       y_{\overrightarrow{AB}} &= y_B - y_A = 250 - 100 = 150\\
+       \overrightarrow{AB}& \begin{pmatrix}150\\ 150\end{pmatrix}\\
+       x_{\overrightarrow{BC}} &= x_C - x_B = 350 - 200 = 150\\
+       y_{\overrightarrow{BC}} &= y_C - y_B = 100 - 250 = -150\\
+       \overrightarrow{BC}& \begin{pmatrix}150\\ -150\end{pmatrix}
+       \end{align*}
+       
+    2. Pour savoir si les points A, B, C sont alignés on va calculer le 
+       déterminant :
+       \begin{align*}
+       det(\overrightarrow{AB} , \overrightarrow{BC}) &= \begin{vmatrix}150&150\\ 150& -150\end{vmatrix}\\
+       det(\overrightarrow{AB} , \overrightarrow{BC}) &= 150\times (-150) - 150\times 150 = -2\times 150^2\\
+       det(\overrightarrow{AB} , \overrightarrow{BC}) &\neq 0
+       \end{align*}
+       Le déterminant étant non nul, les vecteurs
+       \(\overrightarrow{AB}\) et \(\overrightarrow{BC}\) ne sont pas
+       colinéaires donc les points A, B et C ne sont pas alignés. En
+       fait, on pouvait le voir directement sur les coordonnées
+       puisqu'ils ont la même abscisse mais des ordonnées opposées
+       (ils sont donc orthogonaux).
+       
+    3. Le triangle ABC est rectangle en B. En effet :
+       \begin{align*}
+       AC^2 &= (x_C - x_A)^2 + (y_C - y_A)^2 = (350 - 50)^2 + (100 - 100)^2 \\
+       AC^2 &= 300^2 \\
+       AB^2 + BC^2 &= 150^2 + 150^2 + 150^2 + (-150)^2 = 4\times 150^2 \\
+       AB^2 + BC^2 &= 2^2\times 150^2 = (2\times 150)^2 = 300^2
+       \end{align*}
+       L'égalité de Pythagore est vérifiée pour l'hypoténuse AC.
+       
+    4. Pour savoir si le centre O du cercle appartient au segment [AC]
+       on va calculer le vecteur \(\overrightarrow{AO}\) et le
+       comparer avec le vecteur \(\overrightarrow{AC}\) :
+       \begin{align*}
+       x_{\overrightarrow{AO}} &= x_O - x_A = 200 - 50 = 150\\
+       y_{\overrightarrow{AO}} &= y_O - y_A = 175 - 100 = 75\\
+       \overrightarrow{AO}& \begin{pmatrix}150\\ 75\end{pmatrix}\\
+       x_{\overrightarrow{AC}} &= x_C - x_A = 350 - 50 = 300\\
+       y_{\overrightarrow{AC}} &= y_C - y_A = 100 - 100 = 0\\
+       \overrightarrow{AC}& \begin{pmatrix}300\\ 0\end{pmatrix}
+       \end{align*}
+       Les vecteurs ne sont pas colinéaires car
+       \(\overrightarrow{AC}\) est un vecteur horizontal (son ordonnée
+       est nulle) alors que ce n'est pas le cas pour
+       \(\overrightarrow{AO}\) (le calcul de leur déterminant est non
+       nul). Par conséquent le centre O du cercle n'appartient pas au
+       segment [AC].
+       
+    5. **Défi** : Écrivons le code SVG d'un carré DEFG de côté 100 
+       pixels avec \(D(100 ; 100)\) comme sommet en haut à gauche. Avant
+       d'écrire le code précisons que puisque le point D est en haut à
+       gauche et que l'axe des ordonnées est inversé (un écran défile
+       du haut vers le bas) alors pour descendre de 100 unités sur les
+       ordonnées il faut donc ajouter 100 ce qui nous amène au point
+       \(E(100 ; 200)\). Ensuite pour aller vers la droite ça ne
+       change pas donc on obtient le point \(F(200 ; 200)\). Et
+       maintenant pour remonter sur les ordonnées on retire 100 unités
+       d'où \(G(200 ; 100)\).
+       #+BEGIN_EXAMPLE
+       <svg
+        width="500"
+	height="400">
+        <line
+          x1="100" y1="100"
+	  x2="100" y2="200"
+	  stroke="green" />
+        <line
+          x1="100" y2="200"
+	  x2="200" y2="200"
+	  stroke="green" />
+         <line
+          x1="200" y2="200"
+	  x2="200" y2="100"
+	  stroke="green" />
+	 <line
+          x1="200" y2="100"
+	  x2="100" y2="100"
+	  stroke="green" />
+       </svg>
+       #+END_EXAMPLE
+
+       *Explications* :
+       
+       + Une ligne verte du point \(D(100 ; 100)\) au point \(E(100 ;
+         200)\)
+       + Une ligne verte du point \(E(100 ; 200)\) au point \(F(200 ;
+         200)\)
+       + Une ligne verte du point \(F(200 ; 200)\)  au point \(G(200 ;
+         100)\)
+       + Une ligne verte du point \(G(200 ; 100)\)  au point \(D(100 ;
+         100)\)
+	 
+       
+
+    *Pour aller plus loin* : Ouvrez un fichier .svg avec un éditeur 
+    de texte (Bloc-notes, TextEdit) et observez le code. Vous verrez 
+    des vecteurs partout !
+
+*** Solution de l'exercice 64 : Pourquoi les PDF sont-ils vectoriels ?
+
+    Un fichier PDF peut contenir du texte, des images et des 
+    graphiques. Le texte et les graphiques sont généralement 
+    stockés sous forme *vectorielle*.
+
+    Prenons l'exemple de la lettre "A" :
+    + Dans une image bitmap (photo), le "A" est une grille de 
+      pixels noirs et blancs
+    + Dans un PDF vectoriel, le "A" est décrit par ses contours : 
+      deux segments obliques et un segment horizontal
+
+    *Situation* : Un /designer/ (graphiste en bon français) crée un logo avec la lettre "V" formée 
+    par deux segments :
+    + Segment 1 : de O(0 ; 100) à M(50 ; 0)
+    + Segment 2 : de M(50 ; 0) à N(100 ; 100)
+
+    *Questions :*
+
+    1. Calculons les coordonnées des vecteurs 
+       \(\overrightarrow{OM}\) et \(\overrightarrow{MN}\) :
+       \begin{align*}
+        x_{M} - x_{O} &= 50 - 0 = 50\\
+        y_{M} - y_{O} &= 0 - 100 = -100\\
+        \overrightarrow{OM}&\begin{pmatrix}50\\ -100\end{pmatrix}\\
+        x_{N} - x_{M} &= 100 - 50 = 50\\
+        y_{N} - y_{M} &= 100 - 0 = 100\\
+        \overrightarrow{MN}&\begin{pmatrix}50\\ -100\end{pmatrix}
+       \end{align*}
+       
+    2. Ces deux vecteurs ne sont pas colinéaires car ils ont la même
+       abscisse mais des ordonnées opposées. On peut en  déduire que
+       la forme de la lettre "V" est bien respectée.       
+       
+    3. Calcul des normes \(\|\overrightarrow{OM}\|\) et 
+       \(\|\overrightarrow{MN}\|\) :
+       \begin{align*}
+       OM &= \sqrt{50^2 + (-100)^2} = \sqrt{12500} = 50\sqrt{5} \simeq 111,80\\
+       MN &= \sqrt{50^2 + 100^2} = \sqrt{12500} = 50\sqrt{5} \simeq 111,80
+       \end{align*}
+       
+       La lettre "V" est symétrique car les vecteurs ont la même norme
+       donc le triangle est isocèle en M où passe l'axe de symétrie.
+
+       Voir figure :
+       [[./img/sol64q3.png]]
+       
+    4. Le /designer/ (graphiste en bon français) applique une
+       transformation : tous les points sont multipliés par 2. Calculs
+       des nouvelles coordonnées de O', M', N' :
+       \begin{align*}
+       x_{O'} = 2\times x_{O} = 0 && y_{O'} = 2\times y_{O} = 200\\
+       x_{M'} = 2\times x_{M} = 100 && y_{M'} = 2\times y_{M} = 0\\
+       x_{N'} = 2\times x_{N} = 200 && y_{N'} = 2\times y_{N} = 200
+       \end{align*}
+       
+    5. Les segments [O'M'] et [M'N'] conservent les mêmes angles 
+       que [OM] et [MN] car les vecteurs \(\overrightarrow{OM}\) et
+       \(\overrightarrow{O'M'}\) sont colinéaires et les vecteurs
+       \(\overrightarrow{MN}\) et \(\overrightarrow{M'N'}\) sont
+       également colinéaires. Ainsi puisque les droites (OM) et (O'M')
+       sont parallèles les angles correspondants sont égaux :
+       \[(\vec{i} , \overrightarrow{MO}) = (\vec{i} ,
+       \overrightarrow{M'O'})\]
+       Idem pour les droites (MN) et (M'N') avec leurs angles
+       correspondants :
+       \[(\vec{i} , \overrightarrow{MN}) = (\vec{i} ,
+       \overrightarrow{M'N'})\]
+
+       Voir figure :
+       [[./img/sol64q5.png]]
+       
+    6. **Application** : un agrandissement ou une réduction revient
+       simplement à multiplier les vecteurs par un nombre réel et par
+       conséquent chaque vecteur est transformé en un vecteur
+       colinéaire contrairement aux photos qui elles stockent des
+       pixels fixes et non des déplacements vectoriels.
+
+    *À retenir* : Quand vous convertissez un document Word en PDF, 
+    tout le texte est transformé en vecteurs. C'est pour ça qu'on peut 
+    zoomer sans pixelisation !
+
+    
+*** Solution de l'exercice 65 : Bitmap vs Vectoriel - Étude comparative
+
+    On souhaite créer un logo carré de 200×200 pixels pour une 
+    application mobile.
+
+    *Méthode 1 : Image bitmap (PNG)*
+    + Le logo est une grille de 200×200 = 40 000 pixels
+    + Chaque pixel stocke sa couleur (3 octets RGB)
+    + Taille du fichier : ≈ 120 Ko (avec compression)
+    + Si on agrandit à 400×400, il faut recalculer 160 000 pixels 
+      par interpolation → image floue
+
+    *Méthode 2 : Image vectorielle (SVG)*
+    + Le logo est décrit par 4 segments formant un carré
+    + Stockage : 4 vecteurs avec leurs coordonnées
+    + Taille du fichier : ≈ 1 Ko
+    + Si on agrandit, on multiplie simplement les coordonnées par 2 
+      → image parfaitement nette
+
+    *Réponses :*
+
+    1. Un carré vectoriel a pour sommets A(0;0), B(200;0), C(200;200), 
+       D(0;200). Donnons les coordonnées des 4 vecteurs 
+       \(\overrightarrow{AB}\), \(\overrightarrow{BC}\), 
+       \(\overrightarrow{CD}\), \(\overrightarrow{DA}\) :
+       \begin{align*}
+       \overrightarrow{AB}\begin{pmatrix}200\\ 0\end{pmatrix} && \overrightarrow{BC}\begin{pmatrix}0\\ 200\end{pmatrix}\\
+       \overrightarrow{CD}\begin{pmatrix}-200\\ 0\end{pmatrix} && \overrightarrow{DA}\begin{pmatrix}0\\ -200\end{pmatrix}
+       \end{align*}
+       
+    2. On applique un zoom ×3. Calculons les nouvelles coordonnées 
+       des 4 sommets : A(0 ; 0), B(600 ; 0), C(600 ; 600), D(0 ; 600).
+       
+    3. Calculons le périmètre du carré initial et du carré agrandi :
+       \begin{align*}
+       P_0 &= 4\times 200 = 800\\
+       P_1 &= 4\times 600 = 2400
+       \end{align*}
+       On peut vérifier que le rapport est bien 3.
+       
+    4. **Calcul de taille** : 
+       1. Bitmap : dans l'image agrandie on a \(600\times 600 = 3
+          600\) pixels.
+       2. Vectoriel : dans l'image agrandie on a toujours 4 vecteurs.
+       
+
+    *Conclusion* : Les vecteurs que vous apprenez en seconde sont 
+    utilisés quotidiennement par des millions d'ordinateurs, 
+    smartphones et imprimantes pour afficher des textes, logos, 
+    icônes et graphiques !
+
+*** Solution de l'exercice 66 : Créer une icône vectorielle (Projet)
+
+    Les icônes d'applications sur smartphone sont toujours créées 
+    en vectoriel pour s'adapter aux différentes tailles d'écran 
+    (iPhone, iPad, etc.).
+
+    *Projet* : Créer l'icône ⚡ (éclair) en utilisant uniquement 
+    des vecteurs.
+
+    *Étape 1 : Conception*
+    On dessine l'éclair avec 7 points :
+    + A(100 ; 0)     [sommet haut]
+    + B(60 ; 80)     
+    + C(80 ; 80)     
+    + D(40 ; 200)    [sommet bas]
+    + E(80 ; 120)    
+    + F(60 ; 120)    
+    + G(100 ; 0)     [retour au début]
+
+    *Questions :*
+
+    1. Calcul des vecteurs \(\overrightarrow{AB}\), 
+       \(\overrightarrow{BC}\), \(\overrightarrow{CD}\), 
+       \(\overrightarrow{DE}\), \(\overrightarrow{EF}\), 
+       \(\overrightarrow{FG}\) :
+       \begin{align*}
+       \overrightarrow{AB}\begin{pmatrix}-40\\ 80\end{pmatrix} && \overrightarrow{BC}\begin{pmatrix}20\\ 0\end{pmatrix}\\
+       \overrightarrow{CD}\begin{pmatrix}-40\\ 120\end{pmatrix} && \overrightarrow{DE}\begin{pmatrix}40\\ -80\end{pmatrix}\\
+       \overrightarrow{EF}\begin{pmatrix}-20\\ 0\end{pmatrix} && \overrightarrow{FG}\begin{pmatrix}40\\ -120\end{pmatrix}
+       \end{align*}
+       
+    2. Vérifions que \(\overrightarrow{AB} + \overrightarrow{BC} +
+       \overrightarrow{CD} + \overrightarrow{DE} +
+       \overrightarrow{EF} + \overrightarrow{FG} = \vec{0}\).
+
+       En appliquant la relation de Chasles on obtient le vecteur
+       \(\overrightarrow{AG}\) or les points A et G sont confondus
+       d'où le résultat. 
+       
+       
+    3. Pour passer de 200 à 32 il faut diviser par 25 et multiplier
+       par 4 d'où le facteur d'homothétie \(k_1 = \dfrac{4}{25} =
+       0,16\). Pour passer de 200 à 64 il faut diviser par 25 et
+       multiplier 8 d'où le facteur d'homothétie \(k_2 = \dfrac{8}{25} =
+       0,32\). Pour passer de 200 à 128 il faut diviser par 25 et
+       multiplier 16 d'où le facteur d'homothétie \(k_3 = \dfrac{16}{25} =
+       0,64\). 
+       
+    
+
+    *Pour aller plus loin* : Les /designers/ (graphistes en bon
+    français) utilisent des logiciels comme Adobe Illustrator,
+    Inkscape (gratuit), ou Figma pour créer des images
+    vectorielles. Tous ces outils manipulent des vecteurs
+    mathématiques en arrière-plan !
+    
+** Chiffres
+*** Solution de l'exercice 67
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((-1 ; 0)\). 
+	2. Le point B a pour coordonnées \((0 ; 2)\). 
+	3. Le point C a pour coordonnées \((-1 ; 1)\). 
+	4. On peut vérifier qu'on a bien obtenu le chiffre 1.
+
+	   Voir figure :
+	   [[./img/sol67.png]]
+
+
+*** Solution de l'exercice 68
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((1 ; 2)\). 
+	3. Le point C a pour coordonnées \((0 ; 2)\).          
+	4. On peut vérifier que vous avez bien obtenu le chiffre 2.
+
+	   Voir figure :
+	   [[./img/sol68.png]]
+
+*** Solution de l'exercice 69
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((1 ; 2)\). 
+	3. Le point C a pour coordonnées \((0 ; 2)\).          
+	4. On peut vérifier que vous avez bien obtenu le chiffre 3.
+
+	   Voir figure :
+	   [[./img/sol69.png]]
+
+
+*** Solution de l'exercice 70
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((1 ; 2)\). 
+	3. Le point C a pour coordonnées \((0 ; 2)\).          
+	4. On peut vérifier que vous avez bien obtenu le chiffre 4.
+
+	   Voir figure :
+	   [[./img/sol70.png]]
+	
+*** Solution de l'exercice 71
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((0 ; 2)\). 
+	3. Le point C a pour coordonnées \((1 ; 2)\).          
+	4. On peut vérifier que vous avez bien obtenu le chiffre 5.
+
+	   Voir figure :
+	   [[./img/sol71.png]]
+
+*** Solution de l'exercice 72
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((0 ; 2)\). 
+	3. Le point C a pour coordonnées \((1 ; 2)\).          
+	4. On peut vérifier que vous avez bien obtenu le chiffre 6.
+
+	   Voir figure :
+	   [[./img/sol72.png]]
+
+*** Solution de l'exercice 73
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((0 ; 2)\). 
+	3. On peut vérifier que vous avez bien obtenu le chiffre 7.
+
+	   Voir figure :
+	   [[./img/sol73.png]]
+	   
+
+*** Solution de l'exercice 74
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((0 ; 2)\). 
+	3. Le point C a pour coordonnées \((1 ; 2)\).          
+	4. On peut vérifier que vous avez bien obtenu le chiffre 8.
+
+	   Voir figure :
+	   [[./img/sol74.png]]
+
+*** Solution de l'exercice 75
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((0 ; 2)\). 
+	3. Le point C a pour coordonnées \((1 ; 2)\).          
+	4. On peut vérifier que vous avez bien obtenu le chiffre 9.
+
+	   Voir figure :
+	   [[./img/sol75.png]]
+
+*** Solution de l'exercice 76
+
+        Dans le plan muni du repère orthonormé canonique
+	\[(O ; \vec{i} ; \vec{j})\]
+
+	1. Le point A a pour coordonnées \((1 ; 1)\). 
+	2. Le point B a pour coordonnées \((0 ; 2)\). 
+	3. Le point C a pour coordonnées \((1 ; 2)\).          
+	4. On peut vérifier que vous avez bien obtenu le chiffre 0.
+
+	   Voir figure :
+	   [[./img/sol76.png]]	   
+	   	
+** Solutions des paradoxes
+*** Solution de l'exercice 77
+
+    1. Placement des points O(0 ; 0) et A(1 ; 0) ainsi que la
+       construction du vecteur
+       \[\vec{u}_1 = \overrightarrow{OA}\]
+
+       [[./img/sol77q1.png]]
+    2. Placement du point B(3 ; 1) et construction du vecteur
+       \[\vec{v}_1 = \overrightarrow{OB}\]
+
+       [[./img/sol77q2.png]]
+    3. Placement des points C(0 ; 3) et D(2 ; 7) ainsi que la
+       construction du vecteur
+       \[\vec{u}_2 = \overrightarrow{CD}\]
+
+       [[./img/sol77q3.png]]
+    4. Placement du point E(0 ; 4) et construction du vecteur
+       \[\vec{v}_2 = \overrightarrow{CE}\]
+
+       [[./img/sol77q4.png]]
+    5. *Rappel* : La pente d'un vecteur se calcule en faisant le
+       rapport entre son ordonnée (déplacement vertical) divisée par
+       son abscisse (déplacement horizontal).
+
+       Concrètement :
+       \begin{align*}
+       p_{\vec{u}_1} &= \dfrac{y_{\vec{u}_1}}{x_{\vec{u}_1}} = \dfrac{y_A - y_O}{x_A - x_O}\\
+       p_{\vec{u}_1} &= \dfrac{0 - 0}{1 - 0} = 0\\
+       p_{\vec{v}_1} &= \dfrac{y_{\vec{v}_1}}{x_{\vec{v}_1}} = \dfrac{y_B - y_O}{x_B - x_O}\\
+       p_{\vec{v}_1} &= \dfrac{1 - 0}{3 - 0} = \dfrac{1}{3}\\
+       &\Rightarrow p_{\vec{u}_1} = 0 < p_{\vec{v}_1} = \dfrac{1}{3}
+       \end{align*}
+
+       Les calculs confirment ce qu'on peut observer graphiquement, le
+       vecteur \(\vec{v}_1\) est plus incliné vers le haut
+       verticalement que le vecteur \(\vec{u}_1\).
+       
+    6. *Rappel* : La pente d'un vecteur se calcule en faisant le
+       rapport entre son ordonnée (déplacement vertical) divisée par
+       son abscisse (déplacement horizontal).
+
+       Concrètement :
+       \begin{align*}
+       p_{\vec{u}_2} &= \dfrac{y_{\vec{u}_2}}{x_{\vec{u}_2}} = \dfrac{y_D - y_C}{x_D - x_C}\\
+       p_{\vec{u}_2} &= \dfrac{7 - 3}{2 - 0} = \dfrac{4}{2} = 2\\
+       p_{\vec{v}_2} &= \dfrac{y_{\vec{v}_2}}{x_{\vec{v}_2}} = \dfrac{y_E - y_C}{x_E - x_C}\\
+       p_{\vec{v}_2} &= \dfrac{4 - 3}{0 - 0} = +\infty \\
+       &\Rightarrow p_{\vec{u}_2} = 2 < p_{\vec{v}_2} = +\infty
+       \end{align*}
+       
+       Les calculs confirment ce qu'on peut observer graphiquement, le
+       vecteur \(\vec{v}_2\) est plus incliné vers le haut
+       verticalement que le vecteur \(\vec{u}_2\).
+       
+    7. Placement des points F(4 ; 2) et G(7 ; 4) ainsi que la
+       construction du vecteur
+       \[\vec{v} = \vec{v}_1 + \vec{v}_2 = \overrightarrow{FG}\]
+
+       [[./img/sol77q7.png]]
+
+    8. Placement du point H(7 ; 6) et construction du vecteur
+       \[\vec{u} = \vec{u}_1 + \vec{u}_2 = \overrightarrow{FH}\]
+
+       [[./img/sol77q8.png]]
+
+    9. *Rappel* : La pente d'un vecteur se calcule en faisant le
+       rapport entre son ordonnée (déplacement vertical) divisée par
+       son abscisse (déplacement horizontal).
+
+       Concrètement :
+       \begin{align*}
+       p_{\vec{u}} &= \dfrac{y_{\vec{u}}}{x_{\vec{u}}} = \dfrac{y_H - y_F}{x_H - x_F}\\
+       p_{\vec{u}} &= \dfrac{6 - 2}{7 - 4} = \dfrac{4}{3}\\
+       p_{\vec{v}} &= \dfrac{y_{\vec{v}}}{x_{\vec{v}}} = \dfrac{y_G - y_F}{x_G - x_F}\\
+       p_{\vec{v}} &= \dfrac{4 - 2}{7 - 4} = \dfrac{2}{3} \\
+       &\Rightarrow p_{\vec{u}} = \dfrac{4}{3} > p_{\vec{v}} = \dfrac{2}{3}
+       \end{align*}
+       
+       Les calculs confirment ce qu'on peut observer graphiquement, le
+       vecteur \(\vec{u}\) est plus incliné vers le haut
+       verticalement que le vecteur \(\vec{v}\).
+
+       [[./img/sol77q9.png]]
+
+** Solutions des exercices d'arithmétique
+*** Solution de l'exercice 78
+
+    On se place dans le plan muni d'un repère \((O ; \vec{i} ,
+    \vec{j})\) avec \((\vec{i} , \vec{j})\) la base canonique.
+
+    1. Pour \(n\in\{1, 2, 3, 4, 5, 6\}\) tracer les 6 vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 6\end{pmatrix}\]
+
+       [[./img/sol78q1.png]]
+    2. Calcul des pentes respectives \(p_n\) :
+       \begin{align*}
+       p_1 &= \dfrac{6}{1} = 6\\
+       p_2 &= \dfrac{6}{2} = 3\\
+       p_3 &= \dfrac{6}{3} = 2\\
+       p_4 &= \dfrac{6}{4} = \dfrac{3}{2} = 1,5\\
+       p_5 &= \dfrac{6}{5} = 1,2\\
+       p_6 &= \dfrac{6}{6} = 1
+       \end{align*}
+    3. Les pentes \(p_1, p_2, p_3, p_6\) sont des entiers.       
+    4. On en déduit que les abscisses des vecteurs dont la pente est
+       un entier sont des diviseurs de 6.
+    5. Tracer les 6 vecteurs
+       \[\vec{v}_n\begin{pmatrix}6\\ n\end{pmatrix}\]
+
+       [[./img/sol78q5.png]]
+       
+       On remarque que \(\vec{v}_6 = \vec{u}_6\).
+    6. Calcul des pentes respectives \(q_n\) :
+       \begin{align*}
+       q_1 &= \dfrac{1}{6}\\
+       q_2 &= \dfrac{2}{6} = \dfrac{1}{3}\\
+       q_3 &= \dfrac{3}{6} = \dfrac{1}{2}\\
+       q_4 &= \dfrac{4}{6} = \dfrac{2}{3}\\
+       q_5 &= \dfrac{5}{6}\\
+       q_6 &= \dfrac{6}{6} = 1
+       \end{align*}
+    7. On peut obtenir les \(q_n) à partir des \(p_n\) en appliquant
+       la fonction inverse.
+    8. Concrètement la relation entre les \(p_n\) et les \(q_n\) est :
+       \[q_n = \dfrac{1}{p_n}\]
+    9. Il y a exactement 4 vecteurs du plan dans le cadrant supérieur
+       droit à coordonnées entières tels que leur produit vaut 6.
+    10. Les vecteurs à coordonnées entières vérifiant les
+        conditions de la question précédente sont :
+
+	[[./img/sol78q10.png]]
+
+
+*** Solutions de l'exercice 79
+
+    On se place dans le plan muni d'un repère \((O ; \vec{i} ,
+    \vec{j})\) avec \((\vec{i} , \vec{j})\) la base canonique.
+
+    1. Pour \(n\in\{1, 2, \dots , 12\}\) voici les 12 vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 12\end{pmatrix}\]
+
+       [[./img/sol79q1.png]]
+    2. Calcul des pentes respectives \(p_n\) :
+       \begin{align*}
+       p_1 &= \dfrac{12}{1} = 12\\
+       p_2 &= \dfrac{12}{2} = 6\\
+       p_3 &= \dfrac{12}{3} = 4\\
+       p_4 &= \dfrac{12}{4} = 3\\
+       p_5 &= \dfrac{12}{5} = 2,4\\
+       p_6 &= \dfrac{12}{6} = 2\\
+       p_7 &= \dfrac{12}{7} \\
+       p_8 &= \dfrac{12}{8} = \dfrac{3}{2} = 1,5\\
+       p_9 &= \dfrac{12}{9} = \dfrac{4}{3}\\
+       p_{10} &= \dfrac{12}{10} = \dfrac{6}{5} = 1,2\\
+       p_{11} &= \dfrac{12}{11}\\
+       p_{12} &= \dfrac{12}{12} = 1
+       \end{align*}
+       
+    3. Les pentes \(p_1, p_2, p_3, p_4, p_6, p_{12}\) sont des nombres entiers.
+    4. On en déduit que les abscisses des vecteurs dont la pente est
+       un entier sont les diviseurs de 12.
+    5. Voici les 12 vecteurs
+       \[\vec{v}_n\begin{pmatrix}12\\ n\end{pmatrix}\]
+
+       [[./img/sol79q5.png]]
+       On remarque que \(\vec{v}_{12} = \vec{u}_{12}\).
+    6. Calcul des pentes respectives \(q_n\) :
+       \begin{align*}
+       q_1 &= \dfrac{1}{12}\\
+       q_2 &= \dfrac{2}{12} = \dfrac{1}{6}\\
+       q_3 &= \dfrac{3}{12} = \dfrac{1}{4}\\
+       q_4 &= \dfrac{4}{12} = \dfrac{1}{3}\\
+       q_5 &= \dfrac{5}{12}\\
+       q_6 &= \dfrac{6}{12} = \dfrac{1}{2} = 0,5\\
+       q_7 &= \dfrac{7}{12} \\
+       q_8 &= \dfrac{8}{12} = \dfrac{2}{3}\\
+       q_9 &= \dfrac{9}{12} = \dfrac{3}{4} = 0,75\\
+       q_{10} &= \dfrac{10}{12} = \dfrac{5}{6}\\
+       q_{11} &= \dfrac{11}{12}\\
+       q_{12} &= \dfrac{12}{12} = 1
+       \end{align*}
+    7. On peut les obtenir à partir des \(p_n\) en appliquant la
+       fonction inverse.
+    8. La relation entre les \(p_n\) et les \(q_n\) est \[q_n = \dfrac{1}{p_n}\]
+    9. Il y a 6 vecteurs du plan dans le cadrant supérieur
+       droit de coordonnées entières tels que leur produit vaut 12.
+    10. Voici tous les vecteurs à coordonnées entières vérifiant les
+        conditions de la question précédente :
+
+	[[./img/sol79q10.png]]
+
+
+    
+*** Solutions de l'exercice 80
+
+    On poursuit la même logique que les deux exercices précédents.
+    
+    Mais cette fois on va calculer sans représenter les vecteurs parce
+    qu'on va prendre \(n = 60\).
+
+    1. Pour \(n\in\{1, 2, \dots , 60\}\) les vecteurs
+       \[\vec{u}_n\begin{pmatrix}n\\ 12\end{pmatrix}\]
+       qui ont une pente entière sont :
+       \begin{align*}
+       \vec{u}_1\begin{pmatrix}1\\ 60\end{pmatrix}\Rightarrow p_1 = 60 &&
+       \vec{u}_2\begin{pmatrix}2\\ 60\end{pmatrix}\Rightarrow p_2 = 30\\
+       \vec{u}_3\begin{pmatrix}3\\ 60\end{pmatrix}\Rightarrow p_3 = 20 &&
+       \vec{u}_4\begin{pmatrix}4\\ 60\end{pmatrix}\Rightarrow p_4 = 15\\
+       \vec{u}_5\begin{pmatrix}5\\ 60\end{pmatrix}\Rightarrow p_5 = 12 &&
+       \vec{u}_6\begin{pmatrix}6\\ 60\end{pmatrix}\Rightarrow p_6 = 10\\
+       \vec{u}_{10}\begin{pmatrix}10\\ 60\end{pmatrix}\Rightarrow p_{10} = 6 &&
+       \vec{u}_{12}\begin{pmatrix}12\\ 60\end{pmatrix}\Rightarrow p_{12} = 5\\
+       \vec{u}_{15}\begin{pmatrix}15\\ 60\end{pmatrix}\Rightarrow p_{15} = 4 &&
+       \vec{u}_{20}\begin{pmatrix}20\\ 60\end{pmatrix}\Rightarrow p_{20} = 3\\
+       \vec{u}_{30}\begin{pmatrix}30\\ 60\end{pmatrix}\Rightarrow p_{30} = 2 &&
+       \vec{u}_{60}\begin{pmatrix}60\\ 60\end{pmatrix}\Rightarrow p_{60} = 1
+       \end{align*}
+    2. On en déduit que les abscisses des vecteurs dont la
+       pente est un entier sont les diviseurs de 60.
+    3. Il y a 12 vecteurs du plan dans le cadrant supérieur
+       droit de coordonnées entières tels que leur produit vaut 60 :
+       \begin{align*}
+       \vec{d}_1\begin{pmatrix}1\\ 60\end{pmatrix} && \vec{d}_{12}\begin{pmatrix}60\\ 1\end{pmatrix}\\
+       \vec{d}_2\begin{pmatrix}2\\ 30\end{pmatrix} && \vec{d}_{11}\begin{pmatrix}30\\ 2\end{pmatrix}\\
+       \vec{d}_3\begin{pmatrix}3\\ 20\end{pmatrix} && \vec{d}_{10}\begin{pmatrix}20\\ 3\end{pmatrix}\\
+       \vec{d}_4\begin{pmatrix}4\\ 15\end{pmatrix} && \vec{d}_9\begin{pmatrix}15\\ 4\end{pmatrix}\\
+       \vec{d}_5\begin{pmatrix}5\\ 12\end{pmatrix} && \vec{d}_8\begin{pmatrix}12\\ 5\end{pmatrix}\\
+       \vec{d}_6\begin{pmatrix}6\\ 10\end{pmatrix} && \vec{d}_7\begin{pmatrix}10\\ 6\end{pmatrix}
+       \end{align*}

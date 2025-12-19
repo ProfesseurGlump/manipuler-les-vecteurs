@@ -1,0 +1,63 @@
+** Solution de l'exercice 13
+
+    
+    On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+    \begin{align*}
+    \vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+    \end{align*}
+
+    On considère les points A(2 ; 3), B(-3 ; 2), C(-2 ; -3) et D(3 ;
+    -2) tels que sur la figure :
+
+    [[./img/figexo13.png]]
+
+    1. Calculs des distances AB, AC, AD, BC, BD, CD :
+       \begin{align*}
+       AB &= \sqrt{(-3 - 2)^2 + (2 - 3)^2} = \sqrt{26}\\
+       AC &= \sqrt{(-2 - 2)^2 + (-3 - 3)^2} = \sqrt{52}\\
+       AD &= \sqrt{(3 - 2)^2 + (-2 - 3)^2} = \sqrt{26}\\
+       BC &= \sqrt{(-2 - (-3))^2 + (-3 - 2)^2} = \sqrt{26}\\
+       BD &= \sqrt{(3 - (-3))^2 + (-2 - 2)^2} = \sqrt{52}\\
+       CD &= \sqrt{(3 - (-2))^2 + (-2 - (-2))^2} = \sqrt{26}
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol13q1.png]]
+    2. Calculs des coordonnées des milieux des segments [AB], [AC],
+       [AD], [BC], [BD], [CD] :
+       \begin{align*}
+       M_1&\begin{pmatrix}\frac{2+(-3)}{2}\\ \frac{3+2}{2}\end{pmatrix} = \begin{pmatrix}-\frac{1}{2}\\ \frac{5}{2}\end{pmatrix}\\
+       M_2&\begin{pmatrix}\frac{2+(-2)}{2}\\ \frac{3+(-3)}{2}\end{pmatrix} = \begin{pmatrix}0\\ 0\end{pmatrix} = O\\
+       M_3&\begin{pmatrix}\frac{2+3}{2}\\ \frac{3+(-2)}{2}\end{pmatrix} = \begin{pmatrix}\frac{5}{2}\\ \frac{1}{2}\end{pmatrix}\\
+       M_4&\begin{pmatrix}\frac{(-3)+(-2)}{2}\\ \frac{2+(-3)}{2}\end{pmatrix} = \begin{pmatrix}-\frac{5}{2}\\ -\frac{1}{2}\end{pmatrix}\\
+       M_5&\begin{pmatrix}\frac{(-3)+3}{2}\\ \frac{2+(-2)}{2}\end{pmatrix} = \begin{pmatrix}0\\ 0\end{pmatrix} = O\\
+       M_6&\begin{pmatrix}\frac{(-2)+3}{2}\\ \frac{(-3)+(-2)}{2}\end{pmatrix} = \begin{pmatrix}\frac{1}{2}\\ -\frac{5}{2}\end{pmatrix}
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol13q2.png]]
+       
+
+** Solution du QCM d'auto-évaluation 
+
+    1. La distance entre \(A(x_A ; y_A)\) et \(B(x_B ; y_B)\) vaut :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. \(AB = x_Ax_B + y_Ay_B\)
+       2. \(AB = (x_A + x_B)^2 + (y_A + y_B)^2\)
+       3. \(AB = (x_A - x_B)^2 + (y_A - y_B)^2\)
+       4. \(AB = \sqrt{(x_A - x_B)^2 + (y_A - y_B)^2}\)
+
+	  (*Bonne réponse*)
+    2. Le milieu \(M(x_M ; y_M)\) du segment [AB] vérifie :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. \((x_M ; y_M) = \left(\dfrac{x_A + x_B}{2} ; \dfrac{y_A +
+          y_B}{2}\right)\)
+
+	  (*Bonne réponse*)
+       2. \((x_M ; y_M) = \left(\dfrac{x_A - x_B}{2} ; \dfrac{y_A -
+          y_B}{2}\right)\)
+       3. \((x_M ; y_M) = \left(\dfrac{x_A \times x_B}{2} ; \dfrac{y_A \times
+          y_B}{2}\right)\)
+       4. \((x_M ; y_M) = \left(\dfrac{x_A \div x_B}{2} ; \dfrac{y_A \div
+          y_B}{2}\right)\)

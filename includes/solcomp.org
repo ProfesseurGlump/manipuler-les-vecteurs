@@ -1,0 +1,954 @@
+** Pour s'exercer davantage
+*** Solution de l'exercice 16
+
+
+    On se place dans le plan muni du repère orthonormé \((O ; \vec{i},
+    \vec{j})\). 
+    
+    1. Placer les points O(0 ; 0), I(1 ; 0), J(0 ; 1) et A tel que
+       \[\overrightarrow{OA} = \vec{i} + \vec{j}\]
+       On peut voir sur la figure que le triangle OIA est rectangle et
+       isocèle en I.
+       \begin{align*}
+       OI^2 + IA^2 &= 1^2 + 0^2 + 0^2 + 1^2 = 2\\
+       OA^2 &= 1^2 + 1^2 = 2
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q1.png]]
+       
+    2. Placer le point B tel que
+       \[\overrightarrow{AB} = \vec{j} - \vec{i}\]
+       Une égalité vectorielle plus simple pour placer le
+       point B est
+       \[\overrightarrow{OB} = 2\vec{j}\]
+       Pour la trouver on utilise Chasles :
+       \begin{align*}
+       \overrightarrow{AB} &= \overrightarrow{AO} +
+       \overrightarrow{OB}\\
+       \overrightarrow{OB} &= \overrightarrow{AB} -
+       \overrightarrow{AO}\\
+       \overrightarrow{OB} &= \overrightarrow{AB} +
+       \overrightarrow{OA}\\
+       \overrightarrow{OB} &= \vec{j} - \vec{i} + \vec{i} + \vec{j}\\
+       \overrightarrow{OB} &= 2\vec{j}
+       \end{align*}
+       Par Pythagore :
+       \[OB^2 = OA^2 + AB^2\]
+       En effet :
+       \begin{align*}
+       OB^2 &= 0^2 + 2^2 = 4\\
+       OA^2 + AB^2 &= 1^2 + 1^2 + (0 - 1)^2 + (2 - 1)^2 = 4
+       \end{align*}
+       Le triangle OAB est isocèle et rectangle en A.
+
+       Voir figure :
+       [[./img/sol16q2.png]]
+       
+    3. Placer le point C tel que
+       \[\overrightarrow{OC} = 2\overrightarrow{AB}\]
+       Une égalité vectorielle plus simple pour placer le
+       point C est
+       \[\overrightarrow{BC} = -2\vec{i}\]
+       On la trouve en utilisant Chasles :
+       \begin{align*}
+       \overrightarrow{OC} &= \overrightarrow{OB} + \overrightarrow{BC}\\
+       \overrightarrow{BC} &= \overrightarrow{OC} - \overrightarrow{OB}\\
+       \overrightarrow{BC} &= 2(\vec{j} - \vec{i}) - 2\vec{j}\\
+       \overrightarrow{BC} &= -2\vec{i}
+       \end{align*}
+       Par Pythagore :
+       \[OC^2 = OB^2 + BC^2\]
+       En effet :
+       \begin{align*}
+       OC^2 &= (-2)^2 + 2^2 = 8\\
+       OB^2 + BC^2 &= 0^2 + 2^2 + (-2)^2 + 0^2 = 8
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q3.png]]
+       
+    4. Placer le point D tel que
+       \[\overrightarrow{OD} = -4\vec{i}\]
+       Le triangle COD est isocèle et rectangle en C :
+       \begin{align*}
+       OC^2 &= (-2)^2 + 2^2 = 8\\
+       \overrightarrow{CD} &= \overrightarrow{CO} + \overrightarrow{OD}\\
+       \overrightarrow{CD} &= 2\vec{i} - 2\vec{j} - 4\vec{i}\\
+       \overrightarrow{CD} &= -2(\vec{i} + \vec{i})\\
+       CD^2 &= (-2)^2 + (-2)^2 = 8\\
+       OD^2 &= (-4)^2 + 0^2 = 16
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q4.png]]
+       
+    5. Placer le point E tel que
+       \[\overrightarrow{DE} = -4\vec{j}\]
+       Le triangle ODE est isocèle est rectangle en D.
+       Les vecteurs \(\overrightarrow{OA}\) et \(\overrightarrow{OE}\) sont
+       colinéaires.
+       \begin{align*}
+       \overrightarrow{OE} &= \overrightarrow{OD} + \overrightarrow{DE}\\
+       \overrightarrow{OE} &= -4\vec{i} - 4\vec{j}\\
+       \overrightarrow{OE} &= -4\overrightarrow{OA}\\
+       DE^2 &= 0^2 + (-4)^2 = 16\\
+       OD^2 &= (-4)^2 + 0^2 = 16\\
+       OE^2 &= (-4)^2 + (-4)^2 = 32
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q5.png]]
+       
+    6. Placer le point F tel que
+       \[\overrightarrow{OF} = -4\overrightarrow{OB}\]
+       Le triangle EOF est isocèle est rectangle en E.
+       \begin{align*}
+       \overrightarrow{EF} &= \overrightarrow{EO} + \overrightarrow{OF}\\
+       \overrightarrow{EF} &= 4(\vec{i} + \vec{j}) - 4(2\vec{j})\\
+       \overrightarrow{EF} &= 4(\vec{i} - \vec{j})\\
+       EF^2 &= 4^2 + (-4)^2 = 32\\
+       OE^2 &= (-4)^2 + (-4)^2 = 32\\
+       OF^2 &= (-4)^2\times 2^2 = 64
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q6.png]]
+       
+    7. Placer le point G tel que
+       \[\overrightarrow{FG} = 8\vec{i}\]
+       Le triangle FOG est isocèle et rectangle en F.
+       \begin{align*}
+       OF^2 &= 64\\
+       FG^2 &= 8^2 + 0^2 = 64\\
+       OG^2 &= 64 + 64 = 128
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q7.png]]
+       
+    8. Calcul des coordonnées des points H, K, L, M, N, P milieux
+       respectifs des segments [OA], [OC], [OD], [OE], [OF], [OG] :
+
+       \begin{align*}
+       H\begin{pmatrix}\frac{1}{2}\\ \frac{1}{2}\end{pmatrix} &&
+       K\begin{pmatrix}-1\\ 1\end{pmatrix}\\
+       L\begin{pmatrix}-2\\ 0\end{pmatrix} &&
+       M\begin{pmatrix}-2\\ -2\end{pmatrix}\\
+       N\begin{pmatrix}0\\ -4\end{pmatrix} &&
+       P\begin{pmatrix}4\\ -4\end{pmatrix}
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol16q8.png]]
+       
+    9. Voir figure :
+       [[./img/sol16q9.png]]
+       
+    10. On remarque que les cercles sont circonscrits aux triangles
+        respectifs.
+	
+	Voir figure :
+	[[./img/sol16q10.png]]
+	
+    
+*** Solution de l'exercice 17
+
+    On se place dans le plan muni du repère orthonormé \((O ; \vec{i},
+    \vec{j})\). Pour la suite de l'exercice on considère les points
+    \(I(1 ; 0)\) et \(J(0 ; 1)\) ainsi que le vecteur
+    \[\vec{u} = 2\vec{j} - 3\vec{i}\]
+
+    1. L'ensemble des points \(M(x ; y)\) du plan tels que
+       \[det(\vec{i} , \overrightarrow{OM}) = 0\]
+       est l'axe des abscisses. En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{i} , \overrightarrow{OM}) = 0
+       &\iff \begin{vmatrix}1&x\\ 0&y \end{vmatrix} = 0\\
+       det(\vec{i} , \overrightarrow{OM}) = 0 &\iff y = 0\\
+       det(\vec{i} , \overrightarrow{OM}) = 0 &\iff
+       \overrightarrow{OM} = x\vec{i}
+       \end{align*}
+       Avec \(x\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout l'axe des abscisses.
+
+       Voir figure :
+       [[./img/sol17q1.png]]
+    2. L'ensemble des points \(M(x ; y)\) du plan tels que
+       \[det(\vec{j} , \overrightarrow{OM}) = 0\]
+       est l'axe des ordonnées. En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{j} , \overrightarrow{OM}) = 0
+       &\iff \begin{vmatrix}0&x\\ 1&y \end{vmatrix} = 0\\
+       det(\vec{j} , \overrightarrow{OM}) = 0 &\iff x = 0\\
+       det(\vec{j} , \overrightarrow{OM}) = 0 &\iff
+       \overrightarrow{OM} = y\vec{j}
+       \end{align*}
+       Avec \(y\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout l'axe des ordonnées.
+
+       Voir figure :
+       [[./img/sol17q2.png]]
+    3. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\overrightarrow{OM} , \vec{u}) = 0\]
+       est la droite d'équation cartésienne
+       \[2x + 3y = 0\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\overrightarrow{OM} , \vec{u}) = 0
+       &\iff \begin{vmatrix}x&-3\\ y&2 \end{vmatrix} = 0\\
+       det(\overrightarrow{OM} , \vec{u}) = 0 &\iff 2x + 3y = 0
+       \end{align*}
+       Si \(2x + 3y = 0\) alors on peut écrire \(y = -\dfrac{2}{3}x\)
+       et on retrouve l'expression d'une fonction linéaire.
+       
+       Voir figure :
+       [[./img/sol17q3.png]]
+    4. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\vec{i} , \overrightarrow{IM}) = 0\]
+       est l'axe des abscisses.
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{i} , \overrightarrow{IM}) = 0
+       &\iff \begin{vmatrix}1&x - 1\\ 0&y - 0 \end{vmatrix} = 0\\
+       det(\vec{i} , \overrightarrow{IM}) = 0 &\iff y = 0\\
+       det(\vec{i} , \overrightarrow{IM}) = 0 &\iff
+       \overrightarrow{IM} = (x - 1)\vec{i}
+       \end{align*}
+       Avec \(x\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout l'axe des abscisses.
+
+       Voir figure :
+       [[./img/sol17q4.png]]
+    5. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\vec{j} , \overrightarrow{JM}) = 0\]
+       est l'axe des ordonnées. En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{j} , \overrightarrow{JM}) = 0
+       &\iff \begin{vmatrix}0&x\\ 1&y - 1 \end{vmatrix} = 0\\
+       det(\vec{j} , \overrightarrow{JM}) = 0 &\iff x = 0\\
+       det(\vec{j} , \overrightarrow{JM}) = 0 &\iff
+       \overrightarrow{OM} = (y - 1)\vec{j}
+       \end{align*}
+       Avec \(y\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout l'axe des ordonnées.
+
+       Voir figure :
+       [[./img/sol17q5.png]]
+    6. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\vec{i} , \overrightarrow{JM}) = 0\]
+       est la droite horizontale d'équation \[y = 1\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{i} , \overrightarrow{JM}) = 0
+       &\iff \begin{vmatrix}1&x\\ 0&y - 1 \end{vmatrix} = 0\\
+       det(\vec{i} , \overrightarrow{JM}) = 0 &\iff y = 1\\
+       det(\vec{i} , \overrightarrow{JM}) = 0 &\iff
+       \overrightarrow{JM} = x\vec{i}
+       \end{align*}
+       Avec \(x\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout la droite parallèle à
+       l'axe des abscisses passant par J.
+
+       Voir figure :
+       [[./img/sol17q6.png]]
+    7. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\vec{j} , \overrightarrow{IM}) = 0\]
+       est la droite verticale d'équation \[x = 1\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\vec{j} , \overrightarrow{IM}) = 0
+       &\iff \begin{vmatrix}0&x - 1\\ 1&y \end{vmatrix} = 0\\
+       det(\vec{j} , \overrightarrow{IM}) = 0 &\iff x = 1\\
+       det(\vec{j} , \overrightarrow{IM}) = 0 &\iff
+       \overrightarrow{IM} = y\vec{j}
+       \end{align*}
+       Avec \(y\in\mathbb{R}\) qui peut prendre n'importe quelle
+       valeur réelle et donc qui couvre tout la droite parallèle à
+       l'axe des ordonnées passant par I.
+
+       Voir figure :
+       [[./img/sol17q7.png]]
+    8. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\overrightarrow{IM}, \vec{u}) = 0\]
+       est la droite d'équation
+       \[2x + 3y - 2 = 0\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\overrightarrow{IM} , \vec{u}) = 0
+       &\iff \begin{vmatrix}x - 1&-3\\ y&2 \end{vmatrix} = 0\\
+       det(\overrightarrow{IM} , \vec{u}) = 0 &\iff 2x + 3y - 2 = 0
+       \end{align*}
+       Si \(2x + 3y - 2 = 0\) alors on peut écrire \(y =
+       \dfrac{2}{3} - \dfrac{2}{3}x\)
+       et on retrouve l'expression d'une fonction affine.
+       
+       Voir figure :
+       [[./img/sol17q8.png]]
+    9. L'ensemble des points \(M(x ; y)\) du plan tels que       
+       \[det(\overrightarrow{JM}, \vec{u}) = 0\]
+       En effet, si le déterminant est nul
+       alors les vecteurs sont colinéaires. Par conséquent :
+       \begin{align*}
+       det(\overrightarrow{JM} , \vec{u}) = 0
+       &\iff \begin{vmatrix}x&-3\\ y - 1&2 \end{vmatrix} = 0\\
+       det(\overrightarrow{JM} , \vec{u}) = 0 &\iff 2x + 3y - 3 = 0
+       \end{align*}
+       Si \(2x + 3y - 3 = 0\) alors on peut écrire \(y =
+       1 - \dfrac{2}{3}x\)
+       et on retrouve l'expression d'une fonction affine.
+       
+       Voir figure :
+       [[./img/sol17q9.png]]
+    10. Soient un point \(P(x_P ; y_P)\) et un vecteur \(\vec{v} =
+        a\vec{j} - b\vec{i}\). L'ensemble des points \(M(x ; y)\)
+       du plan tels que       
+       \[det(\vec{v} , \overrightarrow{PM}) = 0\]
+       est la droite d'équation cartésienne :
+       \[ax + by + c = 0\]
+       Démontrons cela en détails : 
+       \begin{align*}
+       det(\vec{v} , \overrightarrow{PM}) = 0&\iff \begin{vmatrix}-b&(x - x_P)\\ a&(y - y_P)\end{vmatrix} = 0\\
+       det(\vec{v} , \overrightarrow{PM}) = 0&\iff a(x - x_P) + b(y - y_P) = 0\\
+       det(\vec{v} , \overrightarrow{PM}) = 0&\iff ax + by - (ax_P + by_P) = 0\\
+       det(\vec{v} , \overrightarrow{PM}) = 0&\iff ax + by + c = 0
+       \end{align*}
+       Il suffit de ce rappeler que
+       \[c = -(ax_P + by_P)\]
+       + Si \(a = 0\) on obtient \(y = -\dfrac{c}{b}\) c'est-à-dire
+         une droite parallèle à l'axe des abscisses.
+	 
+	 Voir figure :
+	 [[./img/sol17q10a.png]]
+       + Si \(b = 0\) on obtient \(x = -\dfrac{c}{a}\) c'est-à-dire
+         une droite parallèle à l'axe des ordonnées.
+	 
+	 Voir figure :
+	 [[./img/sol17q10b.png]]
+       + Si \(c = 0\) on obtient \(y = -\dfrac{a}{b}x\) c'est-à-dire
+         une fonction linéaire donc une droite oblique passant par
+         l'origine.
+	 
+	 Voir figure :
+	 [[./img/sol17q10c.png]]
+       + Si \(abc \neq 0\) on obtient \(y = -\dfrac{a}{b}x -
+         \dfrac{c}{b}\) c'est-à-dire	 
+         une fonction affine donc une droite oblique ne passant pas par
+         l'origine.
+	 
+	 Voir figure :
+	 [[./img/sol17q10d.png]]
+
+       Dans tous les cas le vecteur \(\vec{v} = a\vec{j} - b\vec{i}\)
+        dirige la droite obtenue.
+
+*** Solution de l'exercice 18
+
+    Puisque nous avons A et B deux points distincts dans le plan et
+    que la condition est MA = MB alors la seule chose que l'on peut
+    faire c'est de calculer les distances. Or les distances sont des
+    nombres positifs donc on peut utiliser leurs carrés ce qui nous
+    évitera de manipuler des radicaux (racines carrées).
+
+    \begin{align*}
+    MA &= MB\\
+    MA^2 &= MB^2\\
+    MA^2 - MB^2 &= 0\\
+    (x - x_A)^2 + (y - y_A)^2 - (x - x_B)^2 - (y - y_B)^2 &= 0\\
+    2x(x_B - x_A) + (x_A)^2 - (x_B)^2 + 2y(y_B - y_A) + (y_A)^2 - (y_B)^2 &= 0\\
+    2x_{\overrightarrow{AB}}x + 2y_{\overrightarrow{AB}}y - (x_B + x_A)x_{\overrightarrow{AB}} - (y_B + y_A)y_{\overrightarrow{AB}} &= 0\\
+    x_{\overrightarrow{AB}}x + y_{\overrightarrow{AB}}y - \left(\dfrac{x_B + x_A}{2}x_{\overrightarrow{AB}} + \dfrac{y_B + y_A}{2}y_{\overrightarrow{AB}}\right) &= 0\\
+    ax + by + c &= 0
+    \end{align*}
+    Il s'agit d'une droite passant par le milieu du segment [AB] de
+    coordonnées
+    \[\begin{pmatrix}\frac{x_A+x_B}{2}\\ \frac{y_A+y_B}{2}\end{pmatrix}\]
+    et dirigée par le vecteur
+    \[\vec{v} = b\vec{j} - a\vec{i}\]
+    Avec
+    \begin{align*}
+    a &= (x_B - x_A) = x_{\overrightarrow{AB}}\\
+    b &= (y_B - y_A) = y_{\overrightarrow{AB}}\\
+    c &= \dfrac{(x_A)^2 - (x_B)^2 + (y_A)^2 - (y_B)^2}{2}\\
+    c &= -\left(\dfrac{x_B+x_A}{2}x_{\overrightarrow{AB}}+\dfrac{y_B+y_A}{2}y_{\overrightarrow{AB}}\right)
+    \end{align*}
+
+    Si on considère les points D et E tels que :
+    \begin{align*}
+    \overrightarrow{OD} &= \overrightarrow{AB}\\
+    \overrightarrow{OE} &= \vec{v}\\
+    DE^2 &= \left((y_B - y_A) - (x_B - x_A)\right)^2 + \left(-(x_B - x_A) - (y_B - y_A)\right)^2\\
+    DE^2 &= \left((x_B - x_A) - (y_B - y_A)\right)^2 + \left((x_B - x_A) + (y_B - y_A)\right)^2\\
+    DE^2 &= 2\left((y_B - y_A)^2 + (x_B - x_A)^2\right)\\
+    DE^2 &= 2\lvert\lvert\vec{v}\rvert\rvert^2\\
+    \lvert\lvert\vec{v}\rvert\rvert &= AB = OD
+    \end{align*}
+    Ainsi le triangle ODE est rectangle en O donc les vecteurs
+    \(\overrightarrow{AB}\) et \(\vec{v}\) sont orthogonaux.
+
+    L'ensemble des points vérifiants MA = MB est donc une droite
+    passant perpendiculairement par le milieu du segment [AB], c'est
+    donc la médiatrice du segment [AB].
+
+    Voir figure :
+    [[./img/sol18.png]]
+
+
+*** Solution de l'exercice 19
+    
+    1. Pour que les trois points A, B et C soient alignés il faut
+       obtenir l'une des égalités vectorielles suivantes :
+       \begin{align*}
+       \overrightarrow{AC} &= k\overrightarrow{AB}\\
+       \overrightarrow{BC} &= k\overrightarrow{BA}
+       \end{align*}
+       Avec \(k\in\mathbb{R}\) un nombre réel non nul (qui n'est pas
+       le même dans les deux égalités). Une seule des deux égalités
+       suffit. Il est important que l'origine du vecteur soit l'un des
+       deux points connus (A ou B) et l'extrémité le nouveau point
+       C. De cette manière on a deux vecteurs colinéaires avec la même
+       origine donc les points sont alignés.       
+    2. Il existe 3 configurations différentes pour que les
+       points A, B et C soient alignés. Sans perte de généralité on va
+       supposer que le point A est plus à gauche que le point B.
+       1. Le point C est situé avant le point A ce qui correspond à
+          \(k < 0\) dans la première égalité.
+
+	  Voir figure :
+	  [[./img/sol19q2a.png]]
+       2. Le point C est situé entre le point A et le point B ce qui
+          correspond à \( 0 < k < 1\) dans la première égalité.
+
+	  Voir figure :
+	  [[./img/sol19q2b.png]]
+       3. Le point C est situé après le point B ce qui correspond à
+          \(k > 1\) dans la première égalité.
+
+	  Voir figure :
+	  [[./img/sol19q2c.png]]
+    3. Désormais on ajoute un repère orthonormé \((O ; \vec{i} ,
+       \vec{j})\) et par conséquent les points ont les coordonnées
+       respectives :
+       \[A(x_A ; y_A), B(x_B ; y_B), C(x_C ; y_C) \]
+
+       On peut donc calculer le déterminant.
+       \begin{align*}
+       det(\overrightarrow{AC} , \overrightarrow{AB}) &= \begin{vmatrix}x_C - x_A&x_B - x_A\\ y_C - y_A&y_B - y_A\end{vmatrix}\\
+       det(\overrightarrow{AC} , \overrightarrow{AB}) &= (x_C - x_A)(y_B - y_A) - (y_C - y_A)(x_B - x_A)
+       \end{align*}
+
+       Si le déterminant est nul alors les points A, B et C sont
+       alignés et sinon ils forment un triangle.
+    4. Écrivons un programme Python :
+       #+BEGIN_SRC python
+	 x_1 = float(input("Abscisse du point 1, x_1 = "))
+	 y_1 = float(input("Ordonnée du point 1, y_1 = "))
+	 x_2 = float(input("Abscisse du point 2, x_2 = "))
+	 y_2 = float(input("Ordonnée du point 2, y_2 = "))
+	 x_3 = float(input("Abscisse du point 3, x_3 = "))
+	 y_3 = float(input("Ordonnée du point 3, y_3 = "))
+	 x12 = x_2 - x_1
+	 y12 = y_2 - y_1
+	 x13 = x_3 - x_1
+	 y13 = y_3 - y_1
+	 det = x12 * y13 - y12 * x13
+	 if det == 0:
+	     print("Les points sont alignés")
+	     if x13 / x12 < 0:
+		 print("Le 3ème point est à gauche du 1er.")
+	     elif x13 / x12 > 1:
+		 print("Le 3ème point est à droite du 2nd.")
+	     else:
+		 print("Le 3ème point est entre les 2 premiers.")
+	 else:
+	     print("Les 3 points forment un triangle.")
+       #+END_SRC
+       
+
+*** Solution de l'exercice 20
+      
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\).
+
+    1. Construction du vecteur
+       \[\vec{u} = 3\vec{i} + 4\vec{j}\]
+       et placement du point A tel que
+       \[\overrightarrow{OA} = \vec{u}\]
+
+       Voir figure :
+       [[./img/sol20q1.png]]       
+    2. Plaçons le point H tel que
+       \[\overrightarrow{OH} = 3\vec{i}\]
+       et le point K tel que
+       \[\overrightarrow{OK} = 4\vec{j}\]
+       On en déduit une égalité vectorielle liant \(\overrightarrow{OA},
+       \overrightarrow{OH}\) et \(\overrightarrow{OK}\) :
+       \[\overrightarrow{OA} = \overrightarrow{OH} +
+       \overrightarrow{OK}\]
+
+       Voir figure :
+       [[./img/sol20q2.png]]       
+    3. Le triangle AHO est rectangle en H car
+       \begin{align*}
+       OA^2 &= 3^2 + 4^2\\
+       OH^2 + HA^2 &= 3^2 + 4^2
+       \end{align*}
+       Le triangle AHI est rectangle en H car
+       \begin{align*}
+       IA^2 &= (3 - 1)^2 + (4 - 0)^2 = 2^2 + 4^2 = 20\\
+       IH^2 + HA^2 &= (3 - 1)^2 + 4^2 = 2^2 + 4^2 = 20
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol20q3.png]]
+       
+    4. Soit M un point quelconque sur l'axe des abscisses. Comparons
+       AM et AH :
+       + soit \(M = H\) et dans ce cas \(AM = AH\)
+       + soit \(M\neq H\) et dans ce cas AMH est rectangle en H donc
+         AM est l'hypoténuse ce qui veut dire AM > AH :
+	 \begin{align*}
+         AM^2 &= (x - 3)^2 + 4^2\\
+         AH^2 + HM^2 &= 4^2 + (x - 3)^2\\
+         AM^2 &= AH^2 + HM^2 
+	 \end{align*}
+       
+       Il est impossible de trouver un point M tel que AM < AH.
+
+       Voir figure :
+       [[./img/sol20q4.png]]       
+    5. D'après ce qui précède le point M de l'axe des abscisses tel que la
+       distance AM soit minimale est le point H. Ainsi cette distance
+       entre A et l'axe des abscisses est :
+       \[d(A ; (OI)) = \min_{M\in (OI)}(AM) = AH\]
+       On en déduit sa valeur qui est \(AH = 4\).
+    6. Le triangle AKO est rectangle en K car :
+       \begin{align*}
+       OA^2 &= 3^2 + 4^2\\
+       OK^2 + KA^2 &= 4^2 + 3^2
+       \end{align*}
+       Le triangle AKJ est rectangle en K car :
+       \begin{align*}
+       AJ^2 &= 3^2 + (y - 4)^2\\
+       JK^2 + KA^2 &= (y - 4)^2 + 3^2
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol20q6.png]]       
+    7. Soit N un point quelconque sur l'axe des ordonnées.
+       Comparons
+       AN et AK :
+       + soit \(N = K\) et dans ce cas \(AN = AK\)
+       + soit \(N\neq K\) et dans ce cas ANK est rectangle en K donc
+         AN est l'hypoténuse ce qui veut dire AN > AK :
+	 \begin{align*}
+         AN^2 &= 3^2 + (y - 4)^2\\
+         AK^2 + KN^2 &= 3^2 + (y - 4)^2\\
+         AN^2 &= AK^2 + KN^2 
+	 \end{align*}
+       
+       Il est impossible de trouver un point N tel que AN < AK.
+
+       Voir figure :
+       [[./img/sol20q7.png]]       
+    8. D'après ce qui précède le point N de l'axe des ordonnées tel que la
+       distance AN soit minimale est le point K. Ainsi cette distance
+       entre A et l'axe des ordonnées est :
+       \[d(A ; (OJ)) = \min_{N\in (OJ)}(AN) = AK\]
+       On en déduit sa valeur qui est \(AK = 3\).
+    
+*** Solution de l'exercice 21
+
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\).
+
+    1. Calcul des coordonnées du point L milieu du segment [OK] :
+       \begin{align*}
+       x_L &= \dfrac{x_O + x_K}{2} = \dfrac{1}{2}\\
+       y_L &= \dfrac{y_O + y_K}{2} = \dfrac{1}{2}
+       \end{align*}
+       
+       Pour en déduire la nature des triangles LOI et JOL il faut
+       calculer les longueurs des côtés :
+       \begin{align*}
+       OL^2 &= \left(\dfrac{2}{2}\right)^2 + \left(\dfrac{2}{2}\right)^2 = \dfrac{1}{2}\\
+       LI^2 &= \left(1 - \dfrac{2}{2}\right)^2 + \left(0 - \dfrac{2}{2}\right)^2 = \dfrac{1}{2}\\
+       OI^2 &= 1^2 = 1\\
+       OI^2 &= OL^2 + LI^2\\
+       JL^2 &= \left(\dfrac{2}{2} - 0\right)^2 + \left(\dfrac{2}{2} - 1\right)^2 = \dfrac{1}{2}\\
+       JO^2 &= 1^2 = 1\\
+       JO^2 &= OL^2 + JL^2
+       \end{align*}
+       Les deux triangles sont isocèles et rectangles, LOI en I et JOL
+       en J.
+       
+    2. Comparons IK et IL :
+       \begin{align*}
+       IK^2 &= (1 - 1)^2 + (1 - 0)^2 = 1\\
+       IL^2 &= \dfrac{1}{2}
+       \end{align*}
+
+       Ainsi IK > IL.
+       
+       On en déduit la distance entre le point I et la droite (OK) à
+       savoir
+       \[d(I, (OK)) = IL = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}\]
+
+       *Remarque* : c'est parce que dans la question précédente on a
+       établi que LOI était rectangle en I qu'on peut conclure. 
+    3. Comparons JK et JL :
+       \begin{align*}
+       JK^2 &= (1 - 0)^2 + (1 - 1)^2 = 1\\
+       JL^2 &= \dfrac{1}{2}
+       \end{align*}
+
+       Ainsi JK > JL.
+       
+       On en déduit la distance entre le point J et la droite (OK) à
+       savoir
+       \[d(J, (OK)) = JL = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}\]
+
+       *Remarque* : c'est parce que dans la question précédente on a
+       établi que JOL était rectangle en J qu'on peut conclure. 
+    4. Par construction les points A et B sont tels que :
+       \begin{align*}
+       \overrightarrow{IA} &= \vec{u}\\
+       \overrightarrow{JB} &= \vec{u}
+       \end{align*}
+       Donc IABJ est un parallélogramme.
+
+       Maintenant comparons \(\overrightarrow{AB}\) et
+       \(\overrightarrow{IJ}\) :
+       \begin{align*}
+       x_{A} &= x_I + x_{\vec{u}} = 1 + 1 = 2\\
+       y_{A} &= y_I + y_{\vec{u}} = 0 + 1 = 1\\
+       x_{B} &= x_J + x_{\vec{u}} = 0 + 1 = 1\\
+       y_{B} &= y_J + y_{\vec{u}} = 1 + 1 = 2\\
+       x_{\overrightarrow{AB}} &= x_B - x_A = 1 - 2 = -1\\
+       y_{\overrightarrow{AB}} &= y_B - y_A = 2 - 1 = 1\\
+       x_{\overrightarrow{IJ}} &= x_J - x_I = 0 - 1 = -1\\
+       y_{\overrightarrow{IJ}} &= y_J - y_I = 1 - 0 = 1
+       \end{align*}
+
+       Ainsi \(\overrightarrow{AB} = \overrightarrow{IJ}\) et de plus
+       \[IA = AB\]
+
+       Donc IABJ est un losange.
+
+       Maintenant comparons AJ et IB :
+       \begin{align*}
+       AJ^2 &= (0 - 2)^2 + (1 - 1)^2 = 4\\
+       IB^2 &= (1 - 1)^2 + (2 - 0)^2 = 4
+       \end{align*}
+
+       Ainsi AJ = IB donc IABJ est un losange.
+
+       Finalement IABJ est un carré.
+       
+    5. Puisque IABJ est un carré la distance entre le point A et la
+       droite (IJ) est tout simplement \[IA = \sqrt{2}\]
+    
+*** Solution de l'exercice 22
+
+    Soit ABC un triangle. Le point G vérifie :
+    \[\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC}
+    = \vec{0}\]
+    
+    1. Appliquons la relation de Chasles dans l'égalité initiale et
+       exprimons le vecteur \(\overrightarrow{AG}\) en fonction des
+       vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{AC}\) :
+       \begin{align*}
+       \overrightarrow{GA} + \overrightarrow{GA} + \overrightarrow{AB} + \overrightarrow{GA} + \overrightarrow{AC} &= \vec{0}\\
+       3\overrightarrow{AG} &= \overrightarrow{AB} + \overrightarrow{AC}\\
+       \overrightarrow{AG} &= \dfrac{1}{3}(\overrightarrow{AB} + \overrightarrow{AC})
+       \end{align*}
+    2. Appliquons la relation de Chasles dans l'égalité initiale et
+       exprimons le vecteur \(\overrightarrow{BG}\) en fonction des
+       vecteurs \(\overrightarrow{BA}\) et \(\overrightarrow{BC}\) :
+       \[\overrightarrow{BG} = \dfrac{1}{3}(\overrightarrow{BA} + \overrightarrow{BC})\]
+    3. Appliquons la relation de Chasles dans l'égalité initiale et
+       exprimons le vecteur \(\overrightarrow{CG}\) en fonction des
+       vecteurs \(\overrightarrow{CB}\) et \(\overrightarrow{CA}\) :
+       \[\overrightarrow{CG} = \dfrac{1}{3}(\overrightarrow{CA} + \overrightarrow{CB})\]
+    4. Déterminons les coordonnées des points I, J et K milieux
+       respectifs des segments [AB], [BC] et [CA] :
+       \begin{align*}
+       x_I = \dfrac{x_A + x_B}{2} && y_I = \dfrac{y_A + y_B}{2} \\
+       x_J = \dfrac{x_B + x_C}{2} && y_J = \dfrac{y_B + y_C}{2} \\
+       x_K = \dfrac{x_C + x_A}{2} && y_K = \dfrac{y_C + y_A}{2} 
+       \end{align*}
+    5. Appliquons la relation de Chasles dans l'identité du milieu et
+       exprimons le vecteur \(\overrightarrow{AJ}\) en fonction des       
+       vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{AC}\) :
+       \begin{align*}
+       \overrightarrow{BJ} &= \dfrac{1}{2}\overrightarrow{BC}\\
+       \overrightarrow{BA} + \overrightarrow{AJ} &= \dfrac{1}{2}(\overrightarrow{BA} + \overrightarrow{AC})\\
+       \overrightarrow{AJ} &= \dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})
+       \end{align*}
+       On en déduit une comparaison avec \(\overrightarrow{AG}\) :
+       \[\overrightarrow{AG} = \dfrac{2}{3}\overrightarrow{AJ}\]
+    6. Faisons de même avec le vecteur \(\overrightarrow{BK}\) en
+       fonction des vecteurs \(\overrightarrow{BA}\) et
+       \(\overrightarrow{BC}\) :
+       \[\overrightarrow{BK} = \dfrac{1}{2}(\overrightarrow{BA} + \overrightarrow{BC})\]
+       On en déduit une comparaison avec \(\overrightarrow{BG}\) :
+       \[\overrightarrow{BG} = \dfrac{2}{3}\overrightarrow{BK}\]
+    7. Faisons de même avec le vecteur \(\overrightarrow{CI}\) en
+       fonction des vecteurs \(\overrightarrow{CA}\) et
+       \(\overrightarrow{CB}\) :
+       \[\overrightarrow{CI} = \dfrac{1}{2}(\overrightarrow{CA} + \overrightarrow{CB})\]
+       On en déduit une comparaison avec \(\overrightarrow{CG}\) :
+       \[\overrightarrow{CG} = \dfrac{2}{3}\overrightarrow{CI}\]
+    8. En utilisant les éléments précédents on peut établir le calcul
+       des coordonnées du point G en fonction de celles des points A,
+       B, C :
+       \begin{align*}
+       x_G - x_A &= \dfrac{1}{3}(x_B - x_A + x_C - x_A)\\
+       x_G &= \dfrac{1}{3}(x_A + x_B + x_C)\\
+       y_G &= \dfrac{1}{3}(y_A + y_B + y_C)
+       \end{align*}
+    9. En utilisant les éléments précédents on peut établir le calcul
+       des coordonnées du point G en fonction de celles des points I,
+       J, K :
+       \begin{align*}
+       \overrightarrow{AG} + \overrightarrow{BG} + \overrightarrow{CG} &= \vec{0}\\
+       \dfrac{2}{3}(\overrightarrow{AJ} + \overrightarrow{BK} + \overrightarrow{CI}) &= \vec{0}\\
+       \overrightarrow{AJ} + \overrightarrow{BK} + \overrightarrow{CI} &= \vec{0}\\
+       \overrightarrow{AG} + \overrightarrow{GJ} + \overrightarrow{BG} + \overrightarrow{GK} + \overrightarrow{CG} + \overrightarrow{GI} &= \vec{0}\\
+       \overrightarrow{GJ} + \overrightarrow{GK} + \overrightarrow{GI} &= \vec{0}\\
+       3\overrightarrow{IG} &= \overrightarrow{IJ} + \overrightarrow{IK}\\
+       \overrightarrow{IG} &= \dfrac{1}{3}(\overrightarrow{IJ} + \overrightarrow{IK})\\
+       x_G - x_I &= \dfrac{1}{3}(x_J - x_I + x_K - x_I)\\
+       x_G &= \dfrac{1}{3}(x_I + x_J + x_K)\\
+       y_G &= \dfrac{1}{3}(y_I + y_J + y_K)
+       \end{align*}
+    10. Appliquons les résultats précédents dans un cas concret avec
+        les points \(A(-4 ; 4), B(5 ; 4), C(-1 ; -2)\).
+	Calculons les coordonnées des milieux I, J, K :
+	\begin{align*}
+         x_I = \dfrac{-4 + 5}{2} = \dfrac{1}{2} && y_I = \dfrac{4 + 4}{2} = 4\\
+         x_J = \dfrac{5 + (-1)}{2} = 2&& y_J = \dfrac{4 + (-2)}{2} = 2\\
+         x_K = \dfrac{-1 + (-4)}{2} = -\dfrac{5}{2}&& y_K = \dfrac{-1 + 4}{2} = \dfrac{3}{2} 
+	\end{align*}
+	Calculons les coordonnées du point G :
+	\begin{align*}
+        x_G &= \dfrac{1}{3}(-4 + 5 - 1) = 0\\
+        y_G &= \dfrac{1}{3}(4 + 4 - 2) = 2
+	\end{align*}
+	
+	On remarque que G est le centre de gravité du triangle.
+
+	Voir figure :
+	[[./img/sol22.png]]
+
+
+*** Solution de l'exercice 23
+
+    On considère la transformation qui à tout point M associe le point
+    M' tel que :
+    
+    \[\overrightarrow{OM'} = 2\overrightarrow{OM} + \vec{u}\]
+
+    où \(\vec{u}\begin{pmatrix}3\\-1\end{pmatrix}\)
+
+    1. Approche analytique :
+       \begin{align*}
+       x' &= 2x + 3\\
+       y' &= 2y - 1
+       \end{align*}
+    2. Cas particulier : on cherche le(s) point(s) tel(s) que \(M =
+       M'\) c'est-à-dire les solutions de l'équation :
+       \begin{align*}
+       x &= 2x + 3 \Rightarrow x = -3\\
+       y &= 2y - 1 \Rightarrow y = 1
+       \end{align*}
+       Il y a exactement un point invariant par cette transformation :
+       \(A(-3 ; 1)\)
+    3. Interprétation géométrique : cette transformation est la
+       composée d'une translation et d'une homothétie de
+       rapport 2. Concrètement elle multiplie par 2 la distance à
+       l'origine du repère puis effectue un décalage de 3 unités vers
+       la droite et 1 unité vers le bas.
+    4. La transformation réciproque est celle qui fait une translation
+       de vecteur \(\vec{v} = -\vec{u}\) puis multiplie la distance à
+       l'origine par \(\dfrac{1}{2}\). Concrètement :
+       \[\overrightarrow{OM'} = \dfrac{1}{2}\overrightarrow{OM} +
+       \vec{v}\]
+       De façon analytique :
+       \begin{align*}
+       x' &= \dfrac{1}{2}x - 3\\
+       y' &= \dfrac{1}{2}y + 1
+       \end{align*}
+       Son point invariant est la solution de l'équation :
+       \begin{align*}
+       x &= \dfrac{1}{2}x - 3 \Rightarrow x = -6\\
+       y &= \dfrac{1}{2}y + 1 \Rightarrow y = 2
+       \end{align*}
+       \[B(-6 ; 2)\]
+
+
+    Voir figure :
+    [[./img/sol23.png]]
+
+
+*** Solution de l'exercice 24
+
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\) :
+    
+
+    1. Le triangle OIJ est isocèle et rectangle en O. En effet :
+       \begin{align*}
+       IJ^2 &= (0 - 1)^2 + (1 - 0)^2 = 2
+       OI^2 + OJ^2 &= 1^2 + 1^2 = 2
+       \end{align*}
+       
+    2. Le point A est le milieu du segment [IJ] donc il vérifie :
+
+       \begin{align*}
+       \overrightarrow{IA} = \overrightarrow{AJ} &\Rightarrow \overrightarrow{IA} + \overrightarrow{AJ} = 2\overrightarrow{IA}\\
+       \overrightarrow{IJ} = \overrightarrow{IA} + \overrightarrow{AJ} &\Rightarrow \overrightarrow{IJ} = 2\overrightarrow{IA} \\
+       \overrightarrow{IJ} = \overrightarrow{IO} + \overrightarrow{OJ}
+       &\Rightarrow 2\overrightarrow{IA} = \vec{j} - \vec{i}\\
+       \overrightarrow{IA} = \overrightarrow{IO} + \overrightarrow{OA}
+       &\Rightarrow \overrightarrow{OA} = \dfrac{1}{2}(\vec{j} -
+       \vec{i}) + \vec{i}\\
+       &\overrightarrow{OA} = \dfrac{1}{2}(\vec{i} + \vec{j})
+       \end{align*}
+       
+    3. Puisque B est l'image de A par la translation de vecteur
+       \(\overrightarrow{OA}\) alors :
+
+       \begin{align*}
+       \overrightarrow{OB} = 2\overrightarrow{OA}&\Rightarrow OB = 2OA\\
+       \overrightarrow{OA} = \dfrac{1}{2}(\vec{i} + \vec{j})&\Rightarrow \overrightarrow{OB} = \vec{i} + \vec{j}\\
+       OB = \lvert\lvert\vec{i} + \vec{j}\rvert\rvert&\Rightarrow OB = \sqrt{2}
+       \end{align*}
+       
+    4. Le quadrilatère OIBJ est un carré car \(\overrightarrow{OB} =
+       \vec{i} + \vec{j}\) ce qui signifie que OIBJ est un
+       parallélogramme avec un angle droit et deux côtés adjacents de
+       même longueur (cf question 1 OIJ isocèle et rectangle en O). 
+       
+    5. Le triangle OCB est isocèle et rectangle en B. En effet :
+
+       \begin{align*}
+       OC^2 &= 2^2 = 4\\
+       OB^2 + BC^2 &= 2 + (2 - 1)^2 + (0 - 1)^2 = 4
+       \end{align*}
+       
+    6. Par construction \(\overrightarrow{JK} = \vec{i} +
+       \vec{j} = \overrightarrow{OB} = \overrightarrow{IL}\) donc IJKL
+       est un parallélogramme. De plus on a :
+
+       \begin{align*}
+       \overrightarrow{LK} &= \overrightarrow{LB} + \overrightarrow{BK}\\
+       JK^2 &= OB^2 = IL^2 = 2 \\
+       \overrightarrow{JB} &= \vec{i} = \overrightarrow{BL}\\
+       \overrightarrow{IB} &= \vec{j} = \overrightarrow{BK}\\
+       IK^2 &= 2^2 = 4
+       \end{align*}
+
+       Donc IJKL est un carré.
+       
+    7. Le quadrilatère OBCD est un carré car :
+
+       \begin{align*}
+       BD^2 &= 2^2 = 4\\
+       OB^2 + OD^2 = 4\\
+       \overrightarrow{OD} &= \vec{i} - \vec{j} = \overrightarrow{BC}
+       \end{align*}
+    
+       Voir figure :
+       [[./img/sol24.png]]
+    
+*** Solution de l'exercice 26
+
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} ; \vec{j})\).
+
+       Posons \[\vec{u} = \vec{i} + \vec{j}\] pour la suite de
+       l'exercice. 
+
+    1. Le point A a pour coordonnées \((2 ; 0)\). Le point B a pour
+       coordonnées \((2 ; 1)\). Le point C a pour coordonnées \((1 ;
+       1)\).
+
+       On peut facilement vérifier que le quadrilatère IABC est un
+       carré :
+       \begin{align*}
+       IB^2 &= (x_B - x_I)^2 + (y_B - y_I)^2 = (2 - 1)^2 + (1 - 0)^2 = 2\\
+       IA^2 + AB^2 &= (x_A - x_I)^2 + (y_A - y_I)^2 + (x_B - x_A)^2 + (y_B - y_A)^2 \\
+       IA^2 + AB^2 &= (2 - 1)^2 + (0 - 0)^2 + (2 - 2)^2 + (1 - 0)^2 = 2\\
+       x_B - x_C &= x_A - x_I = (2 - 1) = 1\\
+       y_B - y_C &= y_A - y_I = (1 - 1) = 0 = (0 - 0)\\
+       \overrightarrow{CB} &= \overrightarrow{IA} = \vec{i}
+       \end{align*}
+       
+    2. Afin de déterminer les coordonnées du point D commençons par la
+       relation fournie :
+       
+       \begin{align*}
+       \overrightarrow{ID} &= \dfrac{IB}{2}(\vec{i}+\vec{j})\\
+       x_D - x_I &= \dfrac{\sqrt{2}}{2}(1 + 0)\Rightarrow x_D = 1 +
+       \dfrac{\sqrt{2}}{2} = \dfrac{2 + \sqrt{2}}{2}\\
+       y_D - y_I &= \dfrac{\sqrt{2}}{2}(0 + 1)\Rightarrow y_D = 0 +
+       \dfrac{\sqrt{2}}{2} = \dfrac{\sqrt{2}}{2}
+       \end{align*}
+       
+       on en déduit ses coordonnées \[D\left(1 + \dfrac{\sqrt{2}}{2} ;
+       \dfrac{\sqrt{2}}{2}\right)\]
+       
+    3. Le point E a pour coordonnées \(\left(1 + \dfrac{\sqrt{2}}{2} ;
+       1 + \dfrac{\sqrt{2}}{2}\right)\).
+       
+    4. Le point F a pour coordonnées \((1 ; 1 + \sqrt{2})\).
+       
+    5. Le point G a pour coordonnées \((0 ; 1 + \sqrt{2})\).
+       
+    6. Le point H a pour coordonnées \(-\left(1 + \dfrac{\sqrt{2}}{2} ;
+       1 + \dfrac{\sqrt{2}}{2}\right)\).
+       
+    7. Le point L a pour coordonnées \(\left(-1 - \dfrac{\sqrt{2}}{2} ;
+       \dfrac{\sqrt{2}}{2}\right)\).
+       
+    8. On peut vérifier qu'on a bien obtenu un octogone régulier de
+       côté 1 :
+       
+       \begin{align*}
+       OI &= \lvert\lvert\vec{i}\rvert\rvert = 1 = FG\\
+       ID &= \dfrac{\lvert\lvert\vec{u}\rvert\rvert}{2}\times \lvert\lvert\vec{u}\rvert\rvert = \dfrac{\lvert\lvert\vec{u}\rvert\rvert^2}{2} = \dfrac{2}{2} = 1 = HG\\
+       DE &= \lvert\lvert\vec{j}\rvert\rvert = 1 = HL\\
+       EF &= \dfrac{\lvert\lvert\vec{u}\rvert\rvert}{2}\times \lvert\lvert\vec{j} - \vec{i}\rvert\rvert = \dfrac{\sqrt{2}}{2}\times\sqrt{2} = 1 = OL       
+       \end{align*}
+       
+    9. On peut vérifier que OICJ est bien un carré :
+       
+       \begin{align*}
+       OC^2 &= (x_C)^2 + (y_C)^2 = 2\\
+       OI^2 + IC^2 &= 1^2 + 1^2 = 2\\
+       \overrightarrow{JC} &= \vec{i} = \overrightarrow{OI}
+       \end{align*}
+       
+    10. On peut vérifier qu'on obtient bien les carrés OMNP et OBQR :
+	
+	\begin{align*}
+	ON^2 &= 2^2 = 4 = OM^2 + MN^2 \\
+	\overrightarrow{ON} &= \overrightarrow{OM} + \overrightarrow{OP}
+	\end{align*}
+	
+	Voir figure :
+	[[./sol26.png]]
+
+
+    *Remarque* : avec un peu d'imagination les deux carrés OMNP et
+    OBQR représenteraient des moteurs, le carré OICJ l'entrée et le
+    polygone OIDEFGHL le vaisseau.

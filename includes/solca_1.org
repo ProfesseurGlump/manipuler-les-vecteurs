@@ -1,0 +1,57 @@
+** Solution de l'exercice 9
+
+   On considère le triangle ABC représenté sur la figure avec le
+    quadrillage :
+
+    [[./img/ABCtrig.png]]
+
+    1. Pour construire le point D tel que \(\overrightarrow{BD} =
+       \overrightarrow{AB}\) il faut d'abord comprendre que D est le
+       symétrique de A par rapport à B. Ou, dit autrement, B est le
+       milieu de [AD].
+
+       Voir figure :
+       [[./img/sol9q1.png]]
+       
+    2. Pour construire le point E tel que \(\overrightarrow{CE} =
+       \overrightarrow{AB}\) il faut bien comprendre que l'on complète
+       le triangle pour obtenir un parallélogramme.
+
+       Voir figure :
+       [[./img/sol9q2.png]]
+       
+    3. Utilisons la relation de Chasles pour décomposer le vecteur
+       \(\overrightarrow{BE}\) : 
+       \begin{align*}
+       \overrightarrow{BE} &= \overrightarrow{BC} + \overrightarrow{CE}\\
+       \overrightarrow{BE} &= \overrightarrow{BC} + \overrightarrow{AB}\\
+       \overrightarrow{BE} &= \overrightarrow{AC}
+       \end{align*}
+
+       Voir figure :
+       [[./img/sol9q3.png]]
+
+    
+
+** Solution du QCM d'auto-évaluation 
+
+1. Un vecteur est caractérisé par :
+   #+ATTR_LATEX: :options [label=\alph*.]
+   1. Sa longueur uniquement
+   2. Sa direction et son sens uniquement
+   3. Sa direction, son sens et sa norme
+
+      (*Bonne réponse*)
+   4. Son origine et son extrémité
+
+2. Les vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{CD}\) 
+   sont égaux si :
+   #+ATTR_LATEX: :options [label=\alph*.]
+   1. A = C et B = D
+
+      (*Bonne réponse*)
+   2. ABDC est un parallélogramme
+
+      (*Bonne réponse*)
+   3. AB = CD (distances égales)
+   4. Les segments [AB] et [CD] sont parallèles

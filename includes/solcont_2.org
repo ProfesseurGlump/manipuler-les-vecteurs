@@ -1,0 +1,78 @@
+
+** Solution de l'exercice 3
+
+   1. Puisque D est l'image du point C par la translation de vecteur
+      \[\vec{u} = \overrightarrow{AB}\]
+      alors :
+      \begin{align*}
+      \overrightarrow{CD} &= \vec{u}\\
+      \overrightarrow{AB} &= \overrightarrow{CD}
+      \end{align*}
+      Donc ABDC est un parallélogramme.
+      
+      Voir figure :
+      [[./img/sol3q1.png]]
+   2. On sait que
+      \[\overrightarrow{DC} = -\overrightarrow{CD}\]
+      donc
+      \begin{align*}
+      \vec{w} &= \overrightarrow{AB} + \overrightarrow{DC} \\
+      \vec{w} &= \overrightarrow{AB} - \overrightarrow{CD} \\
+      \vec{w} &= \vec{u} - \vec{u}\\
+      \vec{w} &= \vec{0}
+      \end{align*}
+      Ainsi on remarque que \(\vec{w}\) est le vecteur nul.
+   3. Puisque E est l'image de D par la translation de vecteur
+      \[\vec{v} = \overrightarrow{AC}\]
+      alors
+      \[\overrightarrow{DE} = \vec{v}\]
+      donc
+      \begin{align*}
+      \overrightarrow{BD} + \overrightarrow{ED} &= \overrightarrow{AC} - \overrightarrow{DE}\\
+      \overrightarrow{BD} + \overrightarrow{ED} &= \vec{v} - \vec{v}\\
+      \overrightarrow{BD} + \overrightarrow{ED} &= \vec{0}
+      \end{align*}
+
+      Voir figure :
+      [[./img/sol3q3.png]]
+
+
+** Solution programme 2
+
+   #+BEGIN_SRC python
+     msg = "Les vecteurs sont-ils égaux ?"
+     rep = "\n(O/N) "
+     msg += rep
+     egal = input(msg)
+     if egal.upper() == "O":
+	 msg = "Les vecteurs sont-ils alignés ?"
+	 align = input(msg)
+	 if align.upper() == "N":
+	     print("C'est un parallélogramme.")
+	 else:
+	     print("C'est le même vecteur.")
+     else:
+	 print("Les vecteurs ne sont pas colinéaires.")
+   #+END_SRC
+   
+** Solution du QCM d'auto-évaluation
+
+    1. Deux vecteurs \(\vec{u}\) et \(\vec{v}\) sont égaux si :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. Ils ont la même direction.
+       2. Ils ont la même direction et le même sens.
+       3. Ils ont la même direction et la même norme.
+       4. Ils ont la même direction, le même sens et la même
+          norme.
+
+	  (*Bonne réponse*)
+    2. On dit qu'un vecteur est nul si :
+       #+ATTR_LATEX: :options [label=\alph*.]
+       1. Sa direction est horizontale.
+       2. Sa direction est verticale.
+       3. Il va dans un sens puis dans l'autre.
+       4. Sa norme vaut zéro.
+
+	  (*Bonne réponse*)
+    
+   

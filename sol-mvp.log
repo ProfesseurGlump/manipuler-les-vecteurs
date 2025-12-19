@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  19 DEC 2025 12:53
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.7.30)  19 DEC 2025 12:57
  system commands enabled.
 **sol-mvp.tex
 (.//sol-mvp.tex
@@ -1456,10 +1456,10 @@ Chapitre 3.
 \pydata@fh@_44228D8618D2E8165C6E59DC5781E556.data.minted=\write9
 
 \openout9 = _44228D8618D2E8165C6E59DC5781E556.data.minted
-runsystem(latexminted config  --timestamp 20251219125312 44228D8618D2E8165C6E59D
+runsystem(latexminted config  --timestamp 20251219125731 44228D8618D2E8165C6E59D
 C5781E556)...executed.
 (.//_44228D8618D2E8165C6E59DC5781E556.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20251219125312 44228D8618D2E8165C
+runsystem(latexminted cleanconfig  --timestamp 20251219125731 44228D8618D2E8165C
 6E59DC5781E556)...executed.
 
 (.//_minted/monokai.style.minted)
@@ -5295,4 +5295,2602 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [118]
 Chapitre 33.
 <./img/figexo13.png, id=1037, 298.22559pt x 214.12598pt>
-File: ./img/figexo13.png Graphic 
+File: ./img/figexo13.png Graphic file (type png)
+<use ./img/figexo13.png>
+Package luatex.def Info: ./img/figexo13.png  used on input line 1480.
+(luatex.def)             Requested size: 260.17024pt x 186.80432pt.
+
+
+[119
+
+<./img/figexo13.png>]
+<./img/sol13q1.png, id=1043, 298.22559pt x 214.12598pt>
+File: ./img/sol13q1.png Graphic file (type png)
+<use ./img/sol13q1.png>
+Package luatex.def Info: ./img/sol13q1.png  used on input line 1496.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[120<./img/sol13q1.png>]
+<./img/sol13q2.png, id=1051, 298.22559pt x 214.12598pt>
+File: ./img/sol13q2.png Graphic file (type png)
+<use ./img/sol13q2.png>
+Package luatex.def Info: ./img/sol13q2.png  used on input line 1511.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+
+
+[121<./img/sol13q2.png>]
+
+[122
+
+]
+Chapitre 34.
+
+
+[123]
+
+[124
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1545.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1545.
+
+
+
+[125]
+
+[126]
+Chapitre 35.
+File: ./img/figexo13.png Graphic file (type png)
+<use ./img/figexo13.png>
+Package luatex.def Info: ./img/figexo13.png  used on input line 1555.
+(luatex.def)             Requested size: 260.17024pt x 186.80432pt.
+
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+
+
+[127
+
+]
+<./img/sol14q1.png, id=1093, 298.22559pt x 214.12598pt>
+File: ./img/sol14q1.png Graphic file (type png)
+<use ./img/sol14q1.png>
+Package luatex.def Info: ./img/sol14q1.png  used on input line 1571.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+
+
+[128<./img/sol14q1.png>]
+<./img/sol14q3.png, id=1101, 298.22559pt x 214.12598pt>
+File: ./img/sol14q3.png Graphic file (type png)
+<use ./img/sol14q3.png>
+Package luatex.def Info: ./img/sol14q3.png  used on input line 1591.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+<./img/sol14q4.png, id=1102, 298.22559pt x 214.12598pt>
+File: ./img/sol14q4.png Graphic file (type png)
+<use ./img/sol14q4.png>
+Package luatex.def Info: ./img/sol14q4.png  used on input line 1606.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[129<./img/sol14q3.png>]
+<./img/sol14q5.png, id=1109, 298.22559pt x 214.12598pt>
+File: ./img/sol14q5.png Graphic file (type png)
+<use ./img/sol14q5.png>
+Package luatex.def Info: ./img/sol14q5.png  used on input line 1620.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+
+
+[130<./img/sol14q4.png><./img/sol14q5.png>]
+<./img/sol14q6.png, id=1117, 298.22559pt x 214.12598pt>
+File: ./img/sol14q6.png Graphic file (type png)
+<use ./img/sol14q6.png>
+Package luatex.def Info: ./img/sol14q6.png  used on input line 1632.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+<./img/sol14q7.png, id=1118, 298.22559pt x 214.12598pt>
+File: ./img/sol14q7.png Graphic file (type png)
+<use ./img/sol14q7.png>
+Package luatex.def Info: ./img/sol14q7.png  used on input line 1640.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[131<./img/sol14q6.png>]
+
+[132<./img/sol14q7.png>]
+Chapitre 36.
+
+
+[133
+
+]
+
+[134]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1678.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1678.
+
+
+
+[135
+
+]
+
+[136]
+Chapitre 37.
+
+Overfull \hbox (3.91536pt too wide) in paragraph at lines 1704--1707
+[]\TU/LibertinusSerif(0)/m/n/10.95 Géo-mé-trique : la re-la-tion de Chasles no
+us per-met d’éta-
+ []
+
+
+
+[137
+
+]
+
+[138]
+Overfull \hbox (15.27614pt too wide) in paragraph at lines 1760--1763
+[]\TU/LibertinusSerif(0)/m/n/10.95 Co-li-néa-ri-té : on peut cal-cu-ler le d
+é-ter-mi-nant $\OML/cmm/m/it/10.95 det\OT1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.9
+5 ; []$
+ []
+
+
+
+[139]
+
+[140
+
+]
+Chapitre 38.
+(.//_minted/476EF03482E366C898136196CC809ED5.highlight.minted
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...B}\PYG{p}{,} \PYG{n}{C}\PYG{p}{)}\PYG{p}{:}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ... }\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...sd}{    Cette fonction prend en entrées :}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...correspondant au coefficient du vecteur AB}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...correspondant au coefficient du vecteur AC}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ... correspondant aux coordonnées du point A}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ... correspondant aux coordonnées du point B}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ... correspondant aux coordonnées du point C}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...correspondant aux coordonnées du point M}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+
+[141]
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...G{n}{C}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...G{n}{C}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...}\PYG{p}{,} \PYG{n}{B}\PYG{p}{)}\PYG{p}{:}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...}\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...d}{    Cette fonction prend en entrées :}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...correspondant aux coordonnées du point A}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...correspondant aux coordonnées du point B}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ...respondant aux coordonnées du vecteur AB}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...G{n}{A}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...G{n}{A}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \PYG{c+c1}{\PYGZsh{} Tests}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ... \PYG{n}{B}\PYG{p}{,} \PYG{n}{C}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...l+s+s2}{Vect(A, C)}\PYG{l+s+s2}{\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...rint}\PYG{p}{(}\PYG{n}{relation}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...YGZbs{}t}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...b{}}\PYG{l+s+s2}{)}\PYG{l+s+s2}{\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...{print}\PYG{p}{(}\PYG{n}{coordM}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ...}\PYG{n}{A}\PYG{p}{,} \PYG{n}{B}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...\PYG{n}{B} \PYG{o}{=} \PYG{n}{C}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[142]
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...YGZbs{}t}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...nb}{print}\PYG{p}{(}\PYG{n}{eqX}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...YGZbs{}t}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...nb}{print}\PYG{p}{(}\PYG{n}{eqY}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...YGZbs{}t}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...YG{p}{(}\PYG{n}{solve\PYGZus{}x}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...YGZbs{}t}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ...YG{p}{(}\PYG{n}{solve\PYGZus{}y}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+
+[143]
+
+[144
+
+]
+Chapitre 39.
+
+
+[145]
+
+[146]
+
+[147]
+
+[148]
+Overfull \hbox (6.81436pt too wide) in paragraph at lines 1996--1997
+[]\TU/LibertinusSerif(0)/m/n/10.95 Il est im-pos-sible que les trois vec-teurs 
+soient co-li-néaires. 
+ []
+
+
+
+[149]
+Overfull \hbox (4.3044pt too wide) in paragraph at lines 2034--2037
+[]\TU/LibertinusSerif(0)/m/n/10.95 Dans un re-père or-tho-nor-mée $\OT1/cmr/m
+/n/10.95 (\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 ; []\OML/cmm/m/it/10.95 ; []\
+OT1/cmr/m/n/10.95 )$ \TU/LibertinusSerif(0)/m/n/10.95 on consi-dère les points
+ []
+
+
+
+[150]
+Overfull \hbox (4.3044pt too wide) in paragraph at lines 2066--2069
+[]\TU/LibertinusSerif(0)/m/n/10.95 Dans un re-père or-tho-nor-mée $\OT1/cmr/m
+/n/10.95 (\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 ; []\OML/cmm/m/it/10.95 ; []\
+OT1/cmr/m/n/10.95 )$ \TU/LibertinusSerif(0)/m/n/10.95 on consi-dère les points
+ []
+
+
+
+[151]
+
+[152]
+
+[153
+
+]
+
+[154]
+Chapitre 40.
+<./img/sol16q1.png, id=1339, 62.35548pt x 44.77124pt>
+File: ./img/sol16q1.png Graphic file (type png)
+<use ./img/sol16q1.png>
+Package luatex.def Info: ./img/sol16q1.png  used on input line 2119.
+(luatex.def)             Requested size: 235.53293pt x 169.1439pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[155
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[156<./img/sol16q1.png>]
+<./img/sol16q2.png, id=1351, 102.55913pt x 73.63745pt>
+File: ./img/sol16q2.png Graphic file (type png)
+<use ./img/sol16q2.png>
+Package luatex.def Info: ./img/sol16q2.png  used on input line 2149.
+(luatex.def)             Requested size: 235.53293pt x 169.13219pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[157<./img/sol16q2.png>]
+<./img/sol16q3.png, id=1358, 137.65715pt x 98.83783pt>
+File: ./img/sol16q3.png Graphic file (type png)
+<use ./img/sol16q3.png>
+Package luatex.def Info: ./img/sol16q3.png  used on input line 2174.
+(luatex.def)             Requested size: 235.53293pt x 169.11244pt.
+
+
+[158<./img/sol16q3.png>]
+<./img/sol16q4.png, id=1365, 193.23529pt x 138.74294pt>
+File: ./img/sol16q4.png Graphic file (type png)
+<use ./img/sol16q4.png>
+Package luatex.def Info: ./img/sol16q4.png  used on input line 2191.
+(luatex.def)             Requested size: 235.53293pt x 169.11156pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[159<./img/sol16q4.png>]
+<./img/sol16q5.png, id=1372, 298.22559pt x 214.12598pt>
+File: ./img/sol16q5.png Graphic file (type png)
+<use ./img/sol16q5.png>
+Package luatex.def Info: ./img/sol16q5.png  used on input line 2210.
+(luatex.def)             Requested size: 235.53293pt x 169.11517pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[160<./img/sol16q5.png>]
+<./img/sol16q6.png, id=1379, 504.2093pt x 362.02228pt>
+File: ./img/sol16q6.png Graphic file (type png)
+<use ./img/sol16q6.png>
+Package luatex.def Info: ./img/sol16q6.png  used on input line 2227.
+(luatex.def)             Requested size: 235.53293pt x 169.11197pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[161<./img/sol16q6.png>]
+<./img/sol16q7.png, id=1387, 504.2093pt x 362.02228pt>
+File: ./img/sol16q7.png Graphic file (type png)
+<use ./img/sol16q7.png>
+Package luatex.def Info: ./img/sol16q7.png  used on input line 2241.
+(luatex.def)             Requested size: 235.53293pt x 169.11197pt.
+
+
+[162<./img/sol16q7.png>]
+<./img/sol16q8.png, id=1395, 414.55067pt x 297.64738pt>
+File: ./img/sol16q8.png Graphic file (type png)
+<use ./img/sol16q8.png>
+Package luatex.def Info: ./img/sol16q8.png  used on input line 2258.
+(luatex.def)             Requested size: 235.53293pt x 169.11122pt.
+<./img/sol16q9.png, id=1396, 414.55067pt x 297.64738pt>
+File: ./img/sol16q9.png Graphic file (type png)
+<use ./img/sol16q9.png>
+Package luatex.def Info: ./img/sol16q9.png  used on input line 2263.
+(luatex.def)             Requested size: 235.53293pt x 169.11122pt.
+<./img/sol16q10.png, id=1397, 602.25pt x 382.42876pt>
+File: ./img/sol16q10.png Graphic file (type png)
+<use ./img/sol16q10.png>
+Package luatex.def Info: ./img/sol16q10.png  used on input line 2271.
+(luatex.def)             Requested size: 235.53293pt x 149.56676pt.
+
+
+[163<./img/sol16q8.png><./img/sol16q9.png>]
+
+[164<./img/sol16q10.png>]
+<./img/sol17q1.png, id=1413, 139.78723pt x 106.93724pt>
+File: ./img/sol17q1.png Graphic file (type png)
+<use ./img/sol17q1.png>
+Package luatex.def Info: ./img/sol17q1.png  used on input line 2301.
+(luatex.def)             Requested size: 235.53293pt x 180.18852pt.
+<./img/sol17q2.png, id=1414, 138.35992pt x 99.34242pt>
+File: ./img/sol17q2.png Graphic file (type png)
+<use ./img/sol17q2.png>
+Package luatex.def Info: ./img/sol17q2.png  used on input line 2319.
+(luatex.def)             Requested size: 235.53293pt x 169.1118pt.
+
+Underfull \vbox (badness 3460) has occurred while \output is active []
+
+
+
+[165<./img/sol17q1.png>]
+<./img/sol17q3.png, id=1421, 241.97545pt x 173.73837pt>
+File: ./img/sol17q3.png Graphic file (type png)
+<use ./img/sol17q3.png>
+Package luatex.def Info: ./img/sol17q3.png  used on input line 2337.
+(luatex.def)             Requested size: 235.53293pt x 169.11455pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[166<./img/sol17q2.png>]
+<./img/sol17q4.png, id=1428, 241.97545pt x 173.73837pt>
+File: ./img/sol17q4.png Graphic file (type png)
+<use ./img/sol17q4.png>
+Package luatex.def Info: ./img/sol17q4.png  used on input line 2356.
+(luatex.def)             Requested size: 235.53293pt x 169.11455pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[167<./img/sol17q3.png>]
+<./img/sol17q5.png, id=1435, 241.97545pt x 173.73837pt>
+File: ./img/sol17q5.png Graphic file (type png)
+<use ./img/sol17q5.png>
+Package luatex.def Info: ./img/sol17q5.png  used on input line 2374.
+(luatex.def)             Requested size: 235.53293pt x 169.11455pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[168<./img/sol17q4.png>]
+<./img/sol17q6.png, id=1442, 152.46835pt x 109.47227pt>
+File: ./img/sol17q6.png Graphic file (type png)
+<use ./img/sol17q6.png>
+Package luatex.def Info: ./img/sol17q6.png  used on input line 2394.
+(luatex.def)             Requested size: 235.53293pt x 169.12903pt.
+
+
+[169<./img/sol17q5.png>]
+<./img/sol17q7.png, id=1449, 122.49153pt x 87.94891pt>
+File: ./img/sol17q7.png Graphic file (type png)
+<use ./img/sol17q7.png>
+Package luatex.def Info: ./img/sol17q7.png  used on input line 2414.
+(luatex.def)             Requested size: 235.53293pt x 169.12166pt.
+
+
+[170<./img/sol17q6.png>]
+<./img/sol17q8.png, id=1456, 177.56757pt x 127.49352pt>
+File: ./img/sol17q8.png Graphic file (type png)
+<use ./img/sol17q8.png>
+Package luatex.def Info: ./img/sol17q8.png  used on input line 2433.
+(luatex.def)             Requested size: 235.53293pt x 169.11679pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[171<./img/sol17q7.png>]
+<./img/sol17q9.png, id=1464, 177.56757pt x 127.49352pt>
+File: ./img/sol17q9.png Graphic file (type png)
+<use ./img/sol17q9.png>
+Package luatex.def Info: ./img/sol17q9.png  used on input line 2450.
+(luatex.def)             Requested size: 235.53293pt x 169.11679pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[172<./img/sol17q8.png>]
+
+[173<./img/sol17q9.png>]
+<./img/sol17q10a.png, id=1477, 177.56757pt x 127.49352pt>
+File: ./img/sol17q10a.png Graphic file (type png)
+<use ./img/sol17q10a.png>
+Package luatex.def Info: ./img/sol17q10a.png  used on input line 2473.
+(luatex.def)             Requested size: 213.85211pt x 153.54976pt.
+<./img/sol17q10b.png, id=1478, 177.56757pt x 127.49352pt>
+File: ./img/sol17q10b.png Graphic file (type png)
+<use ./img/sol17q10b.png>
+Package luatex.def Info: ./img/sol17q10b.png  used on input line 2480.
+(luatex.def)             Requested size: 213.85211pt x 153.54976pt.
+<./img/sol17q10c.png, id=1479, 177.56757pt x 127.49352pt>
+File: ./img/sol17q10c.png Graphic file (type png)
+<use ./img/sol17q10c.png>
+Package luatex.def Info: ./img/sol17q10c.png  used on input line 2488.
+(luatex.def)             Requested size: 213.85211pt x 153.54976pt.
+
+
+[174<./img/sol17q10a.png><./img/sol17q10b.png>]
+<./img/sol17q10d.png, id=1486, 177.56757pt x 127.49352pt>
+File: ./img/sol17q10d.png Graphic file (type png)
+<use ./img/sol17q10d.png>
+Package luatex.def Info: ./img/sol17q10d.png  used on input line 2497.
+(luatex.def)             Requested size: 213.85211pt x 153.54976pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[175<./img/sol17q10c.png><./img/sol17q10d.png>]
+Overfull \hbox (40.89162pt too wide) detected at line 2523
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[176]
+Overfull \hbox (14.35083pt too wide) detected at line 2546
+[]
+ []
+
+<./img/sol18.png, id=1497, 497.27065pt x 357.04031pt>
+File: ./img/sol18.png Graphic file (type png)
+<use ./img/sol18.png>
+Package luatex.def Info: ./img/sol18.png  used on input line 2556.
+(luatex.def)             Requested size: 260.17024pt x 186.8061pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[177]
+
+[178<./img/sol18.png>]
+<./img/./sol19q2a.png, id=1509, 477.55507pt x 342.88454pt>
+File: ./img/./sol19q2a.png Graphic file (type png)
+<use ./img/./sol19q2a.png>
+Package luatex.def Info: ./img/./sol19q2a.png  used on input line 2585.
+(luatex.def)             Requested size: 213.85211pt x 153.5432pt.
+<./img/./sol19q2b.png, id=1510, 477.55507pt x 342.88454pt>
+File: ./img/./sol19q2b.png Graphic file (type png)
+<use ./img/./sol19q2b.png>
+Package luatex.def Info: ./img/./sol19q2b.png  used on input line 2592.
+(luatex.def)             Requested size: 213.85211pt x 153.5432pt.
+<./img/./sol19q2c.png, id=1511, 477.55507pt x 342.88454pt>
+File: ./img/./sol19q2c.png Graphic file (type png)
+<use ./img/./sol19q2c.png>
+Package luatex.def Info: ./img/./sol19q2c.png  used on input line 2599.
+(luatex.def)             Requested size: 213.85211pt x 153.5432pt.
+
+
+[179<./img/./sol19q2a.png><./img/./sol19q2b.png>]
+Overfull \hbox (18.73524pt too wide) detected at line 2611
+[]
+ []
+
+(.//_minted/35E9774FB842947B8B2BE56BB01BA923.highlight.minted
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...}2} \PYG{o}{\PYGZhy{}} \PYG{n}{x\PYGZus{}1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...}2} \PYG{o}{\PYGZhy{}} \PYG{n}{y\PYGZus{}1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+
+[180<./img/./sol19q2c.png>]
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...3} \PYG{o}{\PYGZhy{}} \PYG{n}{x\PYGZus{}1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 ...3} \PYG{o}{\PYGZhy{}} \PYG{n}{y\PYGZus{}1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...hy{}} \PYG{n}{y12} \PYG{o}{*} \PYG{n}{x13}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...det} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...alignés}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...YG{o}{\PYGZlt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ... du 1er.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...YG{o}{\PYGZgt{}} \PYG{l+m+mi}{1}\PYG{p}{:}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ... du 2nd.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19     \PYG{k}{else}\PYG{p}{:}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...remiers.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \PYG{k}{else}\PYG{p}{:}
+                            
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xcolor Error: Undefined color `bg'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ...riangle.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Overfull \hbox (3.85376pt too wide) in paragraph at lines 2645--2647
+[]\TU/LibertinusSerif(0)/m/n/10.95 On se place dans le plan mu-ni d’un re-p
+ère or-tho-nor-mé $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.9
+5 ; []\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 )$\TU/LibertinusSerif(0)/m/n/1
+0.95 . 
+ []
+
+<./img/sol20q1.png, id=1528, 206.48572pt x 148.25674pt>
+File: ./img/sol20q1.png Graphic file (type png)
+<use ./img/sol20q1.png>
+Package luatex.def Info: ./img/sol20q1.png  used on input line 2656.
+(luatex.def)             Requested size: 235.53293pt x 169.11171pt.
+
+
+[181]
+<./img/sol20q2.png, id=1535, 206.48572pt x 148.25674pt>
+File: ./img/sol20q2.png Graphic file (type png)
+<use ./img/sol20q2.png>
+Package luatex.def Info: ./img/sol20q2.png  used on input line 2669.
+(luatex.def)             Requested size: 235.53293pt x 169.11171pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[182<./img/sol20q1.png>]
+<./img/sol20q3.png, id=1542, 206.48572pt x 148.25674pt>
+File: ./img/sol20q3.png Graphic file (type png)
+<use ./img/sol20q3.png>
+Package luatex.def Info: ./img/sol20q3.png  used on input line 2684.
+(luatex.def)             Requested size: 235.53293pt x 169.11171pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[183<./img/sol20q2.png>]
+<./img/sol20q4.png, id=1549, 206.48572pt x 148.25674pt>
+File: ./img/sol20q4.png Graphic file (type png)
+<use ./img/sol20q4.png>
+Package luatex.def Info: ./img/sol20q4.png  used on input line 2704.
+(luatex.def)             Requested size: 235.53293pt x 169.11171pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[184<./img/sol20q3.png>]
+<./img/sol20q6.png, id=1556, 206.48572pt x 148.25674pt>
+File: ./img/sol20q6.png Graphic file (type png)
+<use ./img/sol20q6.png>
+Package luatex.def Info: ./img/sol20q6.png  used on input line 2724.
+(luatex.def)             Requested size: 235.53293pt x 169.11171pt.
+
+
+[185<./img/sol20q4.png>]
+<./img/sol20q7.png, id=1564, 249.78111pt x 179.34283pt>
+File: ./img/sol20q7.png Graphic file (type png)
+<use ./img/sol20q7.png>
+Package luatex.def Info: ./img/sol20q7.png  used on input line 2744.
+(luatex.def)             Requested size: 235.53293pt x 169.12138pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[186<./img/sol20q6.png>]
+Overfull \hbox (3.85376pt too wide) in paragraph at lines 2756--2758
+[]\TU/LibertinusSerif(0)/m/n/10.95 On se place dans le plan mu-ni d’un re-p
+ère or-tho-nor-mé $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.9
+5 ; []\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 )$\TU/LibertinusSerif(0)/m/n/1
+0.95 . 
+ []
+
+
+
+[187<./img/sol20q7.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[188]
+
+[189]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[190]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[191]
+
+[192]
+Overfull \hbox (25.34749pt too wide) detected at line 2922
+[]
+ []
+
+
+Overfull \hbox (3.10231pt too wide) in paragraph at lines 2923--2926
+[]\TU/LibertinusSerif(0)/m/n/10.95 Ap-pli-quons les ré-sul-tats pré-cé-dents dans un cas concret avec
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[193]
+<./img/sol22.png, id=1618, 328.00302pt x 235.72484pt>
+File: ./img/sol22.png Graphic file (type png)
+<use ./img/sol22.png>
+Package luatex.def Info: ./img/sol22.png  used on input line 2941.
+(luatex.def)             Requested size: 235.53293pt x 169.26854pt.
+
+
+[194<./img/sol22.png>]
+Overfull \hbox (4.23665pt too wide) in paragraph at lines 2970--2975
+[]\TU/LibertinusSerif(0)/m/n/10.95 In-ter-pré-ta-tion géo-mé-trique : cette 
+trans-for-ma-tion est la com-
+ []
+
+
+
+[195]
+<./img/sol23.png, id=1632, 414.55067pt x 297.92375pt>
+File: ./img/sol23.png Graphic file (type png)
+<use ./img/sol23.png>
+Package luatex.def Info: ./img/sol23.png  used on input line 2996.
+(luatex.def)             Requested size: 260.17024pt x 186.98378pt.
+
+Overfull \hbox (5.85396pt too wide) in paragraph at lines 3003--3005
+[]\TU/LibertinusSerif(0)/m/n/10.95 On se place dans le plan mu-ni d’un re-p
+ère or-tho-nor-mé $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.9
+5 ; []\OML/cmm/m/it/10.95 ; []\OT1/cmr/m/n/10.95 )$ \TU/LibertinusSerif(0)/m/n/
+10.95 : 
+ []
+
+
+Overfull \hbox (7.56192pt too wide) detected at line 3012
+[]
+ []
+
+
+
+[196<./img/sol23.png>]
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.3034 \end{align*}
+                   
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \gdef 
+l.3034 \end{align*}
+                   
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Extra }, or forgotten \right.
+<template> }
+            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \endtemplate 
+l.3034 \end{align*}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.3034 \end{align*}
+                   
+(That makes 100 errors; please try again.)
+
+Here is how much of LuaTeX's memory you used:
+ 44710 strings out of 475506
+ 100000,1977958 words of node,token memory allocated
+ 23873 words of node memory still in use:
+   504 hlist, 51 vlist, 28 rule, 11 disc, 6 local_par, 8 dir, 278 math, 695 glue
+, 183 kern, 31 penalty, 8 unset, 1 style, 7 noad, 2 accent, 98 fence, 11 math_ch
+ar, 28 sub_mlist, 98 delim, 392 glyph, 3 align_record, 1854 attribute, 88 glue_s
+pec, 965 attribute_list, 12 temp, 1 align_stack, 1 shape, 24 pdf_literal, 3 pdf_
+dest, 30 pdf_colorstack nodes
+   avail lists: 1:2,2:864,3:240,4:1243,5:398,6:75,7:2164,9:1072,10:18,11:193
+ 65877 multiletter control sequences out of 65536+600000
+ 93 fonts using 14729439 bytes
+ 96i,22n,100p,2367b,1132s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

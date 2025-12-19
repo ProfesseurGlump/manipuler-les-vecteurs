@@ -1,0 +1,55 @@
+\documentclass[10pt]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{ccwwff}{rgb}{0.8,0.4,1}
+\definecolor{cczzff}{rgb}{0.8,0.6,1}
+\definecolor{ttffcc}{rgb}{0.2,1,0.8}
+\definecolor{qqffff}{rgb}{0,1,1}
+\definecolor{ffqqff}{rgb}{1,0,1}
+\definecolor{ffxfqq}{rgb}{1,0.4980392156862745,0}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\begin{axis}[
+x=1cm,y=1cm,
+axis lines=middle,
+ymajorgrids=true,
+xmajorgrids=true,
+xmin=-1.5839059287130903,
+xmax=4.387304788830447,
+ymin=-0.800238820876261,
+ymax=3.343050248439652,
+xtick={-1.5,-1,...,4},
+ytick={-0.5,0,...,3},]
+\clip(-1.5839059287130903,-0.800238820876261) rectangle (4.387304788830447,3.343050248439652);
+\draw [->,line width=3.2pt,color=qqqqff] (0,0) -- (1,0);
+\draw [->,line width=3.2pt,color=qqqqff] (0,0) -- (0,1);
+\draw [->,line width=2pt,color=ffxfqq] (0,0) -- (3,2);
+\draw [->,line width=2pt,color=ffqqff] (0,0) -- (2,3);
+\draw [->,line width=2pt,color=qqffff] (0,0) -- (2,0);
+\draw [->,line width=2pt,color=ttffcc] (0,0) -- (3,0);
+\draw [->,line width=2pt,color=cczzff] (0,0) -- (0,2);
+\draw [->,line width=2pt,color=ccwwff] (0,0) -- (0,3);
+\draw [color=qqqqff](0.29140628076486863,-0.11646072283556297) node[anchor=north west] {$\mathbf{\vec{i}}$};
+\draw [color=qqqqff](-0.49392301995514304,0.777189860742379) node[anchor=north west] {$\mathbf{\vec{j}}$};
+\draw [color=ffxfqq](1.5980317552386811,1.1427741903879007) node[anchor=north west] {$\mathbf{\vec{u}}$};
+\draw [color=ffqqff](0.98872453916281,2.4223193441472266) node[anchor=north west] {$\mathbf{\vec{v}}$};
+\begin{scriptsize}
+\draw [fill=ududff] (0,0) circle (2.5pt);
+\draw[color=ududff] (-0.21634973263169066,0.14418736404133675) node {$O$};
+\draw [fill=qqffff] (2,0) circle (2pt);
+\draw[color=qqffff] (2.0719373677421364,0.1577275243985783) node {$A$};
+\draw [fill=ttffcc] (3,0) circle (2pt);
+\draw[color=ttffcc] (3.0739092341780134,0.1577275243985783) node {$B$};
+\draw [fill=cczzff] (0,2) circle (2pt);
+\draw[color=cczzff] (0.07476371504900334,2.161671257270327) node {$C$};
+\draw [fill=ccwwff] (0,3) circle (2pt);
+\draw[color=ccwwff] (0.07476371504900334,3.1568730435275802) node {$D$};
+\end{scriptsize}
+\end{axis}
+\end{tikzpicture}
+\end{document}
