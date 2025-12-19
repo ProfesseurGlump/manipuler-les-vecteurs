@@ -82,81 +82,83 @@
 \contentsline {section}{\numberline {17.7}Exercice 22}{95}{section.17.7}%
 \contentsline {section}{\numberline {17.8}Exercice 23}{96}{section.17.8}%
 \contentsline {section}{\numberline {17.9}Exercice 24}{97}{section.17.9}%
-\contentsline {section}{\numberline {17.10}Exercice 25}{97}{section.17.10}%
-\contentsline {section}{\numberline {17.11}Exercice 26}{98}{section.17.11}%
-\contentsline {part}{V\hspace {1em}Exercices de synthèse}{99}{part.5}%
-\contentsline {chapter}{\numberline {18}Représentation par coordonnées (dans un repère)}{101}{chapter.18}%
-\contentsline {section}{\numberline {18.1}Exercice 27}{101}{section.18.1}%
-\contentsline {chapter}{\numberline {19}Représentation géométrique (sans repère)}{103}{chapter.19}%
-\contentsline {section}{\numberline {19.1}Exercice 28}{103}{section.19.1}%
-\contentsline {section}{\numberline {19.2}Exercice 29}{104}{section.19.2}%
-\contentsline {chapter}{\numberline {20}Colinéarité et alignement}{105}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Exercice 30}{105}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Exercice 31}{105}{section.20.2}%
-\contentsline {part}{VI\hspace {1em}Démonstrations}{107}{part.6}%
-\contentsline {chapter}{\numberline {21}Démonstrations}{109}{chapter.21}%
-\contentsline {section}{\numberline {21.1}Exercice 32}{109}{section.21.1}%
-\contentsline {section}{\numberline {21.2}Exercice 32bis}{109}{section.21.2}%
-\contentsline {section}{\numberline {21.3}Exercice 32ter}{109}{section.21.3}%
-\contentsline {part}{VII\hspace {1em}Exercices divers}{111}{part.7}%
-\contentsline {chapter}{\numberline {22}Alphabet}{113}{chapter.22}%
-\contentsline {section}{\numberline {22.1}Introduction}{113}{section.22.1}%
-\contentsline {section}{\numberline {22.2}Exercice 33}{114}{section.22.2}%
-\contentsline {section}{\numberline {22.3}Exercice 34}{114}{section.22.3}%
-\contentsline {section}{\numberline {22.4}Exercice 35}{115}{section.22.4}%
-\contentsline {section}{\numberline {22.5}Exercice 36}{116}{section.22.5}%
-\contentsline {section}{\numberline {22.6}Exercice 37}{117}{section.22.6}%
-\contentsline {section}{\numberline {22.7}Exercice 38}{117}{section.22.7}%
-\contentsline {section}{\numberline {22.8}Exercice 39}{117}{section.22.8}%
-\contentsline {section}{\numberline {22.9}Exercice 40}{118}{section.22.9}%
-\contentsline {section}{\numberline {22.10}Exercice 41}{118}{section.22.10}%
-\contentsline {section}{\numberline {22.11}Exercice 42}{119}{section.22.11}%
-\contentsline {section}{\numberline {22.12}Exercice 43}{120}{section.22.12}%
-\contentsline {section}{\numberline {22.13}Exercice 44}{120}{section.22.13}%
-\contentsline {section}{\numberline {22.14}Exercice 45}{120}{section.22.14}%
-\contentsline {section}{\numberline {22.15}Exercice 46}{121}{section.22.15}%
-\contentsline {section}{\numberline {22.16}Exercice 47}{121}{section.22.16}%
-\contentsline {section}{\numberline {22.17}Exercice 48}{121}{section.22.17}%
-\contentsline {section}{\numberline {22.18}Exercice 49}{122}{section.22.18}%
-\contentsline {section}{\numberline {22.19}Exercice 50}{122}{section.22.19}%
-\contentsline {section}{\numberline {22.20}Exercice 51}{123}{section.22.20}%
-\contentsline {section}{\numberline {22.21}Exercice 52}{123}{section.22.21}%
-\contentsline {section}{\numberline {22.22}Exercice 53}{123}{section.22.22}%
-\contentsline {section}{\numberline {22.23}Exercice 54}{124}{section.22.23}%
-\contentsline {section}{\numberline {22.24}Exercice 55}{124}{section.22.24}%
-\contentsline {section}{\numberline {22.25}Exercice 56}{125}{section.22.25}%
-\contentsline {section}{\numberline {22.26}Exercice 57}{125}{section.22.26}%
-\contentsline {section}{\numberline {22.27}Exercice 58}{126}{section.22.27}%
-\contentsline {chapter}{\numberline {23}Applications des vecteurs dans la vie réelle}{127}{chapter.23}%
-\contentsline {section}{\numberline {23.1}Exercice 59}{127}{section.23.1}%
-\contentsline {section}{\numberline {23.2}Exercice 60}{127}{section.23.2}%
-\contentsline {section}{\numberline {23.3}Exercice 61}{130}{section.23.3}%
-\contentsline {section}{\numberline {23.4}Exercice 62 : Images vectorielles vs images bitmap}{131}{section.23.4}%
-\contentsline {section}{\numberline {23.5}Exercice 63 : Décoder un fichier SVG}{132}{section.23.5}%
-\contentsline {section}{\numberline {23.6}Exercice 64 : Pourquoi les PDF sont-ils vectoriels ?}{134}{section.23.6}%
-\contentsline {section}{\numberline {23.7}Exercice 65 : Bitmap vs Vectoriel - Étude comparative}{135}{section.23.7}%
-\contentsline {section}{\numberline {23.8}Exercice 66 : Créer une icône vectorielle (Projet)}{136}{section.23.8}%
-\contentsline {chapter}{\numberline {24}Chiffres}{139}{chapter.24}%
-\contentsline {section}{\numberline {24.1}Introduction}{139}{section.24.1}%
-\contentsline {section}{\numberline {24.2}Exercice 67}{140}{section.24.2}%
-\contentsline {section}{\numberline {24.3}Exercice 68}{140}{section.24.3}%
-\contentsline {section}{\numberline {24.4}Exercice 69}{141}{section.24.4}%
-\contentsline {section}{\numberline {24.5}Exercice 70}{141}{section.24.5}%
-\contentsline {section}{\numberline {24.6}Exercice 71}{142}{section.24.6}%
-\contentsline {section}{\numberline {24.7}Exercice 72}{143}{section.24.7}%
-\contentsline {section}{\numberline {24.8}Exercice 73}{143}{section.24.8}%
-\contentsline {section}{\numberline {24.9}Exercice 74}{144}{section.24.9}%
-\contentsline {section}{\numberline {24.10}Exercice 75}{144}{section.24.10}%
-\contentsline {section}{\numberline {24.11}Exercice 76}{145}{section.24.11}%
-\contentsline {chapter}{\numberline {25}Paradoxe de Simpson}{147}{chapter.25}%
-\contentsline {section}{\numberline {25.1}Exercice 77}{147}{section.25.1}%
-\contentsline {chapter}{\numberline {26}Arithmétique}{149}{chapter.26}%
-\contentsline {section}{\numberline {26.1}Exercice 78}{149}{section.26.1}%
-\contentsline {section}{\numberline {26.2}Exercice 79}{150}{section.26.2}%
-\contentsline {section}{\numberline {26.3}Exercice 80}{151}{section.26.3}%
-\contentsline {part}{VIII\hspace {1em}Erreurs fréquentes à éviter}{153}{part.8}%
-\contentsline {chapter}{\numberline {27}Erreur 1 : Confondre vecteur et longueur}{155}{chapter.27}%
-\contentsline {chapter}{\numberline {28}Erreur 2 : Oublier le sens dans la relation de Chasles}{157}{chapter.28}%
-\contentsline {chapter}{\numberline {29}Erreur 3 : Confondre coordonnées de point et de vecteur}{159}{chapter.29}%
-\contentsline {part}{IX\hspace {1em}Comment obtenir les solutions ?}{161}{part.9}%
-\contentsline {part}{X\hspace {1em}Remerciements et feedback}{165}{part.10}%
+\contentsline {section}{\numberline {17.10}Exercice 25}{98}{section.17.10}%
+\contentsline {section}{\numberline {17.11}Exercice 26}{99}{section.17.11}%
+\contentsline {part}{V\hspace {1em}Exercices de synthèse}{101}{part.5}%
+\contentsline {chapter}{\numberline {18}Représentation par coordonnées (dans un repère)}{103}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Exercice 27}{103}{section.18.1}%
+\contentsline {chapter}{\numberline {19}Représentation géométrique (sans repère)}{105}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Exercice 28}{105}{section.19.1}%
+\contentsline {section}{\numberline {19.2}Exercice 29}{106}{section.19.2}%
+\contentsline {chapter}{\numberline {20}Colinéarité et alignement}{107}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Exercice 30}{107}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Exercice 31}{107}{section.20.2}%
+\contentsline {part}{VI\hspace {1em}Démonstrations}{109}{part.6}%
+\contentsline {chapter}{\numberline {21}Démonstrations}{111}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Exercice 32}{111}{section.21.1}%
+\contentsline {section}{\numberline {21.2}Exercice 32bis}{111}{section.21.2}%
+\contentsline {section}{\numberline {21.3}Exercice 32ter}{111}{section.21.3}%
+\contentsline {part}{VII\hspace {1em}Exercices divers}{113}{part.7}%
+\contentsline {chapter}{\numberline {22}Alphabet}{115}{chapter.22}%
+\contentsline {section}{\numberline {22.1}Introduction}{115}{section.22.1}%
+\contentsline {section}{\numberline {22.2}Exercice 33}{116}{section.22.2}%
+\contentsline {section}{\numberline {22.3}Exercice 34}{116}{section.22.3}%
+\contentsline {section}{\numberline {22.4}Exercice 35}{117}{section.22.4}%
+\contentsline {section}{\numberline {22.5}Exercice 36}{118}{section.22.5}%
+\contentsline {section}{\numberline {22.6}Exercice 37}{119}{section.22.6}%
+\contentsline {section}{\numberline {22.7}Exercice 38}{119}{section.22.7}%
+\contentsline {section}{\numberline {22.8}Exercice 39}{119}{section.22.8}%
+\contentsline {section}{\numberline {22.9}Exercice 40}{120}{section.22.9}%
+\contentsline {section}{\numberline {22.10}Exercice 41}{120}{section.22.10}%
+\contentsline {section}{\numberline {22.11}Exercice 42}{121}{section.22.11}%
+\contentsline {section}{\numberline {22.12}Exercice 43}{122}{section.22.12}%
+\contentsline {section}{\numberline {22.13}Exercice 44}{122}{section.22.13}%
+\contentsline {section}{\numberline {22.14}Exercice 45}{122}{section.22.14}%
+\contentsline {section}{\numberline {22.15}Exercice 46}{123}{section.22.15}%
+\contentsline {section}{\numberline {22.16}Exercice 47}{123}{section.22.16}%
+\contentsline {section}{\numberline {22.17}Exercice 48}{123}{section.22.17}%
+\contentsline {section}{\numberline {22.18}Exercice 49}{124}{section.22.18}%
+\contentsline {section}{\numberline {22.19}Exercice 50}{124}{section.22.19}%
+\contentsline {section}{\numberline {22.20}Exercice 51}{125}{section.22.20}%
+\contentsline {section}{\numberline {22.21}Exercice 52}{125}{section.22.21}%
+\contentsline {section}{\numberline {22.22}Exercice 53}{125}{section.22.22}%
+\contentsline {section}{\numberline {22.23}Exercice 54}{126}{section.22.23}%
+\contentsline {section}{\numberline {22.24}Exercice 55}{126}{section.22.24}%
+\contentsline {section}{\numberline {22.25}Exercice 56}{127}{section.22.25}%
+\contentsline {section}{\numberline {22.26}Exercice 57}{127}{section.22.26}%
+\contentsline {section}{\numberline {22.27}Exercice 58}{128}{section.22.27}%
+\contentsline {chapter}{\numberline {23}Applications des vecteurs dans la vie réelle}{129}{chapter.23}%
+\contentsline {section}{\numberline {23.1}Exercice 59}{129}{section.23.1}%
+\contentsline {section}{\numberline {23.2}Exercice 60}{129}{section.23.2}%
+\contentsline {section}{\numberline {23.3}Exercice 61}{132}{section.23.3}%
+\contentsline {section}{\numberline {23.4}Exercice 62 : Images vectorielles vs images bitmap}{133}{section.23.4}%
+\contentsline {section}{\numberline {23.5}Exercice 63 : Décoder un fichier SVG}{134}{section.23.5}%
+\contentsline {section}{\numberline {23.6}Exercice 64 : Pourquoi les PDF sont-ils vectoriels ?}{136}{section.23.6}%
+\contentsline {section}{\numberline {23.7}Exercice 65 : Bitmap vs Vectoriel - Étude comparative}{137}{section.23.7}%
+\contentsline {section}{\numberline {23.8}Exercice 66 : Créer une icône vectorielle (Projet)}{139}{section.23.8}%
+\contentsline {chapter}{\numberline {24}Chiffres}{141}{chapter.24}%
+\contentsline {section}{\numberline {24.1}Introduction}{141}{section.24.1}%
+\contentsline {section}{\numberline {24.2}Exercice 67}{142}{section.24.2}%
+\contentsline {section}{\numberline {24.3}Exercice 68}{142}{section.24.3}%
+\contentsline {section}{\numberline {24.4}Exercice 69}{143}{section.24.4}%
+\contentsline {section}{\numberline {24.5}Exercice 70}{143}{section.24.5}%
+\contentsline {section}{\numberline {24.6}Exercice 71}{144}{section.24.6}%
+\contentsline {section}{\numberline {24.7}Exercice 72}{145}{section.24.7}%
+\contentsline {section}{\numberline {24.8}Exercice 73}{145}{section.24.8}%
+\contentsline {section}{\numberline {24.9}Exercice 74}{146}{section.24.9}%
+\contentsline {section}{\numberline {24.10}Exercice 75}{146}{section.24.10}%
+\contentsline {section}{\numberline {24.11}Exercice 76}{147}{section.24.11}%
+\contentsline {chapter}{\numberline {25}Paradoxe de Simpson}{149}{chapter.25}%
+\contentsline {section}{\numberline {25.1}Exercice 77}{149}{section.25.1}%
+\contentsline {chapter}{\numberline {26}Arithmétique}{151}{chapter.26}%
+\contentsline {section}{\numberline {26.1}Exercice 78}{151}{section.26.1}%
+\contentsline {section}{\numberline {26.2}Exercice 79}{152}{section.26.2}%
+\contentsline {section}{\numberline {26.3}Exercice 80}{153}{section.26.3}%
+\contentsline {chapter}{\numberline {27}Trigonométrie}{155}{chapter.27}%
+\contentsline {section}{\numberline {27.1}Exercice 81}{155}{section.27.1}%
+\contentsline {part}{VIII\hspace {1em}Erreurs fréquentes à éviter}{157}{part.8}%
+\contentsline {chapter}{\numberline {28}Erreur 1 : Confondre vecteur et longueur}{159}{chapter.28}%
+\contentsline {chapter}{\numberline {29}Erreur 2 : Oublier le sens dans la relation de Chasles}{161}{chapter.29}%
+\contentsline {chapter}{\numberline {30}Erreur 3 : Confondre coordonnées de point et de vecteur}{163}{chapter.30}%
+\contentsline {part}{IX\hspace {1em}Comment obtenir les solutions ?}{165}{part.9}%
+\contentsline {part}{X\hspace {1em}Remerciements et feedback}{169}{part.10}%

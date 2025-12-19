@@ -1463,54 +1463,114 @@
     
 *** Exercice 24
 
-     le triangle ABC, on place :
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\) :
 
-    + M sur [AB] tel que AM = (1/3)AB
-    + N sur [AC] tel que AN = (1/3)AC
-    + P intersection de (BN) et (CM)
-
-    Démontrer que P appartient à la droite (AP) et que AP = (2/3) de
-    la médiane issue de A.
+    1. Quelle est la nature du triangle OIJ ?
+    2. Soit A le milieu du segment [IJ]. Exprimer le vecteur
+       \(\overrightarrow{OA}\) en fonction de \(\vec{i}\) et
+       \(\vec{j}\). 
+    3. Soit B l'image de A par la translation de vecteur
+       \(\overrightarrow{OA}\). Calculer OB. 
+    4. Quelle est la nature du quadrilatère OIBJ ?
+    5. Soit C le point tel que \(\overrightarrow{IC} =
+       \vec{i}\). Quelle est la nature du triangle OCB ?
+    6. Soit K le point tel que \(\overrightarrow{JK} = \vec{i} +
+       \vec{j}\) et L le point tel que \(\overrightarrow{IL} =
+       \overrightarrow{OB}\). Quelle est la nature du quadrilatère
+       IJKL ?
+    7. Soit D le point tel que \(\overrightarrow{ID} =
+       -\vec{j}\). Quelle est la nature du quadrilatère OBCD ?
     
-    Conseil : Testez plusieurs approches et comparez leur efficacité.
 
 
     
 *** Exercice 25
 
-    Un bateau situé en B doit rejoindre un port P. Le courant marin
-    exerce une force représentée par le vecteur
-    \[\vec{c}\begin{pmatrix}2\\-3\end{pmatrix}\]
-    (en km/h).
-    
-    Le capitaine peut diriger son bateau avec une vitesse propre de 18 km/h.
-    Données : B(0;0), P(15;8) (distances en km)
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} , \vec{j})\) :
 
-    1. Représentation : Quelle direction doit-il donner à son bateau
-       pour atteindre exactement P en tenant compte du courant ?       
-    2. Calcul : Combien de temps mettra-t-il ?
-    3. Justification : Expliquez votre choix de représentation
-       vectorielle.
+    1. Placer I' image de I par la translation de vecteur
+       \(-2\vec{i}\) et J' image de J par la translation de vecteur
+       \(-2\vec{j}\). Quel est le point commun entre les vecteurs
+       \(\vec{i}, \vec{j}, \overrightarrow{OI'},
+       \overrightarrow{OJ'}\) ?
+    2. Quel est l'ensemble des points \(M(x ; y)\) du plan tels que
+       \(\lvert\lvert\overrightarrow{OM}\rvert\rvert =
+       \lvert\lvert\vec{i}\rvert\rvert\) ?
+    3. Tracer le cercle \(C_1\) de centre O et de rayon 1. Puis tracer le
+       cercle \(C_2\) de centre I passant par I' et celui \(C_3\) de
+       centre I' passant par I. Ces deux derniers cercles (\(C_2\) et
+       \(C_3\)) se coupent deux fois. Appelons A le point
+       d'intersection d'ordonnée positive. Calculer IA.       
+    4. Quelle est la nature du triangle IAI' ? On appellera B
+       l'intersection du segment [I'A] avec le cercle \(C_1\) et C
+       l'intersection du segment [IA] avec le cercle \(C_1\). Quelle
+       est la nature du triangle OCB ? Et celle de COI ? En déduire
+       celle du quadrilatère OICB.
+    5. Exprimer le vecteur \(\overrightarrow{AB}\) en fonction du
+       vecteur \(\overrightarrow{AI'}\). Qu'en déduire pour B par
+       rapport au segment [AI'] ?
+    6. Exprimer le vecteur \(\overrightarrow{AC}\) en fonction du
+       vecteur \(\overrightarrow{AI}\). Qu'en déduire pour C par
+       rapport au segment [AI] ?
+    7. Placer C' image de C par la translation de vecteur
+       \(2\overrightarrow{CO}\) et B' image de B par la translation de
+       vecteur \(2\overrightarrow{BO}\). Quelle est la nature du
+       polygone ICBI'C'B' ?
 
 
 *** Exercice 26
 
-    Trois villes A(0;0), B(8;0), C(4;6) doivent être reliées par un
-    réseau routier.
-    
-    On cherche le point M qui minimise la somme des distances MA + MB + MC.
+    On se place dans le plan muni d'un repère orthonormé \((O ;
+    \vec{i} ; \vec{j})\).
 
-    1. Approche géométrique : Pourquoi le centre de gravité G du
-       triangle semble-t-il une bonne candidate ?
-    2. Approche analytique : Calculer les coordonnées de G
-    3. Vérification : Calculer GA + GB + GC
-    4. Question ouverte : G est-il vraiment le point optimal ?
+       Posons \[\vec{u} = \vec{i} + \vec{j}\] pour la suite de
+       l'exercice. 
 
-       *Note* : Le point qui minimise la somme des distances s'appelle
-       le *point de Fermat* (ou point de Torricelli). Pour le trouver,
-       il faudrait des outils mathématiques que vous verrez en études
-       supérieures. Ici, on vérifie simplement que le centre de
-       gravité G donne déjà un bon résultat, sans être optimal.
+    1. Placer le point A tel que \(\overrightarrow{IA} =
+       \vec{i}\). Placer le point B tel que \(\overrightarrow{AB} =
+       \vec{j}\). Placer le point C tel que \(\overrightarrow{JC} =
+       \vec{i}\). Vérifier que le quadrilatère IABC est un carré.
+    2. Placer le point D tel que
+       \[\overrightarrow{ID} = \dfrac{IB}{2}(\vec{i}+\vec{j})\]
+       en déduire ses coordonnées.
+    3. Placer le point E tel que \(\overrightarrow{DE} = \vec{j}\). En
+       déduire ses coordonnées.
+    4. Placer le point F tel que
+       \[\overrightarrow{EF} = \dfrac{\lvert\lvert\vec{u}\rvert\rvert}{2}(\vec{j}-\vec{i})\]
+       en déduire ses coordonnées.
+    5. Placer le point G tel que \(\overrightarrow{FG} = -\vec{i}\)
+       en déduire ses coordonnées.
+    6. Placer le point H tel que
+       \[\overrightarrow{GH} = -\dfrac{\lvert\lvert\vec{u}\rvert\rvert}{2}(\vec{u})\]
+       en déduire ses coordonnées.
+    7. Placer le point L tel que \(\overrightarrow{HL} =
+       -\vec{j}\) en déduire ses coordonnées.
+    8. Tracer les vecteurs \(\vec{i}, \overrightarrow{ID},
+       \overrightarrow{DE}, \overrightarrow{EF}, \overrightarrow{FG},
+       \overrightarrow{GH}, \overrightarrow{HL}, \overrightarrow{LO}\).
+
+       Vérifier que vous avez bien obtenu le polygone obtenu est un
+       octogone régulier de côté 1.
+    9. Pour compléter la figure tracer \(\vec{j}, \overrightarrow{JC},
+       \overrightarrow{CI}\) et vérifier que OICJ est bien un carré.
+    10. Pour ajouter une touche finale tracer les vecteurs :
+        \begin{align*}
+	\overrightarrow{OM} = \vec{j} - \vec{i} && \overrightarrow{MN}
+        = -\vec{u}\\
+	\overrightarrow{NP} = \vec{i} - \vec{j} && \overrightarrow{PO}
+        = \vec{u}\\
+	\overrightarrow{IB} = \vec{u} && \overrightarrow{BQ} = \vec{i} - \vec{j} \\
+        \overrightarrow{QR} = -\vec{u} && \overrightarrow{RI} = \vec{j} - \vec{i} 
+	\end{align*}
+
+	Vérifier que vous obtenez bien les carrés OMNP et OBQR.
+
+
+    *Remarque* : avec un peu d'imagination les deux carrés OMNP et
+    OBQR représenteraient des moteurs, le carré OICJ l'entrée et le
+    polygone OIDEFGHL le vaisseau.
        
 
 
@@ -1518,8 +1578,8 @@
 ** Représentation par coordonnées (dans un repère)
 *** Exercice 27
 
-    Dans un repère orthonormé \((O ; \vec{i} ;
-       \vec{j})\), on donne les points A(2,3), B(-1, 4), et C(5,−2).
+    Dans un repère orthonormé \((O ; \vec{i} ; \vec{j})\),
+    on donne les points A(2,3), B(-1, 4), et C(5,−2).
        
 
     1. Déterminer les coordonnées des vecteurs
@@ -2126,7 +2186,7 @@ construction géométrique précise utilisant les opérations vectorielles.
     et le codage h8 à la case en haut à droite.
 
     Afin de rendre cette représentation utilisable dans le cadre
-    vectorielle conforme à la classe de seconde on va considérer que
+    vectoriel conforme à la classe de seconde on va considérer que
     l'origine du repère sera la case a1 qu'on identifiera à O.
 
     De même, le vecteur \(\vec{i}\) est identifié à la translation de
@@ -2181,7 +2241,7 @@ Après 1 seconde, la vitesse devient \(\vec{v}_1 = \vec{v}_0 + \vec{g}\).
    Calculer les coordonnées du point P₁.
 4. Après combien de temps le projectile retombe-t-il au sol (y=0) ?
 
-*Note* : Cet exercice anticipe la physique de première/terminale.
+
 
 
 
@@ -2263,10 +2323,21 @@ Après 1 seconde, la vitesse devient \(\vec{v}_1 = \vec{v}_0 + \vec{g}\).
     d'un fichier SVG :
 
     #+BEGIN_EXAMPLE
-    <svg width="500" height="400">
-      <line x1="50" y1="100" x2="200" y2="250" stroke="blue" />
-      <line x1="200" y2="250" x2="350" y2="100" stroke="red" />
-      <circle cx="200" cy="175" r="80" fill="none" stroke="green" />
+    <svg
+        width="500"
+	height="400">
+      <line
+          x1="50" y1="100"
+	  x2="200" y2="250"
+	  stroke="blue" />
+      <line
+          x1="200" y2="250"
+	  x2="350" y2="100"
+	  stroke="red" />
+      <circle
+          cx="200" cy="175"
+	  r="80" fill="none"
+	  stroke="green" />
     </svg>
     #+END_EXAMPLE
 
@@ -2311,7 +2382,7 @@ Après 1 seconde, la vitesse devient \(\vec{v}_1 = \vec{v}_0 + \vec{g}\).
     + Dans un PDF vectoriel, le "A" est décrit par ses contours : 
       deux segments obliques et un segment horizontal
 
-    *Situation* : Un designer crée un logo avec la lettre "V" formée 
+    *Situation* : Un /designer/ (graphiste en bon français) crée un logo avec la lettre "V" formée 
     par deux segments :
     + Segment 1 : de O(0 ; 100) à M(50 ; 0)
     + Segment 2 : de M(50 ; 0) à N(100 ; 100)
@@ -2324,10 +2395,11 @@ Après 1 seconde, la vitesse devient \(\vec{v}_1 = \vec{v}_0 + \vec{g}\).
     2. Ces deux vecteurs sont-ils colinéaires ? Que peut-on en 
        déduire sur la forme de la lettre "V" ?
        
-    3. Calculer les normes \(\|\overrightarrow{OM}\|\) et 
-       \(\|\overrightarrow{MN}\|\). La lettre "V" est-elle symétrique ?
+    3. Calculer les normes \(\|\overrightarrow{OM}\|\), 
+       \(\|\overrightarrow{MN}\|\) et \(\|\overrightarrow{ON}\|\). La
+       lettre "V" est-elle symétrique ?
        
-    4. Le designer applique une transformation : tous les points 
+    4. Le /designer/ (graphiste en bon français) applique une transformation : tous les points 
        sont multipliés par 2. Quelles sont les nouvelles coordonnées 
        de O', M', N' ?
        
@@ -2378,11 +2450,6 @@ Après 1 seconde, la vitesse devient \(\vec{v}_1 = \vec{v}_0 + \vec{g}\).
        a) Bitmap : Combien de pixels dans l'image agrandie (600×600) ?
        b) Vectoriel : Combien de vecteurs dans l'image agrandie ?
        
-    5. Quel format choisiriez-vous pour :
-       a) Une photo de vacances ?
-       b) Le logo d'une entreprise ?
-       c) Un schéma mathématique ?
-       Justifier chaque choix.
 
     *Conclusion* : Les vecteurs que vous apprenez en seconde sont 
     utilisés quotidiennement par des millions d'ordinateurs, 
@@ -2424,13 +2491,12 @@ Après 1 seconde, la vitesse devient \(\vec{v}_1 = \vec{v}_0 + \vec{g}\).
        pixels. Pour chaque taille, donner le facteur d'homothétie à 
        appliquer sachant que le dessin initial fait 200×200.
        
-    4. **Défi** : Proposer les coordonnées de 4-6 points pour créer 
-       votre propre icône simple (maison, cœur, étoile, etc.).
-
-    *Pour aller plus loin* : Les designers utilisent des logiciels 
-    comme Adobe Illustrator, Inkscape (gratuit), ou Figma pour créer 
-    des images vectorielles. Tous ces outils manipulent des vecteurs 
+    *Pour aller plus loin* : Les /designer/ (graphiste en bon
+    français)s utilisent des logiciels comme Adobe Illustrator,
+    Inkscape (gratuit), ou Figma pour créer des images
+    vectorielles. Tous ces outils manipulent des vecteurs
     mathématiques en arrière-plan !
+    
 
 
 ** Chiffres
@@ -2459,18 +2525,17 @@ opérations vectorielles.
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
 
-	1. Construire O, construire \(\vec{i}\), placer le point I tel
-           que \(\overrightarrow{OI} = \vec{i}\), veillez à ne pas
-           construire \(\vec{j}\).
-	2. Placer le point A tel que \(\overrightarrow{OA} =
-           2\vec{i}\) et tracer le vecteur
-           \(\overrightarrow{OA}\). Exprimer le vecteur
-           \(\overrightarrow{IA}\) en fonction des vecteurs de la base.
-	3. Placer le point B tel que \(\overrightarrow{OB} =
-           2\vec{j}\) et tracer le vecteur \(\overrightarrow{OB}\).
-	4. Placer le point J tel que \(\overrightarrow{OJ} =
-           \vec{j}\). Tracer le vecteur \(\overrightarrow{BJ}\).
-	5. Quel est le symbole que vous avez obtenu ?
+	1. Placer le point A tel que \(\overrightarrow{OA} =
+           -\vec{i}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{JB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{BC} =
+           -\vec{i} - \vec{j}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\overrightarrow{OA}, \vec{i},
+           \vec{j}, \overrightarrow{JB}, \overrightarrow{BC}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 1.
+
 
 
 *** Exercice 68
@@ -2478,20 +2543,17 @@ opérations vectorielles.
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
 
-	1. Construire O, construire \(\vec{i}\), placer le point I tel
-           que \(\overrightarrow{OI} = \vec{i}\), construire
-           \(\vec{j}\), placer le point J tel que
-           \(\overrightarrow{OJ} = \vec{j}\). 
-	2. Placer le point A tel que \(\overrightarrow{OA} =
-           \vec{i} + \vec{j}\) et tracer le vecteur
-           \(\overrightarrow{JA}\). Exprimer le vecteur
-           \(\overrightarrow{JA}\) en fonction des vecteurs de la base.
-	3. Placer le point B tel que \(\overrightarrow{AB} =
-           \vec{j}\) et tracer le vecteur \(\overrightarrow{AB}\).
-	4. Placer le point C tel que \(\overrightarrow{BC} =
-           -\vec{i}\). Tracer le vecteur \(\overrightarrow{BC}\).
-	5. Quel est le symbole que vous avez obtenu ?
-	
+	1. Placer le point A tel que \(\overrightarrow{JA} =
+           \vec{i}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{AB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{BC} =
+           -\vec{i}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\vec{i}, \vec{j},
+           \overrightarrow{JA}, \overrightarrow{AB}, \overrightarrow{BC}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 2.
+
 
 
 *** Exercice 69
@@ -2499,60 +2561,49 @@ opérations vectorielles.
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
 
-	1. Construire O, construire \(\vec{i}\), placer le point I tel
-           que \(\overrightarrow{OI} = \vec{i}\), veillez à ne pas
-           construire \(\vec{j}\).
-	2. Placer le point A tel que \(\overrightarrow{IA} =
-           \vec{j} \) et tracer le vecteur
-           \(\overrightarrow{IA}\). Exprimer le vecteur
-           \(\overrightarrow{IA}\) en fonction des vecteurs de la base.
-	3. Placer le point J tel que \(\overrightarrow{AJ} =
-           -\vec{i}\). Tracer le vecteur \(\overrightarrow{AJ}\).
-	4. Placer le point B tel que \(\overrightarrow{AB} = \vec{j}\)
-           et tracer le vecteur \(\overrightarrow{AB}\).
-	5. Placer le point C tel que \(\overrightarrow{BC} =
-           -\vec{i}\). Tracer le vecteur \(\overrightarrow{BC}\).   
-	6. Quel est le symbole que vous avez obtenu ?
+	1. Placer le point A tel que \(\overrightarrow{IA} =
+           \vec{j}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{AB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{BC} =
+           -\vec{i}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\vec{i}, \overrightarrow{IA},
+           \overrightarrow{AJ}, \overrightarrow{AB}, \overrightarrow{BC}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 3.
+
 	
 *** Exercice 70
 
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
 
-	1. Placer le point I tel que \(\overrightarrow{OI} =
-           \vec{i}\), veillez à ne pas construire ni \(\vec{i}\) ni
-           \(\vec{j}\).	   
-	2. Placer le point A tel que \(\overrightarrow{IA} =
-           \vec{j} \) et tracer le vecteur
-           \(\overrightarrow{IA}\). Exprimer le vecteur	   
-           \(\overrightarrow{IA}\) en fonction des vecteurs de la base.
-	3. Placer le point J tel que \(\overrightarrow{AJ} =
-           -\vec{i}\). Tracer le vecteur \(\overrightarrow{AJ}\).
-	4. Placer le point B tel que \(\overrightarrow{AB} = \vec{j}\)
-           et tracer le vecteur \(\overrightarrow{AB}\).
-	5. Placer le point C tel que \(\overrightarrow{JC} =
-           \vec{j}\). Tracer le vecteur \(\overrightarrow{JC}\).   
-	6. Quel est le symbole que vous avez obtenu ?
+	1. Placer le point A tel que \(\overrightarrow{IA} =
+           \vec{j}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{AB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{JC} =
+           \vec{j}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\overrightarrow{IA},
+           \overrightarrow{AJ}, \overrightarrow{AB}, \overrightarrow{JC}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 4.
 	
 *** Exercice 71
 
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
 
-	1. Construire O, construire \(\vec{i}\), placer le point I tel
-           que \(\overrightarrow{OI} = \vec{i}\) et tracer le vecteur
-           \(\vec{i}\). 
-	2. Placer le point A tel que \(\overrightarrow{IA} =
-           \vec{j}\) et tracer le vecteur
-           \(\overrightarrow{IA}\). Exprimer le vecteur
-           \(\overrightarrow{IA}\) en fonction des vecteurs de la base.
-	3. Placer le point J tel que \(\overrightarrow{AJ} =
-           -\vec{i}\) et tracer le vecteur \(\overrightarrow{AJ}\).
-	4. Placer le point B tel que \(\overrightarrow{JB} =
-           \vec{j}\). Tracer le vecteur \(\overrightarrow{JB}\).
-	5. Placer le point C tel que \(\overrightarrow{BC} = \vec{i}\)
-           et tracer le vecteur \(\overrightarrow{BC}\).
-	6. Quel est le symbole que vous avez obtenu ?
+	1. Placer le point A tel que \(\overrightarrow{IA} =
+           \vec{j}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{JB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{BC} =
+           \vec{i}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\vec{i}, \overrightarrow{IA},
+           \overrightarrow{AJ}, \overrightarrow{JB}, \overrightarrow{BC}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 5.
 	
   
 *** Exercice 72
@@ -2560,21 +2611,16 @@ opérations vectorielles.
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
 
-	1. Construire O, construire \(\vec{i}\), placer le point I tel
-           que \(\overrightarrow{OI} = \vec{i}\), tracer le vecteur
-           \(\vec{i}\), placer le point J tel que
-           \(\overrightarrow{OJ} = \vec{j}\) et tracer le vecteur
-           \(\overrightarrow{OJ}\). 
-	2. Placer le point A tel que \(\overrightarrow{IA} =
-           \vec{j}\) et tracer le vecteur
-           \(\overrightarrow{IA}\). Exprimer le vecteur
-           \(\overrightarrow{IA}\) en fonction des vecteurs de la base.
-	3. Tracer le vecteur \(\overrightarrow{AJ}\).
-	4. Placer le point B tel que \(\overrightarrow{JB} =
-           \vec{j}\). Tracer le vecteur \(\overrightarrow{JB}\).
-	5. Placer le point C tel que \(\overrightarrow{BC} = \vec{i}\)
-           et tracer le vecteur \(\overrightarrow{BC}\).
-	6. Quel est le symbole que vous avez obtenu ?
+	1. Placer le point A tel que \(\overrightarrow{IA} =
+           \vec{j}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{JB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{BC} =
+           \vec{i}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\vec{i}, \vec{j}, \overrightarrow{IA},
+           \overrightarrow{AJ}, \overrightarrow{JB}, \overrightarrow{BC}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 6.
 	
 
 *** Exercice 73
@@ -2582,64 +2628,66 @@ opérations vectorielles.
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
 
-	1. Placer le point O, placer le point A tel que
-           \(\overrightarrow{OA} = \vec{i} + 2\vec{j}\) et tracer
-           \(\overrightarrow{OA}\). 
+	1. Placer le point A tel que \(\overrightarrow{OA} =
+           \vec{i} + 2\vec{j}\). En déduire ses coordonnées.
 	2. Placer le point B tel que \(\overrightarrow{AB} =
-           -\vec{i}\). Tracer le vecteur \(\overrightarrow{AB}\).
-	3. Quel est le symbole que vous avez obtenu ?
+           -\vec{i}\). En déduire ses coordonnées.          
+	3. Tracer les vecteurs \(\overrightarrow{OA},
+           \overrightarrow{AB}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 7.
 	
   
 *** Exercice 74
 
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
-        1. Placer le point O, placer le point I tel que
-           \(\overrightarrow{OI} = \vec{i}\), tracer
-           \(\overrightarrow{OI}\), placer le point J tel que
-           \(\overrightarrow{OJ} = \vec{j}\) et tracer le vecteur
-           \(\overrightarrow{OJ}\). 
-	2. Placer le point A tel que \(\overrightarrow{IA} =
-           \vec{j}\) et tracer le vecteur \(\overrightarrow{IA}\).
-	3. Tracer le vecteur \(\overrightarrow{AJ}\).
-	4. Placer le point B tel que \(\overrightarrow{AB} = \vec{j}\)
-           et tracer le vecteur \(\overrightarrow{AB}\).
-	5. Placer le point C tel que \(\overrightarrow{BC} =
-           -\vec{i}\) et tracer le vecteur \(\overrightarrow{BC}\).
-	6. Tracer le vecteur \(\overrightarrow{JC}\).
-	7. Quel est le symbole que vous avez obtenu ?   
+	
+        1. Placer le point A tel que \(\overrightarrow{IA} =
+           \vec{j}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{AB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{BC} =
+           -\vec{i}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\vec{i}, \vec{j}, \overrightarrow{IA},
+           \overrightarrow{AB}, \overrightarrow{BC},
+           \overrightarrow{CJ}, \overrightarrow{JA}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 8.
 
 *** Exercice 75
 
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
-        1. Placer le point O, placer le point I tel que
-           \(\overrightarrow{OI} = \vec{i}\), tracer
-           \(\overrightarrow{OI}\), placer le point J tel que
-           \(\overrightarrow{OJ} = \vec{j}\). 
-	2. Placer le point A tel que \(\overrightarrow{IA} =
-           \vec{j}\) et tracer le vecteur \(\overrightarrow{IA}\).
-	3. Tracer le vecteur \(\overrightarrow{AJ}\).
-	4. Placer le point B tel que \(\overrightarrow{AB} = \vec{j}\)
-           et tracer le vecteur \(\overrightarrow{AB}\).
-	5. Placer le point C tel que \(\overrightarrow{BC} =
-           -\vec{i}\) et tracer le vecteur \(\overrightarrow{BC}\).
-	6. Tracer le vecteur \(\overrightarrow{JC}\).
-	7. Quel est le symbole que vous avez obtenu ?   
+	
+        1. Placer le point A tel que \(\overrightarrow{IA} =
+           \vec{j}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{AB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{BC} =
+           -\vec{i}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\vec{i}, \overrightarrow{IA},
+           \overrightarrow{AB}, \overrightarrow{BC},
+           \overrightarrow{CJ}, \overrightarrow{JA}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 9.   
 
 *** Exercice 76
 
         Dans le plan muni du repère orthonormé canonique
 	\[(O ; \vec{i} ; \vec{j})\]
-        1. Placer le point O, placer le point I tel que
-           \(\overrightarrow{OI} = \vec{i}\) et tracer
-           \(\overrightarrow{OI}\). 
-	2. Placer le point A tel que \(\overrightarrow{IA} =
-           2\vec{j}\) et tracer le vecteur \(\overrightarrow{IA}\).
-	5. Placer le point B tel que \(\overrightarrow{AB} =
-           -\vec{i}\) et tracer le vecteur \(\overrightarrow{AB}\).
-	6. Tracer le vecteur \(\overrightarrow{OB}\).
-	7. Quel est le symbole que vous avez obtenu ?   
+	
+        1. Placer le point A tel que \(\overrightarrow{IA} =
+           \vec{j}\). En déduire ses coordonnées.
+	2. Placer le point B tel que \(\overrightarrow{AB} =
+           \vec{j}\). En déduire ses coordonnées.          
+	3. Placer le point C tel que \(\overrightarrow{BC} =
+           -\vec{i}\). En déduire ses coordonnées.          
+	4. Tracer les vecteurs \(\vec{i}, \vec{j}, \overrightarrow{IA},
+           \overrightarrow{AB}, \overrightarrow{BC},
+           \overrightarrow{CJ}\).
+
+	   Vérifier que vous avez bien obtenu le chiffre 0.   
 	   
 ** Paradoxe de Simpson
 *** Exercice 77
@@ -2732,6 +2780,35 @@ opérations vectorielles.
     3. Combien y a-t-il de vecteurs du plan dans le cadrant supérieur
        droit de coordonnées entières tels que leur produit vaut 60 ?
 
+** Trigonométrie
+*** Exercice 81
+
+    Dans un repère orthonormé \((O ; \vec{i} ; \vec{j})\)
+
+    1. Placer le point A tel que \(\overrightarrow{OA} = \vec{u} =
+       3\vec{i}\). Placer le point B tel que \(\overrightarrow{OB} =
+       3(\vec{i} + \vec{j})\). Placer le point C tel que
+       \(\overrightarrow{OC} = 3\vec{i} + 4\vec{j}\). Placer le point
+       D tel que \(\overrightarrow{OD} = 4(\vec{i} +
+       \vec{j}\). Comparer les triangles OIJ et BCD.
+    2. En géométrie classique l'angle AOB peut se lire dans les deux
+       sens avec la même valeur, c'est ce qu'on appelle l'angle
+       géométrique. Grâce aux vecteurs on peut définir un sens et donc
+       faire la différence entre un angle positif et un angle
+       négatif. On appelle sens positif (on dit aussi direct ou encore
+       trigonométrique) le sens inverse des aiguilles d'une montre (on
+       dit aussi anti-horaire) c'est-à-dire lorsqu'on parcours un
+       chemin de façon à ce que ce soit la main gauche qui tienne la
+       "rampe". Par exemple, l'angle orienté \((\vec{i} ; \vec{j})\)
+       est dans le sens direct donc on notera :
+       \[(\vec{i} ; \vec{j}) = 90\]
+       alors que l'angle \((\vec{j} ; \vec{i})\) est dans le sens
+       indirect (ou négatif) et on le notera :
+       \[(\vec{j} ; \vec{i}) = -90\]
+       Exprimer le cosinus de l'angle \((\overrightarrow{OA} ,
+       \overrrightarrow{OB})\)
+    3. 
+    
     
 * Erreurs fréquentes à éviter
 
