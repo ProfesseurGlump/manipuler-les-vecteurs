@@ -1,4 +1,4 @@
-** Solution de l'exercice 1
+*** Solution de l'exercice 1
 
   Soient les points A, B, C tels que :
   + \(\vec{u} = \overrightarrow{AB}\)
@@ -41,7 +41,7 @@
      [[./img/sol1q4.png]]
 
 
-** Solution de l'exercice 2
+*** Solution de l'exercice 2
 
   1. Par construction, le point C est l'image de B par la translation
      de vecteur
@@ -65,44 +65,46 @@
      \end{align*}
 
 
-** Solution programme 1
+*** Solution programme 1
 
-#+INCLUDE: ../code/prog_1.py src python
+#+BEGIN_SRC python 
+  print("Un vecteur a 3 caractéristiques fondamentales : ")
 
-Exécution du programme :
-#+BEGIN_SRC sh :results output
-python3 code/prog_1.py
+  entries = ["direction", "norme", "sens"]
+
+  definitions = [
+      "la droite qui le porte.",
+      "la distance entre origine et extrémité.",
+      "de l'origine vers l'extrémité."
+  ]
+
+
+  for i in range(len(entries)):
+      e, d = entries[i], definitions[i]
+      print(f"{i + 1}) {e.capitalize()} : {d}")
 #+END_SRC
  
-** Solution du QCM d'auto-évaluation
+*** Solution du QCM d'auto-évaluation
 
    Lorsqu'on parle du vecteur \(\overrightarrow{MM'}\) associé à
    la translation qui transforme M en M'. 
 
    1. Quelle est la direction ?
-       #+ATTR_LATEX: :options [label=\alph*.)]
+
        1. Toute droite parallèle à l'axe des abscisses.
        2. Uniquement la droite (MM').
        3. Toute droite parallèle à l'axe des ordonnées.
-       4. Toute droite parallèle à la droite (MM').
-	  
-	  (*Bonne réponse*)
+       4. *Toute droite parallèle à la droite (MM'). (Bonne réponse)*
     2. Quelle est le sens ?
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. De O à M.
-       2. De M à M'.
 
-	  (*Bonne réponse*)
+       1. De O à M.
+       2. *De M à M'. (Bonne réponse)*
        3. De M' à M.
        4. De M à O.
     3. Quelle est la norme ?
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. La distance OM.
        2. La distance OM'.
-       3. La distance MM'.
-
-	  (*Bonne réponse*)
-       4. La distance M'M.
-
-	  (*Bonne réponse*)
+       3. *La distance MM'. (Bonne réponse)*
+       4. *La distance M'M. (Bonne réponse)*
 

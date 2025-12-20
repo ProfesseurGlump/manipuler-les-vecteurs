@@ -1,4 +1,4 @@
-** Solution de l'exercice 9
+*** Solution de l'exercice 9
 
    On considère le triangle ABC représenté sur la figure avec le
     quadrillage :
@@ -33,25 +33,19 @@
 
     
 
-** Solution du QCM d'auto-évaluation 
+*** Solution du QCM d'auto-évaluation 
 
 1. Un vecteur est caractérisé par :
-   #+ATTR_LATEX: :options [label=\alph*.]
+   
    1. Sa longueur uniquement
    2. Sa direction et son sens uniquement
-   3. Sa direction, son sens et sa norme
-
-      (*Bonne réponse*)
+   3. *Sa direction, son sens et sa norme (Bonne réponse)*
    4. Son origine et son extrémité
 
 2. Les vecteurs \(\overrightarrow{AB}\) et \(\overrightarrow{CD}\) 
    sont égaux si :
-   #+ATTR_LATEX: :options [label=\alph*.]
-   1. A = C et B = D
-
-      (*Bonne réponse*)
-   2. ABDC est un parallélogramme
-
-      (*Bonne réponse*)
+   
+   1. *A = C et B = D (Bonne réponse)*
+   2. *ABDC est un parallélogramme (Bonne réponse)*
    3. AB = CD (distances égales)
    4. Les segments [AB] et [CD] sont parallèles

@@ -1,4 +1,4 @@
-** Solution de l'exercice 8
+*** Solution de l'exercice 8
 
    On reprend la configuration finale de l'exercice 7.
 
@@ -105,46 +105,44 @@
    [[./img/sol8q10.png]]
 
 
-** Solution du programme 7
+*** Solution du programme 7
 
-    #+BEGIN_SRC python
-      def abc_aligned():
-	points = []
+#+BEGIN_SRC python 
+  def abc_aligned():
+      points = []
 
-	for i in range(3):
+      for i in range(3):
 	  x = float(input(f"Abscisse du {i + 1}e point = "))
 	  y = float(input(f"Ordonnée du {i + 1}e point = "))
 	  points.append((x, y))
 
-	x_p1p2 = points[1][0] - points[0][0]
-	y_p1p2 = points[1][1] - points[0][1]
-	x_p1p3 = points[2][0] - points[0][0]
-	y_p1p3 = points[2][1] - points[0][1]
+      x_p1p2 = points[1][0] - points[0][0]
+      y_p1p2 = points[1][1] - points[0][1]
+      x_p1p3 = points[2][0] - points[0][0]
+      y_p1p3 = points[2][1] - points[0][1]
 
-	det = x_p1p2 * y_p1p3 - x_p1p3 * y_p1p2
+      det = x_p1p2 * y_p1p3 - x_p1p3 * y_p1p2
 
-	if det == 0:
+      if det == 0:
 	  return True
-	else:
+      else:
 	  return False 
 
 
-      # Test
-      if abc_aligned():
-	print("Les points sont alignés.")
-      else:
-	print("Les points ne sont pas alignés.")
-
-    #+END_SRC
-   
+  # Test
+  if abc_aligned():
+      print("Les points sont alignés.")
+  else:
+      print("Les points ne sont pas alignés.")
+#+END_SRC
 
 
-** Solution du QCM d'auto-évaluation 
+*** Solution du QCM d'auto-évaluation 
 
     1. Considérons les vecteurs
        \[\vec{u}_1\begin{pmatrix}x_1\\y_1\end{pmatrix}\] et
        \[\vec{u}_2\begin{pmatrix}x_2\\y_2\end{pmatrix}\] alors :
-       #+ATTR_LATEX: :options [label=\alph*.]
+       
        1. \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
           = x_1x_2 + y_1y_2\]
        2. \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
@@ -152,23 +150,14 @@
        3. \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
           = x_1y_2 + y_1x_2\]
        4. \[det(\vec{u}_1 , \vec{u}_2) = \begin{vmatrix}x_1&x_2\\y_1&y_2\end{vmatrix}
-          = x_1y_2 - y_1x_2\]
-
-	  (*Bonne réponse*)
+          = x_1y_2 - y_1x_2\] *(Bonne réponse)*
     2. Considérons les mêmes vecteurs que précédemment.
 
        On dira que \(\vec{u}_1\) et \(\vec{u}_2\) sont colinéaires
        si :
        
-       #+ATTR_LATEX: :options [label=\alph*.]
        1. \(det(\vec{u}_1 , \vec{u}_2) = 1\)
-       2. \(det(\vec{u}_1 , \vec{u}_2) = 0\)
-
-	  (*Bonne réponse*)
-       3. il existe un réel \(k\) tel que \(x_1 = kx_2\) et \(y_1 =
-          ky_2\)
-
-	  (*Bonne réponse*)
-       4. \(\dfrac{x_1}{x_2} = \dfrac{y_1}{y_2}\)
-
-	  (*Bonne réponse*)
+       2. *\(det(\vec{u}_1 , \vec{u}_2) = 0\) (Bonne réponse)*
+       3. *il existe un réel \(k\) tel que \(x_1 = kx_2\) et \(y_1 =
+          ky_2\) (Bonne réponse)*
+       4. *\(\dfrac{x_1}{x_2} = \dfrac{y_1}{y_2}\) (Bonne réponse)*

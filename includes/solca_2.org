@@ -1,4 +1,4 @@
-** Solution de l'exercice 10
+*** Solution de l'exercice 10
 
        On considère la configuration initiale de l'exercice 9 voir
     figure :
@@ -40,30 +40,22 @@
        [[./img/sol10q4.png]]
 
 
-** Solution du QCM d'auto-évaluation 
+*** Solution du QCM d'auto-évaluation 
 
     Considérons deux vecteurs \(\vec{u}\) et \(\vec{v}\).
 
     1. Pour construire géométriquement la somme il faut :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. partir de l'origine du vecteur \(\vec{u}\) puis, arrivé à
-          son extrémité appliquer le vecteur \(\vec{v}\)
 
-	  (*Bonne réponse*)
-       2. partir de l'origine du vecteur \(\vec{v}\) puis, arrivé à
-          son extrémité appliquer le vecteur \(\vec{u}\)
-
-	  (*Bonne réponse*)
-       3. les deux propositions précédentes aboutissent au même
-          résultat
-
-	  (*Bonne réponse*)
+       1. *partir de l'origine du vecteur \(\vec{u}\) puis, arrivé à
+          son extrémité appliquer le vecteur \(\vec{v}\) (Bonne réponse)*
+       2. *partir de l'origine du vecteur \(\vec{v}\) puis, arrivé à
+          son extrémité appliquer le vecteur \(\vec{u}\) (Bonne réponse)*
+       3. *les deux propositions précédentes aboutissent au même
+          résultat (Bonne réponse)*
     2. Si \(\vec{u}\) et \(\vec{v}\) ne sont pas colinéaires alors
        \(\vec{w} = \vec{u} + \vec{v}\) :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. est un vecteur ayant même direction que \(\vec{u}\) et
           \(\vec{v}\)	  
-       2. représente la diagonale du parallélogramme obtenu en
-          faisant partir \(\vec{u}\) et \(\vec{v}\) de la même origine
-
-	  (*Bonne réponse*)
+       2. *représente la diagonale du parallélogramme obtenu en
+          faisant partir \(\vec{u}\) et \(\vec{v}\) de la même origine (Bonne réponse)*

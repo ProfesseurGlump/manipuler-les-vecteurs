@@ -1,0 +1,109 @@
+% Created 2025-12-20 Sat 12:06
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage[french, american]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[AUTO]{babel}
+\usepackage{minted}
+\author{Digital Nomad}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Digital Nomad},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Solution de l'exercice 4}
+\label{sec:org67cfd94}
+
+\begin{enumerate}
+\item D'après la relation de Chasles :
+\[\overrightarrow{AB} + \overrightarrow{BC} =
+      \overrightarrow{AC}\]
+\item D'après la relation de Chasles :
+\[\overrightarrow{AB} + \overrightarrow{BD} =
+      \overrightarrow{AD}\]
+Or par construction :
+\[\overrightarrow{AD} = \overrightarrow{AB} +
+      \overrightarrow{AC}\]
+Donc
+\[\overrightarrow{BD} = \overrightarrow{AC}\]
+Ainsi ABDC est un parallélogramme.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol4q2.png}
+\end{center}
+\item Dans un parallélogramme les diagonales se coupent en leur milieu
+donc O est le milieu de [AD] et [BC]. Cette information est
+inutile pour cette question mais elle le sera pour la question
+suivante.
+
+En utilisant Chasles ou la question précédente (avec la remarque
+sur le milieu), on peut trouver plusieurs somme permettant
+d'obtenir le vecteur \(\overrightarrow{AO}\) :
+\begin{align*}
+\overrightarrow{AO} &= \overrightarrow{AB} + \overrightarrow{BO}\\
+\overrightarrow{AO} &= \overrightarrow{AC} + \overrightarrow{CO} \\
+\overrightarrow{AO} &= \dfrac{1}{2}(\overrightarrow{AB} + \overrightarrow{AC})
+\end{align*}
+\item Avant de calculer cette somme vectorielle il faut réarranger
+l'ordre des vecteurs et utiliser la remarque concernant les
+milieux. En effet, puisque O est le milieu du segment [AD] alors
+\[\overrightarrow{AO} = \overrightarrow{OD}\]
+de même puisque O est le milieu du segment [BC] alors
+\[\overrightarrow{BO} = \overrightarrow{OC}\]
+Par conséquent :
+\begin{align*}
+\overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} + \overrightarrow{DO} + \overrightarrow{BO} + \overrightarrow{CO}\\
+\overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} - \overrightarrow{OD} + \overrightarrow{BO} - \overrightarrow{OC}\\
+\overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \overrightarrow{AO} - \overrightarrow{AO} + \overrightarrow{BO} - \overrightarrow{BO}\\
+\overrightarrow{AO} + \overrightarrow{BO} + \overrightarrow{CO} + \overrightarrow{DO} &= \vec{0}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol4q4.png}
+\end{center}
+\end{enumerate}
+
+\section{Solution programme 3}
+\label{sec:orgd636287}
+
+\inputminted{python}{../code/prog_3.py}
+
+
+
+\section{Solution du QCM d'auto-évaluation}
+\label{sec:org10b9c2f}
+
+\begin{enumerate}
+\item Ajouter deux vecteurs revient à :
+
+\begin{enumerate}
+\item \textbf{enchaîner deux translations successives (Bonne réponse)}
+\item faire une rotation
+\item faire une symétrie
+\item faire une homothétie
+\end{enumerate}
+\item La relation de Chasles :
+
+\begin{enumerate}
+\item augmente la norme d'un vecteur
+\item \textbf{décompose un vecteur en sommes de vecteurs (Bonne réponse)}
+\item consiste à passer un coup de fil à Michel
+\item revient à faire une transformation géométrique sur un
+vecteur
+\end{enumerate}
+\end{enumerate}
+\end{document}

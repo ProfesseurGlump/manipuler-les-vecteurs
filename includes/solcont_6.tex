@@ -1,0 +1,110 @@
+% Created 2025-12-20 Sat 12:10
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage[french, american]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[AUTO]{babel}
+\usepackage{minted}
+\author{Digital Nomad}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Digital Nomad},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Solution de l'exercice 7}
+\label{sec:org951ece4}
+
+\begin{enumerate}
+\item Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol7q1.png}
+\end{center}
+\item On peut voir sur la figure que les points A et B sont sur l'axe
+des abscisses donc les vecteurs \(\overrightarrow{OA}\) et
+\(\overrightarrow{OB}\) sont colinéaires. Concrètement :
+\[\overrightarrow{OB} = \dfrac{3}{2}\overrightarrow{OA}\]
+\item De même on peut voir sur la figure que les points C et D sont sur l'axe
+des ordonnées donc les vecteurs \(\overrightarrow{OC}\) et
+\(\overrightarrow{OD}\) sont colinéaires. Concrètement :
+\[\overrightarrow{OD} = \dfrac{3}{2}\overrightarrow{OC}\]
+\item Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol7q4.png}
+\end{center}
+\item D'une part on a :
+\begin{align*}
+\overrightarrow{DF} &= \overrightarrow{DO} + \overrightarrow{OF}\\
+\overrightarrow{DF} &= \vec{v} - 3\vec{j}\\
+\overrightarrow{DF} &= 2\vec{i} + 3\vec{j} - 3\vec{j}\\
+\overrightarrow{DF} &= 2\vec{i}
+\end{align*}
+
+D'autre part on a :
+\begin{align*}
+\overrightarrow{CE} &= \overrightarrow{CO} + \overrightarrow{OE}\\
+\overrightarrow{CE} &= \vec{u} - 2\vec{j}\\
+\overrightarrow{CE} &= 3\vec{i} + 2\vec{j} - 2\vec{j}\\
+\overrightarrow{CE} &= 3\vec{i}
+\end{align*}
+
+Ainsi :
+\[\overrightarrow{CE} = \dfrac{3}{2}\overrightarrow{DF}\]
+\end{enumerate}
+
+\section{Solution du programme 6}
+\label{sec:orga364b8f}
+
+\inputminted{python}{../code/prog_6.py}
+
+\section{Solution du QCM d'auto-évaluation}
+\label{sec:orgac7519c}
+
+\begin{enumerate}
+\item Si on multiplie un vecteur par un nombre réel supérieur à 1
+alors :
+
+\begin{enumerate}
+\item Le vecteur change de direction.
+\item \textbf{Le vecteur augmente sa norme. (Bonne réponse)}
+\item Le vecteur change de sens.
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel inférieur à -1
+alors :
+
+\begin{enumerate}
+\item Le vecteur change de direction.
+\item \textbf{Le vecteur augmente sa norme. (Bonne réponse)}
+\item \textbf{Le vecteur change de sens. (Bonne réponse)}
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel supérieur à -1 et
+inférieur à 1 alors :
+
+\begin{enumerate}
+\item Le vecteur change de direction.
+\item \textbf{Le vecteur diminue sa norme. (Bonne réponse)}
+\item Le vecteur change de sens.
+\item Le vecteur reste identique.
+\end{enumerate}
+\item Si on multiplie un vecteur par un nombre réel alors :
+
+\begin{enumerate}
+\item Le vecteur obtenu n'est pas colinéaire au vecteur initial.
+\item \textbf{Le vecteur obtenu est colinéaire au vecteur initial. (Bonne
+réponse)}
+\end{enumerate}
+\end{enumerate}
+\end{document}

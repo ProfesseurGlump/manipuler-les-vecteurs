@@ -1,58 +1,89 @@
 #+TITLE: Manipuler les vecteurs du plan (solutions)
 #+AUTHOR: Laurent Garnier
+#+DATE: \today
 #+LANGUAGE: FR
-#+OPTIONS: toc:t num:t
-
+#+OPTIONS: toc:t num:t ^:nil
+#+OPTIONS: tex:t
+#+OPTIONS: latex:t
 #+INCLUDE: includes/preamble.org
 
+* Solutions des exercices                                                 :solutions:
+:PROPERTIES:
+:CUSTOM_ID: solutions
+:END:
 
-* Solutions des exercices du contenu 1
+** Contenu 1                                                             :contenu:
 #+INCLUDE: includes/solcont_1.org
 
-* Solutions des exercices du contenu 2
+** Contenu 2                                                             :contenu:
 #+INCLUDE: includes/solcont_2.org
 
-* Solutions des exercices du contenu 3
+** Contenu 3                                                             :contenu:
 #+INCLUDE: includes/solcont_3.org
 
-* Solutions des exercices du contenu 4
+** Contenu 4                                                             :contenu:
 #+INCLUDE: includes/solcont_4.org
-   
-* Solutions des exercices du contenu 5
+
+** Contenu 5                                                             :contenu:
 #+INCLUDE: includes/solcont_5.org
 
-* Solutions des exercices du contenu 6
+** Contenu 6                                                             :contenu:
 #+INCLUDE: includes/solcont_6.org
 
-* Solutions des exercices du contenu 7
+** Contenu 7                                                             :contenu:
 #+INCLUDE: includes/solcont_7.org
-    
-* Solutions des exercices de la \(Ca_1\)
+
+* Capacités attendues                                             :capacities:
+:PROPERTIES:
+:CUSTOM_ID: capacities
+:END:
+
+** Capacité \(C_{a_1}\)                                                   :capacity:
 #+INCLUDE: includes/solca_1.org
-    
-* Solutions des exercices de la \(Ca_2\)
-#+INCLUDE: includes/solca_2.org
-    
-* Solutions des exercices de la \(Ca_3\)
+
+** Capacité \(C_{a_3}\)                                                   :capacity:
 #+INCLUDE: includes/solca_3.org
 
-* Solutions des exercices de la \(Ca_4\)
+** Capacité \(C_{a_4}\)                                                   :capacity:
 #+INCLUDE: includes/solca_4.org
-    
-* Solutions des exercices de la \(Ca_5\)
+
+** Capacité \(C_{a_5}\)                                                   :capacity:
 #+INCLUDE: includes/solca_5.org
-        
-* Solutions des exercices de la \(Ca_6\)
+
+** Capacité \(C_{a_6}\)                                                   :capacity:
 #+INCLUDE: includes/solca_6.org
 
-* Solutions des exercices de la \(Ca_7\)
+** Capacité \(C_{a_7}\)                                                   :capacity:
 #+INCLUDE: includes/solca_7.org
 
-* Solutions des exercices complémentaires
-#+INCLUDE: includes/solcomp.org       
-    
-* Démonstrations
+* Annexes                                                                  :annexes:
+:PROPERTIES:
+:CUSTOM_ID: annexes
+:END:
+
+** Exercices complémentaires
+#+INCLUDE: includes/solcomp.org
+
+** Démonstrations
 #+INCLUDE: includes/soldemos.org
 
-* Solutions des exercices divers
+** Exercices divers
 #+INCLUDE: includes/solexosdivers.org
+
+* Index des programmes Python                                              :index:
+:PROPERTIES:
+:CUSTOM_ID: index-programmes
+:END:
+
+#+ATTR_LATEX: :center nil
+#+CAPTION: Liste des programmes Python inclus dans ce document
+#+NAME: tab:programmes-python
+| Programme   | Description                                                                 |
+|-------------+-----------------------------------------------------------------------------|
+| prog_1.py   | Affiche les caractéristiques fondamentales d'un vecteur                    |
+| prog_2.py   | Vérifie l'égalité et la colinéarité de vecteurs                            |
+| prog_3.py   | Illustre la relation de Chasles                                            |
+| prog_4.py   | Définition et utilisation des bases orthonormées                           |
+| prog_5.py   | Calcul des coordonnées d'un vecteur à partir de deux points               |
+| prog_6.py   | Vérification de la colinéarité de deux vecteurs                            |
+| prog_7.py   | Vérification de l'alignement de trois points                               |

@@ -1,0 +1,15 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{msg} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Les vecteurs sont\PYGZhy{}ils égaux ?}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{n}{rep} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{(O/N) }\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{n}{msg} \PYG{o}{+}\PYG{o}{=} \PYG{n}{rep}
+\PYG{n}{egal} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{n}{msg}\PYG{p}{)}
+\PYG{k}{if} \PYG{n}{egal}\PYG{o}{.}\PYG{n}{upper}\PYG{p}{(}\PYG{p}{)} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{O}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{:}
+    \PYG{n}{msg} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Les vecteurs sont\PYGZhy{}ils alignés ?}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{n}{align} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{n}{msg}\PYG{p}{)}
+    \PYG{k}{if} \PYG{n}{align}\PYG{o}{.}\PYG{n}{upper}\PYG{p}{(}\PYG{p}{)} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{N}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{:}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{C}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{est un parallélogramme.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{k}{else}\PYG{p}{:}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{C}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{est le même vecteur.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Les vecteurs ne sont pas colinéaires.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

@@ -1,5 +1,5 @@
 
-** Solution de l'exercice 3
+*** Solution de l'exercice 3
 
    1. Puisque D est l'image du point C par la translation de vecteur
       \[\vec{u} = \overrightarrow{AB}\]
@@ -37,42 +37,45 @@
       [[./img/sol3q3.png]]
 
 
-** Solution programme 2
+*** Solution programme 2
 
-   #+BEGIN_SRC python
-     msg = "Les vecteurs sont-ils égaux ?"
-     rep = "\n(O/N) "
-     msg += rep
-     egal = input(msg)
-     if egal.upper() == "O":
-	 msg = "Les vecteurs sont-ils alignés ?"
-	 align = input(msg)
-	 if align.upper() == "N":
-	     print("C'est un parallélogramme.")
-	 else:
-	     print("C'est le même vecteur.")
-     else:
-	 print("Les vecteurs ne sont pas colinéaires.")
-   #+END_SRC
+#+BEGIN_SRC python 
+  msg = "Les vecteurs sont-ils égaux ?"
+  rep = "\n(O/N) "
+  msg += rep
+  egal = input(msg)
+
+
+  if egal.upper() == "O":
+      msg = "Les vecteurs sont-ils alignés ?"
+      align = input(msg)
+    
+      if align.upper() == "N":
+	  print("C'est un parallélogramme.")
+      else:
+	  print("C'est le même vecteur.")
+        
+  else:
+      print("Les vecteurs ne sont pas colinéaires.")
+#+END_SRC
+
+
    
-** Solution du QCM d'auto-évaluation
+*** Solution du QCM d'auto-évaluation
 
     1. Deux vecteurs \(\vec{u}\) et \(\vec{v}\) sont égaux si :
-       #+ATTR_LATEX: :options [label=\alph*.]
+       
        1. Ils ont la même direction.
        2. Ils ont la même direction et le même sens.
        3. Ils ont la même direction et la même norme.
-       4. Ils ont la même direction, le même sens et la même
-          norme.
-
-	  (*Bonne réponse*)
+       4. *Ils ont la même direction, le même sens et la même
+          norme. (Bonne réponse)*
+	  
     2. On dit qu'un vecteur est nul si :
-       #+ATTR_LATEX: :options [label=\alph*.]
+       
        1. Sa direction est horizontale.
        2. Sa direction est verticale.
        3. Il va dans un sens puis dans l'autre.
-       4. Sa norme vaut zéro.
-
-	  (*Bonne réponse*)
+       4. *Sa norme vaut zéro. (Bonne réponse)*
     
    

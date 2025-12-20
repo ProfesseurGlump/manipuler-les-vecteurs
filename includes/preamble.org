@@ -1,31 +1,33 @@
 #+LATEX_CLASS: book
-#+LATEX_CLASS_OPTIONS: [a4paper,11pt]
+#+LATEX_CLASS_OPTIONS: [a4paper,11pt,twoside]
 #+LATEX_COMPILER: lualatex
 
-# Packages essentiels
 #+LATEX_HEADER: \usepackage{fontspec}
 #+LATEX_HEADER: \setmainfont{Libertinus Serif}
 #+LATEX_HEADER: \usepackage{polyglossia}
 #+LATEX_HEADER: \setmainlanguage{french}
-#+LATEX_HEADER: \usepackage{amsmath,amssymb}
+#+LATEX_HEADER: \usepackage{amsmath,amssymb,mathtools}
 #+LATEX_HEADER: \usepackage{geometry}
-#+LATEX_HEADER: \geometry{paperwidth=6in,paperheight=9in,margin=1in}
+#+LATEX_HEADER: \geometry{a4paper,margin=2.5cm,top=3cm,bottom=3cm}
 
-# Configuration minted pour Python
 #+LATEX_HEADER: \usepackage{minted}
 #+LATEX_HEADER: \usemintedstyle{emacs}
-#+LATEX_HEADER: \definecolor{bg}{rgb}{0.15,0.15,0.15}
-#+LATEX_HEADER: \setminted[python]{bgcolor=bg, fontsize=\footnotesize, breaklines=true, breaksymbolleft=, mathescape, linenos, numbersep=5pt}
-#+LATEX_HEADER: \setmintedinline{bgcolor=bg}
+#+LATEX_HEADER: \definecolor{bg}{rgb}{0.97,0.97,0.97}
+#+LATEX_HEADER: \setminted[python]{bgcolor=bg,fontsize=\small,linenos=true,breaklines=true}
 
-# Configuration tcolorbox
-#+LATEX_HEADER: \usepackage[most]{tcolorbox}
+#+LATEX_HEADER: \usepackage{tcolorbox}
+#+LATEX_HEADER: \tcbuselibrary{minted,breakable}
 #+LATEX_HEADER: \newtcolorbox{solution}{colback=blue!5,colframe=blue!50!black,title=Solution}
 
-# Macros pour les QCM
-#+LATEX_HEADER: \newcommand{\qcm}[1]{\begin{enumerate}[label=\alph*.] #1 \end{enumerate}}
-#+LATEX_HEADER: \newcommand{\bonnereponse}{\quad\textbf{(Bonne réponse)}}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{tikz}
 
-# Hyperref (doit être un des derniers)
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \fancyhf{}
+#+LATEX_HEADER: \fancyhead[LE,RO]{\thepage}
+#+LATEX_HEADER: \fancyhead[RE]{\leftmark}
+#+LATEX_HEADER: \fancyhead[LO]{\rightmark}
+
 #+LATEX_HEADER: \usepackage{hyperref}
-#+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue,pdftitle={Manipuler les vecteurs du plan},pdfauthor={Laurent Garnier}}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue,citecolor=green,urlcolor=cyan}

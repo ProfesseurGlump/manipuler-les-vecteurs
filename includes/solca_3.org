@@ -1,4 +1,4 @@
-** Solution de l'exercice 11
+*** Solution de l'exercice 11
 
    On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
     \vec{j})\). Avec :
@@ -20,25 +20,21 @@
        \[\vec{v}\begin{pmatrix}5\\ 3\end{pmatrix}\]
 
 
-** Solution du QCM d'auto-évaluation 
+*** Solution du QCM d'auto-évaluation 
 
     Considérons le vecteur
     \(\vec{u}\begin{pmatrix}a\\b\end{pmatrix}\). Alors :
 
     1. Pour le représenter dans le repère \((O ; \vec{i} , \vec{j})\) :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. on se place au point M de coordonnées (a ; b) et on trace le
           vecteur en se déplaçant de a unités sur l'axe horizontal et
           b unités sur l'axe vertical.
-       2. partant de l'origine du repère on se déplace de a unités sur
-          l'axe horizontal et b unités sur l'axe vertical.
-
-	  (*Bonne réponse*)
+       2. *partant de l'origine du repère on se déplace de a unités sur
+          l'axe horizontal et b unités sur l'axe vertical. (Bonne réponse)*
     2. Pour lire les cordonnées d'un vecteur \(\vec{v}\) :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. on se place à son origine et on reporte les coordonnées du
           point
-       2. on trace un représentant du vecteur en partant de l'origine
-          du repère et on lit les coordonnées de son extrémité
-
-	  (*Bonne réponse*)
+       2. *on trace un représentant du vecteur en partant de l'origine
+          du repère et on lit les coordonnées de son extrémité (Bonne réponse)*

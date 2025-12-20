@@ -1,4 +1,4 @@
-** Solution de l'exercice 13
+*** Solution de l'exercice 13
 
     
     On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
@@ -39,22 +39,18 @@
        [[./img/sol13q2.png]]
        
 
-** Solution du QCM d'auto-évaluation 
+*** Solution du QCM d'auto-évaluation 
 
     1. La distance entre \(A(x_A ; y_A)\) et \(B(x_B ; y_B)\) vaut :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. \(AB = x_Ax_B + y_Ay_B\)
        2. \(AB = (x_A + x_B)^2 + (y_A + y_B)^2\)
        3. \(AB = (x_A - x_B)^2 + (y_A - y_B)^2\)
-       4. \(AB = \sqrt{(x_A - x_B)^2 + (y_A - y_B)^2}\)
-
-	  (*Bonne réponse*)
+       4. *\(AB = \sqrt{(x_A - x_B)^2 + (y_A - y_B)^2}\) (Bonne réponse)*
     2. Le milieu \(M(x_M ; y_M)\) du segment [AB] vérifie :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. \((x_M ; y_M) = \left(\dfrac{x_A + x_B}{2} ; \dfrac{y_A +
-          y_B}{2}\right)\)
 
-	  (*Bonne réponse*)
+       1. *\((x_M ; y_M) = \left(\dfrac{x_A + x_B}{2} ; \dfrac{y_A +
+          y_B}{2}\right)\) (Bonne réponse)*
        2. \((x_M ; y_M) = \left(\dfrac{x_A - x_B}{2} ; \dfrac{y_A -
           y_B}{2}\right)\)
        3. \((x_M ; y_M) = \left(\dfrac{x_A \times x_B}{2} ; \dfrac{y_A \times

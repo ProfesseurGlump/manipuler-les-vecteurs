@@ -1,4 +1,4 @@
-** Solution de l'exercice 6
+*** Solution de l'exercice 6
 
    1. Les coordonnées du vecteur \(\overrightarrow{OA}\) sont les
       mêmes que celles du point A d'où la relation :
@@ -21,49 +21,49 @@
       \[\overrightarrow{AB}\begin{pmatrix}x_B - x_A\\ y_B - y_A\end{pmatrix}\]
 
 
-** Solution du programme 5
+*** Solution du programme 5
 
-   #+BEGIN_SRC python
-     print("Coordonnées du vecteur AB")
-     print("x_{AB} = x_B - x_A")
-     print("y_{AB} = y_B - y_A")
-     x_A = float(input("x_A = "))
-     y_A = float(input("y_A = "))
-     x_B = float(input("x_B = "))
-     y_B = float(input("y_B = "))
-     x_AB = x_B - x_A
-     y_AB = y_B - y_A
-     print(f"x_AB = {x_AB:.2f}")
-     print(f"y_AB = {y_AB:.2f}")
-   #+END_SRC
+#+BEGIN_SRC python 
+  print("Coordonnées du vecteur AB")
+  print("x_{AB} = x_B - x_A")
+  print("y_{AB} = y_B - y_A")
+
+  x_A = float(input("x_A = "))
+  y_A = float(input("y_A = "))
+
+  x_B = float(input("x_B = "))
+  y_B = float(input("y_B = "))
+
+  x_AB = x_B - x_A
+  y_AB = y_B - y_A
+
+  print(f"x_AB = {x_AB:.2f}")
+  print(f"y_AB = {y_AB:.2f}")
+#+END_SRC
 
 
    
-** Solution du QCM d'auto-évaluation 
+*** Solution du QCM d'auto-évaluation 
 
     On considère le vecteur \(\overrightarrow{AB}\) dans le plan muni
     du repère orthonormé \((O ; \vec{i}, \vec{j})\).
 
     1. En utilisant Chasles on peut écrire :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. \(\overrightarrow{AB} = \overrightarrow{OA} +
           \overrightarrow{OB}\)	  
        2. \(\overrightarrow{AB} = \overrightarrow{OA} - \overrightarrow{OB}\)
        3. \(\overrightarrow{AB} = \overrightarrow{AO} +
           \overrightarrow{BO}\)	  
-       4. \(\overrightarrow{AB} = \overrightarrow{AO} +
-          \overrightarrow{OB}\)
-
-	  (*Bonne réponse*)
+       4. *\(\overrightarrow{AB} = \overrightarrow{AO} +
+          \overrightarrow{OB}\) (Bonne réponse)*
     2. En utilisant les coordonnées des points A et B on a :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. \(\overrightarrow{AB}\begin{pmatrix}x_A + x_B\\y_A +
           y_B\end{pmatrix}\)	  
        2. \(\overrightarrow{AB}\begin{pmatrix}x_A - x_B\\y_A -
           y_B\end{pmatrix}\)	  
-       3. \(\overrightarrow{AB}\begin{pmatrix}x_B - x_A\\y_B -
-          y_A\end{pmatrix}\)
-
-	  (*Bonne réponse*)	  
+       3. *\(\overrightarrow{AB}\begin{pmatrix}x_B - x_A\\y_B -
+          y_A\end{pmatrix}\) (Bonne réponse)*	  
        4. \(\overrightarrow{AB}\begin{pmatrix}x_A \times x_B\\y_A
           \times y_B\end{pmatrix}\)

@@ -1,4 +1,4 @@
-** Solution de l'exercice 7
+*** Solution de l'exercice 7
 
    1. Voir figure :
       [[./img/sol7q1.png]]
@@ -31,59 +31,55 @@
       Ainsi :
       \[\overrightarrow{CE} = \dfrac{3}{2}\overrightarrow{DF}\]
 
-** Solution du programme 6
+*** Solution du programme 6
 
-   #+BEGIN_SRC python
-     x_u = float(input("Abscisse du 1er vecteur = "))
-     y_u = float(input("Ordonnée du 1er vecteur = "))
-     x_v = float(input("Abscisse du 2e vecteur = "))
-     y_v = float(input("Ordonnée du 2e vecteur = "))
-     d = x_u * y_v - x_v * y_u
-     if d == 0:
-	 print("Les vecteurs sont colinéaires.")
-	 k = x_v / x_u
-	 print(f"Vecteur 2 = {k} * Vecteur 1")
-     else:
-	 print("Les vecteurs ne sont pas colinéaires.")
-	 print("Ils forment donc une base.")
-   #+END_SRC
+#+BEGIN_SRC python 
+  x_u = float(input("Abscisse du 1er vecteur = "))
+  y_u = float(input("Ordonnée du 1er vecteur = "))
+
+  x_v = float(input("Abscisse du 2e vecteur = "))
+  y_v = float(input("Ordonnée du 2e vecteur = "))
+
+  d = x_u * y_v - x_v * y_u
 
 
-** Solution du QCM d'auto-évaluation 
+  if d == 0:
+      print("Les vecteurs sont colinéaires.")
+      k = x_v / x_u
+      print(f"Vecteur 2 = {k} * Vecteur 1")
+  else:
+      print("Les vecteurs ne sont pas colinéaires.")
+      print("Ils forment donc une base.")
+#+END_SRC
+
+
+*** Solution du QCM d'auto-évaluation 
 
     1. Si on multiplie un vecteur par un nombre réel supérieur à 1
        alors :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. Le vecteur change de direction.
-       2. Le vecteur augmente sa norme.
 
-	  (*Bonne réponse*)
+       1. Le vecteur change de direction.
+       2. *Le vecteur augmente sa norme. (Bonne réponse)*
        3. Le vecteur change de sens.
        4. Le vecteur reste identique.
     2. Si on multiplie un vecteur par un nombre réel inférieur à -1
        alors :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. Le vecteur change de direction.
-       2. Le vecteur augmente sa norme.
-
-	  (*Bonne réponse*)
-       3. Le vecteur change de sens.
-
-	  (*Bonne réponse*)
+       2. *Le vecteur augmente sa norme. (Bonne réponse)*
+       3. *Le vecteur change de sens. (Bonne réponse)*
        4. Le vecteur reste identique.
     3. Si on multiplie un vecteur par un nombre réel supérieur à -1 et
        inférieur à 1 alors :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. Le vecteur change de direction.
-       2. Le vecteur diminue sa norme.
 
-	  (*Bonne réponse*)
+       1. Le vecteur change de direction.
+       2. *Le vecteur diminue sa norme. (Bonne réponse)*
        3. Le vecteur change de sens.
        4. Le vecteur reste identique.
     4. Si on multiplie un vecteur par un nombre réel alors :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. Le vecteur obtenu n'est pas colinéaire au vecteur initial.
-       2. Le vecteur obtenu est colinéaire au vecteur initial.
 
-	  (*Bonne réponse*) 
+       1. Le vecteur obtenu n'est pas colinéaire au vecteur initial.
+       2. *Le vecteur obtenu est colinéaire au vecteur initial. (Bonne
+          réponse)*
+	   
    

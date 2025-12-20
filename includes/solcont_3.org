@@ -1,4 +1,4 @@
-** Solution de l'exercice 4
+*** Solution de l'exercice 4
 
    1. D'après la relation de Chasles :
       \[\overrightarrow{AB} + \overrightarrow{BC} =
@@ -45,41 +45,40 @@
       Voir figure :
       [[./img/sol4q4.png]]
 
+*** Solution programme 3
 
-** Solution programme 3
+#+BEGIN_SRC python
+  abc = """
+  C <-- B
+  ^    /
+  |   /
+  |  /
+  | /
+  A
+  """
 
-   #+BEGIN_SRC python
-     abc = """
-      C <-- B
-      ^    /
-      |   /
-      |  /
-      | /
-      A
-     """
-     somme = "Vecteur(A, B) + Vecteur(B, C)"
-     result = "Vecteur(A, C)"
-     chasles = somme + " = " + result
-     print(chasles)
-     print(abc)
-   #+END_SRC
+  somme = "Vecteur(A, B) + Vecteur(B, C)"
+  result = "Vecteur(A, C)"
+  chasles = somme + " = " + result
+
+  print(chasles)
+  print(abc)
+#+END_SRC
+
    
-** Solution du QCM d'auto-évaluation 
+   
+*** Solution du QCM d'auto-évaluation 
 
     1. Ajouter deux vecteurs revient à :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. enchaîner deux translations successives
 
-	  (*Bonne réponse*)
+       1. *enchaîner deux translations successives (Bonne réponse)*	  
        2. faire une rotation
        3. faire une symétrie
        4. faire une homothétie
     2. La relation de Chasles :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. augmente la norme d'un vecteur
-       2. décompose un vecteur en sommes de vecteurs
 
-	  (*Bonne réponse*)
+       1. augmente la norme d'un vecteur
+       2. *décompose un vecteur en sommes de vecteurs (Bonne réponse)*	  
        3. consiste à passer un coup de fil à Michel
        4. revient à faire une transformation géométrique sur un
           vecteur

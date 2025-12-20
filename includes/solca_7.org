@@ -1,4 +1,4 @@
-** Solution de l'exercice 15
+*** Solution de l'exercice 15
 
     Pour chacune des situations suivantes, indiquons comment la
     résoudre selon la représentation vectorielle parmi :
@@ -72,7 +72,7 @@
          parallélogramme ou pas
 
 
-** Solution du programme
+*** Solution du programme
 
     Écrire un programme Python qui résout le problème
     \[\overrightarrow{AM} = a\overrightarrow{AB} +
@@ -81,7 +81,7 @@
     point M en fonction des paramètres a et b et des coordonnées des
     points déjà existants A, B, et C.
 
-    #+BEGIN_SRC python
+    #+BEGIN_SRC python 
       def get_M(a, b, A, B, C):
 	  """
 	  Cette fonction prend en entrées :
@@ -90,7 +90,8 @@
 	  + A : 1 tuple de float correspondant aux coordonnées du point A
 	  + B : 1 tuple de float correspondant aux coordonnées du point B
 	  + C : 1 tuple de float correspondant aux coordonnées du point C
-	  et elle renvoie 1 tuple de float correspondant aux coordonnées du point M
+	  et elle renvoie 1 tuple de float correspondant
+	  aux coordonnées du point M
 	  """
 	  x = (1 - a - b) * A[0] + a * B[0] + b * C[0]
 	  y = (1 - a - b) * A[1] + a * B[1] + b * C[1]
@@ -102,7 +103,8 @@
 	  Cette fonction prend en entrées :
 	  + A : 1 tuple de float correspondant aux coordonnées du point A
 	  + B : 1 tuple de float correspondant aux coordonnées du point B
-	  et renvoie 1 tuple de float correspondant aux coordonnées du vecteur AB
+	  et renvoie 1 tuple de float correspondant
+	  aux coordonnées du vecteur AB
 	  """
 	  x = B[0] - A[0]
 	  y = B[1] - A[1]
@@ -111,30 +113,42 @@
 
       # Tests
       a, b, A, B, C = 1, 1, (3, 2), (-3, 2), (3, -2)
+
       M = get_M(a, b, A, B, C)
-      relation = f"On a la relation Vect(A, M) = {a}Vect(A, B) + {b}Vect(A, C)"
+
+      relation = f"On a la relation Vect(A, M) = "
+      relation += f"{a}Vect(A, B) + {b}Vect(A, C)"
+
       print(relation)
+
       input("Pour voir les coordonnées du point M tapez 1\t")
+
       coordM = f"Voici les coordonnées du point M({M[0]}, {M[1]})"
       print(coordM)
+
       coordAB = vectAB(A, B)
       coordAC = vectAB(A, B = C)
+
       eqX = f"x - {A[0]} = {a} * {coordAB[0]} + {b} * {coordAC[0]}"
       input("Pour voir l'équation en x tapez 1\t")
       print(eqX)
+
       eqY = f"y - {A[1]} = {a} * {coordAB[1]} + {b} * {coordAC[1]}"
       input("Pour voir l'équation en y tapez 1\t")
       print(eqY)
+
       solve_x = f"x = {A[0] + a * coordAB[0] + b * coordAC[0]}"
       input("Pour voir la solution de l'équation en x tapez 1\t")
       print(solve_x)
+
       solve_y = f"y = {A[1] + a * coordAB[1] + b * coordAC[1]}"
       input("Pour voir la solution de l'équation en y tapez 1\t")
       print(solve_y)
     #+END_SRC
 
 
-** Solution du QCM d'auto-évaluation 
+
+*** Solution du QCM d'auto-évaluation 
 
     *Parmi les réponses proposées au moins une est la bonne. Cela
     signifie qu'il peut y avoir /plusieurs/ bonnes réponses.*
@@ -143,7 +157,7 @@
        l'égalité \[\overrightarrow{AD} = \overrightarrow{AB} +
        \overrightarrow{AC}\]
        alors on peut en déduire que :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. \(\overrightarrow{AB} + \overrightarrow{BC} =
           \overrightarrow{AC}\) la relation de Chasles n'est pas une
           déduction, elle existe toujours
@@ -176,7 +190,7 @@
 
 	   (*Bonne réponse*)
     2. Si ABCD est un carré alors : 
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. Les vecteurs \(\overrightarrow{AB}\) et
           \(\overrightarrow{AC}\) forment une base orthornomée
        2. Les vecteurs \(\overrightarrow{AB}\) et
@@ -202,7 +216,7 @@
 	   (*Bonne réponse*)	 
     3. Si ABCD est un rectangle et O l'intersection des droites (AC)
        et (BD) alors : 
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. \(\overrightarrow{OA} + \overrightarrow{OB} +
           \overrightarrow{OB} + \overrightarrow{OD} = \vec{0}\)
 
@@ -226,10 +240,8 @@
     4. Soient A et B deux points distincts du plan. Si C est l'image
        de B par la translation de vecteur \(\overrightarrow{AB}\)
        alors : 	 
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. B est le milieu du segment [AC]
 
-	  (*Bonne réponse*)
+       1. *B est le milieu du segment [AC] (Bonne réponse)*
        2. \(\overrightarrow{AC} = 2\overrightarrow{AB}\) 
        3. \(\overrightarrow{OC} = \overrightarrow{OA} +
           2\overrightarrow{OB}\)
@@ -238,66 +250,47 @@
           x_C &= 2x_B - x_A\\
           y_C &= 2y_B - y_A
 	  \end{align*}
-       5. les coordonnées de C vérifient :
+       5. *les coordonnées de C vérifient :*
 	  \begin{align*}
           x_C &= 2x_B + x_A\\
           y_C &= 2y_B + y_A
-	  \end{align*}
-
-	  (*Bonne réponse*)
-       6. C est l'image de A par la symétrie de centre B.
-
-	  (*Bonne réponse*)
+	  \end{align*} *(Bonne réponse)*
+       6. *C est l'image de A par la symétrie de centre B. (Bonne
+          réponse)*	  
        7. C est le milieu du segment [AB].
-       8. \(\overrightarrow{AB} = \overrightarrow{BC}\)
-
-	  (*Bonne réponse*)
-       9. \(\overrightarrow{AB} + \overrightarrow{BC} =
-          2\overrightarrow{AB}\)
-
-	  (*Bonne réponse*)
-       10. \(det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\)
-
-	   (*Bonne réponse*)
+       8. *\(\overrightarrow{AB} = \overrightarrow{BC}\) (Bonne
+          réponse)*	  
+       9. *\(\overrightarrow{AB} + \overrightarrow{BC} =
+          2\overrightarrow{AB}\) (Bonne réponse)*
+       10. *\(det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\)
+           (Bonne réponse)*	   
     5. Si on a \(det(\overrightarrow{AB}, \overrightarrow{AD}) \neq 0\)
        et \(det(\overrightarrow{AB}, \overrightarrow{DC}) = 0\) alors :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. ABCD ou ABDC est un trapèze.
 
-	  (*Bonne réponse*)
-       2. Si AB = DC alors ABCD ou ABDC est un parallélogramme.
-
-	  (*Bonne réponse*)
-       3. Si AB = AD = DC alors ABCD est un losange.
-
-	  (*Bonne réponse*)
-       4. Si AB = AC = CD alors ABDC est un losange.
-
-	  (*Bonne réponse*)
+       1. *ABCD ou ABDC est un trapèze. (Bonne réponse)*
+       2. *Si AB = DC alors ABCD ou ABDC est un
+          parallélogramme. (Bonne réponse)*	  
+       3. *Si AB = AD = DC alors ABCD est un losange. (Bonne réponse)*
+       4. *Si AB = AC = CD alors ABDC est un losange. (Bonne réponse)*	  
        5. Si AB = DC et CA = BD alors ABDC est un rectangle.
        6. Si AB = DC et AD = BC alors ABDC est un rectangle.
-       7. Si AB = DC et AC = BD alors ABCD est un rectangle.
-
-	  (*Bonne réponse*)
+       7. *Si AB = DC et AC = BD alors ABCD est un rectangle. (Bonne
+          réponse)*	  
        8. Si AB = DC et AD = BC alors ABCD est un rectangle.
        9. Si AB = DC et AC = BD alors ABCD est un losange.
-       10. Si AB = DC et AD = BC alors ABCD est un losange.
-
-	   (*Bonne réponse*)
+       10. *Si AB = DC et AD = BC alors ABCD est un losange. (Bonne
+           réponse)*	   
     6. Soient \(\vec{u}\), \(\vec{v}\) et \(\vec{w}\) trois vecteurs
        tels que \(\vec{w} = \vec{u} + \vec{v}\).
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. Si \(\lvert\lvert\vec{u}\rvert\rvert +
-          \lvert\lvert\vec{v}\rvert\rvert =
-          \lvert\lvert\vec{w}\rvert\rvert\) alors les trois vecteurs
-          sont colinéaires.
+
+       1. *Si \(\lvert\lvert\vec{u}\rvert\rvert + \lvert\lvert\vec{v}\rvert\rvert = \lvert\lvert\vec{w}\rvert\rvert\) alors les trois vecteurs sont colinéaires. (Bonne réponse)*
        2. Il est impossible que les trois vecteurs soient colinéaires.
-       3. Si \(det(\vec{u}, \vec{v}) = 0\) alors les trois vecteurs
-          sont colinéaires.
-       4. Si \(det(\vec{u}, \vec{v}) = 0\) alors \(det(\vec{v},
-          \vec{w}) = 0\).
-       5. Si \(det(\vec{w}, \vec{u}) = 0\) alors \(det(\vec{u},
-          \vec{v}) = 0\).
+       3. *Si \(det(\vec{u}, \vec{v}) = 0\) alors les trois vecteurs
+          sont colinéaires. (Bonne réponse)*	  
+       4. *Si \(det(\vec{u}, \vec{v}) = 0\) alors \(det(\vec{v},
+          \vec{w}) = 0\). (Bonne réponse)*	  
+       5. *Si \(det(\vec{w}, \vec{u}) = 0\) alors \(det(\vec{u},
+          \vec{v}) = 0\). (Bonne réponse)*	  
        6. \(\lvert\lvert\vec{u}\rvert\rvert +
           \lvert\lvert\vec{v}\rvert\rvert >
           \lvert\lvert\vec{w}\rvert\rvert\)
@@ -312,25 +305,21 @@
           -\vec{v}\) soit \(\vec{w} = \vec{0}\)
     7. Soit un vecteur \(\vec{u}\) de norme
        \(\lvert\lvert\vec{u}\rvert\rvert = 5\).
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. Si \(x_{\vec{u}} = 3\) alors \(y_{\vec{u}} = 4\).
        2. Si \(x_{\vec{u}} = 3\) alors \(y_{\vec{u}} = -4\).	  
        3. Si \(x_{\vec{u}} = -3\) alors \(y_{\vec{u}} = -4\).
        4. Si \(x_{\vec{u}} = -3\) alors \(y_{\vec{u}} = 4\).
-       5. Si \(x_{\vec{u}} = \pm 3\) alors \(y_{\vec{u}} = \pm 4\).
-
-	  (*Bonne réponse*)
+       5. *Si \(x_{\vec{u}} = \pm 3\) alors \(y_{\vec{u}} = \pm 4\). (Bonne réponse)*
        6. Si \(x_{\vec{u}} = -4\) alors \(y_{\vec{u}} = 3\).
        7. Si \(x_{\vec{u}} = -4\) alors \(y_{\vec{u}} = -3\).	  
        8. Si \(x_{\vec{u}} = 4\) alors \(y_{\vec{u}} = -3\).
        9. Si \(x_{\vec{u}} = 4\) alors \(y_{\vec{u}} = 3\).
-       10. Si \(x_{\vec{u}} = \pm 4\) alors \(y_{\vec{u}} = \pm 3\).
-
-	   (*Bonne réponse*)
+       10. *Si \(x_{\vec{u}} = \pm 4\) alors \(y_{\vec{u}} = \pm 3\). (Bonne réponse)*
     8. Dans un repère orthonormée \((O ; \vec{i} , \vec{j})\) on
        considère les points A(3 ; 2), B(3 ; -2), C(-3 ; -2), D(3 ;
        -1), E(-3 ; -1), F(-1 ; -1), G(1 ; 1), H(1 ; 2), I(-1 ; 2).       
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. Les vecteurs \(\overrightarrow{AB}\) et
           \(\overrightarrow{AC}\) sont colinéaires car
           \[det(\overrightarrow{AB} , \overrightarrow{AC}) = 0\]
@@ -338,49 +327,27 @@
           \(\overrightarrow{AI}\) sont colinéaires car
           \[det(\overrightarrow{AH} , \overrightarrow{AI}) = 0\]
        3. Les points A, B et C sont alignés.
-       4. Les points D, E et F sont alignés.
-
-	  (*Bonne réponse*)
-       5. ABC est un triangle rectangle en B.
-
-	  (*Bonne réponse*)
+       4. *Les points D, E et F sont alignés. (Bonne réponse)*
+       5. *ABC est un triangle rectangle en B. (Bonne réponse)*
        6. ABD est un triangle rectangle en B.
-       7. GDF est un triangle rectangle en G.
-
-	  (*Bonne réponse*)
-       8. GDF est un triangle isocèle en G.
-
-	  (*Bonne réponse*)
-       9. BCHA est un trapèze.
-
-	  (*Bonne réponse*)
-       10. Les vecteurs \(\overrightarrow{BC}\) et
-           \(\overrightarrow{AH}\) sont colinéaires.
-
-	   (*Bonne réponse*)
+       7. *GDF est un triangle rectangle en G. (Bonne réponse)*
+       8. *GDF est un triangle isocèle en G. (Bonne réponse)*
+       9. *BCHA est un trapèze. (Bonne réponse)*
+       10. *Les vecteurs \(\overrightarrow{BC}\) et
+           \(\overrightarrow{AH}\) sont colinéaires. (Bonne réponse)*
     9. Dans un repère orthonormée \((O ; \vec{i} , \vec{j})\) on
        considère les points A(2 ; 3), B(-3 ; 2), C(-2 ; -3); D(3 ;
        -2).
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. Le triangle BOA est isocèle en A.
        2. Le triangle BOA est isocèle en B.
-       3. Le triangle BOA est isocèle en O.
-
-	  (*Bonne réponse*)
+       3. *Le triangle BOA est isocèle en O. (Bonne réponse)*
        4. Le triangle BOA est rectangle en A.
        5. Le triangle BOA est rectangle en B.
-       6. Le triangle BOA est rectangle en O.
-
-	  (*Bonne réponse*)
-       7. C est l'image de O par la translation de vecteur
-          \(\overrightarrow{AO}\).
-
-	  (*Bonne réponse*)
-       8. D est l'image de O par la translation de vecteur
-          \(\overrightarrow{BO}\).
-
-	  (*Bonne réponse*)
+       6. *Le triangle BOA est rectangle en O. (Bonne réponse)*
+       7. *C est l'image de O par la translation de vecteur
+          \(\overrightarrow{AO}\). (Bonne réponse)*
+       8. *D est l'image de O par la translation de vecteur
+          \(\overrightarrow{BO}\). (Bonne réponse)*
        9. ABDC est un carré.
-       10. ABCD est un carré.
-
-	   (*Bonne réponse*)
+       10. *ABCD est un carré. (Bonne réponse)*

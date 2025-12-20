@@ -1,0 +1,229 @@
+% Created 2025-12-20 Sat 12:07
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage[french, american]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[AUTO]{babel}
+\usepackage{minted}
+\author{Digital Nomad}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Digital Nomad},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Solution de l'exercice 5}
+\label{sec:org9d0316c}
+
+\begin{enumerate}
+\item Puisque ABCD est un carré alors les droites (AB) et (AD) sont
+orthogonales et les longueurs AB et AD sont égales. Par
+conséquent les vecteurs sont associés sont orthogonaux et de
+même norme. Ainsi
+\[(\vec{u} , \vec{v}) = (\overrightarrow{AB} ,
+      \overrightarrow{AD})\]
+est bien une base orthonormée.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol5q1.png}
+\end{center}
+\item Pour déterminer les coordonnées des points dans cette base il
+faut exprimer les vecteurs partant de l'origine du repère comme
+combinaisons linéaires des vecteurs de la base. Tout d'abord il
+faut remarquer que l'origine du repère est le point A car il
+s'agit de l'origine de chacun des vecteurs de la base. On
+obtient ainsi :
+\begin{align*}
+\overrightarrow{AA} &= 0\times\vec{u} + 0\times\vec{v}\Rightarrow A(0 ; 0)\\
+\overrightarrow{AB} &= 1\times\vec{u} + 0\times\vec{v}\Rightarrow B(1 ; 0)\\
+\overrightarrow{AC} &= 1\times\vec{u} + 1\times\vec{v}\Rightarrow C(1 ; 1)\\
+\overrightarrow{AD} &= 0\times\vec{u} + 1\times\vec{v}\Rightarrow D(0 ; 1)
+\end{align*}
+\item Calculons la norme du vecteur \(\overrightarrow{AC}\) :
+\begin{align*}
+\overrightarrow{AC} &= \sqrt{1^2 + 1^2}\\
+\overrightarrow{AC} &= \sqrt{2}
+\end{align*}
+\end{enumerate}
+
+\section{Solution de l'exercice 5 bis}
+\label{sec:org38b862e}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+Calculons les normes des vecteurs suivants :
+
+\begin{enumerate}
+\item \begin{align*}
+ n_1 &= \lvert\lvert \vec{i} + \vec{j}\rvert\rvert\\
+ n_1 &= \lvert\lvert \begin{pmatrix}1\\1\end{pmatrix}\rvert\rvert\\
+ n_1 &= \sqrt{1^2 + 1^2}\\
+ &\Rightarrow n_1 = \sqrt{2}
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol5bisq1.png}
+\end{center}
+\item \begin{align*}
+ n_2 &= \lvert\lvert \vec{i} - \vec{j}\rvert\rvert\\
+ n_2 &= \lvert\lvert \begin{pmatrix}1\\ -1 \end{pmatrix}\rvert\rvert\\
+ n_2 &= \sqrt{1^2 + (-1)^2}\\
+ &\Rightarrow n_2 = \sqrt{2}
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol5bisq2.png}
+\end{center}
+\item \begin{align*}
+ n_3 &= \lvert\lvert 3\vec{i}\rvert\rvert\\
+ n_3 &= 3\lvert\lvert \vec{i}\rvert\rvert\\
+ &\Rightarrow n_3 = 3
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol5bisq3.png}
+\end{center}
+\item \begin{align*}
+ n_4 &= \lvert\lvert 3\vec{i} + 4\vec{j}\rvert\rvert\\
+ n_4 &= \lvert\lvert \begin{pmatrix}3\\4\end{pmatrix}\rvert\rvert\\
+ n_4 &= \sqrt{3^2 + 4^2}\\
+ &\Rightarrow n_4 = 5
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol5bisq4.png}
+\end{center}
+\item \begin{align*}
+ n_5 &= \lvert\lvert -5\vec{j}\rvert\rvert\\
+ n_5 &= |-5|\lvert\lvert \vec{j}\rvert\rvert\\
+ &\Rightarrow n_5 = 5
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol5bisq5.png}
+\end{center}
+\end{enumerate}
+
+\section{Solution de l'exercice 5 ter}
+\label{sec:org60f2ca3}
+
+On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
+    \vec{j})\). Avec :
+\begin{align*}
+\vec{i}&\begin{pmatrix}1\\0\end{pmatrix} && \vec{j}\begin{pmatrix}0\\1\end{pmatrix}
+\end{align*}
+
+Calculons et comparons les normes ajoutées séparément
+\[s = \lvert\lvert\vec{u}\rvert\rvert + \lvert\lvert\vec{v}\rvert\rvert\]
+
+avec celles des vecteurs sommes
+
+\[e = \lvert\lvert\vec{u} + \vec{v}\rvert\rvert\]
+
+\begin{enumerate}
+\item \[(\vec{u}, \vec{v}) = (\vec{i}, \vec{j})\]
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\vec{v}\rvert\rvert = 1\\
+s &= 1 + 1 = 2\\
+e &= \lvert\lvert\vec{u} + \vec{v}\rvert\rvert\\
+e &= \lvert\lvert\begin{pmatrix}1 \\ 1\end{pmatrix}\rvert\rvert\\
+e &= \sqrt{1^2 + 1^2} = \sqrt{2}\\
+&\Rightarrow s = 2 > e = \sqrt{2}
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol5terq1.png}
+\end{center}
+\item \[(\vec{u}, \vec{v}) = (\vec{i} + \vec{j}, \vec{i} - \vec{j})\]
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\vec{v}\rvert\rvert = \sqrt{2}\\
+s &= \sqrt{2} + \sqrt{2} = 2\sqrt{2}\\
+e &= \lvert\lvert\vec{u} + \vec{v}\rvert\rvert\\
+e &= \lvert\lvert 2\vec{i}\rvert\rvert = 2\lvert\lvert\vec{i}\rvert\rvert\\
+e &= 2\\
+&\Rightarrow s = 2\sqrt{2} > e = 2
+\end{align*}
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol5terq2.png}
+\end{center}
+\item \[ (\vec{u}, \vec{v}) = (a\vec{i} + b\vec{j}, c\vec{i} + d\vec{j}) \]
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \sqrt{a^2 + b^2}\\
+\lvert\lvert\vec{v}\rvert\rvert &= \sqrt{c^2 + d^2}\\
+s &= \lvert\lvert\vec{u}\rvert\rvert + \lvert\lvert\vec{v}\rvert\rvert = \sqrt{a^2 + b^2} + \sqrt{c^2 + d^2}\\
+s^2 &= a^2 + b^2 + c^2 + d^2 + 2\sqrt{(a^2 + b^2)(c^2 + d^2)}\\
+e &= \lvert\lvert\vec{u} + \vec{v}\rvert\rvert = \lvert\lvert (a + c)\vec{i} + (b + d)\vec{j}\rvert\rvert \\
+e &= \sqrt{(a + c)^2 + (b + d)^2} \\
+e &= \sqrt{a^2 + b^2 + c^2 + d^2 + 2(ac + bd)}\\
+e^2 &= a^2 + b^2 + c^2 + d^2 + 2(ac + bd)\\
+s^2 - e^2 &= 2\left(\sqrt{(a^2 + b^2)(c^2 + d^2)} - (ac + bd)\right)\\
+(a^2 + b^2)(c^2 + d^2) &= (ac)^2 + (bd)^2 + (ad)^2 + (bc)^2\\
+(ac + bd)^2 &= (ac)^2 + (bd)^2 + 2abcd\\
+(a^2 + b^2)(c^2 + d^2) &- (ac + bd)^2 = (ad)^2 + (bc)^2 - 2abcd\\
+(a^2 + b^2)(c^2 + d^2) &- (ac + bd)^2 = (ad - bc)^2 \geqslant 0\\
+&\Rightarrow s^2 - e^2 \geqslant 0\\
+&\Rightarrow s^2 \geqslant e^2\\
+&\Rightarrow s \geqslant e
+\end{align*}
+\end{enumerate}
+
+\section{Solution programme 4}
+\label{sec:orgeba52a7}
+
+\inputminted{python}{../code/prog_4.py}
+
+\section{Solution du QCM d'auto-évaluation}
+\label{sec:org63e08c9}
+
+\begin{enumerate}
+\item Une base orthonormée du plan est :
+
+\begin{enumerate}
+\item une station de lancement de fusée
+\item un couple de vecteurs ayant des directions distinctes
+\item \textbf{un couple de vecteurs ayant des directions orthogonales et
+la même norme	(Bonne réponse)}
+\item un couple de vecteurs ayant la même direction et la même
+norme
+\end{enumerate}
+\item Quelles sont les coordonnées d'un vecteur \(\vec{u}\) dans une
+base orthonormée \((\vec{i} , \vec{j})\) ?
+
+\begin{enumerate}
+\item \textbf{Le couple de nombres \((a ; b)\) tel que \(\vec{u} =
+          a\vec{i} + b\vec{j}\). (Bonne réponse)}
+\item Les coordonnées du point M obtenu par la translation de
+vecteur \(\vec{u}\) à partir du point O.
+\item La somme de celles des vecteurs \(\vec{i}\) et \(\vec{j}\).
+\item Les coefficients de toute combinaison linéaire des vecteurs
+de la base.
+\end{enumerate}
+\item Considérons le vecteur \(\vec{u} = a\vec{i} + b\vec{j}\) alors
+l'expression de sa norme est :
+
+\begin{enumerate}
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a + b\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a^2 - b^2\)
+\item \(\lvert\lvert\vec{u}\rvert\rvert = a^2 + b^2\)
+\item \textbf{\(\lvert\lvert\vec{u}\rvert\rvert = \sqrt{a^2 + b^2}\)
+(Bonne réponse)}
+\end{enumerate}
+\end{enumerate}
+\end{document}

@@ -1,0 +1,89 @@
+% Created 2025-12-20 Sat 12:09
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage[french, american]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[AUTO]{babel}
+\usepackage{minted}
+\author{Digital Nomad}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Digital Nomad},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Solution de l'exercice 6}
+\label{sec:orgd5f45f8}
+
+\begin{enumerate}
+\item Les coordonnées du vecteur \(\overrightarrow{OA}\) sont les
+mêmes que celles du point A d'où la relation :
+\[\overrightarrow{OA} = x_A\vec{i} + y_A\vec{j}\]
+\item Les coordonnées du vecteur \(\overrightarrow{OB}\) sont les
+mêmes que celles du point B d'où la relation :
+\[\overrightarrow{OB} = x_B\vec{i} + y_B\vec{j}\]
+\item Utilisons la relation de Chasles :
+\begin{align*}
+\overrightarrow{AB} &= \overrightarrow{AO} + \overrightarrow{OB}\\
+\overrightarrow{AB} &= \overrightarrow{OB} - \overrightarrow{OA}
+\end{align*}
+\item On rassemble les résultats obtenus aux questions précédentes :
+\begin{align*}
+\overrightarrow{AB} &= \overrightarrow{OB} - \overrightarrow{OA}\\
+\overrightarrow{AB} &= x_B\vec{i} + y_B\vec{j} - (x_A\vec{i} + y_A\vec{j})\\
+\overrightarrow{AB} &= (x_B - x_A)\vec{i} + (y_B - y_A)\vec{j}
+\end{align*}
+\item Ainsi on obtient :
+\[\overrightarrow{AB}\begin{pmatrix}x_B - x_A\\ y_B - y_A\end{pmatrix}\]
+\end{enumerate}
+
+
+\section{Solution du programme 5}
+\label{sec:org4d24a0c}
+
+\inputminted{python}{../code/prog_5.py}
+
+
+\section{Solution du QCM d'auto-évaluation}
+\label{sec:orgf0fb455}
+
+On considère le vecteur \(\overrightarrow{AB}\) dans le plan muni
+du repère orthonormé \((O ; \vec{i}, \vec{j})\).
+
+\begin{enumerate}
+\item En utilisant Chasles on peut écrire :
+
+\begin{enumerate}
+\item \(\overrightarrow{AB} = \overrightarrow{OA} +
+          \overrightarrow{OB}\)
+\item \(\overrightarrow{AB} = \overrightarrow{OA} - \overrightarrow{OB}\)
+\item \(\overrightarrow{AB} = \overrightarrow{AO} +
+          \overrightarrow{BO}\)
+\item \textbf{\(\overrightarrow{AB} = \overrightarrow{AO} +
+          \overrightarrow{OB}\) (Bonne réponse)}
+\end{enumerate}
+\item En utilisant les coordonnées des points A et B on a :
+
+\begin{enumerate}
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A + x_B\\y_A +
+          y_B\end{pmatrix}\)
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A - x_B\\y_A -
+          y_B\end{pmatrix}\)
+\item \textbf{\(\overrightarrow{AB}\begin{pmatrix}x_B - x_A\\y_B -
+          y_A\end{pmatrix}\) (Bonne réponse)}
+\item \(\overrightarrow{AB}\begin{pmatrix}x_A \times x_B\\y_A
+          \times y_B\end{pmatrix}\)
+\end{enumerate}
+\end{enumerate}
+\end{document}

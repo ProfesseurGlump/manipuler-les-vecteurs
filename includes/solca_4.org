@@ -1,4 +1,4 @@
-** Solution de l'exercice 12
+*** Solution de l'exercice 12
 
     On se place dans le plan muni repère orthonormé \((O ; \vec{i} ;
     \vec{j})\). Avec :
@@ -14,26 +14,22 @@
        \vec{c} &= 2\vec{s} - 5\vec{d} = \begin{pmatrix}-3\\ 7\end{pmatrix}
        \end{align*}
 
-** Solution du QCM d'auto-évaluation 
+*** Solution du QCM d'auto-évaluation 
 
     1. Soient \[\vec{u}_1\begin{pmatrix}x_1\\y_1\end{pmatrix}\] et
        \[\vec{u}_2\begin{pmatrix}x_2\\y_2\end{pmatrix}\] deux vecteurs
        alors \[\vec{u}_3 = \vec{u}_1 + \vec{u}_2\] a pour
        coordonnées : 
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. \(\vec{u}_3\begin{pmatrix}x_1x_2\\y_1y_2\end{pmatrix}\)
        2. \(\vec{u}_3\begin{pmatrix}x_1 - x_2\\y_1 - y_2\end{pmatrix}\)
-       3. \(\vec{u}_3\begin{pmatrix}x_1 + x_2\\y_1 +
-          y_2\end{pmatrix}\)
-
-	  (*Bonne réponse*)
+       3. *\(\vec{u}_3\begin{pmatrix}x_1 + x_2\\y_1 +
+          y_2\end{pmatrix}\) (Bonne réponse)*
        4. \(\vec{u}_3\begin{pmatrix}\dfrac{x_1}{x_2}\\\dfrac{y_1}{y_2}\end{pmatrix}\)
     2. Soient un vecteur \(\vec{u}\begin{pmatrix}x\\y\end{pmatrix}\)
        et un réel k alors \(\vec{v} = ku\) vérifie :
-       #+ATTR_LATEX: :options [label=\alph*.]
+
        1. \(\vec{v}\begin{pmatrix}kx\\ y\end{pmatrix}\)
        2. \(\vec{v}\begin{pmatrix}x\\ ky\end{pmatrix}\)
-       3. \(\vec{v}\begin{pmatrix}kx\\ y\end{pmatrix}\)
-
-	  (*Bonne réponse*)
+       3. *\(\vec{v}\begin{pmatrix}kx\\ y\end{pmatrix}\) (Bonne réponse)*
        4. \(\vec{v}\begin{pmatrix}\frac{1}{k}x\\ \frac{1}{k}y\end{pmatrix}\)	  

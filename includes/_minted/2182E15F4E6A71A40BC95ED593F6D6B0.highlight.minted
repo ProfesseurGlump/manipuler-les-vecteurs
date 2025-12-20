@@ -1,0 +1,182 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{base} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{l+s+s2}{On dit que les vecteurs u et v forment une base s}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{ils ne sont}
+\PYG{l+s+s2}{pas colinéaires.}
+\PYG{l+s+s2}{Algérbiquement : il n}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{existe aucun réel k tel que u = kv.}
+\PYG{l+s+s2}{Géométriquement : leurs directions sont des droites sécantes.}
+\PYG{l+s+s2}{Rapidement : det(u, v) != 0.}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{draw\PYGZus{}base} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+s2}{   \PYGZca{}}
+\PYG{l+s+s2}{  / v}
+\PYG{l+s+s2}{ /}
+\PYG{l+s+s2}{/       (u, v) forme une base}
+\PYG{l+s+s2}{x\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{l+s+s2}{	       u}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{orthonormal} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{l+s+s2}{Ortho vient du grec pour dire droit donc ici qui forme un}
+\PYG{l+s+s2}{angle droit (directions orthogonales). Normal pour norme, ici de même}
+\PYG{l+s+s2}{norme.}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{draw\PYGZus{}orthornormal\PYGZus{}base} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+s2}{\PYGZca{}}
+\PYG{l+s+s2}{|    i et j sont orthogonaux}
+\PYG{l+s+s2}{|    ||i|| = ||j|| ont même norme}
+\PYG{l+s+s2}{|    }
+\PYG{l+s+s2}{\PYGZca{}    (i, j) forme une base orthonormée}
+\PYG{l+s+s2}{| j}
+\PYG{l+s+s2}{\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}0\PYGZhy{}\PYGZgt{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{l+s+s2}{i}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{relation} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{l+s+s2}{Si (i, j) est une base orthonormale alors tout vecteur}
+\PYG{l+s+s2}{u = a * i + b * j a pour coordonnées (a, b).}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{Par exemple le vecteur horizontal v\PYGZus{}1 de coordonnées (2, 0) s}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{écrit :}
+\PYG{l+s+s2}{v\PYGZus{}1 = 2 * i + 0 * j.}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{Par exemple le vecteur vertical v\PYGZus{}2 de coordonnées (0, 3) s}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{écrit :}
+\PYG{l+s+s2}{v\PYGZus{}2 = 0 * i + 3 * j.}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{Par exemple le vecteur diagonal v\PYGZus{}3 de coordonnées (4, 4) s}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{écrit :}
+\PYG{l+s+s2}{v\PYGZus{}3 = 4 * i + 4 * j.}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{Si le vecteurs v\PYGZus{}4 = 2 * v\PYGZus{}1 + v\PYGZus{}2 alors v\PYGZus{}4 = 4 * i + 3 * j}
+\PYG{l+s+s2}{a pour coordonnées : (4, 3).}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{v1} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+s2}{\PYGZca{}}
+\PYG{l+s+s2}{|}
+\PYG{l+s+s2}{| \PYGZhy{}\PYGZhy{}\PYGZgt{} v\PYGZus{}1 = 2 * i}
+\PYG{l+s+s2}{| \PYGZhy{}\PYGZgt{} i}
+\PYG{l+s+s2}{|}
+\PYG{l+s+s2}{0\PYGZhy{}\PYGZgt{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{l+s+s2}{i}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{v2} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+s2}{  \PYGZca{}       \PYGZca{}}
+\PYG{l+s+s2}{  |       |}
+\PYG{l+s+s2}{  |    \PYGZca{}  |}
+\PYG{l+s+s2}{  |    |  |}
+\PYG{l+s+s2}{  \PYGZca{}    j  v\PYGZus{}2 = 3 * j}
+\PYG{l+s+s2}{j |   }
+\PYG{l+s+s2}{0\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+
+
+\PYG{n}{v3} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+s2}{\PYGZca{}  v\PYGZus{}3 = 4 * i + 4 * j    }
+\PYG{l+s+s2}{|}
+\PYG{l+s+s2}{8      \PYGZca{} (7, 8)}
+\PYG{l+s+s2}{| v\PYGZus{}3 /|}
+\PYG{l+s+s2}{6    / | 4 * j }
+\PYG{l+s+s2}{|   /  |}
+\PYG{l+s+s2}{4\PYGZhy{}\PYGZhy{}x\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZgt{} (7, 4)  }
+\PYG{l+s+s2}{|  |4i |        }
+\PYG{l+s+s2}{2  |   |        }
+\PYG{l+s+s2}{|  |   |        }
+\PYG{l+s+s2}{0\PYGZhy{}\PYGZhy{}3\PYGZhy{}\PYGZhy{}\PYGZhy{}7\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{v4} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+s2}{  \PYGZca{}      v\PYGZus{}4 = 4 * i + 3 * j}
+\PYG{l+s+s2}{  |     }
+\PYG{l+s+s2}{  \PYGZca{}    /\PYGZca{}    }
+\PYG{l+s+s2}{  |   / |}
+\PYG{l+s+s2}{  |  /  | v\PYGZus{}2 = 3 * j}
+\PYG{l+s+s2}{  \PYGZca{} /   \PYGZca{}}
+\PYG{l+s+s2}{j |/    |}
+\PYG{l+s+s2}{  0\PYGZhy{}\PYGZgt{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZgt{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZgt{}}
+\PYG{l+s+s2}{   i}
+\PYG{l+s+s2}{        2 * v\PYGZus{}1 = 4 * i}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{vectors} \PYG{o}{=} \PYG{p}{[}\PYG{n}{v1}\PYG{p}{,} \PYG{n}{v2}\PYG{p}{,} \PYG{n}{v3}\PYG{p}{,} \PYG{n}{v4}\PYG{p}{]}
+
+\PYG{n}{norme} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{l+s+s2}{Un vecteur u = a * i + b * j de coordonnées (a, b) a pour norme}
+\PYG{l+s+s2}{||u|| = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{a\PYGZca{}2 + b\PYGZca{}2\PYGZcb{} = (a\PYGZca{}2 + b\PYGZca{}2) ** 0.5}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{ou dit autrement ||u||\PYGZca{}2 = a\PYGZca{}2 + b\PYGZca{}2}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{Par exemple le vecteur horizontal v\PYGZus{}1 de coordonnées (2, 0) a pour norme :}
+\PYG{l+s+s2}{||v\PYGZus{}1|| = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{2\PYGZca{}2 + 0\PYGZca{}2\PYGZcb{} = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{2\PYGZca{}2\PYGZcb{} = 2.}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{Par exemple le vecteur vertical v\PYGZus{}2 de coordonnées (0, 3) a pour norme :}
+\PYG{l+s+s2}{||v\PYGZus{}2|| = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{0\PYGZca{}2 + 3\PYGZca{}2\PYGZcb{} = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{3\PYGZca{}2\PYGZcb{} = 3.}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{ }
+\PYG{l+s+s2}{Par exemple le vecteur diagonal v\PYGZus{}3 de coordonnées (5, 5) a pour norme :}
+\PYG{l+s+s2}{||v\PYGZus{}3|| = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{5\PYGZca{}2 + 5\PYGZca{}2\PYGZcb{} = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{2 * 5\PYGZca{}2\PYGZcb{} = 5 * sqrt}\PYG{l+s+si}{\PYGZob{}2\PYGZcb{}}\PYG{l+s+s2}{.}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{Si le vecteur v\PYGZus{}4 = 2 * v\PYGZus{}1 + v\PYGZus{}2 alors v\PYGZus{}4 = 4 * i + 3 * j a pour norme :}
+\PYG{l+s+s2}{||v\PYGZus{}4|| = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{4\PYGZca{}2 + 3\PYGZca{}2\PYGZcb{} = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{16 + 9\PYGZcb{} = sqrt}\PYG{l+s+si}{\PYGZob{}25\PYGZcb{}}\PYG{l+s+s2}{ = sqrt}\PYG{l+s+s2}{\PYGZob{}}\PYG{l+s+s2}{5\PYGZca{}2\PYGZcb{} = 5.}\PYG{l+s+se}{\PYGZbs{}n}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+
+\PYG{n}{menu} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+s2}{MENU}
+\PYG{l+s+s2}{1) Définition d}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{une base orthornomée.}
+\PYG{l+s+s2}{2) Relation vectorielle entre coordonnées et vecteurs de la base.}
+\PYG{l+s+s2}{3) Formule de calcul de la norme.}
+\PYG{l+s+s2}{0) Quitter.}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{n}{titles} \PYG{o}{=} \PYG{p}{[}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{1) Définition d}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{une base orthonormée}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{2) Relation vectorielle coordonnées base}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{3) Norme d}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{un vecteur}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{p}{]}
+\PYG{n}{underlines} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZhy{}}\PYG{l+s+s2}{\PYGZdq{}} \PYG{o}{*} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{t}\PYG{p}{)} \PYG{k}{for} \PYG{n}{t} \PYG{o+ow}{in} \PYG{n}{titles}\PYG{p}{]}
+\PYG{n}{continuer} \PYG{o}{=} \PYG{k+kc}{True}
+\PYG{k}{while} \PYG{n}{continuer}\PYG{p}{:}
+    \PYG{n}{choix} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{n}{menu} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Votre choix : }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{k}{if} \PYG{n}{choix} \PYG{o}{==} \PYG{l+m+mi}{1}\PYG{p}{:}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+	\PYG{n}{title1} \PYG{o}{=} \PYG{n}{titles}\PYG{p}{[}\PYG{n}{choix} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]}
+	\PYG{n}{underline1} \PYG{o}{=} \PYG{n}{underlines}\PYG{p}{[}\PYG{n}{choix} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{title1}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{underline1}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Une base orthonormée est une base de vecteurs orthonormaux.}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{base :}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{base}\PYG{p}{)}
+	\PYG{n}{draw} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Taper 1 afficher le dessin}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{draw\PYGZus{}base}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{orthonormal :}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{n}{orthonormal}\PYG{p}{)}
+	\PYG{n}{draw} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Taper 1 afficher le dessin}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{draw\PYGZus{}orthornormal\PYGZus{}base}\PYG{p}{)}
+        
+
+    \PYG{k}{elif} \PYG{n}{choix} \PYG{o}{==} \PYG{l+m+mi}{2}\PYG{p}{:}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+	\PYG{n}{title2} \PYG{o}{=} \PYG{n}{titles}\PYG{p}{[}\PYG{n}{choix} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]}
+	\PYG{n}{underline2} \PYG{o}{=} \PYG{n}{underlines}\PYG{p}{[}\PYG{n}{choix} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{title2}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{underline2}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{relation}\PYG{p}{)}
+        
+	\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{vectors}\PYG{p}{)}\PYG{p}{)}\PYG{p}{:}
+	    \PYG{n}{msg} \PYG{o}{=} \PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Taper }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ pour afficher le vecteur v\PYGZus{}}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ : }\PYG{l+s+s2}{\PYGZdq{}}
+	    \PYG{n}{dessin} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{n}{msg}\PYG{p}{)}\PYG{p}{)}
+	    \PYG{k}{if} \PYG{n}{dessin} \PYG{o}{==} \PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{:}
+		\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{vectors}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{p}{)}
+
+    \PYG{k}{elif} \PYG{n}{choix} \PYG{o}{==} \PYG{l+m+mi}{3}\PYG{p}{:}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+	\PYG{n}{title3} \PYG{o}{=} \PYG{n}{titles}\PYG{p}{[}\PYG{n}{choix} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]}
+	\PYG{n}{underline3} \PYG{o}{=} \PYG{n}{underlines}\PYG{p}{[}\PYG{n}{choix} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{]}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{title3}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{underline3}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{norme}\PYG{p}{)}
+
+        
+        \PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{ask\PYGZus{}coord}\PYG{p}{(}\PYG{n}{axe}\PYG{p}{,} \PYG{n}{c}\PYG{p}{)}\PYG{p}{:}
+	    \PYG{n}{msg} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ du vecteur dont vous voulez calculer la norme }\PYG{l+s+s2}{\PYGZdq{}}
+	    \PYG{n}{msg} \PYG{o}{=} \PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{axe}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{msg}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{c}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ = }\PYG{l+s+s2}{\PYGZdq{}}
+	    \PYG{k}{return} \PYG{n}{msg}
+
+        
+	\PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{n}{ask\PYGZus{}coord}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Abscisse}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{x}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}
+	\PYG{n}{y} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{n}{ask\PYGZus{}coord}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Ordonnée}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{y}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}
+	\PYG{n}{n} \PYG{o}{=} \PYG{p}{(}\PYG{n}{x} \PYG{o}{*}\PYG{o}{*} \PYG{l+m+mi}{2} \PYG{o}{+} \PYG{n}{y} \PYG{o}{*}\PYG{o}{*} \PYG{l+m+mi}{2}\PYG{p}{)} \PYG{o}{*}\PYG{o}{*} \PYG{l+m+mf}{0.5}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Norme à 2 décimales près n = }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{n}\PYG{l+s+si}{:}\PYG{l+s+s2}{.2f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{elif} \PYG{n}{choix} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+	\PYG{n}{continuer} \PYG{o}{=} \PYG{k+kc}{False}
+\end{MintedVerbatim}

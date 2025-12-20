@@ -1,4 +1,4 @@
-** Solution de l'exercice 14
+*** Solution de l'exercice 14
 
     On reprend la configuration de l'exercice précédent.
 
@@ -78,31 +78,23 @@
        Voir figure :
        [[./img/sol14q7.png]]
 
-** Solution du QCM d'auto-évaluation 
+*** Solution du QCM d'auto-évaluation 
 
     1. Pour montrer que A, B et C sont alignés il faut :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. que \(\overrightarrow{AB} = \overrightarrow{AC}\)
-       2. qu'il existe un réel k tel que \(\overrightarrow{AB} =
-          k\overrightarrow{AC}\)
 
-	  (*Bonne réponse*)
+       1. que \(\overrightarrow{AB} = \overrightarrow{AC}\)
+       2. *qu'il existe un réel k tel que \(\overrightarrow{AB} =
+          k\overrightarrow{AC}\) (Bonne réponse)*
        3. vérifier que \(\overrightarrow{AB} + \overrightarrow{BC} =
           \overrightarrow{AC}\)
-       4. vérifier que \(det(\overrightarrow{AB} ,
-          \overrightarrow{AC}) = 0\)
-
-	  (*Bonne réponse*)
+       4. *vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{AC}) = 0\) (Bonne réponse)*
     2. Pour montrer que les droites (AB) et (CD) sont parallèles il faut :
-       #+ATTR_LATEX: :options [label=\alph*.]
-       1. montrer que les vecteurs \(\overrightarrow{AB}\) et
-          \(\overrightarrow{CD}\) sont colinéaires
 
-	  (*Bonne réponse*)
-       2. vérifier que \(det(\overrightarrow{AB} ,
-          \overrightarrow{CD}) = 0\)
-
-	  (*Bonne réponse*)
+       1. *montrer que les vecteurs \(\overrightarrow{AB}\) et
+          \(\overrightarrow{CD}\) sont colinéaires (Bonne réponse)*
+       2. *vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) = 0\) (Bonne réponse)*
        3. montrer que \(\overrightarrow{AB} = \overrightarrow{CD}\)
        4. vérifier que \(det(\overrightarrow{AB} ,
           \overrightarrow{CD}) \neq 0\)	  

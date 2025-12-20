@@ -1,0 +1,103 @@
+% Created 2025-12-20 Sat 12:33
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{tcolorbox}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{minted}
+\author{Digital Nomad}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Digital Nomad},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Solution de l'exercice 3}
+\label{sec:org2195416}
+
+\begin{enumerate}
+\item Puisque D est l'image du point C par la translation de vecteur
+\[\vec{u} = \overrightarrow{AB}\]
+alors :
+\begin{align*}
+\overrightarrow{CD} &= \vec{u}\\
+\overrightarrow{AB} &= \overrightarrow{CD}
+\end{align*}
+Donc ABDC est un parallélogramme.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol3q1.png}
+\end{center}
+\item On sait que
+\[\overrightarrow{DC} = -\overrightarrow{CD}\]
+donc
+\begin{align*}
+\vec{w} &= \overrightarrow{AB} + \overrightarrow{DC} \\
+\vec{w} &= \overrightarrow{AB} - \overrightarrow{CD} \\
+\vec{w} &= \vec{u} - \vec{u}\\
+\vec{w} &= \vec{0}
+\end{align*}
+Ainsi on remarque que \(\vec{w}\) est le vecteur nul.
+\item Puisque E est l'image de D par la translation de vecteur
+\[\vec{v} = \overrightarrow{AC}\]
+alors
+\[\overrightarrow{DE} = \vec{v}\]
+donc
+\begin{align*}
+\overrightarrow{BD} + \overrightarrow{ED} &= \overrightarrow{AC} - \overrightarrow{DE}\\
+\overrightarrow{BD} + \overrightarrow{ED} &= \vec{v} - \vec{v}\\
+\overrightarrow{BD} + \overrightarrow{ED} &= \vec{0}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol3q3.png}
+\end{center}
+\end{enumerate}
+
+
+\section{Solution programme 2}
+\label{sec:orgdfd9941}
+
+\inputminted{python}{../code/prog_2.py}
+
+
+
+\section{Solution du QCM d'auto-évaluation}
+\label{sec:orgd32bde7}
+
+\begin{enumerate}
+\item Deux vecteurs \(\vec{u}\) et \(\vec{v}\) sont égaux si :
+
+\begin{enumerate}
+\item Ils ont la même direction.
+\item Ils ont la même direction et le même sens.
+\item Ils ont la même direction et la même norme.
+\item \textbf{Ils ont la même direction, le même sens et la même
+norme. (Bonne réponse)}
+\end{enumerate}
+
+\item On dit qu'un vecteur est nul si :
+
+\begin{enumerate}
+\item Sa direction est horizontale.
+\item Sa direction est verticale.
+\item Il va dans un sens puis dans l'autre.
+\item \textbf{Sa norme vaut zéro. (Bonne réponse)}
+\end{enumerate}
+\end{enumerate}
+\end{document}

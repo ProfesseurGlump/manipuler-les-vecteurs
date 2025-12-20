@@ -1,0 +1,170 @@
+% Created 2025-12-20 Sat 12:56
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{tcolorbox}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{minted}
+\author{Digital Nomad}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Digital Nomad},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Solution de l'exercice 1}
+\label{sec:org388d291}
+
+Soient les points A, B, C tels que :
+\begin{itemize}
+\item \(\vec{u} = \overrightarrow{AB}\)
+\item \(\vec{v} = \overrightarrow{AC}\)
+\end{itemize}
+
+Voir la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/ABCvect.png}
+\end{center}
+
+\begin{enumerate}
+\item L'image du point B par la translation de vecteur
+\[\vec{v} = \overrightarrow{AC}\]
+est le point D tel que
+\[\overrightarrow{BD} = \overrightarrow{AC}\]
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol1q1.png}
+\end{center}
+\item L'image du point C par la translation de vecteur
+\[\vec{u} = \overrightarrow{AB}\]
+est le point E tel que
+\[\overrightarrow{CE} = \overrightarrow{AB}\]
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol1q2.png}
+\end{center}
+\item On peut en déduire que D = E car :
+\begin{align*}
+\overrightarrow{AD} &= \overrightarrow{AB} + \overrightarrow{BD} = \vec{u} + \vec{v}\\
+\overrightarrow{AE} &= \overrightarrow{AC} + \overrightarrow{CE} = \vec{v} + \vec{u}\\
+\overrightarrow{AD} &= \overrightarrow{AB} + \overrightarrow{AC} = \vec{u} + \vec{v}\\
+\overrightarrow{AE} &= \overrightarrow{AC} + \overrightarrow{AB} = \vec{v} + \vec{u}\\
+\overrightarrow{AD} &= \overrightarrow{AE}
+\end{align*}
+\item ABDC est un parallélogramme car (au choix) :
+\begin{align*}
+\overrightarrow{AB} &= \overrightarrow{CD}\\
+\overrightarrow{AC} &= \overrightarrow{BD}
+\end{align*}
+Une seule égalité suffit.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol1q4.png}
+\end{center}
+\end{enumerate}
+
+
+\section{Solution de l'exercice 2}
+\label{sec:orgb88fe31}
+
+\begin{enumerate}
+\item Par construction, le point C est l'image de B par la translation
+de vecteur
+\[\vec{u} = \overrightarrow{AB}\]
+donc
+\[\overrightarrow{BC} = \vec{u}\]
+Le vecteur \(\overrightarrow{BC}\) a pour
+\begin{itemize}
+\item direction : la droite (BC), qui est aussi la droite (AB).
+\item sens : de B vers C, qui est aussi de A vers B.
+\item norme : la longueur BC, qui est aussi la longueur AB
+\end{itemize}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol2q1.png}
+\end{center}
+\item Le point B représente le milieu du segment [AC].
+\item On a :
+\begin{align*}
+\vec{u} &= \overrightarrow{AB} \\
+\overrightarrow{BC} &= \vec{u} \\
+\overrightarrow{AC} &= \overrightarrow{AB} + \overrightarrow{BC} \\
+\overrightarrow{AB} &= \overrightarrow{BC} = \dfrac{1}{2}\overrightarrow{AC}
+\end{align*}
+\end{enumerate}
+
+
+\section{Solution programme 1}
+\label{sec:org57561cc}
+
+\begin{minted}[bgcolor=bg,fontsize=\footnotesize,linenos=true]{python}
+print("Un vecteur a 3 caractéristiques fondamentales : ")
+
+entries = ["direction", "norme", "sens"]
+
+definitions = [
+    "la droite qui le porte.",
+    "la distance entre origine et extrémité.",
+    "de l'origine vers l'extrémité."
+]
+
+
+for i in range(len(entries)):
+    e, d = entries[i], definitions[i]
+    print(f"{i + 1}) {e.capitalize()} : {d}")
+
+\end{minted}
+
+\section{Solution du QCM d'auto-évaluation}
+\label{sec:org15432a9}
+
+Lorsqu'on parle du vecteur \(\overrightarrow{MM'}\) associé à
+la translation qui transforme M en M'. 
+
+\begin{enumerate}
+\item Quelle est la direction ?
+
+\begin{enumerate}
+\item Toute droite parallèle à l'axe des abscisses.
+\item Uniquement la droite (MM').
+\item Toute droite parallèle à l'axe des ordonnées.
+\item \textbf{Toute droite parallèle à la droite (MM'). (Bonne réponse)}
+\end{enumerate}
+\begin{enumerate}
+\item Quelle est le sens ?
+
+\begin{enumerate}
+\item De O à M.
+\item \textbf{De M à M'. (Bonne réponse)}
+\item De M' à M.
+\item De M à O.
+\end{enumerate}
+\item Quelle est la norme ?
+
+\begin{enumerate}
+\item La distance OM.
+\item La distance OM'.
+\item \textbf{La distance MM'. (Bonne réponse)}
+\item \textbf{La distance M'M. (Bonne réponse)}
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\end{document}

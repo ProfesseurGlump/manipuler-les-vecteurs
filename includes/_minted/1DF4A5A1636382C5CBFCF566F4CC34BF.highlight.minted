@@ -1,0 +1,15 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{abc} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+s2}{C \PYGZlt{}\PYGZhy{}\PYGZhy{} B}
+\PYG{l+s+s2}{\PYGZca{}    /}
+\PYG{l+s+s2}{|   /}
+\PYG{l+s+s2}{|  /}
+\PYG{l+s+s2}{| /}
+\PYG{l+s+s2}{A}
+\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{n}{somme} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Vecteur(A, B) + Vecteur(B, C)}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{n}{result} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Vecteur(A, C)}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{n}{chasles} \PYG{o}{=} \PYG{n}{somme} \PYG{o}{+} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ = }\PYG{l+s+s2}{\PYGZdq{}} \PYG{o}{+} \PYG{n}{result}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{chasles}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{abc}\PYG{p}{)}
+\end{MintedVerbatim}

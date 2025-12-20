@@ -1,0 +1,148 @@
+% Created 2025-12-20 Sat 11:08
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\usepackage[french, american]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[AUTO]{babel}
+\usepackage{minted}
+\author{Digital Nomad}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Digital Nomad},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Solution de l'exercice 14}
+\label{sec:orgab7352b}
+
+On reprend la configuration de l'exercice précédent.
+
+Voir la figure :
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/figexo13.png}
+\end{center}
+
+\begin{enumerate}
+\item Le point O étant l'origine du repère on peut facilement
+déterminer les coordonnées des vecteurs \(\overrightarrow{OA}\)
+et \(\overrightarrow{OC}\) et ainsi déterminer si les points A,
+O et C sont alignés :
+\begin{align*}
+\overrightarrow{OA} &= 2\vec{i} + 3\vec{j}\\
+\overrightarrow{OC} &= -2\vec{i} - 3\vec{j}\\
+\overrightarrow{OC} &= -\overrightarrow{OA}
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol14q1.png}
+\end{center}
+\item D'après ce qui précède on a :
+\begin{align*}
+\lvert\lvert\vec{u}\rvert\rvert &= \lvert\lvert\overrightarrow{OA}\rvert\rvert = \lvert\lvert\overrightarrow{OC}\rvert\rvert \\
+\lvert\lvert\vec{u}\rvert\rvert &= \sqrt{13}
+\end{align*}
+On en déduit que O est le milieu du segment [AC].
+\item Calculons le déterminant \(det(\overrightarrow{OD} ,
+       \overrightarrow{OB})\) :
+\begin{align*}
+det(\overrightarrow{OD} , \overrightarrow{OB}) &= \begin{vmatrix}3&-3\\ -2&2\end{vmatrix} = 3\times 2 - (-2)\times (-3) = 0
+\end{align*}
+Le déterminant est nul donc les vecteurs
+\(\overrightarrow{OD}\) et \(\overrightarrow{OB}\) sont
+colinéaires. Puisqu'ils ont la même origine on en déduit que
+les points B, O et D sont alignés.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol14q3.png}
+\end{center}
+
+\item Comparons OB et OD :
+\begin{align*}
+OB &= \sqrt{(-3)^2 + 2^2} = \sqrt{13}\\
+OD &= \sqrt{3^2 + (-2)^2} = \sqrt{13}\\
+OB &= OD
+\end{align*}
+On en déduit que O est le milieu de [BD] et donc que ABCD est
+un rectangle car ses diagonales sont de même longueur
+\(2\sqrt{13} = \sqrt{52}\).
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol14q4.png}
+\end{center}
+
+\item Puisque ABCD est un rectangle, c'est donc un parallélogramme
+donc on a :
+\begin{align*}
+\overrightarrow{AB} &= \overrightarrow{DC}\\
+\overrightarrow{AB} &= -\overrightarrow{CD}
+\end{align*}
+Ainsi les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{CD}\) sont colinéaires.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol14q5.png}
+\end{center}
+
+\item Comparons AB et AD :
+\begin{align*}
+AB &= \sqrt{(-3 - 2)^2 + (2 - 3)^2} = \sqrt{26}\\
+AD &= \sqrt{(3 - 2)^2 + (-2 - 3)^2} = \sqrt{26}\\
+AB &= AD
+\end{align*}
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol14q6.png}
+\end{center}
+
+\item Le quadrilatère ABCD est un carré car c'est un rectangle avec
+deux côtés consécutifs de même longueur.
+
+Voir figure :
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/sol14q7.png}
+\end{center}
+\end{enumerate}
+
+\section{Solution du QCM d'auto-évaluation}
+\label{sec:orgf1cf39b}
+
+\begin{enumerate}
+\item Pour montrer que A, B et C sont alignés il faut :
+\begin{enumerate}[label=\alph*.)]
+\item que \(\overrightarrow{AB} = \overrightarrow{AC}\)
+\item \textbf{qu'il existe un réel k tel que \(\overrightarrow{AB} =
+          k\overrightarrow{AC}\) (Bonne réponse)}
+\item vérifier que \(\overrightarrow{AB} + \overrightarrow{BC} =
+          \overrightarrow{AC}\)
+\item \textbf{vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{AC}) = 0\) (Bonne réponse)}
+\end{enumerate}
+\item Pour montrer que les droites (AB) et (CD) sont parallèles il faut :
+\begin{enumerate}[label=\alph*.)]
+\item \textbf{montrer que les vecteurs \(\overrightarrow{AB}\) et
+\(\overrightarrow{CD}\) sont colinéaires (Bonne réponse)}
+\item \textbf{vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) = 0\) (Bonne réponse)}
+\item montrer que \(\overrightarrow{AB} = \overrightarrow{CD}\)
+\item vérifier que \(det(\overrightarrow{AB} ,
+          \overrightarrow{CD}) \neq 0\)
+\end{enumerate}
+\end{enumerate}
+\end{document}
